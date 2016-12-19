@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : cell
+Design : top_without_mem
+Version: K-2015.06-SP1
+Date   : Wed Nov 18 02:38:47 2015
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U1                        INV_X4          NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+                                                            0.5320  
+uut1                      datapath                        4994.1501 h, n
+uut4                      controlpath                     1570.4640 h, n
+--------------------------------------------------------------------------------
+Total 3 cells                                             6565.1461
+1

@@ -1,0 +1,15 @@
+STATISTICS for addr range 0x0 to 0xffff
+Number of Reads:           20146
+Number of Writes:          43
+Minimum address accessed:  0x0
+Maximum address accessed:  0x1aac
+STATISTICS for addr range 0x10000 to 0x1fffffff
+Number of Reads:           4526
+Number of Writes:          4305
+Minimum address accessed:  0x1fde0
+Maximum address accessed:  0x1fffc
+STATISTICS for addr range 0x20000000 to 0xffffffff
+Number of Reads:           0
+Number of Writes:          78
+Minimum address accessed:  0x40000000
+Maximum address accessed:  0x40000000

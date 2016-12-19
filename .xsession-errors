@@ -1,0 +1,72 @@
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+GNOME_KEYRING_SOCKET=/tmp/keyring-6kIiwS/socket
+SSH_AUTH_SOCK=/tmp/keyring-6kIiwS/socket.ssh
+
+(process:25842): GLib-WARNING **: goption.c:2132: ignoring no-arg, optional-arg or filename flags (8) on option of type 0
+
+(process:25842): GLib-WARNING **: goption.c:2132: ignoring no-arg, optional-arg or filename flags (8) on option of type 0
+
+(process:25842): GLib-WARNING **: goption.c:2132: ignoring no-arg, optional-arg or filename flags (8) on option of type 0
+Failed to play sound: File or data not found
+** Message: applet now removed from the notification area
+
+** (nm-applet:25813): WARNING **: get_all_cb: couldn't retrieve system settings properties: (2) The name org.freedesktop.NetworkManagerSystemSettings was not provided by any .service files.
+
+(polkit-gnome-authentication-agent-1:25850): GLib-GObject-WARNING **: cannot register existing type `_PolkitError'
+
+(polkit-gnome-authentication-agent-1:25850): GLib-CRITICAL **: g_once_init_leave: assertion `initialization_value != 0' failed
+
+** (nm-applet:25813): WARNING **: fetch_connections_done: error fetching system connections: (2) The name org.freedesktop.NetworkManagerSystemSettings was not provided by any .service files.
+** Message: applet now embedded in the notification area
+** Message: applet now removed from the notification area
+Initializing nautilus-gdu extension
+Initializing nautilus-open-terminal extension
+
+(rhsm-icon:25843): libnotify-CRITICAL **: notify_notification_close: assertion `notification != NULL' failed
+
+(rhsm-icon:25843): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+(nautilus:25805): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+Window manager warning: Received a _NET_WM_MOVERESIZE message for 0x1600003 (aravill@wh); these messages lack timestamps and therefore suck.
+
+(nautilus:25805): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+
+(nautilus:25805): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+
+(nautilus:25805): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+
+(nautilus:25805): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+
+(gnome-power-manager:25818): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+
+(polkit-gnome-authentication-agent-1:25850): polkit-gnome-1-WARNING **: Error enumerating temporary authorizations: Remote Exception invoking org.freedesktop.PolicyKit1.Authority.EnumerateTemporaryAuthorizations() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.PolicyKit1.Error.Failed: Cannot determine session the caller is in
+Shutting down nautilus-open-terminal extension
+Shutting down nautilus-gdu extension
+
+--- Hash table keys for warning below:
+--> ncsu
+--> inode/directory
+--> l19
+--> Anusha Ravilla
+--> root
+--> l64768
+--> aravill
+
+(nautilus:25805): Eel-WARNING **: "unique eel_ref_str" hash table still has 7 elements at quit time (keys above)
+
+(nautilus:25805): Eel-WARNING **: "nautilus-directory.c: directories" hash table still has 6 elements at quit time
+gnome-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+rhsm-icon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+polkit-gnome-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+abrt-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+applet.py: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-volume-control-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+bluetooth-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-screensaver: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.

@@ -1,0 +1,141 @@
+ece% setenv MODELSIM modelsim.ini
+ece% vlib mti_lib
+ece% vlog badFSM.v
+Start time: 21:24:30 on Sep 19,2015
+vlog badFSM.v 
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+** Error: badFSM.v(1): near "<": syntax error, unexpected '<', expecting class
+End time: 21:24:30 on Sep 19,2015, Elapsed time: 0:00:00
+Errors: 1, Warnings: 0
+ece% vlog badFSM_test.v
+Start time: 21:24:56 on Sep 19,2015
+vlog badFSM_test.v 
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+** Error: badFSM_test.v(1): near "<": syntax error, unexpected '<', expecting class
+
+Compiling source file /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:1: Syntax error at or near token '<'. (VER-294)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:32: Syntax error at or near token '"': Illegal character. (VER-294)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:45: Syntax error at or near token '"': Illegal character. (VER-294)
+*** Presto compilation terminated with 3 errors. ***
+Error: Can't read 'verilog' file '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'. (UID-59)
+No designs were read
+
+design_vision> source read.tcl
+Loading verilog file '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v
+
+Statistics for case statements in always block at line 37 in file
+        '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            39            |    auto/auto     |
+===============================================
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[8] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[7] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[6] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[5] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[4] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[3] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[2] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[1] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[0] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+
+Inferred memory devices in process
+        in routine fsm line 27 in file
+                '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine fsm line 37 in file
+                '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    inc_flag_reg     | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|    location_reg     | Latch |   9   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred memory devices in process
+        in routine fsm line 71 in file
+                '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     outcell_reg     | Flip-flop |   9   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine fsm line 74 in file
+                '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    outcell_reg2     | Flip-flop |   9   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[8]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[7]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[6]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[5]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[4]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[3]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[2]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[1]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[0]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+*** Presto compilation terminated with 9 errors. ***
+Error: Can't read 'verilog' file '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'. (UID-59)
+No designs were read
+design_vision> 
+
+Statistics for case statements in always block at line 37 in file
+        '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            39            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+        in routine fsm line 27 in file
+                '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine fsm line 37 in file
+                '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    inc_flag_reg     | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|    location_reg     | Latch |   9   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred memory devices in process
+        in routine fsm line 73 in file
+                '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     outcell_reg     | Flip-flop |   9   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Current design is now '/afs/unity.ncsu.edu/users/a/aravill/saibaba/fsm.db:fsm'
+Loaded 1 design.
+Current design is 'fsm'.
+fsm
+Current design is 'fsm'.
+design_vision> 
+
+

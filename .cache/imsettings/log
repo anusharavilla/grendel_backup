@@ -1,0 +1,70 @@
+[ 1482190587.272654]: IMSettings-Daemon[22540]: INFO: Starting imsettings-daemon...
+[ 1482190587.273908]: IMSettings-Daemon[22540]: INFO:   [HOME=/afs/unity.ncsu.edu/users/a/aravill/.config/imsettings]
+[ 1482190587.275098]: IMSettings-Daemon[22540]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1482190587.276290]: IMSettings-Daemon[22540]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1482190587.277531]: IMSettings-Daemon[22540]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1482190587.278723]: IMSettings-Daemon[22540]: INFO:   [MODULES=gsettings, qt]
+
+
+[ 1482190587.299685]: IMSettings-Qt backend[22540]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1482190587.363020]: IMSettings-Qt backend[22540]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1482190587.371800]: IMSettings-Qt backend[22540]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1482190587.380115]: IMSettings-Qt backend[22540]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1482190587.393760]: IMSettings-Qt backend[22540]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1482190587.401148]: IMSettings-Qt backend[22540]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+imsettings information
+==========================
+XINPUTRC: /etc/X11/xinit/xinput.d//none.conf
+	  File: ‘/etc/X11/xinit/xinput.d//none.conf’
+	  Size: 110       	Blocks: 8          IO Block: 4096   regular file
+	Device: fd00h/64768d	Inode: 270656      Links: 1
+	Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+	Access: 2016-12-19 18:36:27.168108952 -0500
+	Modify: 2014-01-24 22:11:06.000000000 -0500
+	Change: 2016-07-29 16:16:06.145970791 -0400
+	 Birth: -
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: 
+[ 1482190587.447881]: IMSettings-Qt backend[22540]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1482190587.455141]: IMSettings-Qt backend[22540]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1482190587.462799]: IMSettings-Qt backend[22540]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1482190587.470044]: IMSettings-Qt backend[22540]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+yes
+Is Qt supported: 
+[ 1482190587.483375]: IMSettings-Qt backend[22540]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1482190587.490679]: IMSettings-Qt backend[22540]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+yes
+DESKTOP: gnome-classic
+GUESS_DESKTOP: $GDMSESSION
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-DnZ8qzKtzK,guid=b68b8ba20ab3235bf772454258586efb
+GTK_IM_MODULE: 
+QT_IM_MODULE: xim
+XMODIFIERS: @im=none
+IMSETTINGS_MODULE: none
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+
+[ 1482190593.359174]: IMSettings-Qt backend[22540]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+[ 1482190593.499510]: IMSettings-Daemon[22540]: INFO: Attempting to switch IM to none [lang=en_US.UTF-8, update=false]
+org.gnome.settings-daemon.plugins.keyboard.active is true. imsettings is going to be disabled.
+
+[ 1482190593.629945]: IMSettings-Daemon[22540]: WARNING **: Current desktop isn't targeted by IMSettings.
+
+[ 1482190593.632762]: GLib-GIO[22540]: CRITICAL **: g_dbus_method_invocation_return_value_internal: assertion '(parameters == NULL) || g_variant_is_of_type (parameters, G_VARIANT_TYPE_TUPLE)' failed
+[ 1482190593.738943]: IMSettings-Daemon[22540]: INFO: Unloading imesttings module: qt
+[ 1482190593.740928]: IMSettings-Daemon[22540]: INFO: Unloading imesttings module: gsettings
+[ 1482190593.742864]: IMSettings-Daemon[22540]: INFO: imsettings-daemon is shut down.

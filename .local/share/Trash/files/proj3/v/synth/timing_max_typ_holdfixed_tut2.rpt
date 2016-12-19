@@ -1,0 +1,103 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : CORTEXM0DS
+Version: K-2015.06-SP1
+Date   : Thu Dec  8 18:02:28 2016
+****************************************
+
+Operating Conditions: tt1p05v25c   Library: saed32lvt_tt1p05v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: u_logic/Npk2z4_reg
+              (rising edge-triggered flip-flop clocked by HCLK)
+  Endpoint: HPROT[3] (output port clocked by HCLK)
+  Path Group: HCLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CORTEXM0DS         35000                 saed32lvt_tt1p05v25c
+  cortexm0ds_logic   35000                 saed32lvt_tt1p05v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock HCLK (rise edge)                                0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_logic/Npk2z4_reg/CLK (DFFARX1_LVT)                  0.0000     0.0000 r
+  u_logic/Npk2z4_reg/Q (DFFARX1_LVT)                    0.0808     0.0808 f
+  u_logic/U6906/Y (INVX0_LVT)                           0.0288     0.1096 r
+  u_logic/U3436/Y (NBUFFX2_LVT)                         0.0358     0.1454 r
+  u_logic/U221/Y (IBUFFX2_LVT)                          0.0415     0.1869 f
+  u_logic/U2180/Y (NAND2X0_LVT)                         0.0264     0.2134 r
+  u_logic/U2179/Y (OR2X1_LVT)                           0.0378     0.2511 r
+  u_logic/U6953/Y (AND3X1_LVT)                          0.0397     0.2909 r
+  u_logic/U6994/Y (AND2X1_LVT)                          0.0367     0.3276 r
+  u_logic/U4006/Y (NAND4X0_LVT)                         0.0437     0.3712 f
+  u_logic/U2163/Y (OR2X1_LVT)                           0.0460     0.4172 f
+  u_logic/U2344/Y (NOR3X0_LVT)                          0.0549     0.4721 r
+  u_logic/U2336/Y (NBUFFX2_LVT)                         0.0353     0.5074 r
+  u_logic/U6884/Y (NBUFFX2_LVT)                         0.0352     0.5427 r
+  u_logic/U2279/Y (NAND2X0_LVT)                         0.0379     0.5805 f
+  u_logic/U3949/Y (INVX0_LVT)                           0.0309     0.6114 r
+  u_logic/U2972/Y (AOI22X1_LVT)                         0.0525     0.6639 f
+  u_logic/U4806/Y (NAND4X0_LVT)                         0.0361     0.7000 r
+  u_logic/U3727/Y (NAND2X0_LVT)                         0.0358     0.7358 f
+  u_logic/U4481/Y (NOR2X0_LVT)                          0.0548     0.7906 r
+  u_logic/add_2082/U1_2/CO (FADDX1_LVT)                 0.0833     0.8738 r
+  u_logic/add_2082/U1_3/CO (FADDX1_LVT)                 0.0752     0.9490 r
+  u_logic/add_2082/U1_4/CO (FADDX1_LVT)                 0.0752     1.0243 r
+  u_logic/add_2082/U1_5/CO (FADDX1_LVT)                 0.0752     1.0995 r
+  u_logic/add_2082/U1_6/CO (FADDX1_LVT)                 0.0752     1.1747 r
+  u_logic/add_2082/U1_7/CO (FADDX1_LVT)                 0.0752     1.2499 r
+  u_logic/add_2082/U1_8/CO (FADDX1_LVT)                 0.0752     1.3251 r
+  u_logic/add_2082/U1_9/CO (FADDX1_LVT)                 0.0753     1.4004 r
+  u_logic/add_2082/U1_10/CO (FADDX1_LVT)                0.0752     1.4756 r
+  u_logic/add_2082/U1_11/CO (FADDX1_LVT)                0.0752     1.5508 r
+  u_logic/add_2082/U1_12/CO (FADDX1_LVT)                0.0753     1.6261 r
+  u_logic/add_2082/U1_13/CO (FADDX1_LVT)                0.0752     1.7013 r
+  u_logic/add_2082/U1_14/CO (FADDX1_LVT)                0.0752     1.7765 r
+  u_logic/add_2082/U1_15/CO (FADDX1_LVT)                0.0752     1.8517 r
+  u_logic/add_2082/U1_16/CO (FADDX1_LVT)                0.0752     1.9270 r
+  u_logic/add_2082/U1_17/CO (FADDX1_LVT)                0.0752     2.0022 r
+  u_logic/add_2082/U1_18/CO (FADDX1_LVT)                0.0752     2.0774 r
+  u_logic/add_2082/U1_19/CO (FADDX1_LVT)                0.0752     2.1526 r
+  u_logic/add_2082/U1_20/CO (FADDX1_LVT)                0.0752     2.2278 r
+  u_logic/add_2082/U1_21/CO (FADDX1_LVT)                0.0752     2.3031 r
+  u_logic/add_2082/U1_22/CO (FADDX1_LVT)                0.0752     2.3783 r
+  u_logic/add_2082/U1_23/CO (FADDX1_LVT)                0.0752     2.4535 r
+  u_logic/add_2082/U1_24/CO (FADDX1_LVT)                0.0752     2.5287 r
+  u_logic/add_2082/U1_25/CO (FADDX1_LVT)                0.0752     2.6039 r
+  u_logic/add_2082/U1_26/CO (FADDX1_LVT)                0.0752     2.6792 r
+  u_logic/add_2082/U1_27/CO (FADDX1_LVT)                0.0752     2.7544 r
+  u_logic/add_2082/U1_28/CO (FADDX1_LVT)                0.0752     2.8296 r
+  u_logic/add_2082/U1_29/CO (FADDX1_LVT)                0.0752     2.9048 r
+  u_logic/add_2082/U1_30/CO (FADDX1_LVT)                0.0752     2.9800 r
+  u_logic/add_2082/U1_31/CO (FADDX1_LVT)                0.0752     3.0552 r
+  u_logic/add_2082/U1_32/S (FADDX1_LVT)                 0.1017     3.1570 f
+  u_logic/U230/Y (XOR2X2_LVT)                           0.0818     3.2388 r
+  u_logic/U1449/Y (AO22X1_LVT)                          0.0518     3.2906 r
+  u_logic/U5769/Y (DELLN1X2_LVT)                        0.1084     3.3990 r
+  u_logic/U1279/Y (OA21X1_LVT)                          0.0471     3.4461 r
+  u_logic/U7032/Y (INVX0_LVT)                           0.0264     3.4725 f
+  u_logic/hprot_o[3] (cortexm0ds_logic)                 0.0000     3.4725 f
+  U19/Y (NBUFFX2_LVT)                                   0.0374     3.5098 f
+  HPROT[3] (out)                                        0.0412     3.5510 f
+  data arrival time                                                3.5510
+
+  clock HCLK (rise edge)                                5.0000     5.0000
+  clock network delay (ideal)                           0.0000     5.0000
+  clock uncertainty                                    -0.0500     4.9500
+  output external delay                                -0.5660     4.3840
+  data required time                                               4.3840
+  --------------------------------------------------------------------------
+  data required time                                               4.3840
+  data arrival time                                               -3.5510
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.8330
+
+
+1

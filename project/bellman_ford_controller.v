@@ -1,0 +1,551 @@
+module bellman_ford_controller( previous,i_status,simulation_finish,negedge_cycle, destination,WE2, o1,o2,o3,o4, clock, reset, vertice_num, source_num, DCR, out_comp, WE, snd_mux, graph1, graph2, d_mux, control, PC_REG_input, controller_writing_address, controller_writing_value, w_mux, control_write_mux, finish, dcr_mux, c1, c2, c3, c4,num_of_lines_out,remainder_out
+
+    );	 
+/*--------------------input declaration---------------*/
+input [7:0] destination;
+input [127:0] previous;
+input clock;
+input reset;
+input [7:0] vertice_num;
+input [7:0] source_num;
+input [7:0] DCR;
+input out_comp;
+input i_status;
+input [4:0] num_of_lines_out;
+input [2:0] remainder_out;
+/*------------------output declaration--------------*/
+output WE;
+output WE2;
+output [1:0] o2,o3;
+output [2:0] o4;
+output   o1;
+output snd_mux;
+output control;
+output [1:0] graph1;
+output [1:0] graph2;
+output [2:0] d_mux;
+output [12:0] PC_REG_input;
+output [12:0] controller_writing_address;
+output [127:0] controller_writing_value;
+output simulation_finish;
+reg simulation_finish;
+output [1:0] w_mux;
+output control_write_mux;
+output finish;
+output dcr_mux;
+output [1:0] c1;
+output c2;
+output c3;
+output c4;
+/*-------------------registers and nets-----------*/	 
+parameter [4:0] 
+	S0 = 5'b00000,
+	S1 = 5'b00001,
+	S2 = 5'b00010,
+	S3 = 5'b00011,
+	S4 = 5'b00100,
+	S5 = 5'b00101,
+	S6 = 5'b00110,
+	S7 = 5'b00111,
+	S8 = 5'b01000,
+	S9 = 5'b01001,
+	S10 = 5'b01010,
+	S11 = 5'b01011,
+	S12 = 5'b01100,
+	S13 = 5'b01101,
+	S14 = 5'b01110,
+	S15 = 5'b01111,
+	S16 = 5'b10000,
+    S17 = 5'b10001,
+	S18 = 5'b10010,
+	S19 = 5'b10011,
+	S20 = 5'b10100,
+	S21 = 5'b10101,
+	S22 = 5'b10110,
+	S23 = 5'b10111,
+	S24 = 5'b11000,
+	S25 = 5'b11001,
+	S26 = 5'b11010,
+	S27 = 5'b11011,
+	S28 = 5'b11100,
+	S29 = 5'b11101,
+	S31 = 5'b11111;
+	
+reg WE2;
+reg [1:0] o2,o3;
+reg [2:0] o4;
+reg o1;
+reg [4:0] current_state, next_state;
+reg [7:0] d_count,temp1,temp3,temp2,temp4;
+reg [7:0] run_loop;
+reg [7:0] bellman_count;
+output negedge_cycle;
+reg WE;
+reg snd_mux;
+reg control;
+reg [1:0] graph1;
+reg [1:0] graph2;
+reg [2:0] d_mux;
+reg [12:0] PC_REG_input;
+reg [12:0] controller_writing_address;
+reg [127:0] controller_writing_value;
+reg [1:0] w_mux;
+reg control_write_mux;
+reg finish;
+reg [7:0] a,b;
+reg dcr_mux;
+reg [1:0] c1;
+reg c2;
+reg c3;
+reg c4;
+reg negedge_cycle;
+reg [7:0] count,flag;
+reg value;	
+always@(posedge clock or negedge reset)
+begin 
+if (!reset) current_state <= S0; //s28
+else       
+begin
+current_state <= next_state;
+end
+end
+
+always@(*)
+begin
+simulation_finish=0;
+controller_writing_value = 128'h00000000000000000000000000000000;
+dcr_mux = 1'b1;
+c4=1'b0;
+c2=1'b0;
+c3=1'b0;                   
+c1=2'b10;
+o2=2'b00;  
+o1=1'b0;
+o4=3'b011;
+o3=2'b11;
+WE2=1'b0;
+WE=1'b0;
+snd_mux=1'b0;
+negedge_cycle =1'b0;
+graph1=2'b01;
+graph2=2'b00;
+control=1'b0;
+case(current_state)
+S0:   
+begin
+flag = 0;
+c1 = 2'b00;
+PC_REG_input= 13'b0000000000000;
+next_state = S1;
+end
+S1:          
+begin   
+c1= 2'b01;   //10 adhi
+c2=1'b1;
+next_state = S2;
+end
+S2:          
+begin
+c1=2'b01;
+c3=1'b1;
+next_state = S3;
+end
+S3:                  
+begin
+c4=1'b1;
+value=0;
+snd_mux = 1'b1;
+graph1 = 2'b10;    
+graph2 = 2'b01;
+d_mux = 3'b000;
+PC_REG_input = 13'b0000000000000;
+controller_writing_address = 13'b0000000000000;
+w_mux = 2'b10;
+control = 1'b1;
+control_write_mux = 1'b0;
+a = 1; 
+next_state = S5;
+end
+S5:     
+begin
+graph2 = 2'b01;
+WE = 1'b0;
+snd_mux = 1'b1;
+d_mux = 3'b000;
+graph2 = 2'b01;
+PC_REG_input = 13'b0000000000000;
+controller_writing_address = 13'b0000000000000;
+controller_writing_value = 128'h00000000000000000000000000000000;
+a = 1;
+w_mux = 2'b10;
+control_write_mux = 1'b0;
+control = 1'b1;
+next_state=S6;
+end
+S6:       
+begin
+WE = 1'b0;
+snd_mux = 1'b1;
+graph2 = 2'b01;
+d_mux = 3'b000;
+PC_REG_input = 13'b0000000000000;
+controller_writing_address = 13'b0000000000000;
+controller_writing_value = 128'h00000000000000000000000000000000;
+w_mux = 2'b10;
+control_write_mux = 1'b0;
+b = vertice_num;
+bellman_count=vertice_num;
+next_state = S7;
+end 
+//booting infinity in temporary memory
+S7:                    
+begin
+WE = 1'b1;
+snd_mux = 1'b1;
+d_mux = 3'b000;
+PC_REG_input = 13'b0000000000000;
+controller_writing_address = {5'b00000, a};
+controller_writing_value = 128'h00000000000100000000000000000000;
+w_mux = 2'b10;
+control_write_mux = 1'b0;
+next_state = S8;
+end
+S8:            
+begin
+if (a < vertice_num)
+begin
+a = a + 1;
+next_state = S7;           
+end
+else
+begin
+w_mux = 2'b10;
+controller_writing_address = {5'b00000, source_num};
+next_state = S9;          
+end
+end
+//booting zero in the source
+S9:              
+begin
+WE = 1'b1;
+controller_writing_address = {5'b00000, source_num};
+control_write_mux = 1'b0;
+controller_writing_value = 128'h00000000000000000000000000000000;
+run_loop = b-1; 
+snd_mux = 1'b1;    
+d_mux = 3'b000;                     //changed
+if(num_of_lines_out==1)
+begin
+temp1=1; // temp1=DCR;
+temp3=DCR;// temp3=num_of_lines_out;
+temp2=num_of_lines_out;
+end
+else if(num_of_lines_out>=2)
+begin
+temp1=1; // temp1=7;
+temp2=num_of_lines_out;
+temp3=7; //temp3=num_of_lines_out;
+temp4=remainder_out;
+end
+//d_count=1; //we dont use this
+next_state = S10;
+end
+S10:                  
+begin
+WE = 1'b0;
+dcr_mux = 1'b0;
+control_write_mux = 1'b1;
+d_mux = temp1[2:0];
+next_state = S11;
+end
+S11:         
+begin
+WE = 1'b0;
+dcr_mux = 1'b0; 
+w_mux = 2'b01;
+control_write_mux = 1'b1;
+next_state = S12;
+end
+S12:                 
+begin
+WE = 1'b1;
+dcr_mux = 1'b0;
+w_mux = 2'b01;
+control_write_mux = 1'b1;
+/*optimization*/
+if(out_comp==0)
+value=1;
+if((bellman_count== 2) && (out_comp==0))
+begin
+negedge_cycle = 1'b1;
+end
+else 
+negedge_cycle=1'b0;
+if(temp1<temp3) //if(temp1>1) 
+begin
+  temp1=temp1+1;   //temp1=temp1-1;
+  //d_count = d_count+1;  // wnt come
+  next_state = S10;           
+end
+else if(temp1==temp3)
+begin
+temp2=temp2-1;
+ if(temp2==0) 
+  begin
+   next_state = S15;              
+  end
+ else if(temp2==1) //temp2=1
+  begin
+   temp1=0;      
+   temp3=remainder_out;             // DCR-d_count;
+   next_state=S13;             
+  end   
+ else if((temp2>1)) //temp2>1
+  begin
+   temp1=0;
+   temp3=7;
+   next_state=S13;
+  end
+
+  end
+
+end
+S13:          
+begin
+WE = 1'b0;
+dcr_mux = 1'b0;
+graph2 = 2'b10;
+w_mux = 2'b01;
+control_write_mux = 1'b1;
+next_state = S14;
+end   
+S14:                  
+begin
+WE = 1'b0;
+dcr_mux = 1'b0;
+w_mux = 2'b01;
+control_write_mux = 1'b1;
+// = d_count + 1;
+next_state = S10;      
+end
+S15:                  
+begin
+WE = 1'b0;
+snd_mux = 1'b1;
+if(run_loop == 1)            //changed
+begin
+graph2 = 2'b11;
+end
+else
+begin
+graph1 = 2'b00;
+graph2 = 2'b10;
+end
+w_mux = 2'b01;
+control_write_mux = 1'b1;
+next_state = S16;
+end
+S16:          
+begin
+WE = 1'b0;
+snd_mux = 1'b1;
+w_mux = 2'b01;
+control_write_mux = 1'b1;
+dcr_mux = 1'b1;
+next_state = S17;
+end
+S17:          
+begin
+WE = 1'b0;
+snd_mux = 1'b1;
+w_mux = 2'b01;
+control_write_mux = 1'b1;
+run_loop = run_loop - 1;          //changed
+if(run_loop== 0)
+begin
+next_state = S18;
+run_loop =b-1;
+end
+else
+begin
+	if(num_of_lines_out==1)
+	begin
+	temp1=1;
+	temp3=DCR;
+	temp2=num_of_lines_out;
+	end
+	else if(num_of_lines_out>1)
+	begin
+	temp1=1;
+	temp3=7;
+	temp2=num_of_lines_out;
+	end
+	//d_count=1;
+	
+	next_state = S10;
+end
+end
+S18:
+begin
+WE = 1'b0;
+snd_mux = 1'b1;
+graph1 = 2'b10;
+PC_REG_input = 13'b0000000000000;
+w_mux = 2'b01;
+control_write_mux = 1'b1;
+next_state = S19;
+end
+S19:         
+begin
+WE = 1'b0;
+snd_mux = 1'b1;
+w_mux = 2'b01;
+control_write_mux = 1'b1;
+next_state = S20;  
+end
+S20:          
+begin
+WE = 1'b0;
+snd_mux = 1'b1;
+w_mux = 2'b01;
+control_write_mux = 1'b1;
+bellman_count = bellman_count - 1;
+if(bellman_count==1 || !value)
+begin
+finish =1;
+count =1;
+next_state=S21;
+end
+else
+ begin
+	if(num_of_lines_out==1)
+	begin
+	temp1=1;
+	temp3=DCR;
+	temp2=num_of_lines_out;
+	end
+	else if(num_of_lines_out>1)
+	begin
+	temp1=1;
+	temp3=7;
+	temp2=num_of_lines_out;
+	end
+	//d_count=1;
+	next_state = S10;
+ end
+end
+S21:         
+begin
+if(flag==0)
+begin
+PC_REG_input = 13'b0000000000000;
+o3 = 2'b00;
+end
+else
+o3 = 2'b11;
+o1 = 1'b1;
+o4 = 3'b010;               
+if (count==1)
+o2 = 2'b01;
+else 
+o2 = 2'b10;
+if(count==2)
+begin
+o2 = 2'b01;
+next_state=S22;   
+end
+else 
+next_state = S23;     
+end
+S22:     
+begin
+WE2 = 1'b1;
+o3 = 2'b01;
+o4 = 3'b000;
+next_state = S23;
+end
+S23:       
+begin
+if (count == 1)
+o4=3'b010;
+else
+o4 = 3'b001;
+o1 = 1'b0;
+next_state = S24;
+end
+S24:    
+begin
+WE2=1;
+o1=1'b0;
+if(count==1)
+begin
+o4 = 3'b010;
+o2=2'b10;
+end
+else
+begin
+o4=3'b001;
+o2=2'b10;
+end
+o3 = 2'b11;
+next_state = S25;
+end
+S25:              
+begin
+o3 = 2'b01;
+o2 = 2'b10;
+count = count + 1;
+flag = flag + 1;
+if (previous [7:0] == source_num)
+next_state = S31;            
+else 
+next_state = S21;          
+end
+S31:begin
+if(i_status)
+begin
+c1 = 2'b01;
+WE2=1'b1;
+o4=3'b011;
+next_state=S26;
+end
+else
+begin
+WE2=1'b1;
+o4=3'b100;
+next_state=S26;
+end
+end
+S26:              
+begin
+if(i_status)
+begin
+finish = 0;
+next_state =S1;       
+o3=2'b01;
+end
+else
+begin
+finish=1;
+next_state=S26;  
+     simulation_finish=1;
+end
+end
+S27:
+begin
+PC_REG_input = 13'b0000000000000;
+o3=2'b00;
+WE2=1'b1;
+next_state= S28; 
+end
+S28 :
+begin
+o4=2'b101;
+o3=2'b10;
+WE2=1'b1;
+next_state = 28;
+end
+endcase
+end
+endmodule
+

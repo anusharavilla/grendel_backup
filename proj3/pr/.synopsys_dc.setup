@@ -1,0 +1,26 @@
+# rename as .synopsys_dc.setup 
+
+set SAED32_ROOT /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK
+
+# Search Path variables  
+set path1 "${SAED32_ROOT}/lib/stdcell_lvt/db_ccs"
+set search_path "$path1 $search_path";
+
+set search_path [concat  $search_path [list [format "%s%s"  $synopsys_root "/libraries/syn"]]]
+set search_path [concat  $search_path [list "." [format "%s%s"  $synopsys_root "/dw/sim_ver"]]]
+
+# Library Variables 
+set synthetic_library [list dw_foundation.sldb]
+set target_library saed32lvt_ss0p95v125c.db
+set link_library   [concat  $target_library $synthetic_library]
+
+set verilogout_no_tri "true"
+
+set tlupmax	"${SAED32_ROOT}/tech/star_rcxt/saed32nm_1p9m_Cmax.tluplus"
+set tlupmin	"${SAED32_ROOT}/tech/star_rcxt/saed32nm_1p9m_Cmin.tluplus"
+set tech2itf	"${SAED32_ROOT}/tech/star_rcxt/saed32nm_tf_itf_tluplus.map"
+
+set_tlu_plus_files -max_tluplus $tlupmax \
+	-min_tluplus $tlupmin \
+	-tech2itf_map $tech2itf
+

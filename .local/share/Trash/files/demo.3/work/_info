@@ -1,0 +1,678 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/afs/unity.ncsu.edu/users/a/aravill/demo
+vALU
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 2L1D_J=<TdlEWB<77JK`E3
+I43^i?jcU1:eWYnmlcf8[W0
+R0
+Z2 w1461961791
+Z3 8/afs/unity.ncsu.edu/users/a/aravill/demo/Execute.vp
+Z4 F/afs/unity.ncsu.edu/users/a/aravill/demo/Execute.vp
+L0 105
+Z5 OE;L;10.3b;59
+Z6 !s108 1461963706.996651
+Z7 !s107 data_defs.vp|/afs/unity.ncsu.edu/users/a/aravill/demo/Execute.vp|
+Z8 !s90 -reportprogress|300|-stats=none|-work|work|-vopt|/afs/unity.ncsu.edu/users/a/aravill/demo/Execute.vp|
+!i113 0
+Z9 o-work work
+n@a@l@u
+Xcfg_sv_unit
+Z10 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z11 !s110 1461963705
+!i10b 1
+!s100 EZ2zH`e0o]ESQ<NATIoke1
+I^e9^CPBb_XD`2eLk?UV2?2
+V^e9^CPBb_XD`2eLk?UV2?2
+!i103 1
+S1
+R0
+Z12 w1461963285
+8/afs/unity.ncsu.edu/users/a/aravill/demo/cfg.sv
+F/afs/unity.ncsu.edu/users/a/aravill/demo/cfg.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1461963705.784272
+!s107 /afs/unity.ncsu.edu/users/a/aravill/demo/cfg.sv|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|-sv|/afs/unity.ncsu.edu/users/a/aravill/demo/cfg.sv|
+!i113 0
+Z13 o-work work -sv
+Xcontrol_golden_reference_sv_unit
+R10
+R11
+!i10b 1
+!s100 IN6@a32hA]=5iAKMDfZeL3
+I8a>cQUUz2lm;9ma??S9gF0
+V8a>cQUUz2lm;9ma??S9gF0
+!i103 1
+S1
+R0
+R2
+8/afs/unity.ncsu.edu/users/a/aravill/demo/control_golden_reference.sv
+F/afs/unity.ncsu.edu/users/a/aravill/demo/control_golden_reference.sv
+Z14 Fproject.if.sv
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1461963705.878748
+!s107 project.if.sv|/afs/unity.ncsu.edu/users/a/aravill/demo/control_golden_reference.sv|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|-sv|/afs/unity.ncsu.edu/users/a/aravill/demo/control_golden_reference.sv|
+!i113 0
+R13
+vController_Pipeline
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 99F@>ScjTbT@F_XMSTP4X2
+I=`[:OaIY2Eo4c=]`Tzcj73
+R0
+R2
+8/afs/unity.ncsu.edu/users/a/aravill/demo/Controller_Pipeline.vp
+F/afs/unity.ncsu.edu/users/a/aravill/demo/Controller_Pipeline.vp
+L0 2
+R5
+!s108 1461963706.029819
+!s107 data_defs.vp|/afs/unity.ncsu.edu/users/a/aravill/demo/Controller_Pipeline.vp|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|/afs/unity.ncsu.edu/users/a/aravill/demo/Controller_Pipeline.vp|
+!i113 0
+R9
+n@controller_@pipeline
+XCoverage_sv_unit
+R10
+Z15 !s110 1461963706
+!i10b 1
+!s100 Z>aDQD;=354]E60N?XCFQ1
+IId7Tjhhk3@HlJgzU4=5gV3
+VId7Tjhhk3@HlJgzU4=5gV3
+!i103 1
+S1
+R0
+R2
+8/afs/unity.ncsu.edu/users/a/aravill/demo/Coverage.sv
+F/afs/unity.ncsu.edu/users/a/aravill/demo/Coverage.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1461963706.187631
+!s107 /afs/unity.ncsu.edu/users/a/aravill/demo/Coverage.sv|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|-sv|/afs/unity.ncsu.edu/users/a/aravill/demo/Coverage.sv|
+!i113 0
+R13
+n@coverage_sv_unit
+vDecode
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 40Kze0R<04KLQ:eEzCDZS2
+Ih;1mUN@Kb63Hb@Ez[DY;Y2
+R0
+R2
+8/afs/unity.ncsu.edu/users/a/aravill/demo/Decode_Pipelined.vp
+F/afs/unity.ncsu.edu/users/a/aravill/demo/Decode_Pipelined.vp
+L0 2
+R5
+!s108 1461963706.437102
+!s107 data_defs.vp|/afs/unity.ncsu.edu/users/a/aravill/demo/Decode_Pipelined.vp|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|/afs/unity.ncsu.edu/users/a/aravill/demo/Decode_Pipelined.vp|
+!i113 0
+R9
+n@decode
+Xdecode_golden_reference_sv_unit
+R10
+R15
+!i10b 1
+!s100 F_Q==ozVCWKFiig]Z2o_X0
+I99UCQ`@PARlX2oT_]HQKJ2
+V99UCQ`@PARlX2oT_]HQKJ2
+!i103 1
+S1
+R0
+R2
+8/afs/unity.ncsu.edu/users/a/aravill/demo/decode_golden_reference.sv
+F/afs/unity.ncsu.edu/users/a/aravill/demo/decode_golden_reference.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1461963706.329903
+!s107 /afs/unity.ncsu.edu/users/a/aravill/demo/decode_golden_reference.sv|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|-sv|/afs/unity.ncsu.edu/users/a/aravill/demo/decode_golden_reference.sv|
+!i113 0
+R13
+Ydut_Probe_controller
+R10
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 dz^j710GP>C:`_U=LYFm`3
+I7`@SK3>o=7j[fi6U2m0D[0
+Z16 !s105 writeback_golden_reference_sv_unit
+S1
+R0
+R2
+R14
+Z17 8/afs/unity.ncsu.edu/users/a/aravill/demo/writeback_golden_reference.sv
+Z18 F/afs/unity.ncsu.edu/users/a/aravill/demo/writeback_golden_reference.sv
+L0 62
+R5
+Z19 !s108 1461963708.396902
+Z20 !s107 project.if.sv|/afs/unity.ncsu.edu/users/a/aravill/demo/writeback_golden_reference.sv|
+Z21 !s90 -reportprogress|300|-stats=none|-work|work|-vopt|-sv|/afs/unity.ncsu.edu/users/a/aravill/demo/writeback_golden_reference.sv|
+!i113 0
+R13
+ndut_@probe_controller
+Ydut_Probe_decode
+R10
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 GOUcQ>o:Kne_>aL>=3Qk[1
+IHhE=Egg==6aji95`zn:G@3
+R16
+S1
+R0
+R2
+R14
+R17
+R18
+L0 44
+R5
+R19
+R20
+R21
+!i113 0
+R13
+ndut_@probe_decode
+Ydut_Probe_ex
+R10
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 JH=Mf2R2hO^eV2Pd6?5>U2
+Ii8SB84enS^Z>dGCnklE`P0
+R16
+S1
+R0
+R2
+R14
+R17
+R18
+L0 77
+R5
+R19
+R20
+R21
+!i113 0
+R13
+ndut_@probe_ex
+Ydut_Probe_if
+R10
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 9[28nnIi_]elZ`zbR?4f71
+I8C3Zge_l_:[Hj0mS3oH;90
+R16
+S1
+R0
+R2
+R14
+R17
+R18
+L0 30
+R5
+R19
+R20
+R21
+!i113 0
+R13
+ndut_@probe_if
+Ydut_Probe_mem
+R10
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 B?Sl4jZVjOGm`5>kB5>NL3
+I`7dNXI>C:0_KWDWB<d6jZ3
+R16
+S1
+R0
+R2
+R14
+R17
+R18
+L0 112
+R5
+R19
+R20
+R21
+!i113 0
+R13
+ndut_@probe_mem
+Ydut_Probe_writeback
+R10
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 `b;b:_XhNhT6m78Ai9[g?1
+In_CD3aQ@=5SBggcUbHFcc1
+R16
+S1
+R0
+R2
+R14
+R17
+R18
+L0 98
+R5
+R19
+R20
+R21
+!i113 0
+R13
+ndut_@probe_writeback
+Xenvironment_sv_unit
+R10
+VJfWF2GHikF60LLGT?1MYK3
+r1
+!s85 0
+31
+!i10b 1
+!s100 X`h<B1[_6kXPPS@]Y9o9<3
+IJfWF2GHikF60LLGT?1MYK3
+!i103 1
+S1
+R0
+R12
+8/afs/unity.ncsu.edu/users/a/aravill/demo/environment.sv
+F/afs/unity.ncsu.edu/users/a/aravill/demo/environment.sv
+Z22 Ffetch_golden.sv
+R14
+Z23 Fdecode_golden_reference.sv
+Z24 Fexecute_golden_reference.sv
+Z25 Fcfg.sv
+Z26 Fcontrol_golden_reference.sv
+Z27 Fwriteback_golden_reference.sv
+Z28 Fmem_golden_reference.sv
+L1 3
+R5
+!s108 1461963706.546780
+!s107 mem_golden_reference.sv|writeback_golden_reference.sv|control_golden_reference.sv|cfg.sv|execute_golden_reference.sv|decode_golden_reference.sv|project.if.sv|fetch_golden.sv|/afs/unity.ncsu.edu/users/a/aravill/demo/environment.sv|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|-sv|/afs/unity.ncsu.edu/users/a/aravill/demo/environment.sv|
+!i113 0
+R13
+vExecute
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 8WkfIU0K<]5Mkg]A93B@G0
+Il9G>Dm;5cJUdS@a[z`Idc2
+R0
+R2
+R3
+R4
+L0 2
+R5
+R6
+R7
+R8
+!i113 0
+R9
+n@execute
+Xexecute_golden_reference_sv_unit
+R10
+Z29 !s110 1461963707
+!i10b 1
+!s100 J8][2E:2eEYL7>IV08Q<D3
+IWb`c]=elEa_kPRARF6lT63
+VWb`c]=elEa_kPRARF6lT63
+!i103 1
+S1
+R0
+R2
+8/afs/unity.ncsu.edu/users/a/aravill/demo/execute_golden_reference.sv
+F/afs/unity.ncsu.edu/users/a/aravill/demo/execute_golden_reference.sv
+L0 4
+R5
+r1
+!s85 0
+31
+!s108 1461963707.098504
+!s107 /afs/unity.ncsu.edu/users/a/aravill/demo/execute_golden_reference.sv|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|-sv|/afs/unity.ncsu.edu/users/a/aravill/demo/execute_golden_reference.sv|
+!i113 0
+R13
+vextension
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 DXKA89];H>11XNmDT;3h33
+Il@nK9PAQfXC8DjMo?fB9f3
+R0
+R2
+R3
+R4
+L0 90
+R5
+R6
+R7
+R8
+!i113 0
+R9
+vFetch
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 1hhe`[8Te>OVKJIo?kX8?0
+IzO4WN_ihMe@j5e<KlbTnZ3
+R0
+R2
+8/afs/unity.ncsu.edu/users/a/aravill/demo/Fetch.vp
+F/afs/unity.ncsu.edu/users/a/aravill/demo/Fetch.vp
+L0 2
+R5
+!s108 1461963707.196406
+!s107 data_defs.vp|/afs/unity.ncsu.edu/users/a/aravill/demo/Fetch.vp|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|/afs/unity.ncsu.edu/users/a/aravill/demo/Fetch.vp|
+!i113 0
+R9
+n@fetch
+Xfetch_golden_sv_unit
+R10
+R29
+!i10b 1
+!s100 fGH_7^MXD@o_>IE8[1NLc3
+IVNzm[n[HcJPmL4T?B:^GK2
+VVNzm[n[HcJPmL4T?B:^GK2
+!i103 1
+S1
+R0
+R2
+8/afs/unity.ncsu.edu/users/a/aravill/demo/fetch_golden.sv
+F/afs/unity.ncsu.edu/users/a/aravill/demo/fetch_golden.sv
+R14
+L0 3
+R5
+r1
+!s85 0
+31
+!s108 1461963707.288594
+!s107 project.if.sv|/afs/unity.ncsu.edu/users/a/aravill/demo/fetch_golden.sv|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|-sv|/afs/unity.ncsu.edu/users/a/aravill/demo/fetch_golden.sv|
+!i113 0
+R13
+vLC3
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 6j6?1Yg7A<KTm_WU0A<Xe1
+IE^5N4@bm=HBjZI9j1mCOc0
+R0
+R2
+8/afs/unity.ncsu.edu/users/a/aravill/demo/TopLevelLC3.v
+F/afs/unity.ncsu.edu/users/a/aravill/demo/TopLevelLC3.v
+L0 2
+R5
+!s108 1461963708.228975
+!s107 data_defs.vp|/afs/unity.ncsu.edu/users/a/aravill/demo/TopLevelLC3.v|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|/afs/unity.ncsu.edu/users/a/aravill/demo/TopLevelLC3.v|
+!i113 0
+R9
+n@l@c3
+YLC3_io
+R10
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]]a:R:DH7GP7e4XFWC[NZ0
+ITSLajdMMmJSJoAWVWUKda3
+R16
+S1
+R0
+R2
+R14
+R17
+R18
+L0 2
+R5
+R19
+R20
+R21
+!i113 0
+R13
+n@l@c3_io
+vLC3_test_top
+R10
+R29
+!i10b 1
+!s100 l7a`GEe=RF2l1<giTi<3G1
+IZcR5=LWQ6?>iYG:OOFej=3
+R1
+!s105 project_test_top_sv_unit
+S1
+R0
+R2
+8/afs/unity.ncsu.edu/users/a/aravill/demo/project.test_top.sv
+F/afs/unity.ncsu.edu/users/a/aravill/demo/project.test_top.sv
+L0 2
+R5
+r1
+!s85 0
+31
+!s108 1461963707.650043
+!s107 /afs/unity.ncsu.edu/users/a/aravill/demo/project.test_top.sv|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|-sv|/afs/unity.ncsu.edu/users/a/aravill/demo/project.test_top.sv|
+!i113 0
+R13
+n@l@c3_test_top
+Xmem_golden_reference_sv_unit
+R10
+R29
+!i10b 1
+!s100 QD[LFCA?dolXXbGc=?N422
+Ic[BlJ`[mOP]jU][c29o5O3
+Vc[BlJ`[mOP]jU][c29o5O3
+!i103 1
+S1
+R0
+R2
+8/afs/unity.ncsu.edu/users/a/aravill/demo/mem_golden_reference.sv
+F/afs/unity.ncsu.edu/users/a/aravill/demo/mem_golden_reference.sv
+R14
+L0 6
+R5
+r1
+!s85 0
+31
+!s108 1461963707.470002
+!s107 project.if.sv|/afs/unity.ncsu.edu/users/a/aravill/demo/mem_golden_reference.sv|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|-sv|/afs/unity.ncsu.edu/users/a/aravill/demo/mem_golden_reference.sv|
+!i113 0
+R13
+vMemAccess
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 H8gR<R5>M`8W[WE29:oR`0
+IWCi3:@8^5Xj::9=KXEM_91
+R0
+R2
+8/afs/unity.ncsu.edu/users/a/aravill/demo/Mem_Access.vp
+F/afs/unity.ncsu.edu/users/a/aravill/demo/Mem_Access.vp
+L0 2
+R5
+!s108 1461963707.375914
+!s107 data_defs.vp|/afs/unity.ncsu.edu/users/a/aravill/demo/Mem_Access.vp|
+!s90 -reportprogress|300|-stats=none|-work|work|-vopt|/afs/unity.ncsu.edu/users/a/aravill/demo/Mem_Access.vp|
+!i113 0
+R9
+n@mem@access
+vRegFile
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 cohSIWje2_YhHYOhCbgZf1
+In;9UhHgEgEh:W1Z_nPYE61
+R0
+R2
+Z30 8/afs/unity.ncsu.edu/users/a/aravill/demo/WriteBack.vp
+Z31 F/afs/unity.ncsu.edu/users/a/aravill/demo/WriteBack.vp
+L0 37
+R5
+Z32 !s108 1461963708.299716
+Z33 !s107 data_defs.vp|/afs/unity.ncsu.edu/users/a/aravill/demo/WriteBack.vp|
+Z34 !s90 -reportprogress|300|-stats=none|-work|work|-vopt|/afs/unity.ncsu.edu/users/a/aravill/demo/WriteBack.vp|
+!i113 0
+R9
+n@reg@file
+vtestbench
+R10
+DXx4 work 17 testbench_sv_unit 0 22 AUBkWR`ROEk4ojBh`F11k1
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 7=R0;<>Eo>M8baTM7n`h51
+IjEdPCIoVWfD3?jEB[oHUc0
+!s105 testbench_sv_unit
+S1
+R0
+R2
+Z35 8/afs/unity.ncsu.edu/users/a/aravill/demo/testbench.sv
+Z36 F/afs/unity.ncsu.edu/users/a/aravill/demo/testbench.sv
+FCoverage.sv
+FCoverproperty.sv
+L0 23
+R5
+Z37 !s108 1461963707.749501
+Z38 !s107 Coverproperty.sv|Coverage.sv|mem_golden_reference.sv|writeback_golden_reference.sv|control_golden_reference.sv|cfg.sv|execute_golden_reference.sv|decode_golden_reference.sv|fetch_golden.sv|environment.sv|project.if.sv|data_defs.vp|TopLevelLC3.v|/afs/unity.ncsu.edu/users/a/aravill/demo/testbench.sv|
+Z39 !s90 -reportprogress|300|-stats=none|-work|work|-vopt|-sv|/afs/unity.ncsu.edu/users/a/aravill/demo/testbench.sv|
+!i113 0
+R13
+Xtestbench_sv_unit
+R10
+VAUBkWR`ROEk4ojBh`F11k1
+r1
+!s85 0
+31
+!i10b 1
+!s100 @@4Eogh@00i?5mT0c4ROY0
+IAUBkWR`ROEk4ojBh`F11k1
+!i103 1
+S1
+R0
+w1461963696
+R35
+R36
+FTopLevelLC3.v
+Fdata_defs.vp
+R14
+Fenvironment.sv
+R22
+R23
+R24
+R25
+R26
+R27
+R28
+L5 3
+R5
+R37
+R38
+R39
+!i113 0
+R13
+vWriteback
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 jO_ca=aN]FDn<Z[dccD<:2
+I=Z7?<074nJh4gNAFoB7;V1
+R0
+R2
+R30
+R31
+L0 2
+R5
+R32
+R33
+R34
+!i113 0
+R9
+n@writeback
+Xwriteback_golden_reference_sv_unit
+R10
+!s110 1461963708
+!i10b 1
+!s100 ?aHd7;`D__?3X<8z^0dBM0
+IQMHHC<oR_YV999LGPfm0K0
+VQMHHC<oR_YV999LGPfm0K0
+!i103 1
+S1
+R0
+R2
+R17
+R18
+R14
+L0 6
+R5
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 0
+R13

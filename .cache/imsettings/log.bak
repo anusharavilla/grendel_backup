@@ -1,0 +1,70 @@
+[ 1481267314.482007]: IMSettings-Daemon[8843]: INFO: Starting imsettings-daemon...
+[ 1481267314.484214]: IMSettings-Daemon[8843]: INFO:   [HOME=/afs/unity.ncsu.edu/users/a/aravill/.config/imsettings]
+[ 1481267314.485062]: IMSettings-Daemon[8843]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1481267314.485912]: IMSettings-Daemon[8843]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+
+[ 1481267314.486698]: IMSettings-Daemon[8843]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+
+[ 1481267314.487497]: IMSettings-Daemon[8843]: INFO:   [MODULES=gsettings, qt]
+
+
+[ 1481267314.489337]: IMSettings-Qt backend[8843]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1481267314.497318]: IMSettings-Qt backend[8843]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1481267314.503269]: IMSettings-Qt backend[8843]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1481267314.509454]: IMSettings-Qt backend[8843]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1481267314.519648]: IMSettings-Qt backend[8843]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1481267314.525267]: IMSettings-Qt backend[8843]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+imsettings information
+==========================
+XINPUTRC: /etc/X11/xinit/xinput.d//none.conf
+	  File: ‘/etc/X11/xinit/xinput.d//none.conf’
+	  Size: 110       	Blocks: 8          IO Block: 4096   regular file
+	Device: fd00h/64768d	Inode: 539965294   Links: 1
+	Access: (0644/-rw-r--r--)  Uid: (    0/    root)   Gid: (    0/    root)
+	Access: 2016-12-09 01:29:45.687576898 -0500
+	Modify: 2014-01-24 22:11:06.000000000 -0500
+	Change: 2016-11-11 08:59:02.435102453 -0500
+	 Birth: -
+Is DBus enabled: yes
+Is imsettings enabled: yes
+Is GTK+ supported: 
+[ 1481267314.562132]: IMSettings-Qt backend[8843]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1481267314.568132]: IMSettings-Qt backend[8843]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1481267314.574131]: IMSettings-Qt backend[8843]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1481267314.580092]: IMSettings-Qt backend[8843]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+yes
+Is Qt supported: 
+[ 1481267314.591166]: IMSettings-Qt backend[8843]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+
+[ 1481267314.597268]: IMSettings-Qt backend[8843]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+yes
+DESKTOP: gnome-classic
+GUESS_DESKTOP: $GDMSESSION
+DISABLE_IMSETTINGS: 
+IMSETTINGS_DISABLE_DESKTOP_CHECK: 
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-rXNW6OaI1M,guid=3a73c59950c41c1d940fc2dd584a5872
+GTK_IM_MODULE: 
+QT_IM_MODULE: xim
+XMODIFIERS: @im=none
+IMSETTINGS_MODULE: none
+IMSETTINGS_INTEGRATE_DESKTOP: yes
+
+
+[ 1481267316.097803]: IMSettings-Qt backend[8843]: WARNING **: Unable to obtain the DefaultInputMethod: Key file does not have group 'Qt'
+[ 1481267316.132617]: IMSettings-Daemon[8843]: INFO: Attempting to switch IM to none [lang=en_US.UTF-8, update=false]
+org.gnome.settings-daemon.plugins.keyboard.active is true. imsettings is going to be disabled.
+
+[ 1481267316.170653]: IMSettings-Daemon[8843]: WARNING **: Current desktop isn't targeted by IMSettings.
+
+[ 1481267316.178382]: GLib-GIO[8843]: CRITICAL **: g_dbus_method_invocation_return_value_internal: assertion '(parameters == NULL) || g_variant_is_of_type (parameters, G_VARIANT_TYPE_TUPLE)' failed
+[ 1481267316.451082]: IMSettings-Daemon[8843]: INFO: Unloading imesttings module: qt
+[ 1481267316.453076]: IMSettings-Daemon[8843]: INFO: Unloading imesttings module: gsettings
+[ 1481267316.454737]: IMSettings-Daemon[8843]: INFO: imsettings-daemon is shut down.

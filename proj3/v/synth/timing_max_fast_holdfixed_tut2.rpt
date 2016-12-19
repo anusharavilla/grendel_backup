@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : cortex_soc
+Version: K-2015.06-SP1
+Date   : Thu Dec  8 18:47:21 2016
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ff1p16v25c   Library: saed32lvt_ff1p16v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: u_cortexm0ds/u_logic/Fij2z4_reg
+              (rising edge-triggered flip-flop clocked by HCLK)
+  Endpoint: u_cortexm0ds/u_logic/Sgj2z4_reg
+            (rising edge-triggered flip-flop clocked by HCLK)
+  Path Group: HCLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cortex_soc         70000                 saed32lvt_ff1p16v25c
+  cortexm0ds_logic   35000                 saed32lvt_ff1p16v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock HCLK (rise edge)                                0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_cortexm0ds/u_logic/Fij2z4_reg/CLK (DFFARX1_LVT)     0.0000 #   0.0000 r
+  u_cortexm0ds/u_logic/Fij2z4_reg/QN (DFFARX1_LVT)      0.0366     0.0366 f
+  u_cortexm0ds/u_logic/U710/Y (IBUFFX2_LVT)             0.0232     0.0597 r
+  u_cortexm0ds/u_logic/U709/Y (IBUFFX4_LVT)             1.1280     1.1877 f
+  u_cortexm0ds/u_logic/U5650/Y (AND4X1_LVT)             3.0587     4.2464 f
+  u_cortexm0ds/u_logic/U2498/Y (NAND3X4_LVT)            0.5453     4.7917 r
+  u_cortexm0ds/u_logic/U397/Y (NAND3X0_LVT)             0.0102     4.8019 f
+  u_cortexm0ds/u_logic/U391/Y (AO221X1_LVT)             0.0335     4.8354 f
+  u_cortexm0ds/u_logic/U358/Y (OR3X1_LVT)               0.0200     4.8554 f
+  u_cortexm0ds/u_logic/U357/Y (AO22X1_LVT)              0.0161     4.8715 f
+  u_cortexm0ds/u_logic/Sgj2z4_reg/D (DFFARX1_LVT)       0.0000     4.8715 f
+  data arrival time                                                4.8715
+
+  clock HCLK (rise edge)                                5.0000     5.0000
+  clock network delay (ideal)                           0.0000     5.0000
+  clock uncertainty                                    -0.0500     4.9500
+  u_cortexm0ds/u_logic/Sgj2z4_reg/CLK (DFFARX1_LVT)     0.0000     4.9500 r
+  library setup time                                   -0.0194     4.9306
+  data required time                                               4.9306
+  --------------------------------------------------------------------------
+  data required time                                               4.9306
+  data arrival time                                               -4.8715
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.0592
+
+
+1

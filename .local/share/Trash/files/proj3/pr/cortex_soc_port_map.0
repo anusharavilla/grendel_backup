@@ -1,0 +1,149 @@
+set_user_match   -inverted   $svf_ref/cortex_soc/ahb/hsel_s1   $svf_impl/cortex_soc/ahb/hsel_s1
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hsel_mem  ~ memctl_v4/U_hiu/IN0 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hsel_mem  ~ memctl_v4/IN0 }
+set_user_match   -inverted   $svf_ref/cortex_soc/ahb/HADDR[29]   $svf_impl/cortex_soc/ahb/HADDR[29]
+guide_constraints -body { ahb } -equivalent { ahb/HADDR[29]  ~ ahb/IN1 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/haddr_o[8]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/haddr_o[8]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HADDR[8]   $svf_impl/cortex_soc/u_cortexm0ds/HADDR[8]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/haddr[8]  ~ memctl_v4/U_hiu/IN1 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/haddr[8]  ~ memctl_v4/IN1 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/haddr_o[7]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/haddr_o[7]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HADDR[7]   $svf_impl/cortex_soc/u_cortexm0ds/HADDR[7]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/haddr[7]  ~ memctl_v4/U_hiu/IN2 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/haddr[7]  ~ memctl_v4/IN2 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/haddr[5]   $svf_impl/cortex_soc/memctl_v4/haddr[5]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/haddr[5]   $svf_impl/cortex_soc/memctl_v4/U_hiu/haddr[5]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/haddr[5]  ~ memctl_v4/U_hiu/IN3 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/haddr[5]  ~ memctl_v4/IN3 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/haddr_o[3]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/haddr_o[3]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HADDR[3]   $svf_impl/cortex_soc/u_cortexm0ds/HADDR[3]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/haddr[3]  ~ memctl_v4/U_hiu/IN4 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/haddr[3]  ~ memctl_v4/IN4 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hsize_o[1]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hsize_o[1]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HSIZE[1]   $svf_impl/cortex_soc/u_cortexm0ds/HSIZE[1]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hsize[1]  ~ memctl_v4/U_hiu/IN5 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hsize[1]  ~ memctl_v4/IN5 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/haddr[2]   $svf_impl/cortex_soc/memctl_v4/haddr[2]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/haddr[2]   $svf_impl/cortex_soc/memctl_v4/U_hiu/haddr[2]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/haddr[2]  ~ memctl_v4/U_hiu/IN6 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/haddr[2]  ~ memctl_v4/IN6 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/haddr_o[4]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/haddr_o[4]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HADDR[4]   $svf_impl/cortex_soc/u_cortexm0ds/HADDR[4]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/haddr[4]  ~ memctl_v4/U_hiu/IN7 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/haddr[4]  ~ memctl_v4/IN7 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[8]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[8]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HWDATA[8]   $svf_impl/cortex_soc/u_cortexm0ds/HWDATA[8]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[8]  ~ memctl_v4/U_hiu/IN8 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[8]  ~ memctl_v4/IN8 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[17]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[17]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HWDATA[17]   $svf_impl/cortex_soc/u_cortexm0ds/HWDATA[17]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[17]  ~ memctl_v4/U_hiu/IN9 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[17]  ~ memctl_v4/IN9 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[5]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[5]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HWDATA[5]   $svf_impl/cortex_soc/u_cortexm0ds/HWDATA[5]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[5]  ~ memctl_v4/U_hiu/IN10 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[5]  ~ memctl_v4/IN10 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[6]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[6]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HWDATA[6]   $svf_impl/cortex_soc/u_cortexm0ds/HWDATA[6]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[6]  ~ memctl_v4/U_hiu/IN11 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[6]  ~ memctl_v4/IN11 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[1]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[1]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HWDATA[1]   $svf_impl/cortex_soc/u_cortexm0ds/HWDATA[1]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[1]  ~ memctl_v4/U_hiu/IN12 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[1]  ~ memctl_v4/IN12 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[2]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[2]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HWDATA[2]   $svf_impl/cortex_soc/u_cortexm0ds/HWDATA[2]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[2]  ~ memctl_v4/U_hiu/IN13 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[2]  ~ memctl_v4/IN13 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[0]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[0]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HWDATA[0]   $svf_impl/cortex_soc/u_cortexm0ds/HWDATA[0]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[0]  ~ memctl_v4/U_hiu/IN14 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[0]  ~ memctl_v4/IN14 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/hwdata[21]   $svf_impl/cortex_soc/memctl_v4/hwdata[21]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/hwdata[21]   $svf_impl/cortex_soc/memctl_v4/U_hiu/hwdata[21]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[21]  ~ memctl_v4/U_hiu/IN15 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[21]  ~ memctl_v4/IN15 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/hwdata[18]   $svf_impl/cortex_soc/memctl_v4/hwdata[18]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/hwdata[18]   $svf_impl/cortex_soc/memctl_v4/U_hiu/hwdata[18]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[18]  ~ memctl_v4/U_hiu/IN16 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[18]  ~ memctl_v4/IN16 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/hwdata[11]   $svf_impl/cortex_soc/memctl_v4/hwdata[11]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/hwdata[11]   $svf_impl/cortex_soc/memctl_v4/U_hiu/hwdata[11]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[11]  ~ memctl_v4/U_hiu/IN17 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[11]  ~ memctl_v4/IN17 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/hwdata[9]   $svf_impl/cortex_soc/memctl_v4/hwdata[9]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/hwdata[9]   $svf_impl/cortex_soc/memctl_v4/U_hiu/hwdata[9]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[9]  ~ memctl_v4/U_hiu/IN18 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[9]  ~ memctl_v4/IN18 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/hwdata[15]   $svf_impl/cortex_soc/memctl_v4/hwdata[15]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/hwdata[15]   $svf_impl/cortex_soc/memctl_v4/U_hiu/hwdata[15]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[15]  ~ memctl_v4/U_hiu/IN19 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[15]  ~ memctl_v4/IN19 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[14]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[14]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HWDATA[14]   $svf_impl/cortex_soc/u_cortexm0ds/HWDATA[14]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[14]  ~ memctl_v4/U_hiu/IN20 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[14]  ~ memctl_v4/IN20 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[4]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[4]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HWDATA[4]   $svf_impl/cortex_soc/u_cortexm0ds/HWDATA[4]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[4]  ~ memctl_v4/U_hiu/IN21 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[4]  ~ memctl_v4/IN21 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[3]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[3]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HWDATA[3]   $svf_impl/cortex_soc/u_cortexm0ds/HWDATA[3]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[3]  ~ memctl_v4/U_hiu/IN22 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[3]  ~ memctl_v4/IN22 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[22]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[22]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HWDATA[22]   $svf_impl/cortex_soc/u_cortexm0ds/HWDATA[22]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[22]  ~ memctl_v4/U_hiu/IN23 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[22]  ~ memctl_v4/IN23 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/hwdata[12]   $svf_impl/cortex_soc/memctl_v4/hwdata[12]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/hwdata[12]   $svf_impl/cortex_soc/memctl_v4/U_hiu/hwdata[12]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[12]  ~ memctl_v4/U_hiu/IN24 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[12]  ~ memctl_v4/IN24 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[19]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[19]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HWDATA[19]   $svf_impl/cortex_soc/u_cortexm0ds/HWDATA[19]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[19]  ~ memctl_v4/U_hiu/IN25 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[19]  ~ memctl_v4/IN25 }
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[7]   $svf_impl/cortex_soc/u_cortexm0ds/u_logic/hwdata_o[7]
+set_user_match   -inverted   $svf_ref/cortex_soc/u_cortexm0ds/HWDATA[7]   $svf_impl/cortex_soc/u_cortexm0ds/HWDATA[7]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[7]  ~ memctl_v4/U_hiu/IN26 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[7]  ~ memctl_v4/IN26 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/hwdata[13]   $svf_impl/cortex_soc/memctl_v4/hwdata[13]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/hwdata[13]   $svf_impl/cortex_soc/memctl_v4/U_hiu/hwdata[13]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[13]  ~ memctl_v4/U_hiu/IN27 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[13]  ~ memctl_v4/IN27 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/hwdata[10]   $svf_impl/cortex_soc/memctl_v4/hwdata[10]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/hwdata[10]   $svf_impl/cortex_soc/memctl_v4/U_hiu/hwdata[10]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[10]  ~ memctl_v4/U_hiu/IN28 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[10]  ~ memctl_v4/IN28 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/hwdata[28]   $svf_impl/cortex_soc/memctl_v4/hwdata[28]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/hwdata[28]   $svf_impl/cortex_soc/memctl_v4/U_hiu/hwdata[28]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[28]  ~ memctl_v4/U_hiu/IN29 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[28]  ~ memctl_v4/IN29 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/hwdata[30]   $svf_impl/cortex_soc/memctl_v4/hwdata[30]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/hwdata[30]   $svf_impl/cortex_soc/memctl_v4/U_hiu/hwdata[30]
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hwdata[30]  ~ memctl_v4/U_hiu/IN30 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hwdata[30]  ~ memctl_v4/IN30 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_miu/debug_ad_bank_addr[0]   $svf_impl/cortex_soc/memctl_v4/U_miu/debug_ad_bank_addr[0]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/debug_ad_bank_addr[0]   $svf_impl/cortex_soc/memctl_v4/debug_ad_bank_addr[0]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_miu/debug_ad_col_addr_14_   $svf_impl/cortex_soc/memctl_v4/U_miu/debug_ad_col_addr_14_
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/debug_ad_col_addr[14]   $svf_impl/cortex_soc/memctl_v4/debug_ad_col_addr[14]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_miu/hiu_rw   $svf_impl/cortex_soc/memctl_v4/U_miu/hiu_rw
+guide_constraints -body { memctl_v4/U_miu } -equivalent { memctl_v4/U_miu/hiu_rw  ~ memctl_v4/U_miu/IN2 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_miu/hiu_burst_size[1]   $svf_impl/cortex_soc/memctl_v4/U_miu/hiu_burst_size[1]
+guide_constraints -body { memctl_v4/U_miu } -equivalent { memctl_v4/U_miu/hiu_burst_size[1]  ~ memctl_v4/U_miu/IN3 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/hiu_haddr[2]   $svf_impl/cortex_soc/memctl_v4/U_hiu/hiu_haddr[2]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_miu/hiu_haddr[2]   $svf_impl/cortex_soc/memctl_v4/U_miu/hiu_haddr[2]
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_miu/hiu_burst_size[0]   $svf_impl/cortex_soc/memctl_v4/U_miu/hiu_burst_size[0]
+guide_constraints -body { memctl_v4/U_miu } -equivalent { memctl_v4/U_miu/hiu_burst_size[0]  ~ memctl_v4/U_miu/IN4 }
+guide_constraints -body { memctl_v4/U_miu } -equivalent { memctl_v4/U_miu/hresetn    memctl_v4/U_miu/IN5   memctl_v4/U_miu/IN6   memctl_v4/U_miu/IN7   memctl_v4/U_miu/IN8   memctl_v4/U_miu/IN9   memctl_v4/U_miu/IN10   memctl_v4/U_miu/IN11   memctl_v4/U_miu/IN12   memctl_v4/U_miu/IN13   memctl_v4/U_miu/IN14   memctl_v4/U_miu/IN15   memctl_v4/U_miu/IN16   memctl_v4/U_miu/IN17   memctl_v4/U_miu/IN18   memctl_v4/U_miu/IN19 }
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/hresetn    memctl_v4/U_hiu/IN34   memctl_v4/U_hiu/IN35   memctl_v4/U_hiu/IN36   memctl_v4/U_hiu/IN37   memctl_v4/U_hiu/IN38   memctl_v4/U_hiu/IN39   memctl_v4/U_hiu/IN40   memctl_v4/U_hiu/IN41   memctl_v4/U_hiu/IN42   memctl_v4/U_hiu/IN43 }
+guide_constraints -body { memctl_v4 } -equivalent { memctl_v4/hresetn    memctl_v4/IN33   memctl_v4/IN34   memctl_v4/IN35   memctl_v4/IN36   memctl_v4/IN37   memctl_v4/IN38   memctl_v4/IN39   memctl_v4/IN40   memctl_v4/IN41   memctl_v4/IN42   memctl_v4/IN43 }
+guide_constraints -body { u_cortexm0ds/u_logic } -equivalent { u_cortexm0ds/u_logic/hreset_n    u_cortexm0ds/u_logic/IN46   u_cortexm0ds/u_logic/IN47   u_cortexm0ds/u_logic/IN48   u_cortexm0ds/u_logic/IN49   u_cortexm0ds/u_logic/IN50   u_cortexm0ds/u_logic/IN51   u_cortexm0ds/u_logic/IN52 }
+guide_constraints -body { u_cortexm0ds } -equivalent { u_cortexm0ds/HRESETn    u_cortexm0ds/IN46   u_cortexm0ds/IN47   u_cortexm0ds/IN48   u_cortexm0ds/IN49   u_cortexm0ds/IN50   u_cortexm0ds/IN51   u_cortexm0ds/IN52 }
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_miu/big_endian   $svf_impl/cortex_soc/memctl_v4/U_miu/big_endian
+set_user_match   -inverted   $svf_ref/cortex_soc/memctl_v4/U_hiu/big_endian   $svf_impl/cortex_soc/memctl_v4/U_hiu/big_endian
+guide_constraints -body { memctl_v4/U_hiu } -equivalent { memctl_v4/U_hiu/big_endian  ~ memctl_v4/U_hiu/IN44 }
+guide_constraints -body { memctl_v4/U_miu } -equivalent { memctl_v4/U_miu/big_endian  ~ memctl_v4/U_miu/IN20 ~ memctl_v4/U_miu/IN21 }
+
+#-------------------------------------------------------------------
+

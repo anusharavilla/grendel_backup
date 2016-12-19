@@ -1,0 +1,96 @@
+`timescale 1ns/1ps
+`include "project.if.sv"
+
+
+
+class mem_golden;
+   logic 	[1:0] 	mem_state;
+   logic 		M_Control;
+   logic [15:0] 	M_Data;
+   logic [15:0] 	M_Addr;
+   logic [15:0] 	Data_dout;
+
+   logic [15:0] 	Data_addr;
+   logic [15:0] 	Data_din;
+   logic 		Data_rd;
+   logic [15:0] 	memout;
+
+
+virtual LC3_io.TB Interface;
+virtual dut_Probe_mem Probe_mem;
+function new (virtual LC3_io.TB Interface, virtual dut_Probe_mem Probe_mem);
+this.Interface = Interface;
+this.Probe_mem = Probe_mem;
+endfunction
+
+
+
+task golden_reference();
+fork
+begin
+forever@(mem_state,Data_dout,M_Addr,M_Data)
+    begin
+    case(mem_state)
+      0:begin
+	   if(M_Control==1)
+            Data_addr=Data_dout;
+            Data_din=0;
+            Data_rd=1;
+          if(M_Control==0)
+            Data_addr=M_Addr;
+         
+        end
+      1:begin
+          Data_addr=M_Addr;
+          Data_din=0;
+          Data_rd=1;
+        end
+      2:begin
+          Data_rd=0;
+          if(M_Control==0)
+            Data_addr=M_Addr;
+          if(M_Control==1)
+            Data_addr=Data_dout;
+            Data_din=M_Data;
+        end
+      3:begin
+          Data_rd=1'bz;
+          Data_din=16'bz;
+          Data_addr=16'bz;
+        end
+    endcase
+   
+memout=Data_dout;
+  end
+  end
+
+  begin
+  forever@(posedge Interface.clock)
+  begin
+  check_async();
+  end
+  end
+join
+endtask
+
+
+task check_async();
+if(Data_rd!==Probe_mem.Data_rd)
+$display($time,"error in mem data_rd %b,%b",Data_rd,Probe_mem.Data_rd);
+//else 
+//$display("datard %b,%b",Data_rd,Probe_mem.Data_rd);
+if(Data_din!==Probe_mem.Data_din)
+$display($time,"error in mem data_din %b,%b",Data_din,Probe_mem.Data_din);
+//else 
+//$display("datadin %b,%b",Data_din,Probe_mem.Data_din);
+if(Data_addr!==Probe_mem.Data_addr)
+$display($time,"error in mem data_addr %b,%b",Data_addr,Probe_mem.Data_addr);
+//else 
+//$display("data_addr %b,%b",Data_addr,Probe_mem.Data_addr);
+if(memout!==Probe_mem.memout)
+$display($time,"error in mem memout %b,%b",memout,Probe_mem.memout);
+//else 
+//$display("memout %b,%b",memout,Probe_mem.memout);
+endtask
+
+endclass

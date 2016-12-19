@@ -1,0 +1,46 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : top_without_mem
+Version: K-2015.06-SP1
+Date   : Wed Nov 18 02:38:45 2015
+****************************************
+
+Operating Conditions: fast   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_fast_nldm
+Wire Load Model Mode: top
+
+  Startpoint: uut4/flag_reg_reg[0]
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: uut4/flag_reg_reg[0]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clock (rise edge)                0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  uut4/flag_reg_reg[0]/CK (DFF_X2)       0.0000     0.0000 r
+  uut4/flag_reg_reg[0]/Q (DFF_X2)        0.0604     0.0604 r
+  uut4/U92/ZN (OAI22_X1)                 0.0236     0.0841 f
+  uut4/flag_reg_reg[0]/D (DFF_X2)        0.0000     0.0841 f
+  data arrival time                                 0.0841
+
+  clock clock (rise edge)                0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  clock uncertainty                      0.0500     0.0500
+  uut4/flag_reg_reg[0]/CK (DFF_X2)       0.0000     0.0500 r
+  library hold time                     -0.0003     0.0497
+  data required time                                0.0497
+  -----------------------------------------------------------
+  data required time                                0.0497
+  data arrival time                                -0.0841
+  -----------------------------------------------------------
+  slack (MET)                                       0.0344
+
+
+1

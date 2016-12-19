@@ -1,0 +1,134 @@
+
+/*----------------------reset behavior of all the sync signals--------------*/
+
+// Asserting---- FETCH signals------- //
+ 
+  Probe_if_fetch_pc_rst: cover property ( @(posedge clock) Interface.reset |=> Probe_if.fetch_pc==16'h3000);
+  Probe_if_fetch_npc_out_rst: cover property ( @(posedge clock) Interface.reset |=> Probe_if.fetch_npc_out==16'h3001);
+
+// Asserting---- DECODE signals------- //
+ 
+  Probe_decode_Mem_Control_rst: cover property ( @(posedge clock) Interface.reset |=> !Probe_decode.Mem_Control);
+  Probe_decode_E_Control_rst: cover property ( @(posedge clock) Interface.reset |=> !Probe_decode.E_Control);
+  Probe_decode_W_Control_rst: cover property ( @(posedge clock) Interface.reset |=> !Probe_decode.W_Control);
+  Probe_decode_IR_rst: cover property ( @(posedge clock) Interface.reset |=> !Probe_decode.IR);
+  Probe_decode_npc_out_rst: cover property ( @(posedge clock) Interface.reset |=> !Probe_decode.npc_out);
+
+// Asserting---- EXECUTE signals------- //
+  
+  Probe_ex_aluout_rst: cover property ( @(posedge clock) Interface.reset |=> Probe_ex.aluout==0); // I am changing it here
+  Probe_ex_pcout_rst: cover property ( @(posedge clock) Interface.reset |=> Probe_ex.pcout==0);
+  Probe_ex_dr_rst: cover property ( @(posedge clock) Interface.reset |=> Probe_ex.dr==0);
+  Probe_ex_IR_Exec_rst: cover property ( @(posedge clock) Interface.reset |=> Probe_ex.IR_Exec==0);
+  Probe_ex_NZP_rst: cover property ( @(posedge clock) Interface.reset |=> Probe_ex.NZP==0);
+  Probe_ex_M_Data_rst: cover property ( @(posedge clock) Interface.reset |=> Probe_ex.M_Data==0);
+  Probe_ex_W_Control_out_rst: cover property ( @(posedge clock) Interface.reset |=> Probe_ex.W_Control_out==0);
+  Probe_ex_Mem_Control_out_rst: cover property ( @(posedge clock) Interface.reset |=> Probe_ex.Mem_Control_out==0);
+
+// Asserting---- WRITEBACK signals------- //
+ 
+  Probe_writeback_psr_rst: cover property( @(posedge clock) Interface.reset |=> Probe_writeback.psr==0 );
+
+// Asserting---- CONTROLLER signals------- //
+
+  Prob_controller_mem_state_rst: cover property( @(posedge clock) Interface.reset |=> Prob_controller.mem_state==3 );
+  //Prob_controller_enable_updatePC_rst: cover property( @(posedge clock) Interface.reset |=> Prob_controller.enable_updatePC==0 );
+  Prob_controller_enable_fetch_rst: cover property( @(posedge clock) Interface.reset |=> Prob_controller.enable_fetch==1 );
+  Prob_controller_enable_decode_rst: cover property( @(posedge clock) Interface.reset |=> Prob_controller.enable_decode==0);
+  Prob_controller_enable_writeback_rst: cover property( @(posedge clock) Interface.reset |=> Prob_controller.enable_writeback==0);
+
+/*-------------Covers condition of branch .. if N/Z/P is 1-----------------*/
+
+// Asserting---- Br_taken jump signals------- //
+
+      CTRL_br_taken_jmp_BRZ: cover property( @(posedge clock) Prob_controller.IR_Exec[15:12] == BR |-> if(Prob_controller.NZP == 3'b010 &      Prob_controller.psr==3'b010) Prob_controller.br_taken==1);
+
+      CTRL_br_taken_jmp_BRNP: cover property( @(posedge clock) Prob_controller.IR_Exec[15:12] == BR |-> if(Prob_controller.NZP == 3'b101 & Prob_controller.psr!=3'b010) Prob_controller.br_taken==1);
+
+               CTRL_br_taken_jmp_BRP: cover property( @(posedge clock) Prob_controller.IR_Exec[15:12] == BR |-> if(Prob_controller.NZP == 3'b001 & Prob_controller.psr==3'b001) Prob_controller.br_taken==1);
+
+            CTRL_br_taken_jmp_BRZP: cover property( @(posedge clock) Prob_controller.IR_Exec[15:12] == BR |-> if(Prob_controller.NZP == 3'b011 & Prob_controller.psr!=3'b100) Prob_controller.br_taken==1);
+
+    CTRL_br_taken_jmp_BRN: cover property( @(posedge clock) Prob_controller.IR_Exec[15:12] == BR |-> if(Prob_controller.NZP == 3'b100 & Prob_controller.psr==3'b100) Prob_controller.br_taken==1);
+
+           CTRL_br_taken_jmp_BRNZ: cover property( @(posedge clock) Prob_controller.IR_Exec[15:12] == BR |-> if(Prob_controller.NZP == 3'b110 & Prob_controller.psr!=3'b001) Prob_controller.br_taken==1);
+                                                                                                                                                  
+   CTRL_br_taken_jmp_BR: cover property( @(posedge clock) Prob_controller.IR_Exec[15:12] == BR |-> if(Prob_controller.NZP == 3'b111) 
+Prob_controller.br_taken==1);  
+
+
+/*----Covers the assertion and de-assertion sequences of “enable_decode”, “enable_execute” and “enable_writeback” based on the memory state.----*/
+// Asserting---- Enable_Fetch signals------- //
+   
+      CTRL_disable_fetch: cover property( @(posedge clock)(Prob_controller.IR[15:12] ==LD || Prob_controller.IR[15:12] ==LDR || Prob_controller.IR[15:12] ==ST || Prob_controller.IR  [15:12] ==STR || Prob_controller.IR[15:12] ==LDI || Prob_controller.IR[15:12] ==STI)|->   Prob_controller.enable_fetch==0);
+//CTRL_disable_fetch_BR_JMP: cover property ( @(posedge clock) ( ctrl_io.Ctrl_Instr_dout[15:12] ==BR || ctrl_io.Ctrl_Instr_dout[15:12] == JMP ) 
+//|-> Prob_controller.enable_fetch==0);
+
+    CTRL_enable_fetch: cover property( @(posedge clock) ( Prob_controller.IR[15:12] ==ADD || Prob_controller.IR[15:12] ==AND || Prob_controller.IR[15:12] ==NOT || Prob_controller.IR[15:12] ==LEA ) |=> Prob_controller.enable_fetch==1);
+
+
+// Asserting---- Enable_decode signals------- //
+
+    CTRL_disable_decode: cover property( @(posedge clock)
+               ( Prob_controller.IR[15:12] ==LD || Prob_controller.IR[15:12] ==LDR || Prob_controller.IR[15:12] ==ST || Prob_controller.IR[15:12] ==STR || Prob_controller.IR[15:12] ==LDI || Prob_controller.IR[15:12] ==STI ) |-> Prob_controller.enable_decode==0);
+
+    CTRL_enable_decode: cover property( @(posedge clock) ( Prob_controller.IR[15:12] ==ADD || Prob_controller.IR[15:12] ==AND || Prob_controller.IR[15:12] ==NOT || Prob_controller.IR[15:12] ==LEA ) |=> Prob_controller.enable_decode==1);
+
+ //CTRL_disable_decode_BR_JMP: cover property ( @(posedge clock) ( ctrl_io.Ctrl_Instr_dout[15:12] ==BR || ctrl_io.Ctrl_Instr_dout[15:12] == JMP ) 
+ // |-> Prob_controller.enable_fetch==0);
+
+
+// Asserting---- bypass_alu signals------- //
+
+      CTRL_bypass_alu_1_AA: cover property ( @(posedge clock) (Prob_controller.IR[15:12]==ADD || Prob_controller.IR[15:12]==AND || Prob_controller.IR[15:12]==NOT) && (Prob_controller.IR_Exec[15:12]==ADD || Prob_controller.IR_Exec[15:12]==AND || Prob_controller.IR_Exec[15:12]==NOT || Prob_controller.IR[15:12]==LEA) |-> if( Prob_controller.IR_Exec[11:9]==Prob_controller.IR[8:6]) Prob_controller.Ctrl_bypass_alu_1==1);
+
+    CTRL_bypass_alu_2_AA: cover property ( @(posedge clock) (Prob_controller.IR[15:12]==ADD || Prob_controller.IR[15:12]==AND || Prob_controller.IR[15:12]==NOT) && (Prob_controller.IR_Exec[15:12]==ADD || Prob_controller.IR_Exec[15:12]==AND || Prob_controller.IR_Exec[15:12]==NOT || Prob_controller.IR[15:12]==LEA) |-> if( Prob_controller.IR_Exec[11:9]==Prob_controller.IR[2:0] && Prob_controller.IR[5]!=1) Prob_controller.Ctrl_bypass_alu_2==1);
+
+   CTRL_bypass_alu_1_AS: cover property (  @(posedge clock) (Prob_controller.IR[15:12]==STR ) && (Prob_controller.IR_Exec[15:12]==ADD ||   Prob_controller.IR_Exec[15:12]==AND || Prob_controller.IR_Exec[15:12]==NOT || Prob_controller.IR[15:12]==LEA) |-> if( Prob_controller.IR_Exec[11:9]== Prob_controller.IR[8:6]) Prob_controller.Ctrl_bypass_alu_1==1);
+
+  CTRL_bypass_alu_2_AS: cover property ( @(posedge clock) (Prob_controller.IR[15:12]==ST || Prob_controller.IR[15:12]==STI ||Prob_controller.IR[15:12] ==STR ) && (Prob_controller.IR_Exec[15:12]==ADD || Prob_controller.IR_Exec[15:12]==AND || Prob_controller.IR_Exec[15:12]==NOT || Prob_controller.IR[15:12]==LEA) |-> if( Prob_controller.IR_Exec[11:9]==Prob_controller.IR[11:9]) Prob_controller.Ctrl_bypass_alu_2==1);
+
+// Asserting---- bypass_mem_1 signals------- //
+
+CTRL_bypass_mem_1_LA: cover property (@(posedge clock) (Prob_controller.IR[15:12]==ADD || Prob_controller.IR[15:12]==AND || Prob_controller.IR[15:12] ==NOT) && (Prob_controller.IR_Exec[15:12]==LD || Prob_controller.IR_Exec[15:12]==LDR || Prob_controller.IR_Exec[15:12]==LDI)
+                |-> if( Prob_controller.IR_Exec[11:9]==Prob_controller.IR[8:6]) Prob_controller.Ctrl_bypass_mem_1==1);
+
+CTRL_bypass_mem_2_LA: cover property ( @(posedge clock) (Prob_controller.IR[15:12]==ADD || Prob_controller.IR[15:12]==AND || Prob_controller.IR[15:12] ==NOT) && (Prob_controller.IR_Exec[15:12]==LD || Prob_controller.IR_Exec[15:12]==LDR || Prob_controller.IR_Exec[15:12]==LDI)
+                |-> if( Prob_controller.IR_Exec[11:9]==Prob_controller.IR[2:0] && Prob_controller.IR[5]!=1) Prob_controller.Ctrl_bypass_mem_2==1);
+
+///////////////////////////////////extra????????   where is LS
+ CTRL_bypass_alu_1_AL: cover property ( @(posedge clock) (Prob_controller.IR[15:12]==LDR ) && (Prob_controller.IR_Exec[15:12]==ADD || Prob_controller.IR_Exec[15:12]==AND || Prob_controller.IR_Exec[15:12]==NOT || Prob_controller.IR[15:12]==LEA)
+                |-> if( Prob_controller.IR_Exec[11:9]==Prob_controller.IR[8:6]) Prob_controller.Ctrl_bypass_alu_1==1);
+
+
+CTRL_bypass_alu_1_AJ:  cover property ( @(posedge clock) (Prob_controller.IR[15:12]==JMP ) && (Prob_controller.IR_Exec[15:12]==ADD || Prob_controller.IR_Exec[15:12]==AND || Prob_controller.IR_Exec[15:12]==NOT || Prob_controller.IR[15:12]==LEA)
+                |-> if( Prob_controller.IR_Exec[11:9]==Prob_controller.IR[8:6]) Prob_controller.Ctrl_bypass_alu_1==1);
+//////////////////////////////////////////////////////////////////
+
+// Asserting---- mem_state signals------- //
+
+ CTRL_mem_state_3_0: cover property ( @(posedge clock) Prob_controller.mem_state == 3 && Prob_controller.complete_data==1 && (Prob_controller.IR_Exec[15:12] ==LD || Prob_controller.IR_Exec[15:12] == LDR) |-> Prob_controller.mem_state == 0 );
+ CTRL_mem_state_3_1: cover property ( @(posedge clock) Prob_controller.mem_state == 3 && Prob_controller.complete_data==1 && (Prob_controller.IR_Exec[15:12] ==STI || Prob_controller.IR_Exec[15:12] == LDI) |-> Prob_controller.mem_state == 1 );
+ CTRL_mem_state_3_2: cover property ( @(posedge clock) Prob_controller.mem_state == 3 && Prob_controller.complete_data==1 && (Prob_controller.IR_Exec[15:12] ==ST || Prob_controller.IR_Exec[15:12] == STR) |-> Prob_controller.mem_state == 2 );
+
+//------------------------------------------------------ 22 ??????//
+CTRL_mem_state_2_2: cover property ( @(posedge clock) (Prob_controller.mem_state == 2 && Prob_controller.complete_data==0) |-> Prob_controller.mem_state == 2 );
+CTRL_mem_state_2_3: cover property ( @(posedge clock) (Prob_controller.mem_state == 2 && Prob_controller.complete_data==1) |-> Prob_controller.mem_state == 3 );
+
+//------------------------------------------------------//
+ CTRL_mem_state_1_2 : cover property ( @(posedge clock) (Prob_controller.mem_state == 1 && Prob_controller.complete_data==1 && (Prob_controller.IR_Exec[15:12] == ST || Prob_controller.IR_Exec[15:12] == STI ||Prob_controller.IR_Exec[15:12] == STR)) |-> Prob_controller.mem_state == 2 );
+CTRL_mem_state_1_0: cover property ( @(posedge clock) (Prob_controller.mem_state == 1 && Prob_controller.complete_data==1 && (Prob_controller.IR_Exec[15:12] == LD || Prob_controller.IR_Exec[15:12] == LDR ||Prob_controller.IR_Exec[15:12] == LDI) |-> Prob_controller.mem_state == 0 ));
+  CTRL_mem_state_1_1: cover property ( @(posedge clock) (Prob_controller.mem_state == 1 && Prob_controller.complete_data==0 )|-> Prob_controller.mem_state == 1 );
+
+//------------------------------------------------------01?????????//
+CTRL_mem_state_0_1: cover property ( @(posedge clock) (Prob_controller.mem_state == 0 && Prob_controller.complete_data==0 )|-> Prob_controller.mem_state == 1 );
+CTRL_mem_state_0_3: cover property ( @(posedge clock) (Prob_controller.mem_state == 0 && Prob_controller.complete_data==1) |-> Prob_controller.mem_state == 3 );
+
+
+// branch or jump  1 cycle fetch low 
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : cortex_soc
+Version: K-2015.06-SP1
+Date   : Thu Dec  8 22:47:59 2016
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ff1p16v25c   Library: saed32lvt_ff1p16v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: big_endian (input port clocked by HCLK)
+  Endpoint: memctl_v4/U_miu/U_cr_stmg0r_reg_24_
+            (rising edge-triggered flip-flop clocked by HCLK)
+  Path Group: HCLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cortex_soc         70000                 saed32lvt_ff1p16v25c
+  DW_memctl          35000                 saed32lvt_ff1p16v25c
+  DW_memctl_miu      16000                 saed32lvt_ff1p16v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock HCLK (rise edge)                                0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  input external delay                                  0.6580     0.6580 r
+  big_endian (in)                                       0.0016     0.6596 r
+  memctl_v4/big_endian (DW_memctl)                      0.0000     0.6596 r
+  memctl_v4/U96/Y (NBUFFX2_LVT)                         0.0149     0.6744 r
+  memctl_v4/U_miu/big_endian (DW_memctl_miu)            0.0000     0.6744 r
+  memctl_v4/U_miu/U3484/Y (INVX0_LVT)                   0.0092     0.6837 f
+  memctl_v4/U_miu/U3980/Y (INVX1_LVT)                   0.0101     0.6938 r
+  memctl_v4/U_miu/U3468/Y (IBUFFX4_LVT)                 1.3748     2.0686 f
+  memctl_v4/U_miu/U3472/Y (AND3X2_LVT)                  2.6638     4.7324 f
+  memctl_v4/U_miu/U2947/Y (AO221X1_LVT)                 0.0399     4.7723 f
+  memctl_v4/U_miu/U_cr_stmg0r_reg_24_/D (DFFASX1_LVT)   0.0000     4.7723 f
+  data arrival time                                                4.7723
+
+  clock HCLK (rise edge)                                3.0000     3.0000
+  clock network delay (ideal)                           0.0000     3.0000
+  clock uncertainty                                    -0.0500     2.9500
+  memctl_v4/U_miu/U_cr_stmg0r_reg_24_/CLK (DFFASX1_LVT)
+                                                        0.0000     2.9500 r
+  library setup time                                   -0.0888     2.8612
+  data required time                                               2.8612
+  --------------------------------------------------------------------------
+  data required time                                               2.8612
+  data arrival time                                               -4.7723
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                -1.9111
+
+
+1

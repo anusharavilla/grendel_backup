@@ -1,0 +1,66 @@
+C:/altera/15.0/trialforzeroatend/complete_DataPath.v {2 {vlog -work work -stats=none C:/altera/15.0/trialforzeroatend/complete_DataPath.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module complete_DataPath
+** Warning: C:/altera/15.0/trialforzeroatend/complete_DataPath.v(332): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/altera/15.0/trialforzeroatend/complete_DataPath.v(333): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/altera/15.0/trialforzeroatend/complete_DataPath.v(334): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/altera/15.0/trialforzeroatend/complete_DataPath.v(335): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/altera/15.0/trialforzeroatend/complete_DataPath.v(336): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/altera/15.0/trialforzeroatend/complete_DataPath.v(337): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: C:/altera/15.0/trialforzeroatend/complete_DataPath.v(337): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	complete_DataPath
+
+} {} {}} C:/altera/15.0/trialforzeroatend/top.v {1 {vlog -work work -stats=none C:/altera/15.0/trialforzeroatend/top.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/altera/15.0/trialforzeroatend/wram.v {1 {vlog -work work -stats=none C:/altera/15.0/trialforzeroatend/wram.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module wram
+
+Top level modules:
+	wram
+
+} {} {}} C:/altera/15.0/trialforzeroatend/bellman_ford_controller.v {2 {vlog -work work -stats=none {C:\altera\15.0\trialforzeroatend\bellman_ford_controller.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module bellman_ford_controller
+** Warning: C:\altera\15.0\trialforzeroatend\bellman_ford_controller.v(668): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	bellman_ford_controller
+
+} {} {}} C:/altera/15.0/trialforzeroatend/sram_1R_1W.v {1 {vlog -work work -stats=none C:/altera/15.0/trialforzeroatend/sram_1R_1W.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module sram_1R1W
+
+Top level modules:
+	sram_1R1W
+
+} {} {}} C:/altera/15.0/trialforzeroatend/SRAM_1R.v {1 {vlog -work work -stats=none C:/altera/15.0/trialforzeroatend/SRAM_1R.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module sram_1R
+
+Top level modules:
+	sram_1R
+
+} {} {}} C:/altera/15.0/trialforzeroatend/sram_2R.v {1 {vlog -work work -stats=none C:/altera/15.0/trialforzeroatend/sram_2R.v
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module sram_2R
+
+Top level modules:
+	sram_2R
+
+} {} {}}

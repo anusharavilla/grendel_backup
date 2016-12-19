@@ -1,0 +1,74 @@
+                                        
+                                IC Compiler (TM)
+                              IC Compiler-PC (TM)
+                              IC Compiler-XP (TM)
+                              IC Compiler-DP (TM)
+                              IC Compiler-AG (TM)
+                                        
+               Version K-2015.06-SP1 for linux64 - Jul 15, 2015 
+                                        
+                    Copyright (c) 1988 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+source setup.tcl
+set begintime [clock seconds]
+1481240903
+open_mw_lib ./work
+Error: Cannot open library ./work for write. (MW-006)
+open_mw_cel ${modname}_placed
+Warning: Tries to open a Milkyway library whose name is the current working directory. (MWUI-136)
+Error: Cannot open library  for write. (MW-006)
+check_legality
+Error: Current design is not defined. (UID-4)
+0
+set_clock_tree_options -clock_trees $clkname 		-insert_boundary_cell true 		-ocv_clustering true 		-buffer_relocation true 		-buffer_sizing true 		-gate_relocation true 		-gate_sizing true 		-max_transition 0.5 		-leaf_max_transition 0.5 		-target_skew 0
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'HCLK'. (UID-109)
+Error: Value for list '-clock_trees' must have 1 elements. (CMD-036)
+0
+-layer_list {M1 M2 M3 M4 M5 M6} -layer_list_for_sinks {M1 M2 M3 M4 M5 M6}
+Error: unknown command '-layer_list' (CMD-005)
+set cts_use_debug_mode true
+true
+set cts_do_characterization true
+true
+set_attribute [get_flat_cells] is_soft_fixed true
+Error: Current design is not defined. (UID-4)
+clock_opt -fix_hold_all_clocks  -continue_on_missing_scandef
+Error: Current design is not defined. (UID-4)
+0
+# DEFINING POWER/GROUND NETS AND PINS			 
+#derive_pg_connection -power_net VDD		#			 -ground_net VSS	#			 -power_pin VDD		#			 -ground_pin VSS	
+preroute_standard_cells -nets VSS -connect horizontal
+Error: Current design is not defined. (UID-4)
+preroute_standard_cells -nets VDD -connect horizontal
+Error: Current design is not defined. (UID-4)
+verify_pg_nets
+Error: Current design is not defined. (UID-4)
+verify_pg_nets  -pad_pin_connection all
+Error: Current design is not defined. (UID-4)
+report_clock_tree  -operating_condition max
+Error: Current design is not defined. (UID-4)
+0
+report_timing -delay_type min
+Error: Current design is not defined. (UID-4)
+0
+report_timing -delay_type max
+Error: Current design is not defined. (UID-4)
+0
+save_mw_cel -as ${modname}_cts
+Error: Cannot get cellId for the current design. (UIG-2)
+0
+set endtime [clock seconds]
+1481240905
+set timestr [timef [expr $endtime-$begintime]]
+0h 0m 2s
+puts "run_cts.tcl completed successfully (elapsed time: $timestr actual)"
+run_cts.tcl completed successfully (elapsed time: 0h 0m 2s actual)
+exit
+
+Thank you...
+Exit IC Compiler!

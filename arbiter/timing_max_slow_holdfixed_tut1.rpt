@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : RequestQueue
+Version: I-2013.12-SP1
+Date   : Wed Sep 23 18:13:40 2015
+****************************************
+
+Operating Conditions: nom_pvt   Library: gtech
+Wire Load Model Mode: top
+
+  Startpoint: R0 (input port clocked by clock)
+  Endpoint: current_state_reg[0]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                               0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  input external delay                                  0.6580     0.6580 r
+  R0 (in)                                               0.0000     0.6580 r
+  C124/Z (GTECH_AND2)                                   0.0000     0.6580 r
+  C102/Z (GTECH_OR2)                                    0.0000     0.6580 r
+  U4/U1/Z_0 (*GEN*9)                                    0.0000     0.6580 r
+  current_state_reg[0]/next_state (**SEQGEN**)          0.0000     0.6580 r
+  data arrival time                                                0.6580
+
+  clock clock (rise edge)                              10.0000    10.0000
+  clock network delay (ideal)                           0.0000    10.0000
+  clock uncertainty                                    -0.0500     9.9500
+  current_state_reg[0]/clocked_on (**SEQGEN**)          0.0000     9.9500 r
+  library setup time                                    0.0000     9.9500
+  data required time                                               9.9500
+  --------------------------------------------------------------------------
+  data required time                                               9.9500
+  data arrival time                                               -0.6580
+  --------------------------------------------------------------------------
+  slack (MET)                                                      9.2920
+
+
+1

@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/afs/unity.ncsu.edu/users/a/aravill/statistic
+vstatistic
+!s110 1443651278
+!i10b 1
+!s100 fRzM[jD:aTFKO`j369X751
+IVFShc^110]0N^H]_fQZT93
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1443651270
+8statistic.v
+Fstatistic.v
+L0 1
+Z2 OE;L;10.3b;59
+r1
+!s85 0
+31
+!s108 1443651278.414294
+!s107 statistic.v|
+!s90 statistic.v|
+!i113 1
+vtest_fixture
+!s110 1443651280
+!i10b 1
+!s100 [HbzYjOBdBV]O7J;d[m1M2
+IU^lWRRg0<hHLE_S5z1izO0
+R1
+R0
+w1443650427
+8test.v
+Ftest.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1443651280.474071
+!s107 test.v|
+!s90 test.v|
+!i113 1

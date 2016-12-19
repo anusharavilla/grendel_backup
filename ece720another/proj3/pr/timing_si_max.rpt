@@ -1,0 +1,282 @@
+Information: The design has horizontal rows, and Y-symmetry has been used for sites. (MWDC-217)
+Floorplan loading succeeded.
+
+Warning: Metal 8 tracks may not cover core area at the right side. (APL-027)
+Warning: Metal 9 tracks may not cover core area at the bottom side. (APL-027)
+Warning: Metal 9 tracks may not cover core area at the top side. (APL-027)
+  Loading design 'cortex_soc'
+
+
+Warning: Port 'hresp_s2[1]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'hresp_s2[0]' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'remap' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'scan_mode' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'hready_resp_s2' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+Warning: Port 'hclk_2x' cannot inherit its location, because the port does not connect with any leaf cell pins. Please check the floorplan. (PSYN-1042)
+
+
+Information: Library Manufacturing Grid(GridResolution) : 1
+Information: Time Unit from Milkyway design library: 'ns' 
+Information: Design Library and main library timing units are matched - 1.000 ns. 
+Information: Resistance Unit from Milkyway design library: 'kohm' 
+Warning: Mismatch in the main library and the Milkyway library resistance units. In the main library it is 1000.000 kohm and in the Milkyway design library it is 1.000 kohm. Check and correct the resistance units in the .tf and .db files. (PSYN-476)
+Information: Capacitance Unit from Milkyway design library: 'ff' 
+Information: Design Library and main library capacitance units are matched - 0.001 pf. 
+Warning: Inconsistent library data found for layer PO. (RCEX-018)
+
+TLU+ File = /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/tech/star_rcxt/saed32nm_1p9m_Cmax.tluplus
+TLU+ File = /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/tech/star_rcxt/saed32nm_1p9m_Cmin.tluplus
+
+--------- Sanity Check on TLUPlus Files -------------
+1. Checking the conducting layer names in ITF and mapping file ... 
+[ Passed! ]
+2. Checking the via layer names in ITF and mapping file ... 
+[ Passed! ]
+3. Checking the consistency of Min Width and Min Spacing between MW-tech and ITF ... 
+[ Passed! ]
+----------------- Check Ends ------------------
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is detail route TLU+. (RCEX-015)
+Information: Start mixed mode parasitic extraction. (RCEX-023)
+Information: Start rc extraction...
+Warning: Net 'SNPS_LOGIC1' is not fully connected and will be estimated. (RCEX-060)
+Warning: Net 'SNPS_LOGIC0' is not fully connected and will be estimated. (RCEX-060)
+Warning: Net 'memctl_v4/U_miu/SNPS_LOGIC1' is not fully connected and will be estimated. (RCEX-060)
+Information: Parasitic source is LPE. (RCEX-040)
+Information: Parasitic mode is RealRC. (RCEX-041)
+Information: Using virtual shield extraction. (RCEX-081)
+Information: Extraction mode is MIN_MAX. (RCEX-042)
+Information: Extraction derate is 125/125/125. (RCEX-043)
+Information: Coupling capacitances are explicitly created. (RCEX-044)
+Information: Start back annotation for parasitic extraction. (RCEX-023)
+Information: End back annotation for parasitic extraction. (RCEX-023)
+Information: Start timing update for parasitic extraction. (RCEX-023)
+Information: End timing update for parasitic extraction. (RCEX-023)
+Information: End parasitic extraction. (RCEX-023)
+Information: Start rc update...
+****************************************************************
+Information: TLUPlus based RC computation is enabled. (RCEX-141)
+****************************************************************
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is TLU+. (RCEX-015)
+Information: Library Derived Cap for layer M1 : 0.16 0.14 (RCEX-011)
+Information: Library Derived Res for layer M1 : 2e-06 2e-06 (RCEX-011)
+Information: Library Derived Cap for layer M2 : 0.17 0.15 (RCEX-011)
+Information: Library Derived Res for layer M2 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M3 : 0.11 0.096 (RCEX-011)
+Information: Library Derived Res for layer M3 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M4 : 0.11 0.096 (RCEX-011)
+Information: Library Derived Res for layer M4 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M5 : 0.094 0.079 (RCEX-011)
+Information: Library Derived Res for layer M5 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M6 : 0.094 0.079 (RCEX-011)
+Information: Library Derived Res for layer M6 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M7 : 0.092 0.076 (RCEX-011)
+Information: Library Derived Res for layer M7 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M8 : 0.092 0.076 (RCEX-011)
+Information: Library Derived Res for layer M8 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M9 : 0.11 0.088 (RCEX-011)
+Information: Library Derived Res for layer M9 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer MRDL : 0.11 0.11 (RCEX-011)
+Information: Library Derived Res for layer MRDL : 1.8e-07 1.8e-07 (RCEX-011)
+Information: Library Derived Horizontal Cap : 0.11 0.096 (RCEX-011)
+Information: Library Derived Horizontal Res : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Vertical Cap : 0.11 0.1 (RCEX-011)
+Information: Library Derived Vertical Res : 1.5e-06 1.5e-06 (RCEX-011)
+Information: Using derived R and C coefficients. (RCEX-008)
+Information: Using region-based R and C coefficients. (RCEX-013)
+Information: Library Derived Via Res : 4.6e-07 4.6e-07 (RCEX-011)
+Information: End rc update.
+Information: Updating graph... (UID-83)
+
+************************************************************
+SI options:
+Delta Delay Computation:           true
+Static Noise Computation:          true
+Timing window analysis for SI:     true
+Min Delta Delay for SI:            true
+Analysis Effort:                   medium
+Max Transition Mode:               normal_slew
+Static Noise Thresholds:           0.35 (0.33V) above low
+                                   0.35 (0.33V) below high
+Route xtalk prevention:            true
+Route xtalk prevention threshold:  0.35
+************************************************************
+
+Information: Updating design information... (UID-85)
+
+************************************************************
+SI options:
+Delta Delay Computation:           true
+Static Noise Computation:          true
+Timing window analysis for SI:     true
+Min Delta Delay for SI:            true
+Analysis Effort:                   medium
+Max Transition Mode:               normal_slew
+Static Noise Thresholds:           0.35 (0.33V) above low
+                                   0.35 (0.33V) below high
+Route xtalk prevention:            true
+Route xtalk prevention threshold:  0.35
+************************************************************
+
+Information: Input delay ('fall') on clock port 'HCLK' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'HCLK' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'HCLK' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'HCLK' will be added to the clock's propagated skew. (TIM-112)
+Information: Using CCS timing info. (TIM-025)
+Information: Total 15650 nets in the design, 15451 nets have timing window. (TIM-180)
+Information: Input delay ('fall') on clock port 'HCLK' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'HCLK' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('rise') on clock port 'HCLK' will be added to the clock's propagated skew. (TIM-112)
+Information: Input delay ('fall') on clock port 'HCLK' will be added to the clock's propagated skew. (TIM-112)
+Warning: Extrapolations far outside the librarycharacterization range have been detected 3704 times during delay calculation. (RCCALC-014)
+ 
+****************************************
+Report : timing
+        -path full_clock_expanded
+        -delay max
+        -input_pins
+        -max_paths 1
+        -transition_time
+        -crosstalk_delta
+Design : cortex_soc
+Version: K-2015.06-SP1
+Date   : Thu Dec  8 23:05:40 2016
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: ss0p95v125c   Library: saed32lvt_ss0p95v125c
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : 125/125/125
+
+Information: Percent of Arnoldi-based delays = 14.03%
+
+Information: Percent of CCS-based delays = 14.02%
+
+  Startpoint: u_cortexm0ds/u_logic/Fij2z4_reg
+              (rising edge-triggered flip-flop clocked by HCLK)
+  Endpoint: HTRANS[1] (output port clocked by HCLK)
+  Path Group: HCLK
+  Path Type: max
+
+  Point                                        DTran     Trans     Delta      Incr       Path
+  ----------------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                                    0.0000     0.0000
+  HCLK (in)                                             0.0000              0.0000 @   0.0000 r
+  INVX32_LVT_BC/A (INVX32_LVT)                0.0000    0.0005    0.0000    0.0003 @   0.0003 r
+  INVX32_LVT_BC/Y (INVX32_LVT)                          0.0121              0.0101 c   0.0104 f
+  INVX32_LVT_BC_1/A (INVX32_LVT)              0.0000    0.0134    0.0000    0.0033 c   0.0137 f
+  INVX32_LVT_BC_1/Y (INVX32_LVT)                        0.0324              0.0221 c   0.0358 r
+  u_cortexm0ds/HCLK (CORTEXM0DS)                                            0.0000     0.0358 r
+  u_cortexm0ds/u_logic/hclk (cortexm0ds_logic)                              0.0000     0.0358 r
+  u_cortexm0ds/u_logic/NBUFFX32_LVT_G3B1I9/A (NBUFFX32_LVT)   0.0000   0.0330   0.0000   0.0029 c   0.0388 r
+  u_cortexm0ds/u_logic/NBUFFX32_LVT_G3B1I9/Y (NBUFFX32_LVT)   0.0875        0.0782 c   0.1170 r
+  u_cortexm0ds/u_logic/Fij2z4_reg/CLK (DFFARX2_LVT)   0.0000   0.0886   0.0000   0.0046 c   0.1216 r
+  u_cortexm0ds/u_logic/Fij2z4_reg/CLK (DFFARX2_LVT)   0.0000   0.0886   0.0000   0.0000   0.1216 r
+  u_cortexm0ds/u_logic/Fij2z4_reg/QN (DFFARX2_LVT)      0.0405              0.1268     0.2484 r
+  u_cortexm0ds/u_logic/U42/A (NBUFFX16_LVT)   0.0000    0.0405    0.0000    0.0000 &   0.2484 r
+  u_cortexm0ds/u_logic/U42/Y (NBUFFX16_LVT)             0.0297              0.0518 c   0.3003 r
+  u_cortexm0ds/u_logic/U2382/A3 (NAND3X0_LVT)   0.0000   0.0297   0.0000    0.0003 c   0.3006 r
+  u_cortexm0ds/u_logic/U2382/Y (NAND3X0_LVT)            0.0711              0.0580     0.3586 f
+  u_cortexm0ds/u_logic/U327/A2 (OR2X2_LVT)    0.0000    0.0711    0.0084    0.0084 &   0.3670 f
+  u_cortexm0ds/u_logic/U327/Y (OR2X2_LVT)               0.0282              0.0584     0.4254 f
+  u_cortexm0ds/u_logic/U2633/A4 (OA22X1_LVT)   0.0000   0.0282    0.0000    0.0000 &   0.4254 f
+  u_cortexm0ds/u_logic/U2633/Y (OA22X1_LVT)             0.0351              0.0606     0.4860 f
+  u_cortexm0ds/u_logic/U2428/A1 (NAND3X0_LVT)   0.0000   0.0351   0.0012    0.0012 &   0.4872 f
+  u_cortexm0ds/u_logic/U2428/Y (NAND3X0_LVT)            0.0395              0.0359     0.5231 r
+  u_cortexm0ds/u_logic/U2728/A (INVX1_LVT)    0.0000    0.0395    0.0000    0.0000 &   0.5231 r
+  u_cortexm0ds/u_logic/U2728/Y (INVX1_LVT)              0.0239              0.0166     0.5397 f
+  u_cortexm0ds/u_logic/U2726/A2 (NAND2X4_LVT)   0.0000   0.0239   0.0000    0.0000 &   0.5398 f
+  u_cortexm0ds/u_logic/U2726/Y (NAND2X4_LVT)            0.0363              0.0846     0.6244 r
+  u_cortexm0ds/u_logic/U1570/A2 (OR2X2_LVT)   0.0000    0.0363    0.0000    0.0000 &   0.6244 r
+  u_cortexm0ds/u_logic/U1570/Y (OR2X2_LVT)              0.0414              0.0658     0.6902 r
+  u_cortexm0ds/u_logic/U853/A2 (OA222X1_LVT)   0.0000   0.0414    0.0009    0.0012 &   0.6913 r
+  u_cortexm0ds/u_logic/U853/Y (OA222X1_LVT)             0.0364              0.0821     0.7734 r
+  u_cortexm0ds/u_logic/U1379/A1 (NAND2X0_LVT)   0.0000   0.0364   0.0000    0.0000 &   0.7734 r
+  u_cortexm0ds/u_logic/U1379/Y (NAND2X0_LVT)            0.0442              0.0386     0.8121 f
+  u_cortexm0ds/u_logic/U1378/A1 (OR2X2_LVT)   0.0000    0.0442    0.0000    0.0000 &   0.8121 f
+  u_cortexm0ds/u_logic/U1378/Y (OR2X2_LVT)              0.0314              0.0668     0.8788 f
+  u_cortexm0ds/u_logic/U2006/A2 (NAND2X0_LVT)   0.0000   0.0314   0.0000    0.0001 &   0.8789 f
+  u_cortexm0ds/u_logic/U2006/Y (NAND2X0_LVT)            0.0333              0.0300     0.9089 r
+  u_cortexm0ds/u_logic/U2792/A1 (NAND2X0_LVT)   0.0000   0.0333   0.0000    0.0000 &   0.9089 r
+  u_cortexm0ds/u_logic/U2792/Y (NAND2X0_LVT)            0.0478              0.0414     0.9503 f
+  u_cortexm0ds/u_logic/U2800/A4 (AOI22X1_LVT)   0.0000   0.0478   0.0034    0.0034 &   0.9537 f
+  u_cortexm0ds/u_logic/U2800/Y (AOI22X1_LVT)            0.0202              0.0726     1.0263 r
+  u_cortexm0ds/u_logic/U2484/A3 (AO21X1_LVT)   0.0000   0.0202    0.0000    0.0000 &   1.0263 r
+  u_cortexm0ds/u_logic/U2484/Y (AO21X1_LVT)             0.0290              0.0398     1.0662 r
+  u_cortexm0ds/u_logic/U1812/A1 (NAND3X0_LVT)   0.0000   0.0290   0.0011    0.0011 &   1.0672 r
+  u_cortexm0ds/u_logic/U1812/Y (NAND3X0_LVT)            0.0504              0.0397     1.1069 f
+  u_cortexm0ds/u_logic/U3380/A1 (NAND3X0_LVT)   0.0000   0.0504   0.0034    0.0034 &   1.1103 f
+  u_cortexm0ds/u_logic/U3380/Y (NAND3X0_LVT)            0.0445              0.0475     1.1578 r
+  u_cortexm0ds/u_logic/U2421/A1 (NAND3X0_LVT)   0.0000   0.0445   0.0015    0.0015 &   1.1593 r
+  u_cortexm0ds/u_logic/U2421/Y (NAND3X0_LVT)            0.0518              0.0396     1.1989 f
+  u_cortexm0ds/u_logic/U2258/A1 (AND2X2_LVT)   0.0000   0.0518    0.0016    0.0016 &   1.2005 f
+  u_cortexm0ds/u_logic/U2258/Y (AND2X2_LVT)             0.0365              0.0738     1.2743 f
+  u_cortexm0ds/u_logic/U3409/A4 (OA221X1_LVT)   0.0000   0.0365   0.0012    0.0014 &   1.2757 f
+  u_cortexm0ds/u_logic/U3409/Y (OA221X1_LVT)            0.0358              0.0708     1.3465 f
+  u_cortexm0ds/u_logic/U618/A4 (OAI221X2_LVT)   0.0000   0.0358   0.0028    0.0028 &   1.3493 f
+  u_cortexm0ds/u_logic/U618/Y (OAI221X2_LVT)            0.0314              0.0970     1.4463 r
+  u_cortexm0ds/u_logic/U2780/A1 (NAND2X0_LVT)   0.0000   0.0314   0.0000    0.0001 &   1.4464 r
+  u_cortexm0ds/u_logic/U2780/Y (NAND2X0_LVT)            0.0588              0.0487     1.4952 f
+  u_cortexm0ds/u_logic/U2512/A1 (NAND2X0_LVT)   0.0000   0.0588   0.0031    0.0031 &   1.4983 f
+  u_cortexm0ds/u_logic/U2512/Y (NAND2X0_LVT)            0.0333              0.0291     1.5273 r
+  u_cortexm0ds/u_logic/U2093/A3 (AO221X1_LVT)   0.0000   0.0333   0.0007    0.0007 &   1.5280 r
+  u_cortexm0ds/u_logic/U2093/Y (AO221X1_LVT)            0.0349              0.0697     1.5977 r
+  u_cortexm0ds/u_logic/U2360/A1 (NAND2X4_LVT)   0.0000   0.0349   0.0000    0.0000 &   1.5977 r
+  u_cortexm0ds/u_logic/U2360/Y (NAND2X4_LVT)            0.0276              0.0713     1.6690 f
+  u_cortexm0ds/u_logic/U3022/A1 (NAND2X0_LVT)   0.0000   0.0276   0.0000    0.0002 &   1.6692 f
+  u_cortexm0ds/u_logic/U3022/Y (NAND2X0_LVT)            0.0256              0.0226     1.6917 r
+  u_cortexm0ds/u_logic/U2334/A1 (AND2X1_LVT)   0.0000   0.0256    0.0012    0.0012 &   1.6930 r
+  u_cortexm0ds/u_logic/U2334/Y (AND2X1_LVT)             0.0228              0.0419     1.7349 r
+  u_cortexm0ds/u_logic/U2375/A2 (OA21X1_LVT)   0.0000   0.0228    0.0006    0.0006 &   1.7355 r
+  u_cortexm0ds/u_logic/U2375/Y (OA21X1_LVT)             0.0333              0.0598     1.7952 r
+  u_cortexm0ds/u_logic/U2195/A1 (XNOR2X2_LVT)   0.0000   0.0333   0.0000    0.0000 &   1.7953 r
+  u_cortexm0ds/u_logic/U2195/Y (XNOR2X2_LVT)            0.0303              0.0786     1.8738 r
+  u_cortexm0ds/u_logic/U2973/A2 (OR2X1_LVT)   0.0000    0.0303    0.0019    0.0019 &   1.8757 r
+  u_cortexm0ds/u_logic/U2973/Y (OR2X1_LVT)              0.0243              0.0459     1.9216 r
+  u_cortexm0ds/u_logic/U2974/A1 (OR2X2_LVT)   0.0000    0.0243    0.0005    0.0005 &   1.9221 r
+  u_cortexm0ds/u_logic/U2974/Y (OR2X2_LVT)              0.0273              0.0550     1.9770 r
+  u_cortexm0ds/u_logic/U1567/A (INVX4_LVT)    0.0000    0.0273    0.0000    0.0000 &   1.9770 r
+  u_cortexm0ds/u_logic/U1567/Y (INVX4_LVT)              0.0191              0.0151     1.9922 f
+  u_cortexm0ds/u_logic/U1918/A2 (NAND2X0_LVT)   0.0000   0.0191   0.0000    0.0000 &   1.9922 f
+  u_cortexm0ds/u_logic/U1918/Y (NAND2X0_LVT)            0.0232              0.0208     2.0130 r
+  u_cortexm0ds/u_logic/U1350/A2 (OR2X2_LVT)   0.0000    0.0232    0.0000    0.0000 &   2.0130 r
+  u_cortexm0ds/u_logic/U1350/Y (OR2X2_LVT)              0.0281              0.0505     2.0635 r
+  u_cortexm0ds/u_logic/U3578/A2 (OR2X1_LVT)   0.0000    0.0281    0.0000    0.0000 &   2.0635 r
+  u_cortexm0ds/u_logic/U3578/Y (OR2X1_LVT)              0.0278              0.0476     2.1111 r
+  u_cortexm0ds/u_logic/U1899/A1 (NAND3X0_LVT)   0.0000   0.0278   0.0000    0.0000 &   2.1111 r
+  u_cortexm0ds/u_logic/U1899/Y (NAND3X0_LVT)            0.0659              0.0430     2.1541 f
+  u_cortexm0ds/u_logic/U3149/A2 (NAND3X0_LVT)   0.0000   0.0659   0.0104    0.0104 &   2.1645 f
+  u_cortexm0ds/u_logic/U3149/Y (NAND3X0_LVT)            0.0465              0.0508     2.2154 r
+  u_cortexm0ds/u_logic/U1657/A3 (AO21X1_LVT)   0.0000   0.0465    0.0035    0.0035 &   2.2188 r
+  u_cortexm0ds/u_logic/U1657/Y (AO21X1_LVT)             0.0474              0.0570     2.2758 r
+  u_cortexm0ds/u_logic/U2219/A1 (NAND3X0_LVT)   0.0000   0.0474   0.0043    0.0044 &   2.2802 r
+  u_cortexm0ds/u_logic/U2219/Y (NAND3X0_LVT)            0.0721              0.0553     2.3355 f
+  u_cortexm0ds/u_logic/U1951/A1 (NAND2X0_LVT)   0.0000   0.0721   0.0134    0.0134 &   2.3489 f
+  u_cortexm0ds/u_logic/U1951/Y (NAND2X0_LVT)            0.0446              0.0306     2.3795 r
+  u_cortexm0ds/u_logic/U1927/A1 (MUX21X2_LVT)   0.0000   0.0446   0.0000    0.0000 &   2.3795 r
+  u_cortexm0ds/u_logic/U1927/Y (MUX21X2_LVT)            0.0371              0.0813     2.4607 r
+  u_cortexm0ds/u_logic/U2369/A (NBUFFX16_LVT)   0.0000   0.0371   0.0000    0.0000 &   2.4608 r
+  u_cortexm0ds/u_logic/U2369/Y (NBUFFX16_LVT)           0.0262              0.0482 c   2.5089 r
+  u_cortexm0ds/u_logic/htrans_o[1] (cortexm0ds_logic)                       0.0000     2.5089 r
+  u_cortexm0ds/HTRANS[1] (CORTEXM0DS)                                       0.0000     2.5089 r
+  U82/A (INVX16_LVT)                          0.0000    0.0262    0.0000    0.0007 c   2.5096 r
+  U82/Y (INVX16_LVT)                                    0.0258              0.0185 c   2.5281 f
+  HTRANS[1] (out)                             0.0000    0.0277    0.0000    0.0069 c   2.5351 f
+  data arrival time                                                                    2.5351
+
+  clock HCLK (rise edge)                                                    3.0000     3.0000
+  clock network delay (propagated)                                          0.0000     3.0000
+  output external delay                                                    -0.5660     2.4340
+  data required time                                                                   2.4340
+  ----------------------------------------------------------------------------------------------
+  data required time                                                                   2.4340
+  data arrival time                                                                   -2.5351
+  ----------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                                    -0.1011
+
+
+1

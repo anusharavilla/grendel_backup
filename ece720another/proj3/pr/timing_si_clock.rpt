@@ -1,0 +1,39 @@
+ 
+****************************************
+Report : clock timing
+        -type summary
+Design : cortex_soc
+Version: K-2015.06-SP1
+Date   : Thu Dec  8 23:05:40 2016
+****************************************
+
+  Clock: HCLK
+----------------------------------------------------------------------------
+  Maximum setup launch latency:
+      u_cortexm0ds/u_logic/Jwf3z4_reg/CLK                    0.1345    wrp-+
+
+  Minimum setup capture latency:
+      memctl_v4/U_miu/U_cr_cr_cs_reg_1_/CLK                  0.1130    wrp-+
+
+  Minimum hold launch latency:
+      memctl_v4/U_miu/U_cr_cr_cs_reg_1_/CLK                  0.1102    brp-+
+
+  Maximum hold capture latency:
+      u_cortexm0ds/u_logic/Jwf3z4_reg/CLK                    0.1310    brp-+
+
+  Maximum active transition:
+      u_cortexm0ds/u_logic/Psv2z4_reg/CLK                    0.1109    wrp-+
+
+  Minimum active transition:
+      u_cortexm0ds/u_logic/K9z2z4_reg/CLK                    0.0337    brp-+
+
+  Maximum setup skew:
+      memctl_v4/U_miu/U_refctl_ref_req_reg/CLK                         wrp-+
+      memctl_v4/U_miu/U_dsdc_bm_ras_cnt_max_reg_3_/CLK       0.0174    wrp-+
+
+  Maximum hold skew:
+      memctl_v4/U_miu/U_dmc_miu_push_n_reg/CLK                         brp-+
+      u_cortexm0ds/u_logic/Jwf3z4_reg/CLK                    0.0202    brp-+
+----------------------------------------------------------------------------
+
+1

@@ -1,0 +1,90 @@
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+GNOME_KEYRING_SOCKET=/tmp/keyring-vGuzwX/socket
+SSH_AUTH_SOCK=/tmp/keyring-vGuzwX/socket.ssh
+
+(process:3044): GLib-WARNING **: goption.c:2132: ignoring no-arg, optional-arg or filename flags (8) on option of type 0
+
+(process:3044): GLib-WARNING **: goption.c:2132: ignoring no-arg, optional-arg or filename flags (8) on option of type 0
+
+(process:3044): GLib-WARNING **: goption.c:2132: ignoring no-arg, optional-arg or filename flags (8) on option of type 0
+
+(polkit-gnome-authentication-agent-1:3057): GLib-GObject-WARNING **: cannot register existing type `_PolkitError'
+
+(polkit-gnome-authentication-agent-1:3057): GLib-CRITICAL **: g_once_init_leave: assertion `initialization_value != 0' failed
+Failed to play sound: File or data not found
+** Message: applet now removed from the notification area
+
+** (nm-applet:3070): WARNING **: get_all_cb: couldn't retrieve system settings properties: (2) The name org.freedesktop.NetworkManagerSystemSettings was not provided by any .service files.
+
+** (nm-applet:3070): WARNING **: fetch_connections_done: error fetching system connections: (2) The name org.freedesktop.NetworkManagerSystemSettings was not provided by any .service files.
+** Message: applet now embedded in the notification area
+** Message: applet now removed from the notification area
+Initializing nautilus-open-terminal extension
+Initializing nautilus-gdu extension
+
+(nautilus:3035): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+
+(nautilus:3035): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+
+(nautilus:3035): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+
+(nautilus:3035): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+
+(nautilus:3035): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+
+(nautilus:3035): Nautilus-GDU-WARNING **: unable to query info: The specified location is not supported
+
+
+(nautilus:3035): Gdk-CRITICAL **: IA__gdk_window_get_screen: assertion `GDK_IS_WINDOW (window)' failed
+
+(nautilus:3035): Gtk-CRITICAL **: IA__gtk_drag_set_icon_pixmap: assertion `!mask || gdk_window_get_screen (mask) == screen' failed
+
+(rhsm-icon:3061): libnotify-CRITICAL **: notify_notification_close: assertion `notification != NULL' failed
+
+(rhsm-icon:3061): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+1461467975251	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+
+(nautilus:3035): Gdk-CRITICAL **: IA__gdk_window_get_screen: assertion `GDK_IS_WINDOW (window)' failed
+
+(nautilus:3035): Gtk-CRITICAL **: IA__gtk_drag_set_icon_pixmap: assertion `!mask || gdk_window_get_screen (mask) == screen' failed
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:25:14
+nsBrowserAccess.prototype.openURI@chrome://browser/content/browser.js:15174:21
+
+(gnome-power-manager:3059): GLib-GObject-CRITICAL **: g_object_unref: assertion `G_IS_OBJECT (object)' failed
+Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
+Window manager warning: Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
+Shutting down nautilus-gdu extension
+Shutting down nautilus-open-terminal extension
+
+--- Hash table keys for warning below:
+--> aravill
+--> application/octet-stream
+--> inode/directory
+--> l64768
+--> ncsu
+--> l19
+--> Anusha Ravilla
+--> l2065
+--> root
+
+(nautilus:3035): Eel-WARNING **: "unique eel_ref_str" hash table still has 9 elements at quit time (keys above)
+
+(nautilus:3035): Eel-WARNING **: "nautilus-directory.c: directories" hash table still has 8 elements at quit time
+
+(polkit-gnome-authentication-agent-1:3057): polkit-gnome-1-WARNING **: Error enumerating temporary authorizations: Remote Exception invoking org.freedesktop.PolicyKit1.Authority.EnumerateTemporaryAuthorizations() on /org/freedesktop/PolicyKit1/Authority at name org.freedesktop.PolicyKit1: org.freedesktop.PolicyKit1.Error.Failed: Cannot determine session the caller is in
+gnome-settings-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+abrt-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gdu-notification-daemon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+applet.py: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+polkit-gnome-authentication-agent-1: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-volume-control-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+rhsm-icon: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+gnome-screensaver: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+bluetooth-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.

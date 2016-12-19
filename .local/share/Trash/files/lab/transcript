@@ -1,0 +1,24 @@
+# //  ModelSim SE 10.3b May 29 2014 Linux 2.6.32-573.3.1.el6.x86_64
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -novopt test_fixture 
+# Start time: 17:30:00 on Sep 09,2015
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.test_fixture
+# Loading work.counter
+add wave  \
+sim:/test_fixture/u1/clock \
+sim:/test_fixture/u1/dec \
+sim:/test_fixture/u1/in \
+sim:/test_fixture/u1/latch \
+sim:/test_fixture/u1/value \
+sim:/test_fixture/u1/zero
+log -r *
+run ns
+run 100ns

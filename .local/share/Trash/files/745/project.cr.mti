@@ -1,0 +1,126 @@
+/afs/unity.ncsu.edu/users/a/aravill/Desktop/745/data_defs_controller.vp {0 {vlog -work work -vopt -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/data_defs_controller.vp
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/data_defs_writeback.vp {0 {vlog -work work -vopt -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/data_defs_writeback.vp
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/project.if.sv {0 {vlog -work work -vopt -sv -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/project.if.sv
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/Mem_Access.vp {0 {vlog -work work -vopt -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/Mem_Access.vp
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/Fetch.vp {0 {vlog -work work -vopt -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/Fetch.vp
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/cfgsavednow.sv {0 {vlog -work work -vopt -sv -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/cfgsavednow.sv
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/control_golden_reference.sv {0 {vlog -work work -vopt -sv -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/control_golden_reference.sv
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/cfg.sv {0 {vlog -work work -vopt -sv -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/cfg.sv
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/data_defs_memaccess.vp {0 {vlog -work work -vopt -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/data_defs_memaccess.vp
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/data_defs_fetch.vp {0 {vlog -work work -vopt -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/data_defs_fetch.vp
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/TopLevelLC3.v {0 {vlog -work work -vopt -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/TopLevelLC3.v
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/fetch_golden.sv {0 {vlog -work work -vopt -sv -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/fetch_golden.sv
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/data_defs_decode.vp {0 {vlog -work work -vopt -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/data_defs_decode.vp
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/Coverproperty.sv {0 {vlog -work work -vopt -sv -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/Coverproperty.sv
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/environment.sv {0 {vlog -work work -vopt -sv -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/environment.sv
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/mem_golden_reference.sv {0 {vlog -work work -vopt -sv -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/mem_golden_reference.sv
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/Controller_Pipeline.vp {0 {vlog -work work -vopt -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/Controller_Pipeline.vp
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/project.test_top.sv {0 {vlog -work work -vopt -sv -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/project.test_top.sv
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/Execute.vp {0 {vlog -work work -vopt -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/Execute.vp
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/testbench.sv {0 {vlog -work work -vopt -sv -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/testbench.sv
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/execute_golden_reference.sv {0 {vlog -work work -vopt -sv -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/execute_golden_reference.sv
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/WriteBack.vp {0 {vlog -work work -vopt -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/WriteBack.vp
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/decode_golden_reference.sv {0 {vlog -work work -vopt -sv -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/decode_golden_reference.sv
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/data_defs_execute.vp {0 {vlog -work work -vopt -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/data_defs_execute.vp
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}} /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/Decode_Pipelined.vp {0 {vlog -work work -vopt -nocovercells /afs/unity.ncsu.edu/users/a/aravill/Desktop/745/Decode_Pipelined.vp
+Model Technology ModelSim SE vlog 10.0c Compiler 2011.07 Jul 21 2011
+** Error: (vlog-42) Unsupported ModelSim library format for "work". (Format: 4)
+** Error: Verilog Compiler exiting
+
+} {3.0 5.0} {}}

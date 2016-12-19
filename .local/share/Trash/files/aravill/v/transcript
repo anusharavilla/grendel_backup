@@ -1,0 +1,22 @@
+# //  ModelSim SE 10.3b May 29 2014 Linux 3.10.0-229.14.1.el7.x86_64
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -vopt final_test_fixture 
+# Start time: 15:03:07 on Nov 21,2015
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.final_test_fixture(fast)
+# Loading work.top_with_mem(fast)
+# Loading work.top_without_mem(fast)
+run -all
+# ** Note: $finish    : final_test_fixture.v(92)
+#    Time: 4978911 ns  Iteration: 0  Instance: /final_test_fixture
+# 1
+# Break at final_test_fixture.v line 92
+# End time: 15:11:30 on Nov 21,2015, Elapsed time: 0:08:23
+# Errors: 0, Warnings: 0

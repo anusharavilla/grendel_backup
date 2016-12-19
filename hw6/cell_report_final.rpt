@@ -1,0 +1,134 @@
+ 
+****************************************
+Report : cell
+Design : statistic
+Version: I-2013.12-SP1
+Date   : Wed Sep 30 20:12:11 2015
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+   mo - map_only
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+B_1                       GTECH_BUF       gtech             0.0000  u
+B_2                       GTECH_BUF       gtech             0.0000  u
+C56                       GTECH_OR2       gtech             0.0000  u
+C57                       GTECH_OR2       gtech             0.0000  u
+C58                       GTECH_OR2       gtech             0.0000  u
+C59                       GTECH_OR2       gtech             0.0000  u
+C60                       GTECH_OR2       gtech             0.0000  u
+C61                       GTECH_OR2       gtech             0.0000  u
+C62                       GTECH_OR2       gtech             0.0000  u
+C68                       GTECH_OR2       gtech             0.0000  u
+C69                       GTECH_OR2       gtech             0.0000  u
+C70                       GTECH_OR2       gtech             0.0000  u
+C71                       GTECH_OR2       gtech             0.0000  u
+C72                       GTECH_OR2       gtech             0.0000  u
+C73                       GTECH_OR2       gtech             0.0000  u
+C74                       GTECH_OR2       gtech             0.0000  u
+C80                       GTECH_OR2       gtech             0.0000  u
+C81                       GTECH_OR2       gtech             0.0000  u
+C82                       GTECH_OR2       gtech             0.0000  u
+C83                       GTECH_OR2       gtech             0.0000  u
+C84                       GTECH_OR2       gtech             0.0000  u
+C85                       GTECH_OR2       gtech             0.0000  u
+C86                       GTECH_OR2       gtech             0.0000  u
+C92                       GTECH_OR2       gtech             0.0000  u
+C93                       GTECH_OR2       gtech             0.0000  u
+C94                       GTECH_OR2       gtech             0.0000  u
+C95                       GTECH_OR2       gtech             0.0000  u
+C96                       GTECH_OR2       gtech             0.0000  u
+C97                       GTECH_OR2       gtech             0.0000  u
+C98                       GTECH_OR2       gtech             0.0000  u
+C100                      GTECH_OR2       gtech             0.0000  u
+C144                      GTECH_OR2       gtech             0.0000  u
+C145                      GTECH_OR2       gtech             0.0000  u
+C149                      GTECH_XOR2      gtech             0.0000  u
+C150                      GTECH_XOR2      gtech             0.0000  u
+C151                      GTECH_XOR2      gtech             0.0000  u
+C152                      GTECH_XOR2      gtech             0.0000  u
+C153                      GTECH_XOR2      gtech             0.0000  u
+C154                      GTECH_XOR2      gtech             0.0000  u
+C155                      GTECH_XOR2      gtech             0.0000  u
+C157                      GTECH_XOR2      gtech             0.0000  u
+C158                      GTECH_XOR2      gtech             0.0000  u
+C159                      GTECH_XOR2      gtech             0.0000  u
+C160                      GTECH_XOR2      gtech             0.0000  u
+C161                      GTECH_XOR2      gtech             0.0000  u
+C162                      GTECH_XOR2      gtech             0.0000  u
+C163                      GTECH_XOR2      gtech             0.0000  u
+C164                      GTECH_OR2       gtech             0.0000  u
+C166                      GTECH_OR2       gtech             0.0000  u
+EvenParity_reg[0]         **SEQGEN**                        0.0000  n, u
+EvenParity_reg[1]         **SEQGEN**                        0.0000  n, u
+EvenParity_reg[2]         **SEQGEN**                        0.0000  n, u
+EvenParity_reg[3]         **SEQGEN**                        0.0000  n, u
+EvenParity_reg[4]         **SEQGEN**                        0.0000  n, u
+EvenParity_reg[5]         **SEQGEN**                        0.0000  n, u
+EvenParity_reg[6]         **SEQGEN**                        0.0000  n, u
+EvenParity_reg[7]         **SEQGEN**                        0.0000  n, u
+GreyCode_reg[0]           **SEQGEN**                        0.0000  n, u
+GreyCode_reg[1]           **SEQGEN**                        0.0000  n, u
+GreyCode_reg[2]           **SEQGEN**                        0.0000  n, u
+GreyCode_reg[3]           **SEQGEN**                        0.0000  n, u
+GreyCode_reg[4]           **SEQGEN**                        0.0000  n, u
+GreyCode_reg[5]           **SEQGEN**                        0.0000  n, u
+GreyCode_reg[6]           **SEQGEN**                        0.0000  n, u
+GreyCode_reg[7]           **SEQGEN**                        0.0000  n, u
+I_0                       GTECH_NOT       gtech             0.0000  u
+I_1                       GTECH_NOT       gtech             0.0000  u
+I_2                       GTECH_NOT       gtech             0.0000  u
+I_3                       GTECH_NOT       gtech             0.0000  u
+I_4                       GTECH_NOT       gtech             0.0000  u
+I_5                       GTECH_NOT       gtech             0.0000  u
+I_6                       GTECH_NOT       gtech             0.0000  u
+I_7                       GTECH_NOT       gtech             0.0000  u
+I_8                       GTECH_NOT       gtech             0.0000  u
+I_9                       GTECH_NOT       gtech             0.0000  u
+I_10                      GTECH_NOT       gtech             0.0000  u
+I_11                      GTECH_NOT       gtech             0.0000  u
+I_12                      GTECH_NOT       gtech             0.0000  u
+I_13                      GTECH_NOT       gtech             0.0000  u
+I_14                      GTECH_NOT       gtech             0.0000  u
+I_15                      GTECH_NOT       gtech             0.0000  u
+I_16                      GTECH_NOT       gtech             0.0000  u
+I_17                      GTECH_NOT       gtech             0.0000  u
+I_18                      GTECH_NOT       gtech             0.0000  u
+I_19                      GTECH_NOT       gtech             0.0000  u
+I_20                      GTECH_NOT       gtech             0.0000  u
+I_22                      GTECH_NOT       gtech             0.0000  u
+I_23                      GTECH_NOT       gtech             0.0000  u
+U3/U1                     *GEN*0                            0.0000  u
+U3/U2                     *GEN*1                            0.0000  u
+U3/U3                     *GEN*2                            0.0000  u
+U4/U1                     *GEN*5                            0.0000  u
+U5/U1                     *GEN*4                            0.0000  u
+U8/U1                     *GEN*3                            0.0000  u
+add_1_root_add_46_2/U1_0  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_46_2/U1_1  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_46_2/U1_2  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_46_2/U1_3  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_46_2/U1_4  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_46_2/U1_5  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_46_2/U1_6  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_46_2/U1_7  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_46_2/U1_8  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_47_2/U1_0  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_47_2/U1_1  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_47_2/U1_2  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_47_2/U1_3  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_47_2/U1_4  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_47_2/U1_5  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_47_2/U1_6  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_47_2/U1_7  GTECH_ADD_ABC   gtech             0.0000  mo, u
+add_1_root_add_47_2/U1_8  GTECH_ADD_ABC   gtech             0.0000  mo, u
+overflow_reg              **SEQGEN**                        0.0000  n, u
+--------------------------------------------------------------------------------
+Total 113 cells                                             0.0000
+1

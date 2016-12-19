@@ -1,0 +1,21 @@
+ 
+****************************************
+Report : noise
+Design : cortex_soc
+Version: K-2015.06-SP1
+Date   : Thu Dec  8 23:05:42 2016
+****************************************
+
+
+slack type: area
+
+noise_region: above_low
+pin name                                  width     height    slack
+-------------------------------------------------------------------------
+u_cortexm0ds/u_logic/F1x2z4_reg/D         0.04      0.01      0.01
+
+noise_region: below_high
+pin name                                  width     height    slack
+-------------------------------------------------------------------------
+u_cortexm0ds/u_logic/F1x2z4_reg/D         0.04      0.01      0.01
+1

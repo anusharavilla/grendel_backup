@@ -1,0 +1,89 @@
+/*module************************************
+*
+* NAME: FSM request granter
+*
+* DESCRIPTION:
+*  FSM : request granter between two signals (synchronous clear)
+*
+/*======Declarations===============================*/
+
+module req_arb (reset, clock, R, G0, G1);
+
+
+/*-----------Inputs--------------------------------*/
+
+input       clock;  /*clock*/
+input [1:0] R;  /* Requester line R */
+input       reset;
+
+/*-----------Outputs--------------------------------*/
+
+output      G0;  /* Grant line G0 */
+output      G1;  /* Grant line G1 */
+
+/*----------------Nets and Registers----------------*/
+/*---(See input and output for unexplained variables)---*/
+
+reg      G0, G1, db;       /* current value of grant */
+wire [2:0] select;
+
+always@(posedge clock or negedge reset)
+  begin  
+    if(!reset) 
+  begin 
+    G1<=0;
+    G0<=0;
+   end
+   end
+
+always@(posedge clock)
+  
+  begin  
+  
+  casex(select)
+  
+  begin
+  
+  3'b1xx : 
+          begin 
+	  G0 <= 1; 
+	  G1 <= 0;  
+	  end 
+  3'b000 : begin 
+          G0 <= 0;
+	  G1 <= 0; 
+	  end 
+  3'b001 : begin 
+          G0 <= 0; 
+	  G1 <= 1; 
+	  end
+  3'b010 : begin 
+          G0 <= 1; 
+	  G1 <= 0; 
+	  end
+  3'b011 : begin 
+          G0 <= 1; 
+	  G1 <= 0;
+	  db <= 1;
+	  end
+/*  default :begin 
+          G0 <= 0;
+	  G1 <= 0; 
+	  end */   
+  endcase
+  end
+  
+  
+  always@(*)
+  begin
+    select = {db,R};
+    if(R[0]==R[1]==1)
+    begin 
+    db=1;
+    end
+    else if(db=1)
+    db=0;
+    
+
+endmodule /* FSM */
+

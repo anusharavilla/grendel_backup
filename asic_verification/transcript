@@ -1,0 +1,43 @@
+# //  ModelSim SE 10.3b May 29 2014 Linux 2.6.32-573.8.1.el6.x86_64
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -novopt LC3_test_top 
+# Start time: 14:58:58 on Mar 29,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading sv_std.std
+# Loading work.LC3_test_top
+# Loading work.LC3_io
+# Loading work.testbench_sv_unit
+# Loading work.testbench
+# Loading work.LC3
+# Loading work.Fetch
+# Loading work.Decode
+# Loading work.Execute
+# Loading work.ALU
+# Loading work.extension
+# Loading work.MemAccess
+# Loading work.Writeback
+# Loading work.RegFile
+# Loading work.Controller_Pipeline
+# Loading work.dut_Probe_if
+# Loading work.dut_Probe_decode
+# Loading work.dut_Probe_execute
+# Loading work.dut_Probe_controller
+add wave sim:/LC3_test_top/test/Probe_if/*
+run
+run -continue
+run -all
+# fetch is done
+# decode is done
+# ** Note: $finish    : testbench.sv(170)
+#    Time: 210100 ps  Iteration: 0  Instance: /LC3_test_top/test
+# 1
+# Break in Module testbench at testbench.sv line 170
+# End time: 15:42:44 on Mar 29,2016, Elapsed time: 0:43:46
+# Errors: 0, Warnings: 1

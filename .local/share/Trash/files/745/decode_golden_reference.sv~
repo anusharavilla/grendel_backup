@@ -1,0 +1,218 @@
+`timescale 1ns/1ps
+class decode_golden;
+
+parameter ADD = 4'b0001;
+parameter AND = 4'b0101;
+parameter NOT = 4'b1001;
+parameter LD =  4'b0010;
+parameter LDR = 4'b0110;
+parameter LDI = 4'b1010;
+parameter LEA = 4'b1110;
+parameter ST =  4'b0011;
+parameter STR = 4'b0111;
+parameter STI = 4'b1011;
+parameter BR =  4'b0000;
+parameter JMP = 4'b1100;
+
+
+   logic 			clock, reset, enable_decode;
+   logic [15:0] 		dout;
+   //logic 	[2:0] 	psr;
+   logic [15:0] 		npc_in;
+  // logic [1:0] 		W_Control; 
+   logic 	 		Mem_Control;
+   logic [5:0] 		E_Control;
+   logic [15:0] 		IR;
+   logic [15:0] 		npc_out;
+   //logic 			F_Control;
+   logic [1:0] 			W_Control; 
+   logic 				M_Control; 
+   logic [1:0] 			inst_type;
+   logic 				pc_store;
+   logic [1:0] 			mem_access_mode;
+   logic 				load;
+   logic [1:0] 			pcselect1, alu_control;
+   logic 				pcselect2, op2select;
+   //reg 			br_taken;   
+   //logic [3:0] 			opcode=dout[15:12];
+   
+   virtual LC3_io.TB Interface;
+	virtual dut_Probe_decode Probe_decode;
+function new (	virtual LC3_io.TB Interface,virtual dut_Probe_decode Probe_decode);
+this.Interface = Interface;
+		this.Probe_decode = Probe_decode;
+endfunction
+
+
+task golden_reference();
+//$display("inside check_decode");
+
+forever//@(Interface.reset,enable_decode,opcode,dout,npc_in)
+
+begin
+@(posedge Interface.clock);
+check_decode();
+if(Interface.reset==1)
+begin
+//$display("inside reset");
+Mem_Control=0;
+W_Control=0;
+E_Control=0;
+IR=0;
+npc_out=0;
+end
+
+if(enable_decode==1)
+begin
+//$display("inside enable decode");
+
+case (dout[15:12])
+
+4'b0010:W_Control=1;
+4'b1010:W_Control=1;
+4'b0110:W_Control=1;
+4'b1110:W_Control=2;
+default: W_Control=0;
+
+endcase
+
+
+/*
+//alu_control
+if(dout[15:12] == 4'b0001 )
+alu_control = 0;
+else if (dout[15:12]== 4'b0101)
+     alu_control = 1;
+	 else if (dout[15:12] ==4'b1001)
+     alu_control= 2'b10;
+	
+
+	 
+//pcselect1
+if(dout[15:12] == 4'b0000)
+pcselect1= 2'b1;
+else if (dout[15:12] == 4'b1100)
+pcselect1 = 2'b11;
+else if(dout[15:12]== 4'b0010)
+pcselect1=1;
+else if (dout[15:12] == 4'b0110)
+pcselect1=2'b10;
+else if(dout[15:12] ==4'b1010)
+pcselect1=1;
+else if(dout[15:12]== 4'b1110)
+pcselect1=1;
+else if (dout[15:12]==4'b0011)
+pcselect1=1;
+else if(dout[15:12]==4'b0111)
+pcselect1=2'b10;
+else if(dout[15:12]==4'b1011)
+pcselect1=1;
+
+
+//pcselect2
+if(dout[15:12] == 4'b0000)
+pcselect2= 1;
+else if (dout[15:12] == 4'b1100)
+pcselect2 = 0;
+else if(dout[15:12]== 4'b0010)
+pcselect2=1;
+else if (dout[15:12] == 4'b0110)
+pcselect2=0;
+else if(dout[15:12] ==4'b1010)
+pcselect2=1;
+else if(dout[15:12]== 4'b1110)
+pcselect2=1;
+else if (dout[15:12]==4'b0011)
+pcselect2=1;
+else if(dout[15:12]==4'b0111)
+pcselect2=0;
+else if(dout[15:12]==4'b1011)
+pcselect2=1;
+
+
+//op2select
+if(dout[15:12] == 4'b0001 && dout[5]==0 )
+op2select = 1;
+else if(dout[15:12] == 4'b0001 && dout[5]==1 )
+op2select = 0;
+else if (dout[15:12]== 4'b0101 && dout[5]==0)
+ op2select = 1;
+else if (dout[15:12]== 4'b0101 && dout[5]==1)
+ op2select = 0;
+
+*/
+
+
+
+						//E_Control
+						if((dout[15:12]==4'h0)||(dout[15:12]==4'h2)||(dout[15:12]==4'h3)||(dout[15:12]==4'hA)||(dout[15:12]==4'hB)||(dout[15:12]==4'hE))
+								E_Control = 6'd6;
+						else if((dout[15:12]==4'h6)||(dout[15:12]==4'h7))
+								E_Control = 6'd8;
+						else if(dout[15:12]==4'hC)
+								E_Control = 6'd12;
+						else if(dout[15:12]==4'h9)
+								E_Control = 6'd32;
+						else if(dout[15:12]==4'h1)
+							begin
+									if(dout[5])
+										E_Control= 6'd0;
+									else
+										E_Control=6'd1;								
+							end
+						else if(dout[15:12]==4'h5)
+							begin
+									if(dout[5])
+										E_Control= 6'd16;
+									else
+										E_Control= 6'd17;
+							end
+						else 
+								E_Control = 6'd0;
+
+
+
+if(dout[15:12]==4'b1010|| dout[15:12]==4'b1011)
+Mem_Control=1;
+else
+Mem_Control=0;
+
+
+IR=dout;
+npc_out=npc_in;
+
+//E_Control = {alu_control,pcselect1,pcselect2,op2select};
+end
+end
+
+//forever@(posedge Interface.clock);
+
+
+endtask
+
+task check_decode();
+
+//$display("inside check_decode");
+if(Mem_Control!= Probe_decode.Mem_Control)
+$display("bug in decode memcontrol %d,%d",Mem_Control,Probe_decode.Mem_Control);
+//else
+//$display("%d,%d",Mem_Control,Probe_decode.Mem_Control);
+if(W_Control!=Probe_decode.W_Control)
+$display("bug in decode W_control%d,%d",W_Control,Probe_decode.W_Control);
+//else
+//$display("%d,%d",W_Control,Probe_decode.W_Control);
+if(E_Control!=Probe_decode.E_Control)
+$display("bug in decode E_control");
+
+//$display("%b,%b,%b",E_Control,Probe_decode.E_Control,dout);
+if(IR!=Probe_decode.IR)
+$display("bug in decode IR");
+//else
+//$display("%d,%d",IR,Probe_decode.IR);
+if(npc_out!=Probe_decode.npc_out)
+$display("bug in decode npc out");
+//else
+//$display("%d,%d",npc_out,Probe_decode.npc_out);
+endtask
+
+endclass

@@ -1,0 +1,109 @@
+Information: Start rc update...
+****************************************************************
+Information: TLUPlus based RC computation is enabled. (RCEX-141)
+****************************************************************
+Information: The distance unit in Capacitance and Resistance is 1 micron. (RCEX-007)
+Information: The RC model used is TLU+. (RCEX-015)
+Information: Library Derived Cap for layer M1 : 0.16 0.14 (RCEX-011)
+Information: Library Derived Res for layer M1 : 2e-06 2e-06 (RCEX-011)
+Information: Library Derived Cap for layer M2 : 0.17 0.15 (RCEX-011)
+Information: Library Derived Res for layer M2 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M3 : 0.11 0.096 (RCEX-011)
+Information: Library Derived Res for layer M3 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M4 : 0.11 0.096 (RCEX-011)
+Information: Library Derived Res for layer M4 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M5 : 0.094 0.079 (RCEX-011)
+Information: Library Derived Res for layer M5 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M6 : 0.094 0.079 (RCEX-011)
+Information: Library Derived Res for layer M6 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M7 : 0.092 0.076 (RCEX-011)
+Information: Library Derived Res for layer M7 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M8 : 0.092 0.076 (RCEX-011)
+Information: Library Derived Res for layer M8 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer M9 : 0.11 0.088 (RCEX-011)
+Information: Library Derived Res for layer M9 : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Cap for layer MRDL : 0.11 0.11 (RCEX-011)
+Information: Library Derived Res for layer MRDL : 1.8e-07 1.8e-07 (RCEX-011)
+Information: Library Derived Horizontal Cap : 0.11 0.096 (RCEX-011)
+Information: Library Derived Horizontal Res : 1.8e-06 1.8e-06 (RCEX-011)
+Information: Library Derived Vertical Cap : 0.11 0.1 (RCEX-011)
+Information: Library Derived Vertical Res : 1.5e-06 1.5e-06 (RCEX-011)
+Information: Using derived R and C coefficients. (RCEX-008)
+Information: Using region-based R and C coefficients. (RCEX-013)
+Information: Library Derived Via Res : 4.6e-07 4.6e-07 (RCEX-011)
+Information: End rc update.
+ 
+****************************************
+Report : timing
+        -path full_clock_expanded
+        -delay min
+        -input_pins
+        -max_paths 1
+        -transition_time
+        -crosstalk_delta
+Design : cortex_soc
+Version: K-2015.06-SP1
+Date   : Thu Dec  8 23:05:40 2016
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: ss0p95v125c   Library: saed32lvt_ss0p95v125c
+	Parasitic source    : LPE
+	Parasitic mode      : RealRC
+	Extraction mode     : MIN_MAX
+	Extraction derating : 125/125/125
+
+Information: Percent of Arnoldi-based delays = 14.03%
+
+Information: Percent of CCS-based delays = 14.02%
+
+  Startpoint: memctl_v4/U_miu/U_dsdc_bm_num_open_bank_reg_4_
+              (rising edge-triggered flip-flop clocked by HCLK)
+  Endpoint: memctl_v4/U_miu/U_dsdc_bm_num_open_bank_reg_4_
+            (rising edge-triggered flip-flop clocked by HCLK)
+  Path Group: HCLK
+  Path Type: min
+
+  Point                                        DTran     Trans     Delta      Incr       Path
+  ----------------------------------------------------------------------------------------------
+  clock HCLK (rise edge)                                                    0.0000     0.0000
+  HCLK (in)                                             0.0000              0.0000 @   0.0000 r
+  INVX32_LVT_BC/A (INVX32_LVT)                0.0000    0.0005    0.0000    0.0003 @   0.0003 r
+  INVX32_LVT_BC/Y (INVX32_LVT)                          0.0120              0.0100 c   0.0103 f
+  INVX32_LVT_BC_1/A (INVX32_LVT)              0.0000    0.0133    0.0000    0.0033 c   0.0135 f
+  INVX32_LVT_BC_1/Y (INVX32_LVT)                        0.0308              0.0214 c   0.0350 r
+  memctl_v4/hclk_cts_0 (DW_memctl)                                          0.0000     0.0350 r
+  memctl_v4/NBUFFX32_LVT_G3B1I10/A (NBUFFX32_LVT)   0.0000   0.0312   0.0000   0.0009 c   0.0359 r
+  memctl_v4/NBUFFX32_LVT_G3B1I10/Y (NBUFFX32_LVT)       0.0856              0.0773 c   0.1132 r
+  memctl_v4/U_miu/hclk_cts_6 (DW_memctl_miu)                                0.0000     0.1132 r
+  memctl_v4/U_miu/U_dsdc_bm_num_open_bank_reg_4_/CLK (DFFARX1_LVT)   0.0000   0.0876   0.0000   0.0070 c   0.1203 r
+  memctl_v4/U_miu/U_dsdc_bm_num_open_bank_reg_4_/CLK (DFFARX1_LVT)   0.0000   0.0876   0.0000   0.0000   0.1203 r
+  memctl_v4/U_miu/U_dsdc_bm_num_open_bank_reg_4_/QN (DFFARX1_LVT)   0.0312   0.1017    0.2220 f
+  memctl_v4/U_miu/U1499/A3 (AO22X1_LVT)       0.0000    0.0312   -0.0008   -0.0008 &   0.2211 f
+  memctl_v4/U_miu/U1499/Y (AO22X1_LVT)                  0.0223              0.0473     0.2684 f
+  memctl_v4/U_miu/U_dsdc_bm_num_open_bank_reg_4_/D (DFFARX1_LVT)   0.0000   0.0223  -0.0007  -0.0007 &   0.2677 f
+  data arrival time                                                                    0.2677
+
+  clock HCLK (rise edge)                                                    0.0000     0.0000
+  HCLK (in)                                             0.0000              0.0000 @   0.0000 r
+  INVX32_LVT_BC/A (INVX32_LVT)                0.0000    0.0005    0.0000    0.0003 @   0.0003 r
+  INVX32_LVT_BC/Y (INVX32_LVT)                          0.0120              0.0100 c   0.0103 f
+  INVX32_LVT_BC_1/A (INVX32_LVT)              0.0000    0.0133    0.0000    0.0033 c   0.0135 f
+  INVX32_LVT_BC_1/Y (INVX32_LVT)                        0.0308              0.0214 c   0.0350 r
+  memctl_v4/hclk_cts_0 (DW_memctl)                                          0.0000     0.0350 r
+  memctl_v4/NBUFFX32_LVT_G3B1I10/A (NBUFFX32_LVT)   0.0000   0.0312   0.0000   0.0009 c   0.0359 r
+  memctl_v4/NBUFFX32_LVT_G3B1I10/Y (NBUFFX32_LVT)       0.0856              0.0773 c   0.1132 r
+  memctl_v4/U_miu/hclk_cts_6 (DW_memctl_miu)                                0.0000     0.1132 r
+  memctl_v4/U_miu/U_dsdc_bm_num_open_bank_reg_4_/CLK (DFFARX1_LVT)   0.0000   0.0876   0.0000   0.0070 c   0.1203 r
+  memctl_v4/U_miu/U_dsdc_bm_num_open_bank_reg_4_/CLK (DFFARX1_LVT)          0.0000     0.1203 r
+  library hold time                                                        -0.0027     0.1175
+  data required time                                                                   0.1175
+  ----------------------------------------------------------------------------------------------
+  data required time                                                                   0.1175
+  data arrival time                                                                   -0.2677
+  ----------------------------------------------------------------------------------------------
+  slack (MET)                                                                          0.1502
+
+
+1

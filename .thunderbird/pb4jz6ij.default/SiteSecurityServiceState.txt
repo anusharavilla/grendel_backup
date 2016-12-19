@@ -1,0 +1,3 @@
+services.addons.mozilla.org:HSTS	0	16708	1475192674197,1,0
+blocklist.addons.mozilla.org:HSTS	0	16708	1475192794204,1,0
+www.gandi.net:HSTS	0	16708	1459424439928,1,0

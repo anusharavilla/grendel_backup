@@ -1,0 +1,22 @@
+<<<<ANSWERS>>>>
+Cycles per Second   : 32564.3939394
+Cycles per Instruction   : 4.26734835699
+Average Memory Transaction   : 0.338466907061
+fibonacci 
+process time 48.4
+Cycles :  1232033
+Cycles per Second   : 25455.2272727
+Cycles per Instruction   : 2.61333443633
+Average Memory Transaction   : 0.666292217822
+
+
+
+
+Question 1:
+(a) average cycles-per-second performance for the fibonacci.c program is 25455.2272727
+(b) average cycles-per-second performance for the gregoryleibniz.c program is 32564.3939394
+(c) average Cycles-per-Instruction (CPI) for the fibonacci.c program is 2.61333443633
+(d) average Cycles-per-Instruction (CPI) for the gregoryleibniz.c program is 4.26734835699
+(e) average number of memory transactions per cycle for the fibonacci.c program is 0.666292217822
+(f) average number of memory transactions per cycle for the gregoryleibniz.c program is 0.338466907061
+(g) explain any discrepancies between the Fibonacci & Gregory-Leibniz in (a)-(f)

@@ -1,0 +1,51 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/afs/unity.ncsu.edu/users/a/aravill/verification /lab1.2
+vtest_xor
+DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+!s110 1454362867
+!i10b 1
+!s100 a@R=ena^QQmQo;fZ7UGPn2
+IU>h?_nd0n]lLbe^hVMFmR0
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 test_xor_all_directed_sv_unit
+S1
+R0
+w1454362768
+8test_xor_all_directed.sv
+Ftest_xor_all_directed.sv
+L0 7
+Z2 OE;L;10.3b;59
+r1
+!s85 0
+31
+!s108 1454362867.065217
+!s107 test_xor_all_directed.sv|
+!s90 test_xor_all_directed.sv|
+!i113 1
+vxor_design
+!s110 1454362862
+!i10b 1
+!s100 Sb>`9j@G9EF;c]KM;@b]K0
+IK20];kmo36iEA4ZjLWOmX2
+R1
+R0
+w1454362264
+8xor_design(1).vp
+Fxor_design(1).vp
+L0 8
+R2
+r1
+!s85 0
+31
+!s108 1454362862.586859
+!s107 xor_design(1).vp|
+!s90 xor_design(1).vp|
+!i113 1

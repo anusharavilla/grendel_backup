@@ -1,0 +1,148 @@
+{C:/altera/15.0/ASIC_verification/New folder (2)/data_defs_fetch.vp} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/data_defs_fetch.vp}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/fetch_golden.sv} {1 {vlog -work work -sv -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/fetch_golden.sv}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/TopLevelLC3.v} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/TopLevelLC3.v}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module LC3
+
+Top level modules:
+	LC3
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/data_defs_decode.vp} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/data_defs_decode.vp}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/environment.sv} {2 {vlog -work work -sv -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/environment.sv}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+** Warning: C:/altera/15.0/ASIC_verification/New folder (2)/environment.sv(43): (vlog-2186) SystemVerilog testbench feature
+
+(randomization, coverage or assertion) detected in the design.
+
+These features are only supported in Questasim.
+
+** Warning: C:/altera/15.0/ASIC_verification/New folder (2)/environment.sv(47): (vlog-2250) Function "dut_gr_async" has no return value assignment.
+
+** Warning: C:/altera/15.0/ASIC_verification/New folder (2)/environment.sv(55): (vlog-2250) Function "outputs" has no return value assignment.
+
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/Controller_Pipeline.vp} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/Controller_Pipeline.vp}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Controller_Pipeline
+
+Top level modules:
+	Controller_Pipeline
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/project.test_top.sv} {1 {vlog -work work -sv -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/project.test_top.sv}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module LC3_test_top
+
+Top level modules:
+	LC3_test_top
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/testbench.sv} {2 {vlog -work work -sv -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/testbench.sv}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module LC3
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_execute
+-- Compiling package testbench_sv_unit
+** Warning: environment.sv(43): (vlog-2186) SystemVerilog testbench feature
+
+(randomization, coverage or assertion) detected in the design.
+
+These features are only supported in Questasim.
+
+** Warning: environment.sv(47): (vlog-2250) Function "dut_gr_async" has no return value assignment.
+
+** Warning: environment.sv(55): (vlog-2250) Function "outputs" has no return value assignment.
+
+-- Compiling module testbench
+** Warning: C:/altera/15.0/ASIC_verification/New folder (2)/testbench.sv(143): (vlog-2240) Treating stand-alone use of function 'dut_gr_async' as an implicit VOID cast.
+
+** Warning: C:/altera/15.0/ASIC_verification/New folder (2)/testbench.sv(166): (vlog-2240) Treating stand-alone use of function 'outputs' as an implicit VOID cast.
+
+
+Top level modules:
+	testbench
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/data_defs.vp} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/data_defs.vp}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/Execute.vp} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/Execute.vp}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Execute
+-- Compiling module extension
+-- Compiling module ALU
+
+Top level modules:
+	Execute
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/WriteBack.vp} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/WriteBack.vp}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Writeback
+-- Compiling module RegFile
+
+Top level modules:
+	Writeback
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/decode_golden_reference.sv} {1 {vlog -work work -sv -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/decode_golden_reference.sv}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/data_defs_execute.vp} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/data_defs_execute.vp}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/Decode_Pipelined.vp} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/Decode_Pipelined.vp}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Decode
+
+Top level modules:
+	Decode
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/data_defs_writeback.vp} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/data_defs_writeback.vp}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/data_defs_controller.vp} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/data_defs_controller.vp}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/project.if.sv} {1 {vlog -work work -sv -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/project.if.sv}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_execute
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/Mem_Access.vp} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/Mem_Access.vp}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module MemAccess
+
+Top level modules:
+	MemAccess
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/Fetch.vp} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/Fetch.vp}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+-- Compiling module Fetch
+
+Top level modules:
+	Fetch
+
+} {} {}} {C:/altera/15.0/ASIC_verification/New folder (2)/data_defs_memaccess.vp} {1 {vlog -work work -stats=none {C:/altera/15.0/ASIC_verification/New folder (2)/data_defs_memaccess.vp}
+Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+
+} {} {}}

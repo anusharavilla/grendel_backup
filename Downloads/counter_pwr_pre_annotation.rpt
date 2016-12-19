@@ -1,0 +1,51 @@
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: The derived static probability value (0.500000) for the clock net 'clock' conflicts with the annotated value (0.483871). Using the annotated value. (PWR-12)
+ 
+****************************************
+Report : power
+        -analysis_effort medium
+Design : counter
+Version: K-2015.06-SP1
+Date   : Thu Sep 17 19:57:31 2015
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary_PDKv1_2_v2008_10_typical_nldm (File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/nangate/NangateOpenCellLibrary_PDKv1_2_v2008_10/liberty/520/NangateOpenCellLibrary_PDKv1_2_v2008_10_typical_nldm.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_typical_nldm
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   8.0685 uW   (76%)
+  Net Switching Power  =   2.5530 uW   (24%)
+                         ---------
+Total Dynamic Power    =  10.6215 uW  (100%)
+
+Cell Leakage Power     =   1.0052 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  1.0454e-03        1.4133e-03        4.9542e+04        2.5082e-03  (  21.57%)
+register       5.6926e-03        2.5373e-04        8.6437e+04        6.0328e-03  (  51.89%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  1.3304e-03        8.8602e-04        8.6922e+05        3.0856e-03  (  26.54%)
+--------------------------------------------------------------------------------------------------
+Total          8.0685e-03 mW     2.5530e-03 mW     1.0052e+06 pW     1.1627e-02 mW
+1

@@ -1,0 +1,42 @@
+ 
+****************************************
+Report : cell
+Design : RequestQueue
+Version: I-2013.12-SP1
+Date   : Wed Sep 23 18:13:40 2015
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+B_4                       GTECH_BUF       gtech             0.0000  u
+C98                       GTECH_OR2       gtech             0.0000  u
+C102                      GTECH_OR2       gtech             0.0000  u
+C105                      GTECH_OR2       gtech             0.0000  u
+C124                      GTECH_AND2      gtech             0.0000  u
+I_0                       GTECH_NOT       gtech             0.0000  u
+I_1                       GTECH_NOT       gtech             0.0000  u
+I_2                       GTECH_NOT       gtech             0.0000  u
+I_3                       GTECH_NOT       gtech             0.0000  u
+I_4                       GTECH_NOT       gtech             0.0000  u
+U3/U1                     *GEN*0                            0.0000  u
+U3/U2                     *GEN*1                            0.0000  u
+U3/U3                     *GEN*2                            0.0000  u
+U3/U4                     *GEN*3                            0.0000  u
+U3/U5                     *GEN*4                            0.0000  u
+U3/U6                     *GEN*5                            0.0000  u
+U3/U7                     *GEN*6                            0.0000  u
+U3/U8                     *GEN*7                            0.0000  u
+U3/U9                     *GEN*8                            0.0000  u
+U4/U1                     *GEN*9                            0.0000  u
+current_state_reg[0]      **SEQGEN**                        0.0000  n, u
+current_state_reg[1]      **SEQGEN**                        0.0000  n, u
+--------------------------------------------------------------------------------
+Total 22 cells                                              0.0000
+1

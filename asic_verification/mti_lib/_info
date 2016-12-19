@@ -1,0 +1,493 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/afs/unity.ncsu.edu/users/a/aravill/asic_verification
+vALU
+Z1 !s110 1459277737
+!i10b 1
+!s100 D;m`;8Q40JoKUNN]ikJlc3
+IK=HeV_S68MOgMK;UR?^mh1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1458887138
+Z4 8Execute.vp
+Z5 FExecute.vp
+L0 106
+Z6 OE;L;10.3b;59
+r1
+!s85 0
+31
+Z7 !s108 1459277737.073568
+Z8 !s107 WriteBack.vp|Mem_Access.vp|Fetch.vp|Execute.vp|Decode_Pipelined.vp|data_defs_writeback.vp|data_defs.vp|data_defs_memaccess.vp|data_defs_fetch.vp|data_defs_execute.vp|data_defs_decode.vp|data_defs_controller.vp|Controller_Pipeline.vp|
+Z9 !s90 Controller_Pipeline.vp|data_defs_controller.vp|data_defs_decode.vp|data_defs_execute.vp|data_defs_fetch.vp|data_defs_memaccess.vp|data_defs.vp|data_defs_writeback.vp|Decode_Pipelined.vp|Execute.vp|Fetch.vp|Mem_Access.vp|WriteBack.vp|
+!i113 1
+n@a@l@u
+Xcfg_sv_unit
+Z10 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z11 !s110 1459280580
+!i10b 1
+!s100 [Ac>zI]9k@CV@h9VYQX@i3
+I<`U43c@gW:bM1ZV^;V2:H0
+V<`U43c@gW:bM1ZV^;V2:H0
+!i103 1
+S1
+R0
+Z12 w1459208516
+8cfg.sv
+Z13 Fcfg.sv
+L0 3
+R6
+r1
+!s85 0
+31
+Z14 !s108 1459280580.162718
+Z15 !s107 data_defs.vp|TopLevelLC3.v|testbench.sv|project.test_top.sv|project.if.sv|fetch_golden.sv|environment.sv|driver.sv|decode_golden_reference.sv|cfg.sv|
+Z16 !s90 cfg.sv|decode_golden_reference.sv|driver.sv|environment.sv|fetch_golden.sv|project.if.sv|project.test_top.sv|testbench.sv|
+!i113 1
+vController_Pipeline
+R1
+!i10b 1
+!s100 99F@>ScjTbT@F_XMSTP4X2
+I;UMQ51HQ9[RhL;IJ7`2jH0
+R2
+R0
+w1458611612
+8Controller_Pipeline.vp
+FController_Pipeline.vp
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+n@controller_@pipeline
+vDecode
+R1
+!i10b 1
+!s100 QcNA`amDdLeFGznBi1RVH0
+IAI5H^IVb5cf07i19i5hOc2
+R2
+R0
+w1458887154
+8Decode_Pipelined.vp
+FDecode_Pipelined.vp
+L0 4
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+n@decode
+Xdecode_golden_reference_sv_unit
+R10
+R11
+!i10b 1
+!s100 4_OP6l2>VWIOPg9id]MJ]2
+IFZPnoOaoKE5[FH6OoHL931
+VFZPnoOaoKE5[FH6OoHL931
+!i103 1
+S1
+R0
+w1459152802
+8decode_golden_reference.sv
+Z17 Fdecode_golden_reference.sv
+L1 2
+R6
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+Ydut_Probe_controller
+R10
+Z18 !s110 1459277692
+!i10b 1
+!s100 dz^j710GP>C:`_U=LYFm`3
+I0MOazn2nKE8^Pe[[6`M@N3
+R2
+Z19 !s105 testbench_sv_unit
+S1
+R0
+Z20 w1459154544
+Z21 Fproject.if.sv
+Z22 8testbench.sv
+Z23 Ftestbench.sv
+L0 62
+R6
+r1
+!s85 0
+31
+Z24 !s108 1459277692.193049
+Z25 !s107 data_defs.vp|TopLevelLC3.v|testbench.sv|project.test_top.sv|project.if.sv|fetch_golden.sv|environment.sv|decode_golden_reference.sv|cfg.sv|
+Z26 !s90 cfg.sv|decode_golden_reference.sv|environment.sv|fetch_golden.sv|project.if.sv|project.test_top.sv|testbench.sv|
+!i113 1
+ndut_@probe_controller
+Ydut_Probe_decode
+R10
+R18
+!i10b 1
+!s100 GOUcQ>o:Kne_>aL>=3Qk[1
+IzhBb>Y?UTk^73R;AR0;3;1
+R2
+R19
+S1
+R0
+R20
+R21
+R22
+R23
+L0 44
+R6
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+ndut_@probe_decode
+Ydut_Probe_execute
+R10
+R18
+!i10b 1
+!s100 9<DDoC0?mK9=ZMbFaD7Ez0
+Iama9Um3;j;ZO5a;>ez_B[0
+R2
+R19
+S1
+R0
+R20
+R21
+R22
+R23
+L0 77
+R6
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+ndut_@probe_execute
+Ydut_Probe_if
+R10
+R18
+!i10b 1
+!s100 9[28nnIi_]elZ`zbR?4f71
+ITRYWBYGMFCn=T[O4`ch4:0
+R2
+R19
+S1
+R0
+R20
+R21
+R22
+R23
+L0 30
+R6
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+ndut_@probe_if
+Xenvironment_sv_unit
+R10
+R18
+!i10b 1
+!s100 8hUYaRHY>TIDGLIbd5^CE3
+I8aMIFPQKmVPSjb8G95UKQ2
+V8aMIFPQKmVPSjb8G95UKQ2
+!i103 1
+S1
+R0
+R12
+R13
+R17
+8environment.sv
+Z27 Fenvironment.sv
+Z28 Ffetch_golden.sv
+L3 2
+R6
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+vExecute
+R1
+!i10b 1
+!s100 QGjQ<ogS>P=<K7S44Sme^1
+IE0zGnQYbEd7a_];XeDom_1
+R2
+R0
+R3
+R4
+R5
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+n@execute
+vextension
+R1
+!i10b 1
+!s100 3P^kEOFV;4n4[n@0jQ:6O2
+Iiz=S6XUGh?logc@D4;5D40
+R2
+R0
+R3
+R4
+R5
+L0 91
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+vFetch
+R1
+!i10b 1
+!s100 H:OZgk=[8hJK]B@T?;^=b3
+Il:OS=KND^`j]S76J>5m9@3
+R2
+R0
+w1458887132
+8Fetch.vp
+FFetch.vp
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+n@fetch
+Xfetch_golden_sv_unit
+R10
+R18
+!i10b 1
+!s100 =7ZL@DbbMQYm=HVeNYogk2
+IT3aJeX=O:znzOcSW`GeM00
+VT3aJeX=O:znzOcSW`GeM00
+!i103 1
+S1
+R0
+w1459153332
+8fetch_golden.sv
+R28
+L3 2
+R6
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+vLC3
+!s110 1459277715
+!i10b 1
+!s100 5IIFVodYe=Nb7^6>X4n6F1
+IU>enbHPjkR9EkSan`0`HA1
+R2
+R0
+w1458887090
+8TopLevelLC3.v
+Z29 FTopLevelLC3.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1459277715.704120
+!s107 data_defs.vp|TopLevelLC3.v|
+!s90 TopLevelLC3.v|
+!i113 1
+n@l@c3
+YLC3_io
+R10
+R18
+!i10b 1
+!s100 ]]a:R:DH7GP7e4XFWC[NZ0
+IMYHGkDQ?FKUTV=[dKR6Xd0
+R2
+R19
+S1
+R0
+R20
+R21
+R22
+R23
+L0 2
+R6
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+n@l@c3_io
+vLC3_test_top
+R10
+R18
+!i10b 1
+!s100 l7a`GEe=RF2l1<giTi<3G1
+IXA6k_e2Qf9@d;6XQO^Z_B2
+R2
+!s105 project_test_top_sv_unit
+S1
+R0
+w1459118728
+8project.test_top.sv
+Fproject.test_top.sv
+L0 2
+R6
+r1
+!s85 0
+31
+R24
+R25
+R26
+!i113 1
+n@l@c3_test_top
+vMemAccess
+R1
+!i10b 1
+!s100 _PW3BiCT1Sh1F^Na:z@:c1
+I]WY[>Gah`4]OO<[4CQDP23
+R2
+R0
+w1458887112
+8Mem_Access.vp
+FMem_Access.vp
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+n@mem@access
+vRegFile
+R1
+!i10b 1
+!s100 _c5<nM@[Ze2dP0zGR@n<=1
+IN@LgBEH=D:iIzTISBOk>A1
+R2
+R0
+Z30 w1458887098
+Z31 8WriteBack.vp
+Z32 FWriteBack.vp
+L0 38
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+n@reg@file
+vtestbench
+R10
+DXx4 work 17 testbench_sv_unit 0 22 3z;i1LmgRUn_V?^LLb6?b3
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 AdIkWjh6jK`53YLJ<Hz>]2
+IGc9_6PdR]c:X4lhdRG?RV0
+R19
+S1
+R0
+R20
+R22
+R23
+L0 23
+R6
+R24
+R25
+R26
+!i113 1
+Xtestbench_sv_unit
+R10
+V3z;i1LmgRUn_V?^LLb6?b3
+r1
+!s85 0
+31
+!i10b 1
+!s100 NcPgA8Bmhf;C9n4AkYmO`2
+I3z;i1LmgRUn_V?^LLb6?b3
+!i103 1
+S1
+R0
+R12
+R22
+R23
+R29
+Fdata_defs.vp
+R21
+R27
+R28
+R17
+R13
+L5 2
+R6
+R24
+R25
+R26
+!i113 1
+vWriteback
+R1
+!i10b 1
+!s100 Edi=OaG8F4kPZ@zkg>K>O0
+INJ?Bf@UAe=lZQz?EE8kXj1
+R2
+R0
+R30
+R31
+R32
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+n@writeback

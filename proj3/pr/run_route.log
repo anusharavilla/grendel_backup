@@ -1,0 +1,110 @@
+                                        
+                                IC Compiler (TM)
+                              IC Compiler-PC (TM)
+                              IC Compiler-XP (TM)
+                              IC Compiler-DP (TM)
+                              IC Compiler-AG (TM)
+                                        
+               Version K-2015.06-SP1 for linux64 - Jul 15, 2015 
+                                        
+                    Copyright (c) 1988 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+source setup.tcl
+set begintime [clock seconds]
+1481240908
+open_mw_lib ./work
+Error: Cannot open library ./work for write. (MW-006)
+open_mw_cel ${modname}_cts
+Warning: Tries to open a Milkyway library whose name is the current working directory. (MWUI-136)
+Error: Cannot open library  for write. (MW-006)
+check_routeability
+Error: Current design is not defined. (UID-4)
+#set_delay_calculation -arnoldi
+set_net_routing_layer_constraints     -max_layer_mode hard -max_layer_name M6 -min_layer_name M1 {*/*/*} 
+Error: Current design is not defined. (UID-4)
+set_si_options -route_xtalk_prevention true	 -delta_delay true 	 -min_delta_delay true 	 -static_noise true	 -max_transition_mode normal_slew 	 -timing_window true 
+Error: Current design is not defined. (UID-4)
+0
+set_route_options -groute_timing_driven true 	-groute_incremental true 	-track_assign_timing_driven true 	-same_net_notch check_and_fix 
+Error: Current design is not defined. (UID-4)
+route_opt -effort high 	-stage global 	-incremental 
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+0
+save_mw_cel
+Error: Cannot get cellId for the current design. (UIG-2)
+0
+#route_opt -effort high #	-stage track #	-xtalk_reduction #	-incremental 
+#save_mw_cel
+route_opt -effort high 	-stage detail 	-xtalk_reduction 	-incremental 
+Error: Current design is not defined. (UID-4)
+Error: To run xtalk_reduction, please enable SI. (ROPT-003)
+0
+save_mw_cel
+Error: Cannot get cellId for the current design. (UIG-2)
+0
+# Uncomment the following lines to see an example of repeater insertion
+# on one net.  Note that you may need to run more detail-route iterations
+# to complete the routing with no violations.
+#
+# current_instance u_logic
+# report_net -physical n4928
+# add_buffer_on_route -repeater_distance 100 n4928 \ 
+#                      saed32lvt_ff1p16v25c/NBUFFX2_LVT
+# report_net -physical n4928
+#verify_zrt_route
+#insert_redundant_vias -auto_mode insert
+insert_stdcell_filler -cell_without_metal SHFILL1 	-connect_to_power VDD -connect_to_ground VSS
+Can not get cellId for current design
+insert_stdcell_filler -cell_without_metal SHFILL2 	-connect_to_power VDD -connect_to_ground VSS
+Can not get cellId for current design
+insert_well_filler -layer NWELL 	-higher_edge max -lower_edge min
+Can not get cellId for current design
+preroute_standard_cells -nets VDD -connect horizontal
+Error: Current design is not defined. (UID-4)
+preroute_standard_cells -nets VSS -connect horizontal
+Error: Current design is not defined. (UID-4)
+verify_pg_nets
+Error: Current design is not defined. (UID-4)
+verify_pg_nets  -pad_pin_connection all
+Error: Current design is not defined. (UID-4)
+set_write_stream_options       -map_layer ${SAED32_ROOT}/tech/milkyway/saed32nm_1p9m_gdsout_mw.map       -output_filling fill       -child_depth 20       -output_outdated_fill        -output_pin  {text geometry}
+1
+write_stream -lib work -format gds -cells ${modname}_routed ${modname}.gds
+Error: Cannot open library work for read. (MW-006)
+0
+extract_rc -coupling_cap
+Error: Current design is not defined. (UID-4)
+0
+write_parasitics -output ${modname}_routed.spef
+Information: design not extracted; do extract_rc or read_parasitics before write_parasitics.
+Error: Writing parasitics file failed. (RCEX-036)
+0
+#write_verilog -pg -no_physical_only_cells xbar_wpg.v
+report_timing
+Error: Current design is not defined. (UID-4)
+0
+write_verilog -no_physical_only_cells ${modname}_routed.v
+Error: Current design is not defined. (UID-4)
+Current design is not set
+0
+write_def -output ${modname}.def
+No valid cell found, write_def command failed 
+0
+save_mw_cel -as ${modname}_routed
+Error: Cannot get cellId for the current design. (UIG-2)
+0
+set endtime [clock seconds]
+1481240910
+set timestr [timef [expr $endtime-$begintime]]
+0h 0m 2s
+puts "run_route.tcl completed successfully (elapsed time: $timestr actual)"
+run_route.tcl completed successfully (elapsed time: 0h 0m 2s actual)
+exit
+
+Thank you...
+Exit IC Compiler!

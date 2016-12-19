@@ -1,0 +1,42 @@
+ 
+****************************************
+Report : cell
+Design : CORTEXM0DS
+Version: K-2015.06-SP1
+Date   : Thu Dec  8 18:02:28 2016
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U1                        INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U3                        INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U5                        INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U7                        INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U9                        INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U11                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U13                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U15                       INVX1_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U16                       INVX1_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U19                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+u_logic                   cortexm0ds_logic                22321.2135
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 11 cells                                            22334.6832
+1

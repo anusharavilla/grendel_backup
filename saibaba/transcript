@@ -1,0 +1,22 @@
+# //  ModelSim SE 10.3b May 29 2014 Linux 2.6.32-573.3.1.el6.x86_64
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -novopt test_fixture 
+# Start time: 21:26:26 on Sep 19,2015
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# ** Error: (vsim-3170) Could not find '/afs/unity.ncsu.edu/users/a/aravill/saibaba/mti_lib.test_fixture'.
+# Error loading design
+vlog badFSM_test.v
+# Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+# Start time: 21:30:16 on Sep 19,2015
+# vlog -reportprogress 300 badFSM_test.v 
+# ** Error: badFSM_test.v(1): near "<": syntax error, unexpected '<', expecting class
+# End time: 21:30:16 on Sep 19,2015, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /ncsu/modelsim10.3b/linux/vlog failed.

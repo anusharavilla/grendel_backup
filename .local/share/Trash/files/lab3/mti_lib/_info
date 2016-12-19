@@ -1,0 +1,48 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/afs/unity.ncsu.edu/users/a/aravill/lab3
+vcounter
+!s110 1441833436
+!i10b 1
+!s100 0YZG]@;[^GQ;VLlDC^@5<0
+IdF=`E=gR5NMGBRJzEWPRS3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z2 w1296054349
+8counter.v
+Fcounter.v
+L0 18
+Z3 OE;L;10.3b;59
+r1
+!s85 0
+31
+!s108 1441833436.153340
+!s107 counter.v|
+!s90 counter.v|
+!i113 1
+vtest_fixture
+!s110 1441833443
+!i10b 1
+!s100 4k;:<c3?Wj=Jb5@MSMBPU1
+IOgJi1lY=`590d[Y`2Z<Z31
+R1
+R0
+R2
+8test.v
+Ftest.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1441833443.325265
+!s107 test.v|
+!s90 test.v|
+!i113 1

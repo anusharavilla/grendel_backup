@@ -1,0 +1,195 @@
+vlog badFSM.v 
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling module fsm
+** Error: badFSM.v(21): near ";": Syntax error.
+End time: 19:33:40 on Sep 18,2015, Elapsed time: 0:00:01
+Errors: 1, Warnings: 0
+
+//simulation
+ng Object Visibility with vopt.
+# ** Error: (vsim-3170) Could not find '/afs/unity.ncsu.edu/users/a/aravill/anuhw4/mti_lib._novopt'.
+# Error loading design
+
+dc_shell> gui_start
+design_vision> source setup.tcl
+10
+design_vision> source read.tcl
+Loading db file '/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/nangate/NangateOpenCellLibrary_PDKv1_2_v2008_10/liberty/520/NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm.db'
+Loading db file '/ncsu/synopsys2015/syn/libraries/syn/dw_foundation.sldb'
+Loading db file '/ncsu/synopsys2015/syn/libraries/syn/gtech.db'
+Loading db file '/ncsu/synopsys2015/syn/libraries/syn/standard.sldb'
+  Loading link library 'NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm'
+  Loading link library 'gtech'
+Loading verilog file '/afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v
+Error:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:21: The construct 'non-ANSI-style interface port declaration' is not supported in this language. (VER-720)
+*** Presto compilation terminated with 1 errors. ***
+Error: Can't read 'verilog' file '/afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v'. (UID-59)
+No designs were read
+design_vision> 
+
+//corrected reg
+design_vision> source read.tcl
+Loading verilog file '/afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v
+
+Statistics for case statements in always block at line 37 in file
+        '/afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            39            |    auto/auto     |
+===============================================
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net outcell[8] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net outcell[7] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net outcell[6] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net outcell[5] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net outcell[4] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net outcell[3] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net outcell[2] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net outcell[1] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net outcell[0] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+
+Inferred memory devices in process
+        in routine fsm line 27 in file
+                '/afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  current_state_reg  | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine fsm line 37 in file
+                '/afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    inc_flag_reg     | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|    location_reg     | Latch |   9   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Inferred memory devices in process
+        in routine fsm line 71 in file
+                '/afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     outcell_reg     | Flip-flop |   9   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+        in routine fsm line 74 in file
+                '/afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    outcell_reg2     | Flip-flop |   9   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Error:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net 'outcell[8]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net 'outcell[7]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net 'outcell[6]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net 'outcell[5]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net 'outcell[4]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net 'outcell[3]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net 'outcell[2]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net 'outcell[1]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v:74: Net 'outcell[0]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+*** Presto compilation terminated with 9 errors. ***
+Error: Can't read 'verilog' file '/afs/unity.ncsu.edu/users/a/aravill/anuhw4/badFSM.v'. (UID-59)
+No designs were read
+design_vision> 
+
+
+
+vlog code
+// Verilog file for the fsm for the pattern matching engine
+
+module fsm (clock, reset, start, done_flag, match_address, inc_flag, location,
+outcell);  
+
+input clock;		// 100 Mhz clock
+input reset;		// resets the fsm
+input start;		// starts the search
+input [8:0] match_address;	// address for the pattern match
+
+input done_flag;	// signal from compare module saying it has finished
+			// its search
+
+output  inc_flag;	// used to increment the address location
+output [8:0] location;	// location output for pattern match
+output [8:0] outcell;   // A hash on location
+
+reg  [8:0] location, outcell;
+reg current_state, next_state;
+reg inc_flag;
+reg signal; //error erg in the place of reg
+
+parameter
+   s0 = 0,
+   s1 = 1;
+
+always @(posedge clock or negedge reset)
+   begin
+   if (!reset)
+      current_state = s0;
+   else
+      begin
+      current_state = next_state;
+      end
+   end
+
+always @(current_state or start or done_flag)
+   begin
+   case (current_state)
+   s0:
+      begin
+      location = 9'd0;//moore machine output does not depend on the input
+      inc_flag = 0; //moore machine output does not depend on the input
+      if (start)
+         begin
+         next_state = s1;
+	 end
+      else
+	 begin
+         next_state = s0;
+	 end
+      end
+
+   s1:
+      begin 
+      location = match_address; //moore machine output does not depend on the input
+      inc_flag = 1; //moore machine output does not depend on the input
+      if (done_flag) 
+         begin
+	 next_state = s0;
+	 end
+      else
+         begin
+         next_state = s1;
+	 end
+      end
+
+   endcase
+   end
+
+always@(posedge clock)
+  outcell = location ^ (location << 1);
+
+//always@(posedge clock)
+//outcell = location ^ (location >> 1);
+
+always@(done_flag)
+  signal = done_flag & (^location[4:2]);
+
+endmodule
+
+
+
+

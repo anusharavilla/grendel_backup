@@ -1,0 +1,495 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "fsm")
+(DATE "Fri Sep 18 21:25:09 2015")
+(VENDOR "NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm")
+(PROGRAM "Synopsys Design Compiler cmos")
+(VERSION "K-2015.06-SP1")
+(DIVIDER /)
+(VOLTAGE 0.95:0.95:0.95)
+(PROCESS "slow")
+(TEMPERATURE 125.00:125.00:125.00)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "fsm")
+  (INSTANCE)
+  (DELAY
+    (ABSOLUTE
+    (INTERCONNECT match_address[1] U38/A1 (0.0000:0.0000:0.0000))
+    (INTERCONNECT current_state_reg/Q U38/A2 (0.0000:0.0000:0.0000))
+    (INTERCONNECT U38/ZN U37/A (0.0000:0.0000:0.0000))
+    (INTERCONNECT U35/ZN U37/B (0.0000:0.0000:0.0000))
+    (INTERCONNECT U29/ZN U36/A (0.0000:0.0000:0.0000))
+    (INTERCONNECT U38/ZN U36/B (0.0000:0.0000:0.0000))
+    (INTERCONNECT match_address[0] U35/A1 (0.0000:0.0000:0.0000))
+    (INTERCONNECT current_state_reg/Q U35/A2 (0.0000:0.0000:0.0000))
+    (INTERCONNECT U28/ZN U34/A (0.0000:0.0000:0.0000))
+    (INTERCONNECT U29/ZN U34/B (0.0000:0.0000:0.0000))
+    (INTERCONNECT U27/ZN U33/A (0.0000:0.0000:0.0000))
+    (INTERCONNECT U28/ZN U33/B (0.0000:0.0000:0.0000))
+    (INTERCONNECT U26/ZN U32/A (0.0000:0.0000:0.0000))
+    (INTERCONNECT U27/ZN U32/B (0.0000:0.0000:0.0000))
+    (INTERCONNECT U25/ZN U31/A (0.0000:0.0000:0.0000))
+    (INTERCONNECT U26/ZN U31/B (0.0000:0.0000:0.0000))
+    (INTERCONNECT U24/ZN U30/A (0.0000:0.0000:0.0000))
+    (INTERCONNECT U25/ZN U30/B (0.0000:0.0000:0.0000))
+    (INTERCONNECT match_address[2] U29/A1 (0.0000:0.0000:0.0000))
+    (INTERCONNECT current_state_reg/Q U29/A2 (0.0000:0.0000:0.0000))
+    (INTERCONNECT match_address[3] U28/A1 (0.0000:0.0000:0.0000))
+    (INTERCONNECT current_state_reg/Q U28/A2 (0.0000:0.0000:0.0000))
+    (INTERCONNECT match_address[4] U27/A1 (0.0000:0.0000:0.0000))
+    (INTERCONNECT current_state_reg/Q U27/A2 (0.0000:0.0000:0.0000))
+    (INTERCONNECT match_address[5] U26/A1 (0.0000:0.0000:0.0000))
+    (INTERCONNECT current_state_reg/Q U26/A2 (0.0000:0.0000:0.0000))
+    (INTERCONNECT match_address[6] U25/A1 (0.0000:0.0000:0.0000))
+    (INTERCONNECT current_state_reg/Q U25/A2 (0.0000:0.0000:0.0000))
+    (INTERCONNECT current_state_reg/Q U24/A1 (0.0000:0.0000:0.0000))
+    (INTERCONNECT match_address[7] U24/A2 (0.0000:0.0000:0.0000))
+    (INTERCONNECT match_address[8] U23/A1 (0.0000:0.0000:0.0000))
+    (INTERCONNECT current_state_reg/Q U23/A2 (0.0000:0.0000:0.0000))
+    (INTERCONNECT U12/ZN current_state_reg/D (0.0000:0.0000:0.0000))
+    (INTERCONNECT clock current_state_reg/CK (0.0000:0.0000:0.0000))
+    (INTERCONNECT reset current_state_reg/RN (0.0000:0.0000:0.0000))
+    (INTERCONNECT U3/ZN outcell_reg_8_/D (0.0000:0.0000:0.0000))
+    (INTERCONNECT clock outcell_reg_8_/CK (0.0000:0.0000:0.0000))
+    (INTERCONNECT U30/Z outcell_reg_7_/D (0.0000:0.0000:0.0000))
+    (INTERCONNECT clock outcell_reg_7_/CK (0.0000:0.0000:0.0000))
+    (INTERCONNECT U31/Z outcell_reg_6_/D (0.0000:0.0000:0.0000))
+    (INTERCONNECT clock outcell_reg_6_/CK (0.0000:0.0000:0.0000))
+    (INTERCONNECT U32/Z outcell_reg_5_/D (0.0000:0.0000:0.0000))
+    (INTERCONNECT clock outcell_reg_5_/CK (0.0000:0.0000:0.0000))
+    (INTERCONNECT U33/Z outcell_reg_4_/D (0.0000:0.0000:0.0000))
+    (INTERCONNECT clock outcell_reg_4_/CK (0.0000:0.0000:0.0000))
+    (INTERCONNECT U34/Z outcell_reg_3_/D (0.0000:0.0000:0.0000))
+    (INTERCONNECT clock outcell_reg_3_/CK (0.0000:0.0000:0.0000))
+    (INTERCONNECT U36/Z outcell_reg_2_/D (0.0000:0.0000:0.0000))
+    (INTERCONNECT clock outcell_reg_2_/CK (0.0000:0.0000:0.0000))
+    (INTERCONNECT U37/Z outcell_reg_1_/D (0.0000:0.0000:0.0000))
+    (INTERCONNECT clock outcell_reg_1_/CK (0.0000:0.0000:0.0000))
+    (INTERCONNECT U35/ZN outcell_reg_0_/D (0.0000:0.0000:0.0000))
+    (INTERCONNECT clock outcell_reg_0_/CK (0.0000:0.0000:0.0000))
+    (INTERCONNECT start U13/A (0.0000:0.0000:0.0000))
+    (INTERCONNECT done_flag U12/A1 (0.0000:0.0000:0.0000))
+    (INTERCONNECT current_state_reg/QN U12/A2 (0.0000:0.0000:0.0000))
+    (INTERCONNECT current_state_reg/Q U12/B1 (0.0000:0.0000:0.0000))
+    (INTERCONNECT U13/ZN U12/B2 (0.0000:0.0000:0.0000))
+    (INTERCONNECT match_address[7] U4/A (0.0000:0.0000:0.0000))
+    (INTERCONNECT match_address[8] U4/B (0.0000:0.0000:0.0000))
+    (INTERCONNECT U4/ZN U3/A1 (0.0000:0.0000:0.0000))
+    (INTERCONNECT current_state_reg/QN U3/A2 (0.0000:0.0000:0.0000))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AND2_X4")
+  (INSTANCE U38)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.3011:0.3098:0.3098) (0.2857:0.2875:0.2875))
+    (IOPATH A2 ZN (0.4486:0.4628:0.4628) (0.3984:0.4018:0.4018))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "XOR2_X1")
+  (INSTANCE U37)
+  (DELAY
+    (ABSOLUTE
+    (COND (B == 1'b0) (IOPATH A Z (0.4679:0.4786:0.4786) (0.2938:0.2996:0.2996)))
+    (COND (B == 1'b1) (IOPATH A Z (0.2289:0.2394:0.2394) (0.1246:0.1317:0.1317)))
+    (COND (A == 1'b0) (IOPATH B Z (0.4310:0.4416:0.4416) (0.3780:0.3838:0.3838)))
+    (COND (A == 1'b1) (IOPATH B Z (0.2944:0.3049:0.3049) (0.1419:0.1482:0.1482)))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "XOR2_X1")
+  (INSTANCE U36)
+  (DELAY
+    (ABSOLUTE
+    (COND (B == 1'b0) (IOPATH A Z (0.4679:0.4786:0.4786) (0.2938:0.2996:0.2996)))
+    (COND (B == 1'b1) (IOPATH A Z (0.2289:0.2394:0.2394) (0.1246:0.1317:0.1317)))
+    (COND (A == 1'b0) (IOPATH B Z (0.4311:0.4423:0.4423) (0.3782:0.3840:0.3840)))
+    (COND (A == 1'b1) (IOPATH B Z (0.2946:0.3051:0.3051) (0.1421:0.1487:0.1487)))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AND2_X4")
+  (INSTANCE U35)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.3006:0.3082:0.3082) (0.2849:0.2869:0.2869))
+    (IOPATH A2 ZN (0.4482:0.4611:0.4611) (0.3976:0.4012:0.4012))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "XOR2_X1")
+  (INSTANCE U34)
+  (DELAY
+    (ABSOLUTE
+    (COND (B == 1'b0) (IOPATH A Z (0.4679:0.4786:0.4786) (0.2938:0.2996:0.2996)))
+    (COND (B == 1'b1) (IOPATH A Z (0.2289:0.2394:0.2394) (0.1246:0.1317:0.1317)))
+    (COND (A == 1'b0) (IOPATH B Z (0.4311:0.4423:0.4423) (0.3782:0.3840:0.3840)))
+    (COND (A == 1'b1) (IOPATH B Z (0.2946:0.3051:0.3051) (0.1421:0.1487:0.1487)))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "XOR2_X1")
+  (INSTANCE U33)
+  (DELAY
+    (ABSOLUTE
+    (COND (B == 1'b0) (IOPATH A Z (0.4679:0.4786:0.4786) (0.2938:0.2996:0.2996)))
+    (COND (B == 1'b1) (IOPATH A Z (0.2289:0.2394:0.2394) (0.1246:0.1317:0.1317)))
+    (COND (A == 1'b0) (IOPATH B Z (0.4311:0.4423:0.4423) (0.3782:0.3840:0.3840)))
+    (COND (A == 1'b1) (IOPATH B Z (0.2946:0.3051:0.3051) (0.1421:0.1487:0.1487)))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "XOR2_X1")
+  (INSTANCE U32)
+  (DELAY
+    (ABSOLUTE
+    (COND (B == 1'b0) (IOPATH A Z (0.4679:0.4786:0.4786) (0.2938:0.2996:0.2996)))
+    (COND (B == 1'b1) (IOPATH A Z (0.2289:0.2394:0.2394) (0.1246:0.1317:0.1317)))
+    (COND (A == 1'b0) (IOPATH B Z (0.4311:0.4423:0.4423) (0.3782:0.3840:0.3840)))
+    (COND (A == 1'b1) (IOPATH B Z (0.2946:0.3051:0.3051) (0.1421:0.1487:0.1487)))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "XOR2_X1")
+  (INSTANCE U31)
+  (DELAY
+    (ABSOLUTE
+    (COND (B == 1'b0) (IOPATH A Z (0.4679:0.4786:0.4786) (0.2938:0.2996:0.2996)))
+    (COND (B == 1'b1) (IOPATH A Z (0.2289:0.2394:0.2394) (0.1246:0.1317:0.1317)))
+    (COND (A == 1'b0) (IOPATH B Z (0.4311:0.4423:0.4423) (0.3782:0.3840:0.3840)))
+    (COND (A == 1'b1) (IOPATH B Z (0.2946:0.3051:0.3051) (0.1421:0.1487:0.1487)))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "XOR2_X1")
+  (INSTANCE U30)
+  (DELAY
+    (ABSOLUTE
+    (COND (B == 1'b0) (IOPATH A Z (0.4651:0.4749:0.4749) (0.2927:0.2982:0.2982)))
+    (COND (B == 1'b1) (IOPATH A Z (0.2279:0.2381:0.2381) (0.1221:0.1284:0.1284)))
+    (COND (A == 1'b0) (IOPATH B Z (0.4311:0.4423:0.4423) (0.3782:0.3840:0.3840)))
+    (COND (A == 1'b1) (IOPATH B Z (0.2946:0.3051:0.3051) (0.1421:0.1487:0.1487)))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AND2_X4")
+  (INSTANCE U29)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.3011:0.3098:0.3098) (0.2857:0.2875:0.2875))
+    (IOPATH A2 ZN (0.4486:0.4628:0.4628) (0.3984:0.4018:0.4018))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AND2_X4")
+  (INSTANCE U28)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.3011:0.3098:0.3098) (0.2857:0.2875:0.2875))
+    (IOPATH A2 ZN (0.4486:0.4628:0.4628) (0.3984:0.4018:0.4018))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AND2_X4")
+  (INSTANCE U27)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.3011:0.3098:0.3098) (0.2857:0.2875:0.2875))
+    (IOPATH A2 ZN (0.4486:0.4628:0.4628) (0.3984:0.4018:0.4018))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AND2_X4")
+  (INSTANCE U26)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.3011:0.3098:0.3098) (0.2857:0.2875:0.2875))
+    (IOPATH A2 ZN (0.4486:0.4628:0.4628) (0.3984:0.4018:0.4018))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AND2_X4")
+  (INSTANCE U25)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.3011:0.3098:0.3098) (0.2857:0.2875:0.2875))
+    (IOPATH A2 ZN (0.4486:0.4628:0.4628) (0.3984:0.4018:0.4018))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AND2_X4")
+  (INSTANCE U24)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.4178:0.4273:0.4273) (0.3462:0.3489:0.3489))
+    (IOPATH A2 ZN (0.3299:0.3470:0.3470) (0.3406:0.3434:0.3434))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "AND2_X4")
+  (INSTANCE U23)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.3111:0.3210:0.3210) (0.2884:0.2917:0.2917))
+    (IOPATH A2 ZN (0.4303:0.4387:0.4387) (0.3909:0.3931:0.3931))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "DFFR_X2")
+  (INSTANCE current_state_reg)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CK) Q (0.8614:0.8942:0.8942) (0.8885:0.8944:0.8944))
+    (COND (CK == 1'b0) (IOPATH RN Q (0.0000:0.0000:0.0000) (0.3374:0.3437:0.3437)))
+    (COND (CK == 1'b1) (IOPATH RN Q (0.0000:0.0000:0.0000) (0.3380:0.3445:0.3445)))
+    (IOPATH (posedge CK) QN (0.4534:0.4686:0.4686) (0.3826:0.3913:0.3913))
+    (COND (CK == 1'b0) (IOPATH RN QN (0.4643:0.4798:0.4798) (0.0000:0.0000:0.0000)))
+    (COND (CK == 1'b1) (IOPATH RN QN (0.6973:0.7135:0.7135) (0.0000:0.0000:0.0000)))
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CK) (0.3563:0.3563:0.3563))
+    (WIDTH (negedge CK) (0.5125:0.5125:0.5125))
+    (HOLD (posedge D) (COND RN == 1'b1 (posedge CK)) (-0.0713:-0.1022:-0.1022))
+    (HOLD (negedge D) (COND RN == 1'b1 (posedge CK)) (-0.0333:-0.0617:-0.0617))
+    (SETUP (posedge D) (COND RN == 1'b1 (posedge CK)) (0.2785:0.3416:0.3416))
+    (SETUP (negedge D) (COND RN == 1'b1 (posedge CK)) (0.4016:0.4307:0.4307))
+    (RECOVERY (posedge RN) (posedge CK) (-0.1464:-0.1469:-0.1469))
+    (HOLD (posedge RN) (posedge CK) (0.2745:0.2760:0.2760))
+    (WIDTH (negedge RN) (0.3313:0.3313:0.3313))
+  )
+)
+(CELL
+  (CELLTYPE "DFF_X2")
+  (INSTANCE outcell_reg_8_)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CK) Q (0.6624:0.6624:0.6624) (0.7161:0.7161:0.7161))
+    (IOPATH (posedge CK) QN (0.3601:0.3601:0.3601) (0.2959:0.2959:0.2959))
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CK) (0.3250:0.3250:0.3250))
+    (WIDTH (negedge CK) (0.3719:0.3719:0.3719))
+    (HOLD (posedge D) (posedge CK) (-0.0854:-0.0875:-0.0875))
+    (HOLD (negedge D) (posedge CK) (-0.0465:-0.0511:-0.0511))
+    (SETUP (posedge D) (posedge CK) (0.1904:0.1925:0.1925))
+    (SETUP (negedge D) (posedge CK) (0.2970:0.3025:0.3025))
+  )
+)
+(CELL
+  (CELLTYPE "DFF_X2")
+  (INSTANCE outcell_reg_7_)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CK) Q (0.6624:0.6624:0.6624) (0.7161:0.7161:0.7161))
+    (IOPATH (posedge CK) QN (0.3601:0.3601:0.3601) (0.2959:0.2959:0.2959))
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CK) (0.3250:0.3250:0.3250))
+    (WIDTH (negedge CK) (0.3719:0.3719:0.3719))
+    (HOLD (posedge D) (posedge CK) (-0.1254:-0.1389:-0.1389))
+    (HOLD (negedge D) (posedge CK) (-0.0585:-0.0678:-0.0678))
+    (SETUP (posedge D) (posedge CK) (0.2421:0.2628:0.2628))
+    (SETUP (negedge D) (posedge CK) (0.3114:0.3225:0.3225))
+  )
+)
+(CELL
+  (CELLTYPE "DFF_X2")
+  (INSTANCE outcell_reg_6_)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CK) Q (0.6624:0.6624:0.6624) (0.7161:0.7161:0.7161))
+    (IOPATH (posedge CK) QN (0.3601:0.3601:0.3601) (0.2959:0.2959:0.2959))
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CK) (0.3250:0.3250:0.3250))
+    (WIDTH (negedge CK) (0.3719:0.3719:0.3719))
+    (HOLD (posedge D) (posedge CK) (-0.1254:-0.1389:-0.1389))
+    (HOLD (negedge D) (posedge CK) (-0.0585:-0.0691:-0.0691))
+    (SETUP (posedge D) (posedge CK) (0.2421:0.2628:0.2628))
+    (SETUP (negedge D) (posedge CK) (0.3114:0.3242:0.3242))
+  )
+)
+(CELL
+  (CELLTYPE "DFF_X2")
+  (INSTANCE outcell_reg_5_)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CK) Q (0.6624:0.6624:0.6624) (0.7161:0.7161:0.7161))
+    (IOPATH (posedge CK) QN (0.3601:0.3601:0.3601) (0.2959:0.2959:0.2959))
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CK) (0.3250:0.3250:0.3250))
+    (WIDTH (negedge CK) (0.3719:0.3719:0.3719))
+    (HOLD (posedge D) (posedge CK) (-0.1254:-0.1389:-0.1389))
+    (HOLD (negedge D) (posedge CK) (-0.0585:-0.0691:-0.0691))
+    (SETUP (posedge D) (posedge CK) (0.2421:0.2628:0.2628))
+    (SETUP (negedge D) (posedge CK) (0.3114:0.3242:0.3242))
+  )
+)
+(CELL
+  (CELLTYPE "DFF_X2")
+  (INSTANCE outcell_reg_4_)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CK) Q (0.6624:0.6624:0.6624) (0.7161:0.7161:0.7161))
+    (IOPATH (posedge CK) QN (0.3601:0.3601:0.3601) (0.2959:0.2959:0.2959))
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CK) (0.3250:0.3250:0.3250))
+    (WIDTH (negedge CK) (0.3719:0.3719:0.3719))
+    (HOLD (posedge D) (posedge CK) (-0.1254:-0.1389:-0.1389))
+    (HOLD (negedge D) (posedge CK) (-0.0585:-0.0691:-0.0691))
+    (SETUP (posedge D) (posedge CK) (0.2421:0.2628:0.2628))
+    (SETUP (negedge D) (posedge CK) (0.3114:0.3242:0.3242))
+  )
+)
+(CELL
+  (CELLTYPE "DFF_X2")
+  (INSTANCE outcell_reg_3_)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CK) Q (0.6624:0.6624:0.6624) (0.7161:0.7161:0.7161))
+    (IOPATH (posedge CK) QN (0.3601:0.3601:0.3601) (0.2959:0.2959:0.2959))
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CK) (0.3250:0.3250:0.3250))
+    (WIDTH (negedge CK) (0.3719:0.3719:0.3719))
+    (HOLD (posedge D) (posedge CK) (-0.1254:-0.1389:-0.1389))
+    (HOLD (negedge D) (posedge CK) (-0.0585:-0.0691:-0.0691))
+    (SETUP (posedge D) (posedge CK) (0.2421:0.2628:0.2628))
+    (SETUP (negedge D) (posedge CK) (0.3114:0.3242:0.3242))
+  )
+)
+(CELL
+  (CELLTYPE "DFF_X2")
+  (INSTANCE outcell_reg_2_)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CK) Q (0.6624:0.6624:0.6624) (0.7161:0.7161:0.7161))
+    (IOPATH (posedge CK) QN (0.3601:0.3601:0.3601) (0.2959:0.2959:0.2959))
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CK) (0.3250:0.3250:0.3250))
+    (WIDTH (negedge CK) (0.3719:0.3719:0.3719))
+    (HOLD (posedge D) (posedge CK) (-0.1254:-0.1389:-0.1389))
+    (HOLD (negedge D) (posedge CK) (-0.0585:-0.0691:-0.0691))
+    (SETUP (posedge D) (posedge CK) (0.2421:0.2628:0.2628))
+    (SETUP (negedge D) (posedge CK) (0.3114:0.3242:0.3242))
+  )
+)
+(CELL
+  (CELLTYPE "DFF_X2")
+  (INSTANCE outcell_reg_1_)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CK) Q (0.6624:0.6624:0.6624) (0.7161:0.7161:0.7161))
+    (IOPATH (posedge CK) QN (0.3601:0.3601:0.3601) (0.2959:0.2959:0.2959))
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CK) (0.3250:0.3250:0.3250))
+    (WIDTH (negedge CK) (0.3719:0.3719:0.3719))
+    (HOLD (posedge D) (posedge CK) (-0.1254:-0.1389:-0.1389))
+    (HOLD (negedge D) (posedge CK) (-0.0585:-0.0691:-0.0691))
+    (SETUP (posedge D) (posedge CK) (0.2421:0.2628:0.2628))
+    (SETUP (negedge D) (posedge CK) (0.3114:0.3242:0.3242))
+  )
+)
+(CELL
+  (CELLTYPE "DFF_X2")
+  (INSTANCE outcell_reg_0_)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH (posedge CK) Q (0.6624:0.6624:0.6624) (0.7161:0.7161:0.7161))
+    (IOPATH (posedge CK) QN (0.3601:0.3601:0.3601) (0.2959:0.2959:0.2959))
+    )
+  )
+  (TIMINGCHECK
+    (WIDTH (posedge CK) (0.3250:0.3250:0.3250))
+    (WIDTH (negedge CK) (0.3719:0.3719:0.3719))
+    (HOLD (posedge D) (posedge CK) (-0.1253:-0.1272:-0.1272))
+    (HOLD (negedge D) (posedge CK) (-0.0705:-0.0727:-0.0727))
+    (SETUP (posedge D) (posedge CK) (0.2419:0.2447:0.2447))
+    (SETUP (negedge D) (posedge CK) (0.3259:0.3285:0.3285))
+  )
+)
+(CELL
+  (CELLTYPE "INV_X4")
+  (INSTANCE U13)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A ZN (0.0616:0.0678:0.0678) (0.0318:0.0369:0.0369))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "OAI22_X2")
+  (INSTANCE U12)
+  (DELAY
+    (ABSOLUTE
+    (COND (A2 == 1'b0) && (B1 == 1'b0) && (B2 == 1'b1) (IOPATH A1 ZN (0.1651:0.1703:0.1703) (0.0775:0.0880:0.0880)))
+    (COND (A2 == 1'b0) && (B1 == 1'b1) && (B2 == 1'b0) (IOPATH A1 ZN (0.1624:0.1676:0.1676) (0.0662:0.0749:0.0749)))
+    (COND (A2 == 1'b0) && (B1 == 1'b1) && (B2 == 1'b1) (IOPATH A1 ZN (0.1619:0.1670:0.1670) (0.0589:0.0665:0.0665)))
+    (COND (A1 == 1'b0) && (B1 == 1'b0) && (B2 == 1'b1) (IOPATH A2 ZN (0.2345:0.2402:0.2402) (0.1003:0.1076:0.1076)))
+    (COND (A1 == 1'b0) && (B1 == 1'b1) && (B2 == 1'b0) (IOPATH A2 ZN (0.2317:0.2374:0.2374) (0.0865:0.0932:0.0932)))
+    (COND (A1 == 1'b0) && (B1 == 1'b1) && (B2 == 1'b1) (IOPATH A2 ZN (0.2314:0.2371:0.2371) (0.0761:0.0820:0.0820)))
+    (COND (A1 == 1'b0) && (A2 == 1'b1) && (B2 == 1'b0) (IOPATH B1 ZN (0.3351:0.3411:0.3411) (0.2144:0.2249:0.2249)))
+    (COND (A1 == 1'b1) && (A2 == 1'b0) && (B2 == 1'b0) (IOPATH B1 ZN (0.3320:0.3379:0.3379) (0.1849:0.1941:0.1941)))
+    (COND (A1 == 1'b1) && (A2 == 1'b1) && (B2 == 1'b0) (IOPATH B1 ZN (0.3447:0.3506:0.3506) (0.1779:0.1869:0.1869)))
+    (COND (A1 == 1'b0) && (A2 == 1'b1) && (B1 == 1'b0) (IOPATH B2 ZN (0.3062:0.3134:0.3134) (0.0946:0.0980:0.0980)))
+    (COND (A1 == 1'b1) && (A2 == 1'b0) && (B1 == 1'b0) (IOPATH B2 ZN (0.3030:0.3101:0.3101) (0.0822:0.0856:0.0856)))
+    (COND (A1 == 1'b1) && (A2 == 1'b1) && (B1 == 1'b0) (IOPATH B2 ZN (0.3157:0.3228:0.3228) (0.0702:0.0734:0.0734)))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "XNOR2_X2")
+  (INSTANCE U4)
+  (DELAY
+    (ABSOLUTE
+    (COND (B == 1'b0) (IOPATH A ZN (0.1685:0.1835:0.1835) (0.0782:0.0931:0.0931)))
+    (COND (B == 1'b1) (IOPATH A ZN (0.2599:0.2831:0.2831) (0.2535:0.2578:0.2578)))
+    (COND (A == 1'b0) (IOPATH B ZN (0.2339:0.2497:0.2497) (0.0949:0.1066:0.1066)))
+    (COND (A == 1'b1) (IOPATH B ZN (0.2813:0.2983:0.2983) (0.2916:0.2968:0.2968)))
+    )
+  )
+)
+(CELL
+  (CELLTYPE "NOR2_X2")
+  (INSTANCE U3)
+  (DELAY
+    (ABSOLUTE
+    (IOPATH A1 ZN (0.1132:0.1228:0.1228) (0.0617:0.0681:0.0681))
+    (IOPATH A2 ZN (0.1679:0.1739:0.1739) (0.0641:0.0699:0.0699))
+    )
+  )
+)
+)

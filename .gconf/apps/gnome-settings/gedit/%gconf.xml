@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="history-gedit2_search_for_entry" mtime="1475000418" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>count</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>print</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>cout</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>e_control</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>grey</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>parity</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>medium</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>high</stringvalue>
+		</li>
+	</entry>
+</gconf>

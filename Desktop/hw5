@@ -1,0 +1,61 @@
+# //  ModelSim SE 10.3b May 29 2014 Linux 2.6.32-573.1.1.el6.x86_64
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -novopt testfixture 
+# Start time: 17:37:07 on Sep 23,2015
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.testfixture
+# Loading work.RequestQueue
+add wave sim:/testfixture/*
+run 100ns
+# Test 1 OKN
+# Test 2 OKN
+# Test 3 OKN
+# Test 4 OKN
+# Test 5 OKN
+# Test 6 OKN
+
+///////////////////////////Area///////////////////////////////
+
+design_vision> report_area
+ 
+****************************************
+Report : area
+Design : RequestQueue
+Version: I-2013.12-SP1
+Date   : Wed Sep 23 18:33:43 2015
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm (File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/nangate/NangateOpenCellLibrary_PDKv1_2_v2008_10/liberty/520/NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm.db)
+
+Number of ports:                            6
+Number of nets:                            12
+Number of cells:                            7
+Number of combinational cells:              5
+Number of sequential cells:                 2
+Number of macros/black boxes:               0
+Number of buf/inv:                          2
+Number of references:                       5
+
+Combinational area:                  3.990000
+Buf/Inv area:                        1.064000
+Noncombinational area:              11.172000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                    15.162000
+
+
+
+/*
+#             11695000: Warning, address 00000108 selects neither RAM or console
+#             11695000: Warning, address 00000108 selects neither RAM or console 2
+*/

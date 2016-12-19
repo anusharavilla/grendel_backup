@@ -1,0 +1,15 @@
+Note: fibonacci.c with 21 iterations
+
+a) Cycles per second for TLM : 3082482/04.35 = 708616.5517
+    
+   Cycles per second for Verilog simulation 25455.2272
+
+   Speedup from the TLM model = 708616.5517/25455.2272 => 21.84
+
+   => TLM is ~22X faster than the verilog model
+
+c) CPI for TLM : 3082482/531990 = 5.7942
+
+   CPI for Verilog simulation = 2.6133
+
+  (The value of CPI is more than what was expected )

@@ -1,0 +1,120 @@
+content calendar jar:chrome.jar!/calendar/content/calendar/
+content lightning jar:chrome.jar!/lightning/content/lightning/
+locale calendar cs jar:chrome.jar!/calendar-cs/locale/cs/calendar/
+locale calendar cy jar:chrome.jar!/calendar-cy/locale/cy/calendar/
+locale calendar da jar:chrome.jar!/calendar-da/locale/da/calendar/
+locale calendar de jar:chrome.jar!/calendar-de/locale/de/calendar/
+locale calendar en-GB jar:chrome.jar!/calendar-en-GB/locale/en-GB/calendar/
+locale calendar en-US jar:chrome.jar!/calendar-en-US/locale/en-US/calendar/
+locale calendar es-AR jar:chrome.jar!/calendar-es-AR/locale/es-AR/calendar/
+locale calendar es-ES jar:chrome.jar!/calendar-es-ES/locale/es-ES/calendar/
+locale calendar et jar:chrome.jar!/calendar-et/locale/et/calendar/
+locale calendar eu jar:chrome.jar!/calendar-eu/locale/eu/calendar/
+locale calendar fr jar:chrome.jar!/calendar-fr/locale/fr/calendar/
+locale calendar fy-NL jar:chrome.jar!/calendar-fy-NL/locale/fy-NL/calendar/
+locale calendar ga-IE jar:chrome.jar!/calendar-ga-IE/locale/ga-IE/calendar/
+locale calendar gd jar:chrome.jar!/calendar-gd/locale/gd/calendar/
+locale calendar hr jar:chrome.jar!/calendar-hr/locale/hr/calendar/
+locale calendar hu jar:chrome.jar!/calendar-hu/locale/hu/calendar/
+locale calendar is jar:chrome.jar!/calendar-is/locale/is/calendar/
+locale calendar it jar:chrome.jar!/calendar-it/locale/it/calendar/
+locale calendar ja jar:chrome.jar!/calendar-ja/locale/ja/calendar/
+locale calendar ko jar:chrome.jar!/calendar-ko/locale/ko/calendar/
+locale calendar lt jar:chrome.jar!/calendar-lt/locale/lt/calendar/
+locale calendar nb-NO jar:chrome.jar!/calendar-nb-NO/locale/nb-NO/calendar/
+locale calendar nl jar:chrome.jar!/calendar-nl/locale/nl/calendar/
+locale calendar nn-NO jar:chrome.jar!/calendar-nn-NO/locale/nn-NO/calendar/
+locale calendar pl jar:chrome.jar!/calendar-pl/locale/pl/calendar/
+locale calendar pt-PT jar:chrome.jar!/calendar-pt-PT/locale/pt-PT/calendar/
+locale calendar ro jar:chrome.jar!/calendar-ro/locale/ro/calendar/
+locale calendar ru jar:chrome.jar!/calendar-ru/locale/ru/calendar/
+locale calendar sk jar:chrome.jar!/calendar-sk/locale/sk/calendar/
+locale calendar sl jar:chrome.jar!/calendar-sl/locale/sl/calendar/
+locale calendar sv-SE jar:chrome.jar!/calendar-sv-SE/locale/sv-SE/calendar/
+locale calendar zh-CN jar:chrome.jar!/calendar-zh-CN/locale/zh-CN/calendar/
+locale calendar zh-TW jar:chrome.jar!/calendar-zh-TW/locale/zh-TW/calendar/
+locale lightning cs jar:chrome.jar!/lightning-cs/locale/cs/lightning/
+locale lightning cy jar:chrome.jar!/lightning-cy/locale/cy/lightning/
+locale lightning da jar:chrome.jar!/lightning-da/locale/da/lightning/
+locale lightning de jar:chrome.jar!/lightning-de/locale/de/lightning/
+locale lightning en-GB jar:chrome.jar!/lightning-en-GB/locale/en-GB/lightning/
+locale lightning en-US jar:chrome.jar!/lightning-en-US/locale/en-US/lightning/
+locale lightning es-AR jar:chrome.jar!/lightning-es-AR/locale/es-AR/lightning/
+locale lightning es-ES jar:chrome.jar!/lightning-es-ES/locale/es-ES/lightning/
+locale lightning et jar:chrome.jar!/lightning-et/locale/et/lightning/
+locale lightning eu jar:chrome.jar!/lightning-eu/locale/eu/lightning/
+locale lightning fr jar:chrome.jar!/lightning-fr/locale/fr/lightning/
+locale lightning fy-NL jar:chrome.jar!/lightning-fy-NL/locale/fy-NL/lightning/
+locale lightning ga-IE jar:chrome.jar!/lightning-ga-IE/locale/ga-IE/lightning/
+locale lightning gd jar:chrome.jar!/lightning-gd/locale/gd/lightning/
+locale lightning hr jar:chrome.jar!/lightning-hr/locale/hr/lightning/
+locale lightning hu jar:chrome.jar!/lightning-hu/locale/hu/lightning/
+locale lightning is jar:chrome.jar!/lightning-is/locale/is/lightning/
+locale lightning it jar:chrome.jar!/lightning-it/locale/it/lightning/
+locale lightning ja jar:chrome.jar!/lightning-ja/locale/ja/lightning/
+locale lightning ko jar:chrome.jar!/lightning-ko/locale/ko/lightning/
+locale lightning lt jar:chrome.jar!/lightning-lt/locale/lt/lightning/
+locale lightning nb-NO jar:chrome.jar!/lightning-nb-NO/locale/nb-NO/lightning/
+locale lightning nl jar:chrome.jar!/lightning-nl/locale/nl/lightning/
+locale lightning nn-NO jar:chrome.jar!/lightning-nn-NO/locale/nn-NO/lightning/
+locale lightning pl jar:chrome.jar!/lightning-pl/locale/pl/lightning/
+locale lightning pt-PT jar:chrome.jar!/lightning-pt-PT/locale/pt-PT/lightning/
+locale lightning ro jar:chrome.jar!/lightning-ro/locale/ro/lightning/
+locale lightning ru jar:chrome.jar!/lightning-ru/locale/ru/lightning/
+locale lightning sk jar:chrome.jar!/lightning-sk/locale/sk/lightning/
+locale lightning sl jar:chrome.jar!/lightning-sl/locale/sl/lightning/
+locale lightning sv-SE jar:chrome.jar!/lightning-sv-SE/locale/sv-SE/lightning/
+locale lightning zh-CN jar:chrome.jar!/lightning-zh-CN/locale/zh-CN/lightning/
+locale lightning zh-TW jar:chrome.jar!/lightning-zh-TW/locale/zh-TW/lightning/
+skin calendar classic/1.0 jar:chrome.jar!/skin/linux/calendar/
+skin calendar classic/1.0 jar:chrome.jar!/skin/osx/calendar/ os=Darwin
+skin calendar classic/1.0 jar:chrome.jar!/skin/windows/calendar/ os=WINNT
+skin calendar-common classic/1.0 jar:chrome.jar!/skin/common/
+skin calendar-windows classic/1.0 jar:chrome.jar!/skin/windows/calendar/win-aero/ os=WINNT osversion>=6
+skin calendar-windows classic/1.0 jar:chrome.jar!/skin/windows/calendar/win-classic/ os=WINNT osversion<6
+skin lightning classic/1.0 jar:chrome.jar!/skin/linux/lightning/
+skin lightning classic/1.0 jar:chrome.jar!/skin/osx/lightning/ os=Darwin
+skin lightning classic/1.0 jar:chrome.jar!/skin/windows/lightning/ os=WINNT
+skin lightning-common classic/1.0 jar:chrome.jar!/skin/lightning-common/
+overlay about:addons chrome://lightning/content/suite-overlay-addons.xul application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+overlay about:preferences chrome://calendar/content/preferences/alarms.xul
+overlay about:preferences chrome://calendar/content/preferences/categories.xul
+overlay about:preferences chrome://calendar/content/preferences/general.xul
+overlay about:preferences chrome://calendar/content/preferences/views.xul
+overlay about:preferences chrome://lightning/content/messenger-overlay-preferences.xul
+overlay chrome://calendar/content/calendar-properties-dialog.xul chrome://lightning/content/lightning-calendar-properties.xul
+overlay chrome://calendar/content/calendarCreation.xul chrome://lightning/content/lightning-calendar-creation.xul
+overlay chrome://communicator/content/pref/preferences.xul chrome://lightning/content/suite-overlay-preferences.xul application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+overlay chrome://lightning/content/lightning-standalone.xul chrome://lightning/content/messenger-overlay-sidebar.xul
+overlay chrome://lightning/content/messenger-overlay-sidebar.xul chrome://calendar/content/calendar-task-view.xul
+overlay chrome://lightning/content/messenger-overlay-sidebar.xul chrome://calendar/content/calendar-unifinder-todo.xul
+overlay chrome://lightning/content/messenger-overlay-sidebar.xul chrome://calendar/content/calendar-unifinder.xul
+overlay chrome://lightning/content/messenger-overlay-sidebar.xul chrome://calendar/content/today-pane.xul
+overlay chrome://lightning/content/messenger-overlay-sidebar.xul chrome://lightning/content/imip-bar-overlay.xul
+overlay chrome://lightning/content/messenger-overlay-sidebar.xul chrome://lightning/content/suite-overlay-sidebar.xul application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+overlay chrome://messenger/content/messageWindow.xul chrome://lightning/content/imip-bar-overlay.xul
+overlay chrome://messenger/content/messageWindow.xul chrome://lightning/content/messenger-overlay-messageWindow.xul
+overlay chrome://messenger/content/messenger.xul chrome://lightning/content/lightning-migration.xul
+overlay chrome://messenger/content/messenger.xul chrome://lightning/content/messenger-overlay-sidebar.xul
+overlay chrome://messenger/content/msgAccountCentral.xul chrome://lightning/content/messenger-overlay-accountCentral.xul
+overlay chrome://messenger/content/preferences/preferences.xul chrome://calendar/content/preferences/alarms.xul
+overlay chrome://messenger/content/preferences/preferences.xul chrome://calendar/content/preferences/categories.xul
+overlay chrome://messenger/content/preferences/preferences.xul chrome://calendar/content/preferences/general.xul
+overlay chrome://messenger/content/preferences/preferences.xul chrome://calendar/content/preferences/views.xul
+overlay chrome://messenger/content/preferences/preferences.xul chrome://lightning/content/messenger-overlay-preferences.xul
+overlay chrome://mozapps/content/extensions/extensions.xul chrome://lightning/content/suite-overlay-addons.xul application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+override chrome://lightning/skin/accountCentral.css chrome://lightning/skin/suite-accountCentral.css application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+override chrome://messagebody/skin/calendar-event-dialog-attendees.png chrome://calendar/skin/calendar-event-dialog-attendees.png
+override chrome://messagebody/skin/imip.css chrome://lightning/skin/imip.css
+resource calendar .
+style chrome://calendar/content/calendar-event-dialog-attendees.xul chrome://calendar-common/skin/dialogs/calendar-event-dialog.css
+style chrome://calendar/content/calendar-event-dialog-attendees.xul chrome://calendar-windows/skin/calendar-event-dialog.css os=WINNT
+style chrome://calendar/content/calendar-event-dialog.xul chrome://calendar-common/skin/dialogs/calendar-event-dialog.css
+style chrome://calendar/content/calendar-event-dialog.xul chrome://calendar-windows/skin/calendar-event-dialog.css os=WINNT
+style chrome://calendar/content/calendar-event-dialog.xul chrome://communicator/skin/communicator.css application={92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}
+style chrome://calendar/content/calendar-occurrence-prompt.xul chrome://calendar-windows/skin/calendar.css os=WINNT osversion>=6
+style chrome://global/content/customizeToolbar.xul chrome://calendar-windows/skin/calendar-event-dialog.css os=WINNT
+style chrome://global/content/customizeToolbar.xul chrome://calendar/skin/calendar-event-dialog.css
+style chrome://global/content/customizeToolbar.xul chrome://calendar/skin/calendar-task-view.css
+style chrome://global/content/customizeToolbar.xul chrome://lightning/skin/lightning-toolbar.css
+manifest components/components.manifest

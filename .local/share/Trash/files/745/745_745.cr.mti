@@ -1,0 +1,364 @@
+/afs/unity.ncsu.edu/users/a/arangan2/745/Mem_Access.vp {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/Mem_Access.vp
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling module MemAccess
+
+Top level modules:
+	MemAccess
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/control_golden_reference.sv {1 {vlog -stats=none -work work -vopt -sv /afs/unity.ncsu.edu/users/a/arangan2/745/control_golden_reference.sv
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+
+Top level modules:
+	--none--
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/Fetch.vp {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/Fetch.vp
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling module Fetch
+
+Top level modules:
+	Fetch
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs_memaccess.vp {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs_memaccess.vp
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs_fetch.vp {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs_fetch.vp
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/fetch_golden.sv {1 {vlog -stats=none -work work -vopt -sv /afs/unity.ncsu.edu/users/a/arangan2/745/fetch_golden.sv
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+
+Top level modules:
+	--none--
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/writeback_golden_reference.sv {1 {vlog -stats=none -work work -vopt -sv /afs/unity.ncsu.edu/users/a/arangan2/745/writeback_golden_reference.sv
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+
+Top level modules:
+	--none--
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/TopLevelLC3.v {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/TopLevelLC3.v
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling module LC3
+
+Top level modules:
+	LC3
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs_decode.vp {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs_decode.vp
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/mem_golden_reference.sv {1 {vlog -stats=none -work work -vopt -sv /afs/unity.ncsu.edu/users/a/arangan2/745/mem_golden_reference.sv
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+
+Top level modules:
+	--none--
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/environment.sv {2 {vlog -stats=none -work work -vopt -sv /afs/unity.ncsu.edu/users/a/arangan2/745/environment.sv
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+** Warning: ** while parsing file included at /afs/unity.ncsu.edu/users/a/arangan2/745/environment.sv(6)
+** at project.if.sv(2): (vlog-2275) 'LC3_io' already exists and will be overwritten.
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling package environment_sv_unit
+** Warning: /afs/unity.ncsu.edu/users/a/arangan2/745/environment.sv(74): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+
+Top level modules:
+	--none--
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/Controller_Pipeline.vp {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/Controller_Pipeline.vp
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling module Controller_Pipeline
+
+Top level modules:
+	Controller_Pipeline
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/project.test_top.sv {1 {vlog -stats=none -work work -vopt -sv /afs/unity.ncsu.edu/users/a/arangan2/745/project.test_top.sv
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling module LC3_test_top
+
+Top level modules:
+	LC3_test_top
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs.vp {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs.vp
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv {2 {vlog -stats=none -work work -vopt -sv /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling module LC3
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+** Warning: ** while parsing file included at /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv(4)
+** while parsing file included at environment.sv(2)
+** while parsing file included at fetch_golden.sv(2)
+** at project.if.sv(2): (vlog-2275) 'LC3_io' already exists and will be overwritten.
+-- Compiling interface LC3_io
+** Warning: ** while parsing file included at /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv(4)
+** while parsing file included at environment.sv(2)
+** while parsing file included at fetch_golden.sv(2)
+** at project.if.sv(30): (vlog-2275) 'dut_Probe_if' already exists and will be overwritten.
+-- Compiling interface dut_Probe_if
+** Warning: ** while parsing file included at /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv(4)
+** while parsing file included at environment.sv(2)
+** while parsing file included at fetch_golden.sv(2)
+** at project.if.sv(44): (vlog-2275) 'dut_Probe_decode' already exists and will be overwritten.
+-- Compiling interface dut_Probe_decode
+** Warning: ** while parsing file included at /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv(4)
+** while parsing file included at environment.sv(2)
+** while parsing file included at fetch_golden.sv(2)
+** at project.if.sv(62): (vlog-2275) 'dut_Probe_controller' already exists and will be overwritten.
+-- Compiling interface dut_Probe_controller
+** Warning: ** while parsing file included at /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv(4)
+** while parsing file included at environment.sv(2)
+** while parsing file included at fetch_golden.sv(2)
+** at project.if.sv(77): (vlog-2275) 'dut_Probe_ex' already exists and will be overwritten.
+-- Compiling interface dut_Probe_ex
+** Warning: ** while parsing file included at /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv(4)
+** while parsing file included at environment.sv(2)
+** while parsing file included at fetch_golden.sv(2)
+** at project.if.sv(98): (vlog-2275) 'dut_Probe_writeback' already exists and will be overwritten.
+-- Compiling interface dut_Probe_writeback
+** Warning: ** while parsing file included at /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv(4)
+** while parsing file included at environment.sv(2)
+** while parsing file included at fetch_golden.sv(2)
+** at project.if.sv(112): (vlog-2275) 'dut_Probe_mem' already exists and will be overwritten.
+-- Compiling interface dut_Probe_mem
+** Warning: ** while parsing file included at /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv(4)
+** while parsing file included at environment.sv(6)
+** at project.if.sv(2): (vlog-2275) 'LC3_io' already exists and will be overwritten.
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+** Warning: ** while parsing file included at /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv(34)
+** at Coverage.sv(102): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: ** while parsing file included at /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv(34)
+** at Coverage.sv(103): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: ** while parsing file included at /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv(34)
+** at Coverage.sv(113): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: ** while parsing file included at /afs/unity.ncsu.edu/users/a/arangan2/745/testbench.sv(34)
+** at Coverage.sv(114): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+-- Compiling package testbench_sv_unit
+** Warning: environment.sv(74): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+-- Compiling module testbench
+** Warning: Coverage.sv(102): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: Coverage.sv(103): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: Coverage.sv(113): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: Coverage.sv(114): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	testbench
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/Execute.vp {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/Execute.vp
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling module Execute
+-- Compiling module extension
+-- Compiling module ALU
+
+Top level modules:
+	Execute
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/WriteBack.vp {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/WriteBack.vp
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling module Writeback
+-- Compiling module RegFile
+
+Top level modules:
+	Writeback
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/execute_golden_reference.sv {1 {vlog -stats=none -work work -vopt -sv /afs/unity.ncsu.edu/users/a/arangan2/745/execute_golden_reference.sv
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+
+Top level modules:
+	--none--
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs_execute.vp {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs_execute.vp
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/Decode_Pipelined.vp {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/Decode_Pipelined.vp
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling module Decode
+
+Top level modules:
+	Decode
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/decode_golden_reference.sv {1 {vlog -stats=none -work work -vopt -sv /afs/unity.ncsu.edu/users/a/arangan2/745/decode_golden_reference.sv
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+
+Top level modules:
+	--none--
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs_writeback.vp {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs_writeback.vp
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs_controller.vp {1 {vlog -stats=none -work work -vopt /afs/unity.ncsu.edu/users/a/arangan2/745/data_defs_controller.vp
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/Coverage.sv {2 {vlog -stats=none -work work -vopt -sv /afs/unity.ncsu.edu/users/a/arangan2/745/Coverage.sv
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+** Warning: /afs/unity.ncsu.edu/users/a/arangan2/745/Coverage.sv(102): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: /afs/unity.ncsu.edu/users/a/arangan2/745/Coverage.sv(103): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: /afs/unity.ncsu.edu/users/a/arangan2/745/Coverage.sv(113): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: /afs/unity.ncsu.edu/users/a/arangan2/745/Coverage.sv(114): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	--none--
+
+} {} {}} /afs/unity.ncsu.edu/users/a/arangan2/745/project.if.sv {1 {vlog -stats=none -work work -vopt -sv /afs/unity.ncsu.edu/users/a/arangan2/745/project.if.sv
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling interface LC3_io
+-- Compiling interface dut_Probe_if
+-- Compiling interface dut_Probe_decode
+-- Compiling interface dut_Probe_controller
+-- Compiling interface dut_Probe_ex
+-- Compiling interface dut_Probe_writeback
+-- Compiling interface dut_Probe_mem
+
+Top level modules:
+	--none--
+
+} {} {}}

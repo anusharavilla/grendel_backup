@@ -1,0 +1,1340 @@
+make[1]: Entering directory `/afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw02/p3/sim'
+vlib work
+vlog ../src/gate/CORTEXM0DS_final.v cortexm0ds_tb.v /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+Start time: 15:19:21 on Sep 08,2016
+vlog ../src/gate/CORTEXM0DS_final.v cortexm0ds_tb.v /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v 
+QuestaSim-64 vlog 10.4c_3 Compiler 2015.10 Oct 21 2015
+-- Compiling module cortexm0ds_logic
+-- Compiling module CORTEXM0DS
+-- Compiling module cortexm0ds_tb
+-- Compiling module AND2X1_LVT
+-- Compiling module AND2X2_LVT
+-- Compiling module AND2X4_LVT
+-- Compiling module AND3X1_LVT
+-- Compiling module AND3X2_LVT
+-- Compiling module AND3X4_LVT
+-- Compiling module AND4X1_LVT
+-- Compiling module AND4X2_LVT
+-- Compiling module AND4X4_LVT
+-- Compiling module ANTENNA_LVT
+-- Compiling module AO21X1_LVT
+-- Compiling module AO21X2_LVT
+-- Compiling module AO221X1_LVT
+-- Compiling module AO221X2_LVT
+-- Compiling module AO222X1_LVT
+-- Compiling module AO222X2_LVT
+-- Compiling module AO22X1_LVT
+-- Compiling module AO22X2_LVT
+-- Compiling module AOBUFX1_LVT
+-- Compiling module AOBUFX2_LVT
+-- Compiling module AOBUFX4_LVT
+-- Compiling module AODFFARX1_LVT
+-- Compiling UDP s_aodffarx1_Q__LVT
+-- Compiling module AODFFARX2_LVT
+-- Compiling UDP s_aodffarx2_Q__LVT
+-- Compiling module AODFFNARX1_LVT
+-- Compiling UDP s_aodffnarx1_Q__LVT
+-- Compiling module AODFFNARX2_LVT
+-- Compiling UDP s_aodffnarx2_Q__LVT
+-- Compiling module AOI21X1_LVT
+-- Compiling module AOI21X2_LVT
+-- Compiling module AOI221X1_LVT
+-- Compiling module AOI221X2_LVT
+-- Compiling module AOI222X1_LVT
+-- Compiling module AOI222X2_LVT
+-- Compiling module AOI22X1_LVT
+-- Compiling module AOI22X2_LVT
+-- Compiling module AOINVX1_LVT
+-- Compiling module AOINVX2_LVT
+-- Compiling module AOINVX4_LVT
+-- Compiling module BSLEX1_LVT
+-- Compiling module BSLEX2_LVT
+-- Compiling module BSLEX4_LVT
+-- Compiling module BUSKP_LVT
+-- Compiling module CGLNPRX2_LVT
+-- Compiling module CGLNPRX8_LVT
+-- Compiling module CGLNPSX16_LVT
+-- Compiling module CGLNPSX2_LVT
+-- Compiling module CGLNPSX4_LVT
+-- Compiling module CGLNPSX8_LVT
+-- Compiling module CGLPPRX2_LVT
+-- Compiling module CGLPPRX8_LVT
+-- Compiling module CGLPPSX16_LVT
+-- Compiling module CGLPPSX2_LVT
+-- Compiling module CGLPPSX4_LVT
+-- Compiling module CGLPPSX8_LVT
+-- Compiling module CLOAD1_LVT
+-- Compiling module DCAP_LVT
+-- Compiling module DEC24X1_LVT
+-- Compiling UDP s_dec24x1_Q3__LVT
+-- Compiling UDP s_dec24x1_Q2__LVT
+-- Compiling UDP s_dec24x1_Q1__LVT
+-- Compiling UDP s_dec24x1_Q0__LVT
+-- Compiling module DEC24X2_LVT
+-- Compiling UDP s_dec24x2_Q3__LVT
+-- Compiling UDP s_dec24x2_Q2__LVT
+-- Compiling UDP s_dec24x2_Q1__LVT
+-- Compiling UDP s_dec24x2_Q0__LVT
+-- Compiling module DELLN1X2_LVT
+-- Compiling module DELLN2X2_LVT
+-- Compiling module DELLN3X2_LVT
+-- Compiling module DFFARX1_LVT
+-- Compiling module DFFARX2_LVT
+-- Compiling module DFFASRX1_LVT
+-- Compiling module DFFASRX2_LVT
+-- Compiling module DFFASX1_LVT
+-- Compiling module DFFASX2_LVT
+-- Compiling module DFFNARX1_LVT
+-- Compiling module DFFNARX2_LVT
+-- Compiling module DFFNASRNX1_LVT
+-- Compiling module DFFNASRNX2_LVT
+-- Compiling module DFFNASRQX1_LVT
+-- Compiling module DFFNASRQX2_LVT
+-- Compiling module DFFNASRX1_LVT
+-- Compiling module DFFNASRX2_LVT
+-- Compiling module DFFNASX1_LVT
+-- Compiling module DFFNASX2_LVT
+-- Compiling module DFFNX1_LVT
+-- Compiling module DFFNX2_LVT
+-- Compiling module DFFSSRX1_LVT
+-- Compiling module DFFSSRX2_LVT
+-- Compiling module DFFX1_LVT
+-- Compiling module DFFX2_LVT
+-- Compiling module DHFILLHL2_LVT
+-- Compiling module DHFILLHLHLS11_LVT
+-- Compiling module DHFILLH2_LVT
+-- Compiling module FADDX1_LVT
+-- Compiling UDP s_faddx1_S__LVT
+-- Compiling UDP s_faddx1_CO__LVT
+-- Compiling module FADDX2_LVT
+-- Compiling UDP s_faddx2_S__LVT
+-- Compiling UDP s_faddx2_CO__LVT
+-- Compiling module HADDX1_LVT
+-- Compiling module HADDX2_LVT
+-- Compiling module FOOT2X16_LVT
+-- Compiling module FOOT2X2_LVT
+-- Compiling module FOOT2X32_LVT
+-- Compiling module FOOT2X4_LVT
+-- Compiling module FOOT2X8_LVT
+-- Compiling module FOOTX16_LVT
+-- Compiling module FOOTX2_LVT
+-- Compiling module FOOTX32_LVT
+-- Compiling module FOOTX4_LVT
+-- Compiling module FOOTX8_LVT
+-- Compiling module HEAD2X16_LVT
+-- Compiling module HEAD2X2_LVT
+-- Compiling module HEAD2X32_LVT
+-- Compiling module HEAD2X4_LVT
+-- Compiling module HEAD2X8_LVT
+-- Compiling module HEADX16_LVT
+-- Compiling module HEADX2_LVT
+-- Compiling module HEADX32_LVT
+-- Compiling module HEADX4_LVT
+-- Compiling module HEADX8_LVT
+-- Compiling module IBUFFX16_LVT
+-- Compiling module IBUFFX2_LVT
+-- Compiling module IBUFFX32_LVT
+-- Compiling module IBUFFX4_LVT
+-- Compiling module IBUFFX8_LVT
+-- Compiling module INVX0_LVT
+-- Compiling module INVX16_LVT
+-- Compiling module INVX1_LVT
+-- Compiling module INVX2_LVT
+-- Compiling module INVX32_LVT
+-- Compiling module INVX4_LVT
+-- Compiling module INVX8_LVT
+-- Compiling module ISOLANDX1_LVT
+-- Compiling module ISOLANDX2_LVT
+-- Compiling module ISOLANDX4_LVT
+-- Compiling module ISOLANDX8_LVT
+-- Compiling module ISOLORX1_LVT
+-- Compiling module ISOLORX2_LVT
+-- Compiling module ISOLORX4_LVT
+-- Compiling module ISOLORX8_LVT
+-- Compiling module ISOLANDAOX1_LVT
+-- Compiling module ISOLANDAOX2_LVT
+-- Compiling module ISOLANDAOX4_LVT
+-- Compiling module ISOLANDAOX8_LVT
+-- Compiling module ISOLORAOX1_LVT
+-- Compiling module ISOLORAOX2_LVT
+-- Compiling module ISOLORAOX4_LVT
+-- Compiling module ISOLORAOX8_LVT
+-- Compiling module LARX1_LVT
+-- Compiling module LARX2_LVT
+-- Compiling module LASRNX1_LVT
+-- Compiling module LASRNX2_LVT
+-- Compiling module LASRQX1_LVT
+-- Compiling module LASRQX2_LVT
+-- Compiling module LASRX1_LVT
+-- Compiling module LASRX2_LVT
+-- Compiling module LASX1_LVT
+-- Compiling module LASX2_LVT
+-- Compiling module LATCHX1_LVT
+-- Compiling module LATCHX2_LVT
+-- Compiling module LNANDX1_LVT
+-- Compiling module LNANDX2_LVT
+-- Compiling module LSDNENX1_LVT
+-- Compiling module LSDNENX2_LVT
+-- Compiling module LSDNENX4_LVT
+-- Compiling module LSDNENX8_LVT
+-- Compiling module LSDNENCLX1_LVT
+-- Compiling module LSDNENCLX2_LVT
+-- Compiling module LSDNENCLX4_LVT
+-- Compiling module LSDNENCLX8_LVT
+-- Compiling module LSDNENCLSSX1_LVT
+-- Compiling module LSDNENCLSSX2_LVT
+-- Compiling module LSDNENCLSSX4_LVT
+-- Compiling module LSDNENCLSSX8_LVT
+-- Compiling module LSDNENSSX1_LVT
+-- Compiling module LSDNENSSX2_LVT
+-- Compiling module LSDNENSSX4_LVT
+-- Compiling module LSDNENSSX8_LVT
+-- Compiling module LSDNSSX1_LVT
+-- Compiling module LSDNSSX2_LVT
+-- Compiling module LSDNSSX4_LVT
+-- Compiling module LSDNSSX8_LVT
+-- Compiling module LSDNX1_LVT
+-- Compiling module LSDNX2_LVT
+-- Compiling module LSDNX4_LVT
+-- Compiling module LSDNX8_LVT
+-- Compiling module LSUPENX1_LVT
+-- Compiling module LSUPENX2_LVT
+-- Compiling module LSUPENX4_LVT
+-- Compiling module LSUPENX8_LVT
+-- Compiling module LSUPENCLX1_LVT
+-- Compiling module LSUPENCLX2_LVT
+-- Compiling module LSUPENCLX4_LVT
+-- Compiling module LSUPENCLX8_LVT
+-- Compiling module LSUPX1_LVT
+-- Compiling module LSUPX2_LVT
+-- Compiling module LSUPX4_LVT
+-- Compiling module LSUPX8_LVT
+-- Compiling module MUX21X1_LVT
+-- Compiling UDP s_mux21x1__LVT
+-- Compiling module MUX21X2_LVT
+-- Compiling UDP s_mux21x2__LVT
+-- Compiling module MUX41X1_LVT
+-- Compiling UDP s_mux41x1__LVT
+-- Compiling module MUX41X2_LVT
+-- Compiling UDP s_mux41x2__LVT
+-- Compiling module NAND2X0_LVT
+-- Compiling module NAND2X1_LVT
+-- Compiling module NAND2X2_LVT
+-- Compiling module NAND2X4_LVT
+-- Compiling module NAND3X0_LVT
+-- Compiling module NAND3X1_LVT
+-- Compiling module NAND3X2_LVT
+-- Compiling module NAND3X4_LVT
+-- Compiling module NAND4X0_LVT
+-- Compiling module NAND4X1_LVT
+-- Compiling module NBUFFX16_LVT
+-- Compiling module NBUFFX2_LVT
+-- Compiling module NBUFFX32_LVT
+-- Compiling module NBUFFX4_LVT
+-- Compiling module NBUFFX8_LVT
+-- Compiling module NMT1_LVT
+-- Compiling module NMT2_LVT
+-- Compiling module NMT3_LVT
+-- Compiling module NOR2X0_LVT
+-- Compiling module NOR2X1_LVT
+-- Compiling module NOR2X2_LVT
+-- Compiling module NOR2X4_LVT
+-- Compiling module NOR3X0_LVT
+-- Compiling module NOR3X1_LVT
+-- Compiling module NOR3X2_LVT
+-- Compiling module NOR3X4_LVT
+-- Compiling module NOR4X0_LVT
+-- Compiling module NOR4X1_LVT
+-- Compiling module OA21X1_LVT
+-- Compiling module OA21X2_LVT
+-- Compiling module OA221X1_LVT
+-- Compiling module OA221X2_LVT
+-- Compiling module OA222X1_LVT
+-- Compiling module OA222X2_LVT
+-- Compiling module OA22X1_LVT
+-- Compiling module OA22X2_LVT
+-- Compiling module OAI21X1_LVT
+-- Compiling module OAI21X2_LVT
+-- Compiling module OAI221X1_LVT
+-- Compiling module OAI221X2_LVT
+-- Compiling module OAI222X1_LVT
+-- Compiling module OAI222X2_LVT
+-- Compiling module OAI22X1_LVT
+-- Compiling module OAI22X2_LVT
+-- Compiling module OR2X1_LVT
+-- Compiling module OR2X2_LVT
+-- Compiling module OR2X4_LVT
+-- Compiling module OR3X1_LVT
+-- Compiling module OR3X2_LVT
+-- Compiling module OR3X4_LVT
+-- Compiling module OR4X1_LVT
+-- Compiling module OR4X2_LVT
+-- Compiling module OR4X4_LVT
+-- Compiling module PGX1_LVT
+-- Compiling module PGX2_LVT
+-- Compiling module PGX4_LVT
+-- Compiling module PMT1_LVT
+-- Compiling module PMT2_LVT
+-- Compiling module PMT3_LVT
+-- Compiling module RDFFARX1_LVT
+-- Compiling module RDFFARX2_LVT
+-- Compiling module RDFFNARX1_LVT
+-- Compiling module RDFFNARX2_LVT
+-- Compiling module RSDFFARX1_LVT
+-- Compiling module RSDFFARX2_LVT
+-- Compiling module RSDFFNARX1_LVT
+-- Compiling module RSDFFNARX2_LVT
+-- Compiling module RDFFNX1_LVT
+-- Compiling module RDFFNX2_LVT
+-- Compiling module RDFFX1_LVT
+-- Compiling module RDFFX2_LVT
+-- Compiling module RSDFFNX1_LVT
+-- Compiling module RSDFFNX2_LVT
+-- Compiling module RSDFFX1_LVT
+-- Compiling module RSDFFX2_LVT
+-- Compiling module SDFFARX1_LVT
+-- Compiling module SDFFARX2_LVT
+-- Compiling module SDFFASRSX1_LVT
+-- Compiling module SDFFASRSX2_LVT
+-- Compiling module SDFFASRX1_LVT
+-- Compiling module SDFFASRX2_LVT
+-- Compiling module SDFFASX1_LVT
+-- Compiling module SDFFASX2_LVT
+-- Compiling module SDFFNARX1_LVT
+-- Compiling module SDFFNARX2_LVT
+-- Compiling module SDFFNASRX1_LVT
+-- Compiling module SDFFNASRX2_LVT
+-- Compiling module SDFFNASX1_LVT
+-- Compiling module SDFFNASX2_LVT
+-- Compiling module SDFFNX1_LVT
+-- Compiling module SDFFNX2_LVT
+-- Compiling module SDFFSSRX1_LVT
+-- Compiling module SDFFSSRX2_LVT
+-- Compiling module SDFFX1_LVT
+-- Compiling module SDFFX2_LVT
+-- Compiling module SHFILL2_LVT
+-- Compiling module SHFILL3_LVT
+-- Compiling module SHFILL1_LVT
+-- Compiling module SHFILL64_LVT
+-- Compiling module SHFILL128_LVT
+-- Compiling module TIEH_LVT
+-- Compiling module TIEL_LVT
+-- Compiling module TNBUFFX16_LVT
+-- Compiling module TNBUFFX1_LVT
+-- Compiling module TNBUFFX2_LVT
+-- Compiling module TNBUFFX32_LVT
+-- Compiling module TNBUFFX4_LVT
+-- Compiling module TNBUFFX8_LVT
+-- Compiling module XNOR2X1_LVT
+-- Compiling module XNOR2X2_LVT
+-- Compiling module XNOR3X1_LVT
+-- Compiling module XNOR3X2_LVT
+-- Compiling module XOR2X1_LVT
+-- Compiling module XOR2X2_LVT
+-- Compiling module XOR3X1_LVT
+-- Compiling module XOR3X2_LVT
+-- Compiling module RDFFNSRASX1_LVT
+-- Compiling module RDFFNSRASX2_LVT
+-- Compiling module RDFFSRARX1_LVT
+-- Compiling module RDFFSRARX2_LVT
+-- Compiling module RDFFSRASRX1_LVT
+-- Compiling module RDFFSRASRX2_LVT
+-- Compiling module RDFFSRASX1_LVT
+-- Compiling module RDFFSRASX2_LVT
+-- Compiling module RSDFFNSRARX1_LVT
+-- Compiling module RSDFFNSRARX2_LVT
+-- Compiling module RSDFFNSRASRX1_LVT
+-- Compiling module RSDFFNSRASRX2_LVT
+-- Compiling module RSDFFNSRASRNX1_LVT
+-- Compiling module RSDFFNSRASRNX2_LVT
+-- Compiling module RSDFFNSRASRQX1_LVT
+-- Compiling module RSDFFNSRASRQX2_LVT
+-- Compiling module RSDFFSRARX1_LVT
+-- Compiling module RSDFFSRARX2_LVT
+-- Compiling module RSDFFSRASRX1_LVT
+-- Compiling module RSDFFSRASRX2_LVT
+-- Compiling module RDFFNSRARX1_LVT
+-- Compiling module RDFFNSRARX2_LVT
+-- Compiling module RDFFNSRASRQX1_LVT
+-- Compiling module RDFFNSRASRQX2_LVT
+-- Compiling module RDFFNSRASRNX1_LVT
+-- Compiling module RDFFNSRASRNX2_LVT
+-- Compiling module RDFFNSRASRX1_LVT
+-- Compiling module RDFFNSRASRX2_LVT
+-- Compiling module RDFFNSRX1_LVT
+-- Compiling module RDFFNSRX2_LVT
+-- Compiling module RDFFSRSSRX1_LVT
+-- Compiling module RDFFSRSSRX2_LVT
+-- Compiling module RDFFSRX1_LVT
+-- Compiling module RDFFSRX2_LVT
+-- Compiling module RSDFFNSRASX1_LVT
+-- Compiling module RSDFFNSRASX2_LVT
+-- Compiling module RSDFFNSRX1_LVT
+-- Compiling module RSDFFNSRX2_LVT
+-- Compiling module RSDFFSRASX1_LVT
+-- Compiling module RSDFFSRASX2_LVT
+-- Compiling module RSDFFSRSSRX1_LVT
+-- Compiling module RSDFFSRSSRX2_LVT
+-- Compiling module RSDFFSRX1_LVT
+-- Compiling module RSDFFSRX2_LVT
+-- Compiling UDP saed32_xbuf_LVT
+-- Compiling UDP saed32_mux_LVT
+-- Compiling UDP saed32_dff_pos_LVT
+-- Compiling UDP saed32_dff_neg_LVT
+-- Compiling UDP saed32_dla_high_LVT
+-- Compiling UDP saed32_dla_low_LVT
+
+Top level modules:
+	cortexm0ds_tb
+	AND2X2_LVT
+	ANTENNA_LVT
+	AO221X2_LVT
+	AO222X2_LVT
+	AOBUFX1_LVT
+	AOBUFX2_LVT
+	AOBUFX4_LVT
+	AODFFARX1_LVT
+	AODFFARX2_LVT
+	AODFFNARX1_LVT
+	AODFFNARX2_LVT
+	AOI222X2_LVT
+	AOINVX1_LVT
+	AOINVX2_LVT
+	AOINVX4_LVT
+	BSLEX1_LVT
+	BSLEX2_LVT
+	BSLEX4_LVT
+	BUSKP_LVT
+	CGLNPRX2_LVT
+	CGLNPRX8_LVT
+	CGLNPSX16_LVT
+	CGLNPSX2_LVT
+	CGLNPSX4_LVT
+	CGLNPSX8_LVT
+	CGLPPRX2_LVT
+	CGLPPRX8_LVT
+	CGLPPSX16_LVT
+	CGLPPSX2_LVT
+	CGLPPSX4_LVT
+	CGLPPSX8_LVT
+	CLOAD1_LVT
+	DCAP_LVT
+	DEC24X1_LVT
+	DEC24X2_LVT
+	DFFARX2_LVT
+	DFFASRX1_LVT
+	DFFASRX2_LVT
+	DFFASX2_LVT
+	DFFNARX1_LVT
+	DFFNARX2_LVT
+	DFFNASRNX1_LVT
+	DFFNASRNX2_LVT
+	DFFNASRQX1_LVT
+	DFFNASRQX2_LVT
+	DFFNASRX1_LVT
+	DFFNASRX2_LVT
+	DFFNASX1_LVT
+	DFFNASX2_LVT
+	DFFNX1_LVT
+	DFFNX2_LVT
+	DFFSSRX1_LVT
+	DFFSSRX2_LVT
+	DFFX1_LVT
+	DFFX2_LVT
+	DHFILLHL2_LVT
+	DHFILLHLHLS11_LVT
+	DHFILLH2_LVT
+	FADDX2_LVT
+	FOOT2X16_LVT
+	FOOT2X2_LVT
+	FOOT2X32_LVT
+	FOOT2X4_LVT
+	FOOT2X8_LVT
+	FOOTX16_LVT
+	FOOTX2_LVT
+	FOOTX32_LVT
+	FOOTX4_LVT
+	FOOTX8_LVT
+	HEAD2X16_LVT
+	HEAD2X2_LVT
+	HEAD2X32_LVT
+	HEAD2X4_LVT
+	HEAD2X8_LVT
+	HEADX16_LVT
+	HEADX2_LVT
+	HEADX32_LVT
+	HEADX4_LVT
+	HEADX8_LVT
+	IBUFFX16_LVT
+	IBUFFX32_LVT
+	IBUFFX8_LVT
+	INVX16_LVT
+	INVX2_LVT
+	INVX32_LVT
+	INVX4_LVT
+	INVX8_LVT
+	ISOLANDX1_LVT
+	ISOLANDX2_LVT
+	ISOLANDX4_LVT
+	ISOLANDX8_LVT
+	ISOLORX1_LVT
+	ISOLORX2_LVT
+	ISOLORX4_LVT
+	ISOLORX8_LVT
+	ISOLANDAOX1_LVT
+	ISOLANDAOX2_LVT
+	ISOLANDAOX4_LVT
+	ISOLANDAOX8_LVT
+	ISOLORAOX1_LVT
+	ISOLORAOX2_LVT
+	ISOLORAOX4_LVT
+	ISOLORAOX8_LVT
+	LARX1_LVT
+	LARX2_LVT
+	LASRNX1_LVT
+	LASRNX2_LVT
+	LASRQX1_LVT
+	LASRQX2_LVT
+	LASRX1_LVT
+	LASRX2_LVT
+	LASX1_LVT
+	LASX2_LVT
+	LATCHX1_LVT
+	LATCHX2_LVT
+	LNANDX1_LVT
+	LNANDX2_LVT
+	LSDNENX1_LVT
+	LSDNENX2_LVT
+	LSDNENX4_LVT
+	LSDNENX8_LVT
+	LSDNENCLX1_LVT
+	LSDNENCLX2_LVT
+	LSDNENCLX4_LVT
+	LSDNENCLX8_LVT
+	LSDNENCLSSX1_LVT
+	LSDNENCLSSX2_LVT
+	LSDNENCLSSX4_LVT
+	LSDNENCLSSX8_LVT
+	LSDNENSSX1_LVT
+	LSDNENSSX2_LVT
+	LSDNENSSX4_LVT
+	LSDNENSSX8_LVT
+	LSDNSSX1_LVT
+	LSDNSSX2_LVT
+	LSDNSSX4_LVT
+	LSDNSSX8_LVT
+	LSDNX1_LVT
+	LSDNX2_LVT
+	LSDNX4_LVT
+	LSDNX8_LVT
+	LSUPENX1_LVT
+	LSUPENX2_LVT
+	LSUPENX4_LVT
+	LSUPENX8_LVT
+	LSUPENCLX1_LVT
+	LSUPENCLX2_LVT
+	LSUPENCLX4_LVT
+	LSUPENCLX8_LVT
+	LSUPX1_LVT
+	LSUPX2_LVT
+	LSUPX4_LVT
+	LSUPX8_LVT
+	MUX21X1_LVT
+	MUX21X2_LVT
+	MUX41X1_LVT
+	MUX41X2_LVT
+	NBUFFX16_LVT
+	NBUFFX32_LVT
+	NBUFFX4_LVT
+	NBUFFX8_LVT
+	NMT1_LVT
+	NMT2_LVT
+	NMT3_LVT
+	NOR3X1_LVT
+	OAI221X2_LVT
+	OAI222X2_LVT
+	OR3X4_LVT
+	OR4X4_LVT
+	PGX1_LVT
+	PGX2_LVT
+	PGX4_LVT
+	PMT1_LVT
+	PMT2_LVT
+	PMT3_LVT
+	RDFFARX1_LVT
+	RDFFARX2_LVT
+	RDFFNARX1_LVT
+	RDFFNARX2_LVT
+	RSDFFARX1_LVT
+	RSDFFARX2_LVT
+	RSDFFNARX1_LVT
+	RSDFFNARX2_LVT
+	RDFFNX1_LVT
+	RDFFNX2_LVT
+	RDFFX1_LVT
+	RDFFX2_LVT
+	RSDFFNX1_LVT
+	RSDFFNX2_LVT
+	RSDFFX1_LVT
+	RSDFFX2_LVT
+	SDFFARX1_LVT
+	SDFFARX2_LVT
+	SDFFASRSX1_LVT
+	SDFFASRSX2_LVT
+	SDFFASRX1_LVT
+	SDFFASRX2_LVT
+	SDFFASX1_LVT
+	SDFFASX2_LVT
+	SDFFNARX1_LVT
+	SDFFNARX2_LVT
+	SDFFNASRX1_LVT
+	SDFFNASRX2_LVT
+	SDFFNASX1_LVT
+	SDFFNASX2_LVT
+	SDFFNX1_LVT
+	SDFFNX2_LVT
+	SDFFSSRX1_LVT
+	SDFFSSRX2_LVT
+	SDFFX1_LVT
+	SDFFX2_LVT
+	SHFILL2_LVT
+	SHFILL3_LVT
+	SHFILL1_LVT
+	SHFILL64_LVT
+	SHFILL128_LVT
+	TIEH_LVT
+	TIEL_LVT
+	TNBUFFX16_LVT
+	TNBUFFX1_LVT
+	TNBUFFX2_LVT
+	TNBUFFX32_LVT
+	TNBUFFX4_LVT
+	TNBUFFX8_LVT
+	XNOR3X1_LVT
+	XNOR3X2_LVT
+	XOR3X1_LVT
+	XOR3X2_LVT
+	RDFFNSRASX1_LVT
+	RDFFNSRASX2_LVT
+	RDFFSRARX1_LVT
+	RDFFSRARX2_LVT
+	RDFFSRASRX1_LVT
+	RDFFSRASRX2_LVT
+	RDFFSRASX1_LVT
+	RDFFSRASX2_LVT
+	RSDFFNSRARX1_LVT
+	RSDFFNSRARX2_LVT
+	RSDFFNSRASRX1_LVT
+	RSDFFNSRASRX2_LVT
+	RSDFFNSRASRNX1_LVT
+	RSDFFNSRASRNX2_LVT
+	RSDFFNSRASRQX1_LVT
+	RSDFFNSRASRQX2_LVT
+	RSDFFSRARX1_LVT
+	RSDFFSRARX2_LVT
+	RSDFFSRASRX1_LVT
+	RSDFFSRASRX2_LVT
+	RDFFNSRARX1_LVT
+	RDFFNSRARX2_LVT
+	RDFFNSRASRQX1_LVT
+	RDFFNSRASRQX2_LVT
+	RDFFNSRASRNX1_LVT
+	RDFFNSRASRNX2_LVT
+	RDFFNSRASRX1_LVT
+	RDFFNSRASRX2_LVT
+	RDFFNSRX1_LVT
+	RDFFNSRX2_LVT
+	RDFFSRSSRX1_LVT
+	RDFFSRSSRX2_LVT
+	RDFFSRX1_LVT
+	RDFFSRX2_LVT
+	RSDFFNSRASX1_LVT
+	RSDFFNSRASX2_LVT
+	RSDFFNSRX1_LVT
+	RSDFFNSRX2_LVT
+	RSDFFSRASX1_LVT
+	RSDFFSRASX2_LVT
+	RSDFFSRSSRX1_LVT
+	RSDFFSRSSRX2_LVT
+	RSDFFSRX1_LVT
+	RSDFFSRX2_LVT
+End time: 15:19:25 on Sep 08,2016, Elapsed time: 0:00:04
+Errors: 0, Warnings: 0
+vopt cortexm0ds_tb -o cortexm0ds_tb_opt
+QuestaSim-64 vopt 10.4c_3 Compiler 2015.10 Oct 21 2015
+Start time: 15:19:25 on Sep 08,2016
+vopt cortexm0ds_tb -o cortexm0ds_tb_opt 
+
+Top level modules:
+	cortexm0ds_tb
+
+Analyzing design...
+-- Loading module cortexm0ds_tb
+-- Loading module CORTEXM0DS
+-- Loading module cortexm0ds_logic
+-- Loading module FADDX1_LVT
+-- Loading UDP s_faddx1_S__LVT
+-- Loading UDP s_faddx1_CO__LVT
+-- Loading module HADDX1_LVT
+-- Loading module DFFASX1_LVT
+-- Loading UDP saed32_dff_pos_LVT
+-- Loading UDP saed32_xbuf_LVT
+-- Loading module DFFARX1_LVT
+-- Loading module AND2X1_LVT
+-- Loading module AO21X1_LVT
+-- Loading module NOR4X0_LVT
+-- Loading module NAND3X0_LVT
+-- Loading module NAND4X0_LVT
+-- Loading module INVX0_LVT
+-- Loading module AO221X1_LVT
+-- Loading module AOI222X1_LVT
+-- Loading module AO22X1_LVT
+-- Loading module AO222X1_LVT
+-- Loading module OA21X1_LVT
+-- Loading module OA221X1_LVT
+-- Loading module NOR2X0_LVT
+-- Loading module NAND2X0_LVT
+-- Loading module OAI221X1_LVT
+-- Loading module AOI221X1_LVT
+-- Loading module XNOR2X1_LVT
+-- Loading module OA22X1_LVT
+-- Loading module OAI21X1_LVT
+-- Loading module AOI21X1_LVT
+-- Loading module OR3X1_LVT
+-- Loading module OA222X1_LVT
+-- Loading module AOI22X1_LVT
+-- Loading module AND3X1_LVT
+-- Loading module OAI222X1_LVT
+-- Loading module AND4X1_LVT
+-- Loading module OAI22X1_LVT
+-- Loading module OR4X1_LVT
+-- Loading module OR2X1_LVT
+-- Loading module NOR3X0_LVT
+-- Loading module XOR2X1_LVT
+-- Loading module HADDX2_LVT
+-- Loading module NAND3X2_LVT
+-- Loading module NAND2X1_LVT
+-- Loading module OR4X2_LVT
+-- Loading module AND3X4_LVT
+-- Loading module IBUFFX4_LVT
+-- Loading module OA22X2_LVT
+-- Loading module OA222X2_LVT
+-- Loading module AND4X2_LVT
+-- Loading module NBUFFX2_LVT
+-- Loading module OR2X2_LVT
+-- Loading module IBUFFX2_LVT
+-- Loading module NOR2X2_LVT
+-- Loading module AND2X4_LVT
+-- Loading module XOR2X2_LVT
+-- Loading module INVX1_LVT
+-- Loading module AOI22X2_LVT
+-- Loading module NAND2X4_LVT
+-- Loading module NOR3X4_LVT
+-- Loading module NAND4X1_LVT
+-- Loading module AND3X2_LVT
+-- Loading module XNOR2X2_LVT
+-- Loading module AOI221X2_LVT
+-- Loading module AND4X4_LVT
+-- Loading module NOR3X2_LVT
+-- Loading module DELLN3X2_LVT
+-- Loading module NOR2X1_LVT
+-- Loading module NAND3X1_LVT
+-- Loading module AO21X2_LVT
+-- Loading module AOI21X2_LVT
+-- Loading module NAND3X4_LVT
+-- Loading module AO22X2_LVT
+-- Loading module OA21X2_LVT
+-- Loading module DELLN1X2_LVT
+-- Loading module DELLN2X2_LVT
+-- Loading module OR2X4_LVT
+-- Loading module OR3X2_LVT
+-- Loading module OAI21X2_LVT
+-- Loading module NOR4X1_LVT
+-- Loading module NAND2X2_LVT
+-- Loading module OA221X2_LVT
+-- Loading module OAI22X2_LVT
+-- Loading module NOR2X4_LVT
+Optimizing 85 design-units (inlining 2/8000 module instances, 9361/9361 UDP instances):
+-- Inlining UDP s_faddx1_S__LVT
+-- Inlining UDP s_faddx1_CO__LVT
+-- Optimizing module FADDX1_LVT(fast)
+-- Optimizing module OA22X1_LVT(fast)
+-- Optimizing module OAI22X1_LVT(fast)
+-- Optimizing module OA22X2_LVT(fast)
+-- Optimizing module OAI22X2_LVT(fast)
+-- Optimizing module AO22X1_LVT(fast)
+-- Optimizing module AOI22X1_LVT(fast)
+-- Optimizing module AOI22X2_LVT(fast)
+-- Optimizing module AO22X2_LVT(fast)
+-- Optimizing module AO21X1_LVT(fast)
+-- Optimizing module AOI21X1_LVT(fast)
+-- Optimizing module AO21X2_LVT(fast)
+-- Optimizing module AOI21X2_LVT(fast)
+-- Optimizing module OA21X1_LVT(fast)
+-- Optimizing module OAI21X1_LVT(fast)
+-- Optimizing module OA21X2_LVT(fast)
+-- Optimizing module OAI21X2_LVT(fast)
+-- Optimizing module HADDX1_LVT(fast)
+-- Optimizing module HADDX2_LVT(fast)
+-- Optimizing module NOR4X0_LVT(fast)
+-- Optimizing module NAND4X0_LVT(fast)
+-- Optimizing module AND4X1_LVT(fast)
+-- Optimizing module OR4X1_LVT(fast)
+-- Optimizing module OR4X2_LVT(fast)
+-- Optimizing module AND4X2_LVT(fast)
+-- Optimizing module NAND4X1_LVT(fast)
+-- Optimizing module AND4X4_LVT(fast)
+-- Optimizing module NOR4X1_LVT(fast)
+-- Optimizing module XNOR2X1_LVT(fast)
+-- Optimizing module XOR2X1_LVT(fast)
+-- Optimizing module XOR2X2_LVT(fast)
+-- Optimizing module XNOR2X2_LVT(fast)
+-- Optimizing module NAND3X0_LVT(fast)
+-- Optimizing module OR3X1_LVT(fast)
+-- Optimizing module AND3X1_LVT(fast)
+-- Optimizing module NOR3X0_LVT(fast)
+-- Optimizing module NAND3X2_LVT(fast)
+-- Optimizing module AND3X4_LVT(fast)
+-- Optimizing module NOR3X4_LVT(fast)
+-- Optimizing module AND3X2_LVT(fast)
+-- Optimizing module NOR3X2_LVT(fast)
+-- Optimizing module NAND3X1_LVT(fast)
+-- Optimizing module NAND3X4_LVT(fast)
+-- Optimizing module OR3X2_LVT(fast)
+-- Optimizing module AND2X1_LVT(fast)
+-- Optimizing module NOR2X0_LVT(fast)
+-- Optimizing module NAND2X0_LVT(fast)
+-- Optimizing module OR2X1_LVT(fast)
+-- Optimizing module NAND2X1_LVT(fast)
+-- Optimizing module OR2X2_LVT(fast)
+-- Optimizing module NOR2X2_LVT(fast)
+-- Optimizing module AND2X4_LVT(fast)
+-- Optimizing module NAND2X4_LVT(fast)
+-- Optimizing module NOR2X1_LVT(fast)
+-- Optimizing module OR2X4_LVT(fast)
+-- Optimizing module NAND2X2_LVT(fast)
+-- Optimizing module NOR2X4_LVT(fast)
+-- Optimizing module INVX0_LVT(fast)
+-- Optimizing module IBUFFX4_LVT(fast)
+-- Optimizing module NBUFFX2_LVT(fast)
+-- Optimizing module IBUFFX2_LVT(fast)
+-- Optimizing module INVX1_LVT(fast)
+-- Optimizing module DELLN3X2_LVT(fast)
+-- Optimizing module DELLN1X2_LVT(fast)
+-- Optimizing module DELLN2X2_LVT(fast)
+-- Inlining module cortexm0ds_logic(fast)
+** Warning: ../src/gate/CORTEXM0DS_final.v(1173): (vopt-2685) [TFMPC] - Too few port connections for 'Kaf3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1173): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1253): (vopt-2685) [TFMPC] - Too few port connections for 'Rix2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1253): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1259): (vopt-2685) [TFMPC] - Too few port connections for 'Zpx2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1259): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1267): (vopt-2685) [TFMPC] - Too few port connections for 'Rvu2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1267): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1281): (vopt-2685) [TFMPC] - Too few port connections for 'Nox2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1281): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1309): (vopt-2685) [TFMPC] - Too few port connections for 'Bnx2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1309): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1323): (vopt-2685) [TFMPC] - Too few port connections for 'Lrx2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1323): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1325): (vopt-2685) [TFMPC] - Too few port connections for 'Omk2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1325): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1333): (vopt-2685) [TFMPC] - Too few port connections for 'Jux2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1333): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1507): (vopt-2685) [TFMPC] - Too few port connections for 'G7x2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1507): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1509): (vopt-2685) [TFMPC] - Too few port connections for 'R8x2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1509): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1511): (vopt-2685) [TFMPC] - Too few port connections for 'Cax2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1511): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1513): (vopt-2685) [TFMPC] - Too few port connections for 'Nbx2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1513): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1515): (vopt-2685) [TFMPC] - Too few port connections for 'Xsx2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1515): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1517): (vopt-2685) [TFMPC] - Too few port connections for 'Vvx2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1517): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1519): (vopt-2685) [TFMPC] - Too few port connections for 'Ycx2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1519): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1521): (vopt-2685) [TFMPC] - Too few port connections for 'Jex2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1521): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1523): (vopt-2685) [TFMPC] - Too few port connections for 'V4d3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1523): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1525): (vopt-2685) [TFMPC] - Too few port connections for 'Ufx2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1525): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1527): (vopt-2685) [TFMPC] - Too few port connections for 'Gmd3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1527): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1529): (vopt-2685) [TFMPC] - Too few port connections for 'Fhx2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1529): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1531): (vopt-2685) [TFMPC] - Too few port connections for 'Tme3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1531): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1533): (vopt-2685) [TFMPC] - Too few port connections for 'Jwf3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(1533): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2349): (vopt-2685) [TFMPC] - Too few port connections for 'Axm2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2349): (vopt-2718) [TFMPC] - Missing connection for port 'Q'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2355): (vopt-2685) [TFMPC] - Too few port connections for 'Dkx2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2355): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2357): (vopt-2685) [TFMPC] - Too few port connections for 'Plx2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2357): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2359): (vopt-2685) [TFMPC] - Too few port connections for 'Zjq2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2359): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2361): (vopt-2685) [TFMPC] - Too few port connections for 'B9g3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2361): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2363): (vopt-2685) [TFMPC] - Too few port connections for 'Foe3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2363): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2371): (vopt-2685) [TFMPC] - Too few port connections for 'Igi2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2371): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2375): (vopt-2685) [TFMPC] - Too few port connections for 'Q6l2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(2375): (vopt-2718) [TFMPC] - Missing connection for port 'Q'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7349): (vopt-2685) [TFMPC] - Too few port connections for 'Jcw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7349): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7351): (vopt-2685) [TFMPC] - Too few port connections for 'Nfb3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7351): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7352): (vopt-2685) [TFMPC] - Too few port connections for 'Xuw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7352): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7353): (vopt-2685) [TFMPC] - Too few port connections for 'Qzw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7353): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7354): (vopt-2685) [TFMPC] - Too few port connections for 'Qlw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7354): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7355): (vopt-2685) [TFMPC] - Too few port connections for 'Gqw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7355): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7356): (vopt-2685) [TFMPC] - Too few port connections for 'Ahw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7356): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7357): (vopt-2685) [TFMPC] - Too few port connections for 'Sow2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7357): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7358): (vopt-2685) [TFMPC] - Too few port connections for 'Mfw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7358): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7359): (vopt-2685) [TFMPC] - Too few port connections for 'Itw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7359): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7360): (vopt-2685) [TFMPC] - Too few port connections for 'Ckw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7360): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7361): (vopt-2685) [TFMPC] - Too few port connections for 'Byw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7361): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7368): (vopt-2685) [TFMPC] - Too few port connections for 'Wia3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7368): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7369): (vopt-2685) [TFMPC] - Too few port connections for 'I1h3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7369): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7370): (vopt-2685) [TFMPC] - Too few port connections for 'L8m2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7370): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7373): (vopt-2685) [TFMPC] - Too few port connections for 'B2i3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7373): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7374): (vopt-2685) [TFMPC] - Too few port connections for 'Ieh3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7374): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7375): (vopt-2685) [TFMPC] - Too few port connections for 'Ydw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7375): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7376): (vopt-2685) [TFMPC] - Too few port connections for 'Urw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7376): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7377): (vopt-2685) [TFMPC] - Too few port connections for 'Oiw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7377): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7378): (vopt-2685) [TFMPC] - Too few port connections for 'Mww2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7378): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7379): (vopt-2685) [TFMPC] - Too few port connections for 'F1x2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7379): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7380): (vopt-2685) [TFMPC] - Too few port connections for 'Enw2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7380): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7381): (vopt-2685) [TFMPC] - Too few port connections for 'Gdo2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7381): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7382): (vopt-2685) [TFMPC] - Too few port connections for 'Mka3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7382): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7383): (vopt-2685) [TFMPC] - Too few port connections for 'Xyn2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7383): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7384): (vopt-2685) [TFMPC] - Too few port connections for 'Aea3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7384): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7387): (vopt-2685) [TFMPC] - Too few port connections for 'Qfa3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7387): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7388): (vopt-2685) [TFMPC] - Too few port connections for 'Gha3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7388): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7389): (vopt-2685) [TFMPC] - Too few port connections for 'W3f3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7389): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7390): (vopt-2685) [TFMPC] - Too few port connections for 'Bge3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7390): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7393): (vopt-2685) [TFMPC] - Too few port connections for 'C9a3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7393): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7398): (vopt-2685) [TFMPC] - Too few port connections for 'Kxe3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7398): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7399): (vopt-2685) [TFMPC] - Too few port connections for 'D4a3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7399): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7404): (vopt-2685) [TFMPC] - Too few port connections for 'Mbt2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7404): (vopt-2718) [TFMPC] - Missing connection for port 'Q'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7409): (vopt-2685) [TFMPC] - Too few port connections for 'I6w2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7409): (vopt-2718) [TFMPC] - Missing connection for port 'Q'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7414): (vopt-2685) [TFMPC] - Too few port connections for 'U5x2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7414): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7417): (vopt-2685) [TFMPC] - Too few port connections for 'Pet2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7417): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7418): (vopt-2685) [TFMPC] - Too few port connections for 'Hzj2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7418): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7427): (vopt-2685) [TFMPC] - Too few port connections for 'Mvi2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7427): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7428): (vopt-2685) [TFMPC] - Too few port connections for 'Ypi3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7428): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7440): (vopt-2685) [TFMPC] - Too few port connections for 'Cma3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7440): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7447): (vopt-2685) [TFMPC] - Too few port connections for 'G6d3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7447): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7479): (vopt-2685) [TFMPC] - Too few port connections for 'Aii3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7479): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7502): (vopt-2685) [TFMPC] - Too few port connections for 'U4z2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7502): (vopt-2718) [TFMPC] - Missing connection for port 'Q'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7513): (vopt-2685) [TFMPC] - Too few port connections for 'T1y2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7513): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7540): (vopt-2685) [TFMPC] - Too few port connections for 'Fey2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7540): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7541): (vopt-2685) [TFMPC] - Too few port connections for 'Rbi3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7541): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7544): (vopt-2685) [TFMPC] - Too few port connections for 'Owq2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7544): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7591): (vopt-2685) [TFMPC] - Too few port connections for 'Idk2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7591): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7599): (vopt-2685) [TFMPC] - Too few port connections for 'W0b3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7599): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7605): (vopt-2685) [TFMPC] - Too few port connections for 'M5f3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7605): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7607): (vopt-2685) [TFMPC] - Too few port connections for 'M2b3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7607): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7611): (vopt-2685) [TFMPC] - Too few port connections for 'Dhb3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7611): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7613): (vopt-2685) [TFMPC] - Too few port connections for 'C4b3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7613): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7615): (vopt-2685) [TFMPC] - Too few port connections for 'Aze3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7615): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7617): (vopt-2685) [TFMPC] - Too few port connections for 'Z2h3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7617): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7619): (vopt-2685) [TFMPC] - Too few port connections for 'Xeo2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7619): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7623): (vopt-2685) [TFMPC] - Too few port connections for 'S3i3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7623): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7627): (vopt-2685) [TFMPC] - Too few port connections for 'Ogo2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7627): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7629): (vopt-2685) [TFMPC] - Too few port connections for 'O0o2z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7629): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7633): (vopt-2685) [TFMPC] - Too few port connections for 'Jpa3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7633): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7639): (vopt-2685) [TFMPC] - Too few port connections for 'Ara3z4_reg'.  Expected 5, found 4.
+** Warning: ../src/gate/CORTEXM0DS_final.v(7639): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+-- Inlining module CORTEXM0DS(fast)
+** Warning: ../src/gate/CORTEXM0DS_final.v(12543): (vopt-2685) [TFMPC] - Too few port connections for 'u_logic'.  Expected 42, found 38.
+** Warning: ../src/gate/CORTEXM0DS_final.v(12543): (vopt-2718) [TFMPC] - Missing connection for port 'vis_primask_o'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(12543): (vopt-2718) [TFMPC] - Missing connection for port 'vis_control_o'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(12543): (vopt-2718) [TFMPC] - Missing connection for port 'vis_tbit_o'.
+** Warning: ../src/gate/CORTEXM0DS_final.v(12543): (vopt-2718) [TFMPC] - Missing connection for port 'hmastlock_o'.
+-- Optimizing module cortexm0ds_tb(fast)
+-- Optimizing module AOI222X1_LVT(fast)
+-- Optimizing module AO222X1_LVT(fast)
+-- Optimizing module OA222X1_LVT(fast)
+-- Optimizing module OAI222X1_LVT(fast)
+-- Optimizing module OA222X2_LVT(fast)
+-- Optimizing module AO221X1_LVT(fast)
+-- Optimizing module AOI221X1_LVT(fast)
+-- Optimizing module AOI221X2_LVT(fast)
+-- Optimizing module OA221X1_LVT(fast)
+-- Optimizing module OAI221X1_LVT(fast)
+-- Optimizing module OA221X2_LVT(fast)
+-- Inlining UDP saed32_dff_pos_LVT
+-- Inlining UDP saed32_xbuf_LVT
+-- Optimizing module DFFASX1_LVT(fast)
+-- Optimizing module DFFARX1_LVT(fast)
+Optimized design name is cortexm0ds_tb_opt
+End time: 15:19:27 on Sep 08,2016, Elapsed time: 0:00:02
+Errors: 0, Warnings: 193
+time vsim cortexm0ds_tb_opt -c -do "run -all"
+Reading pref.tcl
+
+# 10.4c_3
+
+# vsim cortexm0ds_tb_opt -c -do "run -all" 
+# Start time: 15:19:28 on Sep 08,2016
+# //  Questa Sim-64
+# //  Version 10.4c_3 linux_x86_64 Oct 21 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.cortexm0ds_tb(fast)
+# Loading work.FADDX1_LVT(fast)
+# Loading work.HADDX1_LVT(fast)
+# Loading work.DFFASX1_LVT(fast)
+# Loading work.DFFARX1_LVT(fast)
+# Loading work.AND2X1_LVT(fast)
+# Loading work.AO21X1_LVT(fast)
+# Loading work.NOR4X0_LVT(fast)
+# Loading work.NAND3X0_LVT(fast)
+# Loading work.NAND4X0_LVT(fast)
+# Loading work.INVX0_LVT(fast)
+# Loading work.AO221X1_LVT(fast)
+# Loading work.AOI222X1_LVT(fast)
+# Loading work.AO22X1_LVT(fast)
+# Loading work.AO222X1_LVT(fast)
+# Loading work.OA21X1_LVT(fast)
+# Loading work.OA221X1_LVT(fast)
+# Loading work.NOR2X0_LVT(fast)
+# Loading work.NAND2X0_LVT(fast)
+# Loading work.OAI221X1_LVT(fast)
+# Loading work.AOI221X1_LVT(fast)
+# Loading work.XNOR2X1_LVT(fast)
+# Loading work.OA22X1_LVT(fast)
+# Loading work.OAI21X1_LVT(fast)
+# Loading work.AOI21X1_LVT(fast)
+# Loading work.OR3X1_LVT(fast)
+# Loading work.OA222X1_LVT(fast)
+# Loading work.AOI22X1_LVT(fast)
+# Loading work.AND3X1_LVT(fast)
+# Loading work.OAI222X1_LVT(fast)
+# Loading work.AND4X1_LVT(fast)
+# Loading work.OAI22X1_LVT(fast)
+# Loading work.OR4X1_LVT(fast)
+# Loading work.OR2X1_LVT(fast)
+# Loading work.NOR3X0_LVT(fast)
+# Loading work.XOR2X1_LVT(fast)
+# Loading work.HADDX2_LVT(fast)
+# Loading work.NAND3X2_LVT(fast)
+# Loading work.NAND2X1_LVT(fast)
+# Loading work.OR4X2_LVT(fast)
+# Loading work.AND3X4_LVT(fast)
+# Loading work.IBUFFX4_LVT(fast)
+# Loading work.OA22X2_LVT(fast)
+# Loading work.OA222X2_LVT(fast)
+# Loading work.AND4X2_LVT(fast)
+# Loading work.NBUFFX2_LVT(fast)
+# Loading work.OR2X2_LVT(fast)
+# Loading work.IBUFFX2_LVT(fast)
+# Loading work.NOR2X2_LVT(fast)
+# Loading work.AND2X4_LVT(fast)
+# Loading work.XOR2X2_LVT(fast)
+# Loading work.INVX1_LVT(fast)
+# Loading work.AOI22X2_LVT(fast)
+# Loading work.NAND2X4_LVT(fast)
+# Loading work.NOR3X4_LVT(fast)
+# Loading work.NAND4X1_LVT(fast)
+# Loading work.AND3X2_LVT(fast)
+# Loading work.XNOR2X2_LVT(fast)
+# Loading work.AOI221X2_LVT(fast)
+# Loading work.AND4X4_LVT(fast)
+# Loading work.NOR3X2_LVT(fast)
+# Loading work.DELLN3X2_LVT(fast)
+# Loading work.NOR2X1_LVT(fast)
+# Loading work.NAND3X1_LVT(fast)
+# Loading work.AO21X2_LVT(fast)
+# Loading work.AOI21X2_LVT(fast)
+# Loading work.NAND3X4_LVT(fast)
+# Loading work.AO22X2_LVT(fast)
+# Loading work.OA21X2_LVT(fast)
+# Loading work.DELLN1X2_LVT(fast)
+# Loading work.DELLN2X2_LVT(fast)
+# Loading work.OR2X4_LVT(fast)
+# Loading work.OR3X2_LVT(fast)
+# Loading work.OAI21X2_LVT(fast)
+# Loading work.NOR4X1_LVT(fast)
+# Loading work.NAND2X2_LVT(fast)
+# Loading work.OA221X2_LVT(fast)
+# Loading work.OAI22X2_LVT(fast)
+# Loading work.NOR2X4_LVT(fast)
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1173): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Kaf3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1253): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Rix2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1259): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Zpx2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1267): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Rvu2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1281): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Nox2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1309): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Bnx2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1323): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Lrx2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1325): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Omk2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1333): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Jux2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1507): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/G7x2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1509): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/R8x2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1511): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Cax2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1513): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Nbx2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1515): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Xsx2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1517): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Vvx2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1519): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Ycx2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1521): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Jex2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1523): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/V4d3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1525): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Ufx2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1527): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Gmd3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1529): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Fhx2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1531): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Tme3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(1533): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Jwf3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(2355): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Dkx2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(2357): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Plx2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(2359): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Zjq2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(2361): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/B9g3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(2363): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Foe3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(2371): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Igi2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7349): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Jcw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7351): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Nfb3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7352): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Xuw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7353): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Qzw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7354): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Qlw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7355): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Gqw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7356): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Ahw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7357): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Sow2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7358): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Mfw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7359): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Itw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7360): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Ckw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7361): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Byw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7368): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Wia3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7369): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/I1h3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7370): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/L8m2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7373): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/B2i3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7374): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Ieh3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7375): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Ydw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7376): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Urw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7377): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Oiw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7378): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Mww2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7379): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/F1x2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7380): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Enw2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7381): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Gdo2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7382): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Mka3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7383): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Xyn2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7384): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Aea3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7387): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Qfa3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7388): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Gha3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7389): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/W3f3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7390): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Bge3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7393): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/C9a3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7398): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Kxe3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7399): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/D4a3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7414): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/U5x2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7417): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Pet2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7418): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Hzj2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7427): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Mvi2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7428): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Ypi3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7440): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Cma3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7447): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/G6d3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7479): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Aii3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7513): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/T1y2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7540): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Fey2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7541): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Rbi3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7544): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Owq2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7591): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Idk2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7599): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/W0b3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7605): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/M5f3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7607): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/M2b3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7611): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Dhb3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7613): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/C4b3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7615): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Aze3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7617): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Z2h3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7619): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Xeo2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7623): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/S3i3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7627): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Ogo2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7629): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/O0o2z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7633): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Jpa3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/gate/CORTEXM0DS_final.v(7639): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /cortexm0ds_tb/u_cortexm0ds/u_logic/Ara3z4_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# run -all
+#                    0: ----------------------------------------------
+#                    0: ARM(r) Cortex(tm)-M0 DesignStart(tm) Testbench
+#                    0: (c) Copyright 2010 ARM Limited
+#                    0: All Rights Reserved
+#                    0: ----------------------------------------------
+# 
+#                    0: Loading initial memory content...
+#                    0: ...complete
+# 
+#              1015000: Simulation leaving reset
+# starting...
+# pi(0) = 3.466667
+# finishing...
+#            268475000: Simulation stop requested by CPU
+# 
+# ** Note: Data structure takes 32545096 bytes of memory
+#          Process time 14.92 seconds
+#          $finish    : cortexm0ds_tb.v(247)
+#    Time: 268475 ns  Iteration: 1  Instance: /cortexm0ds_tb
+# End time: 15:19:51 on Sep 08,2016, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 89
+make[1]: Leaving directory `/afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw02/p3/sim'

@@ -1,0 +1,58 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'cortex_soc' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : cortex_soc
+Version: K-2015.06-SP1
+Date   : Thu Dec  8 22:47:51 2016
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ff1p16v25c   Library: saed32lvt_ff1p16v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: memctl_v4/U_miu/U_cr_stmg0r_reg_0_
+              (rising edge-triggered flip-flop clocked by HCLK)
+  Endpoint: memctl_v4/U_miu/U_cr_cas_latency_o_reg_0_
+            (rising edge-triggered flip-flop clocked by HCLK)
+  Path Group: HCLK
+  Path Type: min
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cortex_soc         70000                 saed32lvt_ff1p16v25c
+  DW_memctl_miu      16000                 saed32lvt_ff1p16v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock HCLK (rise edge)                                0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  memctl_v4/U_miu/U_cr_stmg0r_reg_0_/CLK (DFFASX1_LVT)
+                                                        0.0000 #   0.0000 r
+  memctl_v4/U_miu/U_cr_stmg0r_reg_0_/QN (DFFASX1_LVT)   0.0424     0.0424 f
+  memctl_v4/U_miu/U4316/Y (INVX4_LVT)                   0.0054     0.0478 r
+  memctl_v4/U_miu/U4317/Y (INVX1_LVT)                   0.0055     0.0533 f
+  memctl_v4/U_miu/U_cr_cas_latency_o_reg_0_/D (DFFARX1_LVT)
+                                                        0.0000     0.0533 f
+  data arrival time                                                0.0533
+
+  clock HCLK (rise edge)                                0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  clock uncertainty                                     0.0500     0.0500
+  memctl_v4/U_miu/U_cr_cas_latency_o_reg_0_/CLK (DFFARX1_LVT)
+                                                        0.0000     0.0500 r
+  library hold time                                     0.0032     0.0532
+  data required time                                               0.0532
+  --------------------------------------------------------------------------
+  data required time                                               0.0532
+  data arrival time                                               -0.0533
+  --------------------------------------------------------------------------
+  slack (MET)                                                      0.0001
+
+
+1

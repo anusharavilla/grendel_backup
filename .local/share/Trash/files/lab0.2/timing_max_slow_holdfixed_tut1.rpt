@@ -1,0 +1,58 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : counter
+Version: I-2013.12-SP1
+Date   : Wed Sep  9 21:10:43 2015
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: value_reg[1]
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: value_reg[2]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clock (rise edge)                0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  value_reg[1]/CK (DFF_X2)               0.0000     0.0000 r
+  value_reg[1]/QN (DFF_X2)               0.4083     0.4083 r
+  U61/ZN (AND2_X4)                       0.1741     0.5824 r
+  U95/ZN (NAND2_X2)                      0.0476     0.6300 f
+  U51/ZN (INV_X1)                        0.1489     0.7789 r
+  U96/ZN (NAND2_X2)                      0.0786     0.8575 f
+  U63/ZN (INV_X2)                        0.1150     0.9725 r
+  U60/ZN (NAND2_X4)                      0.0707     1.0432 f
+  U81/ZN (NAND3_X2)                      0.1143     1.1575 r
+  U66/ZN (INV_X4)                        0.0460     1.2035 f
+  U36/ZN (INV_X4)                        0.0978     1.3012 r
+  U43/ZN (NAND3_X4)                      0.0995     1.4007 f
+  U87/ZN (OR2_X1)                        0.3097     1.7104 f
+  U88/ZN (NAND2_X2)                      0.1057     1.8161 r
+  U70/ZN (INV_X4)                        0.0354     1.8515 f
+  U41/ZN (OAI221_X2)                     0.2002     2.0517 r
+  value_reg[2]/D (DFF_X2)                0.0000     2.0517 r
+  data arrival time                                 2.0517
+
+  clock clock (rise edge)                2.3978     2.3978
+  clock network delay (ideal)            0.0000     2.3978
+  clock uncertainty                     -0.0500     2.3478
+  value_reg[2]/CK (DFF_X2)               0.0000     2.3478 r
+  library setup time                    -0.2895     2.0583
+  data required time                                2.0583
+  -----------------------------------------------------------
+  data required time                                2.0583
+  data arrival time                                -2.0517
+  -----------------------------------------------------------
+  slack (MET)                                       0.0066
+
+
+1

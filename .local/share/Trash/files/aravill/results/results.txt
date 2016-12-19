@@ -1,0 +1,4 @@
+Area= 6565.1461
+Number of cycles(for large or secret input file) = Total simulation time / clock period = 315388251/20= 15769412.55
+clock Period = 17.5 ns
+Performance = 1811748702780

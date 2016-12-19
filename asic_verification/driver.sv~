@@ -1,0 +1,28 @@
+`timescale 1ns/1ps
+int no_of_simulations = 10;
+
+class driver;
+
+task driving(LC3_io interfac, environment envi);
+#20 interfac.reset=1'b0;
+for (int i=0;i<no_of_simulations;i++)
+begin
+
+@(posedge clock);
+//if(envi.fetch_object.instrmem_rd)
+begin
+
+envi.cfg_randomizing();
+interfac.complete_instr= envi.cfg_object.complete_instr;
+interfac.complete_data= envi.cfg_object.complete_data;
+interfac.Instr_dout = envi.cfg_object.Instr_dout;
+interfac.Data_dout = envi.cfg_object.Data_dout;
+
+//$display("%d",i);
+
+end
+#0.1;
+envi.outputs();
+end
+
+endtask

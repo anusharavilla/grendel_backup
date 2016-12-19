@@ -1,0 +1,4 @@
+#+1481158101
+add synopsys2015 ; icc_shell -f run_place.tcl | & tee run_place.log ; touch .place
+#+1481261829
+add synopsys2015 ; icc_shell -gui

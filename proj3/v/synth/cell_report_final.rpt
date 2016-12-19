@@ -1,0 +1,311 @@
+ 
+****************************************
+Report : cell
+Design : cortex_soc
+Version: K-2015.06-SP1
+Date   : Thu Dec  8 18:47:26 2016
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U2                        INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U4                        INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U6                        INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U8                        INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U10                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U12                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U14                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U16                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U18                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U19                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U20                       IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U21                       IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U22                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U23                       IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U24                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U25                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U26                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U27                       DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U28                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U29                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U30                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U31                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U32                       DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U33                       IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U34                       IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U35                       IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U36                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U37                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U38                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U39                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U40                       DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U41                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U42                       DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U43                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U44                       IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U45                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U46                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U47                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U48                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U49                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U50                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U51                       DELLN3X2_LVT    saed32lvt_tt1p05v25c
+                                                            9.6575  
+U52                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U53                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U54                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U55                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U56                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U57                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U58                       IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U59                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U60                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U61                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U62                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U63                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U64                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U65                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U66                       IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U67                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U68                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U69                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U70                       DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U71                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U72                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U73                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U74                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U75                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U76                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U77                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U78                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U79                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U80                       DELLN3X2_LVT    saed32lvt_tt1p05v25c
+                                                            9.6575  
+U81                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U82                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U83                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U84                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U85                       DELLN3X2_LVT    saed32lvt_tt1p05v25c
+                                                            9.6575  
+U86                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U87                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U88                       DELLN3X2_LVT    saed32lvt_tt1p05v25c
+                                                            9.6575  
+U89                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U90                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U91                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U92                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U93                       DELLN3X2_LVT    saed32lvt_tt1p05v25c
+                                                            9.6575  
+U94                       DELLN3X2_LVT    saed32lvt_tt1p05v25c
+                                                            9.6575  
+U95                       DELLN3X2_LVT    saed32lvt_tt1p05v25c
+                                                            9.6575  
+U96                       IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U97                       INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U98                       DELLN3X2_LVT    saed32lvt_tt1p05v25c
+                                                            9.6575  
+U99                       NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U100                      IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U101                      INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U102                      IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U103                      INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U104                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U105                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U106                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U107                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U108                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U109                      DELLN3X2_LVT    saed32lvt_tt1p05v25c
+                                                            9.6575  
+U110                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U111                      IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U112                      INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U113                      INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U114                      INVX0_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U115                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U116                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U117                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U118                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U119                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U120                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U121                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U122                      DELLN3X2_LVT    saed32lvt_tt1p05v25c
+                                                            9.6575  
+U123                      DELLN3X2_LVT    saed32lvt_tt1p05v25c
+                                                            9.6575  
+U124                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U125                      IBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.5414  
+U126                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U127                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U128                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U129                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U130                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U131                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U132                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U133                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U134                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U135                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U136                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U137                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U138                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U139                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U140                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U141                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U142                      DELLN3X2_LVT    saed32lvt_tt1p05v25c
+                                                            9.6575  
+U143                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U144                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U145                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U146                      DELLN1X2_LVT    saed32lvt_tt1p05v25c
+                                                            5.0829  
+U147                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U148                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U149                      DELLN3X2_LVT    saed32lvt_tt1p05v25c
+                                                            9.6575  
+U150                      NBUFFX2_LVT     saed32lvt_tt1p05v25c
+                                                            2.0332  
+U151                      INVX1_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+U152                      INVX1_LVT       saed32lvt_tt1p05v25c
+                                                            1.2707  
+ahb                       AHB_Lite_2s                     344.3651  h
+memctl_v4                 DW_memctl                       22471.4127
+                                                                    h, n
+u_cortexm0ds              CORTEXM0DS                      25120.6097
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 146 cells                                           48375.2943
+1

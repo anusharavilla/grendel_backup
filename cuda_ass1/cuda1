@@ -1,0 +1,193 @@
+
+//////// take out the slash t 
+//////// take out kks kernel
+//// change everything to double
+
+#include <stdio.h>
+#include <cuda_runtime.h>
+#include <stdlib.h>
+#include <iostream>
+#include <fstream>
+#include <string> 
+#include <sstream>
+using namespace std;
+// Matrices are stored in row-major order:
+// M(row, col) = *(M.elements + row * M.width + col)
+typedef struct {
+ int width;
+ int height;
+ float* elements;
+} Matrix;
+
+// Thread block size
+#define BLOCK_SIZE 16
+// Forward declaration of the matrix multiplication kernel
+__global__ void MatMulKernel(const Matrix, const Matrix, Matrix);
+// Matrix multiplication - Host code
+// Matrix dimensions are assumed to be multiples of BLOCK_SIZE
+
+int main(void)
+{
+int onereach = 0;int j=0, k=0; 
+int rows2=0; int rows1=0;int column1=0, column2=0;
+string line1; string a;double word; double *array1, *array2 ; 
+ifstream file( "input_large.txt", ios::binary | ios::ate);
+int size = file.tellg();  cout<<"\t"<<"size:"<<size<<"\n";
+size=size/2; ///////////can have size also 
+array1 = new double[size];
+array2=  new double[size];
+
+ifstream myfile("input_large.txt");
+if (myfile.is_open())
+    {
+     while ( getline (myfile,line1) )
+     {                             
+                        if(line1.length()==1) onereach=1;
+                       if(onereach==0){ rows1++;   
+                          istringstream iss(line1);                         
+                         while( iss >> word )     
+                          {   
+                              column1++;                           
+                              array1[j] = word;
+                               j++;
+                            } 
+                         }
+      if(onereach==1){    if(line1.length()==0) break;
+                         rows2++; 
+                         istringstream iss(line1);                      
+                         while( iss >> word )     
+                          {    
+                               array2[k]=word;
+                               column2++; 
+                              k++;} 
+                           }           
+      }
+      rows2=rows2-1;
+      column1=column1/rows1;
+      column2=column2/rows2;
+      cout << "row, column " <<rows1<<"\t"<<column1<<"\n"<<rows2<<"\t"<<column2<<"\n";;
+      myfile.close();
+   }
+	Matrix h_A,h_B,h_C;	
+	  h_A.width=column1; h_A.height=rows1;
+	  h_B.width=column2; h_B.height=rows2;
+	  h_C.width=(h_A.width+h_B.width-1);
+	  h_C.height=(h_A.height+h_B.height-1);
+        int numElements_A=h_A.width*h_A.height;
+		int numElements_B=h_B.width*h_B.height;
+        int numElements_C=h_C.width*h_C.height;
+		 //	  size_t size = numElements * sizeof(float);
+    printf("[Matrix mul of %d elements]\n", numElements_A);
+
+    // Allocate the host input vector A
+    h_A.elements = (float *)malloc(numElements_A * sizeof(float));
+
+    // Allocate the host input vector B
+    h_B.elements = (float *)malloc(numElements_B * sizeof(float));
+
+    // Allocate the host output vector C
+    h_C.elements= (float *)malloc(numElements_C * sizeof(float));
+
+    // Initialize the host input vectors
+    for (int i = 0; i < numElements_A; ++i)
+    {  
+        h_A.elements[i] = array1[i];
+           }
+
+for (int i = 0; i < numElements_B; ++i)
+    {
+        h_B.elements[i] = array2[i];
+	   
+    }
+/*int cnt=0;
+for (int p = 0; p < h_A.height; ++p)
+    {  
+        for (int i = 0; i < h_A.width; ++i)
+    {  cout<<h_A.elements[cnt]; cout<<"\t"; cnt++;
+    }
+      cout<<"\n";
+}
+	cout<<"\n";
+for (int i = 0; i < numElements_B; ++i)
+    {	 cout<<h_B.elements[i]; cout<<"\t";   
+    }
+	cout<<"\n\n\n\n\n"; */
+	
+///// gets allocated correctly 
+	Matrix d_A;
+ d_A.width = h_A.width; d_A.height = h_A.height;
+ size_t size_A = h_A.width * h_A.height * sizeof(float);
+ cudaMalloc(&d_A.elements, size_A);
+ cudaMemcpy(d_A.elements, h_A.elements, size_A,cudaMemcpyHostToDevice);
+ Matrix d_B;
+ d_B.width = h_B.width; d_B.height = h_B.height;
+ size_t size_B = h_B.width * h_B.height * sizeof(float);
+ cudaMalloc(&d_B.elements, size_B);
+ cudaMemcpy(d_B.elements, h_B.elements, size_B,
+ cudaMemcpyHostToDevice);
+ // Allocate C in device memory
+ Matrix d_C;
+ d_C.width = h_C.width; d_C.height = h_C.height;
+ size_t size_C = h_C.width * h_C.height * sizeof(float);
+ cudaMalloc(&d_C.elements, size_C);
+ // Invoke kernel // check this ......
+ dim3 dimBlock(BLOCK_SIZE, BLOCK_SIZE);
+// dim3 dimGrid(((C.width+(BLOCK_SIZE-1)) / dimBlock.x), ((C.height+(BLOCK_SIZE-1)) / dimBlock.y));
+ dim3 dimGrid ((int)ceil((float)(h_C.height)/BLOCK_SIZE),(int)ceil((float)(h_C.width)/BLOCK_SIZE));
+/* dim3 dimBlock(BLOCK_SIZE, BLOCK_SIZE);// added block_size extra
+// dim3 dimGrid((h_B.width +(dimBlock.x-1))/ dimBlock.x, (h_A.height  +(dimBlock.y-1))/ dimBlock.y );
+ dim3 dimGrid((h_B.width +(BLOCK_SIZE-1))/ BLOCK_SIZE, (h_A.height  +(BLOCK_SIZE-1))/BLOCK_SIZE );*/
+ MatMulKernel<<<dimGrid, dimBlock>>>(d_A, d_B, d_C);
+ // Read C from device memory
+ cudaMemcpy(h_C.elements, d_C.elements, size_C, cudaMemcpyDeviceToHost);
+ 
+for(int i =0;i<numElements_C; i++)
+		cout<<h_C.elements[i]<<"\t";
+ 
+ // Free device memory
+ cudaFree(d_A.elements);
+ cudaFree(d_B.elements);
+ cudaFree(d_C.elements); 
+     // MatMul(h_A, h_B, h_C);	 
+/* // Free host memory
+    free(h_A);
+    free(h_B);
+    free(h_C);
+*/
+}
+
+
+// Matrix multiplication kernel called by MatMul()
+__global__ void MatMulKernel(Matrix A, Matrix B, Matrix C)
+{
+ float Cvalue = 0;
+ int row = blockIdx.y * blockDim.y + threadIdx.y;
+ int col = blockIdx.x * blockDim.x + threadIdx.x;
+          if(row<C.height && col<C.width){ 
+            for (int r = 0; r < B.height; r++) {
+                for (int k = 0; k < B.width; k++){ 
+                   if((row>=r)&&(col>=k)&&(A.height-(row-r)>0)&&(A.width-(col-k)>0))
+                    Cvalue += B.elements[r* B.width + k] * A.elements[(row-r)*A.width + (col-k)];
+                }
+			C.elements[row * C.width + col] = Cvalue;}	}
+			
+
+		 }
+
+/*
+// Matrix multiplication kernel called by MatMul()
+__global__ void MatMulKernel(Matrix A, Matrix B, Matrix C)
+{
+float Cvalue = 0;
+ int row = blockIdx.y * blockDim.y + threadIdx.y;
+ int col = blockIdx.x * blockDim.x + threadIdx.x;
+if((row<C.height) && (col<C.width))
+ for (int e = 0; e < B.height; ++e)
+ for (int l = 0; l < B.width; ++l)
+	  if((row>=e)&&(col>=l)&&(A.height-(row-e)>0)&&(A.width-(col-l)>0))
+ C.elements[row * C.width + col] += B.elements[e* B.width + l]* A.elements[(row-e) * A.width + (col-l)];
+ 
+ 
+ //C.elements[row * C.width + col] = Cvalue;
+}*/
+

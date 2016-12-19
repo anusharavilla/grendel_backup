@@ -1,0 +1,113 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : CORTEXM0DS
+Version: K-2015.06-SP1
+Date   : Thu Dec  8 18:02:16 2016
+****************************************
+
+Operating Conditions: ss0p95v125c   Library: saed32lvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: u_logic/Ark2z4_reg
+              (rising edge-triggered flip-flop clocked by HCLK)
+  Endpoint: u_logic/Pdi2z4_reg
+            (rising edge-triggered flip-flop clocked by HCLK)
+  Path Group: HCLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  CORTEXM0DS         35000                 saed32lvt_ss0p95v125c
+  cortexm0ds_logic   35000                 saed32lvt_ss0p95v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock HCLK (rise edge)                                0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_logic/Ark2z4_reg/CLK (DFFARX1_LVT)                  0.0000     0.0000 r
+  u_logic/Ark2z4_reg/Q (DFFARX1_LVT)                    0.1352     0.1352 r
+  u_logic/U4696/Y (INVX0_LVT)                           0.0748     0.2101 f
+  u_logic/U3749/Y (NBUFFX2_LVT)                         0.0918     0.3018 f
+  u_logic/U3048/Y (NAND2X0_LVT)                         0.0793     0.3812 r
+  u_logic/U3300/Y (NOR3X0_LVT)                          0.1235     0.5047 f
+  u_logic/U4214/Y (AND2X1_LVT)                          0.0893     0.5940 f
+  u_logic/U4263/Y (NAND2X0_LVT)                         0.0791     0.6731 r
+  u_logic/U3148/Y (NAND2X0_LVT)                         0.0904     0.7635 f
+  u_logic/U2163/Y (OR2X1_LVT)                           0.1140     0.8775 f
+  u_logic/U2344/Y (NOR3X0_LVT)                          0.1240     1.0016 r
+  u_logic/U2336/Y (NBUFFX2_LVT)                         0.0903     1.0919 r
+  u_logic/U6884/Y (NBUFFX2_LVT)                         0.0908     1.1827 r
+  u_logic/U2279/Y (NAND2X0_LVT)                         0.0954     1.2780 f
+  u_logic/U3949/Y (INVX0_LVT)                           0.0846     1.3627 r
+  u_logic/U2972/Y (AOI22X1_LVT)                         0.1184     1.4811 f
+  u_logic/U4806/Y (NAND4X0_LVT)                         0.0827     1.5638 r
+  u_logic/U3727/Y (NAND2X0_LVT)                         0.0941     1.6579 f
+  u_logic/U4481/Y (NOR2X0_LVT)                          0.0842     1.7421 r
+  u_logic/add_2082/U1_2/CO (FADDX1_LVT)                 0.1159     1.8581 r
+  u_logic/add_2082/U1_3/CO (FADDX1_LVT)                 0.1078     1.9659 r
+  u_logic/add_2082/U1_4/CO (FADDX1_LVT)                 0.1078     2.0737 r
+  u_logic/add_2082/U1_5/CO (FADDX1_LVT)                 0.1078     2.1815 r
+  u_logic/add_2082/U1_6/CO (FADDX1_LVT)                 0.1078     2.2894 r
+  u_logic/add_2082/U1_7/CO (FADDX1_LVT)                 0.1078     2.3972 r
+  u_logic/add_2082/U1_8/CO (FADDX1_LVT)                 0.1078     2.5050 r
+  u_logic/add_2082/U1_9/CO (FADDX1_LVT)                 0.1079     2.6129 r
+  u_logic/add_2082/U1_10/CO (FADDX1_LVT)                0.1078     2.7207 r
+  u_logic/add_2082/U1_11/CO (FADDX1_LVT)                0.1078     2.8286 r
+  u_logic/add_2082/U1_12/CO (FADDX1_LVT)                0.1079     2.9365 r
+  u_logic/add_2082/U1_13/CO (FADDX1_LVT)                0.1078     3.0443 r
+  u_logic/add_2082/U1_14/CO (FADDX1_LVT)                0.1078     3.1521 r
+  u_logic/add_2082/U1_15/CO (FADDX1_LVT)                0.1078     3.2599 r
+  u_logic/add_2082/U1_16/CO (FADDX1_LVT)                0.1078     3.3677 r
+  u_logic/add_2082/U1_17/CO (FADDX1_LVT)                0.1078     3.4756 r
+  u_logic/add_2082/U1_18/CO (FADDX1_LVT)                0.1078     3.5834 r
+  u_logic/add_2082/U1_19/CO (FADDX1_LVT)                0.1078     3.6912 r
+  u_logic/add_2082/U1_20/CO (FADDX1_LVT)                0.1078     3.7990 r
+  u_logic/add_2082/U1_21/CO (FADDX1_LVT)                0.1078     3.9069 r
+  u_logic/add_2082/U1_22/CO (FADDX1_LVT)                0.1078     4.0147 r
+  u_logic/add_2082/U1_23/CO (FADDX1_LVT)                0.1078     4.1225 r
+  u_logic/add_2082/U1_24/CO (FADDX1_LVT)                0.1078     4.2303 r
+  u_logic/add_2082/U1_25/CO (FADDX1_LVT)                0.1078     4.3381 r
+  u_logic/add_2082/U1_26/CO (FADDX1_LVT)                0.1078     4.4460 r
+  u_logic/add_2082/U1_27/CO (FADDX1_LVT)                0.1078     4.5538 r
+  u_logic/add_2082/U1_28/CO (FADDX1_LVT)                0.1078     4.6616 r
+  u_logic/add_2082/U1_29/CO (FADDX1_LVT)                0.1078     4.7694 r
+  u_logic/add_2082/U1_30/CO (FADDX1_LVT)                0.1078     4.8772 r
+  u_logic/add_2082/U1_31/CO (FADDX1_LVT)                0.1078     4.9851 r
+  u_logic/add_2082/U1_32/S (FADDX1_LVT)                 0.1520     5.1371 f
+  u_logic/U230/Y (XOR2X2_LVT)                           0.1560     5.2931 f
+  u_logic/U3876/Y (INVX0_LVT)                           0.0774     5.3706 r
+  u_logic/U5876/Y (OA222X1_LVT)                         0.1140     5.4846 r
+  u_logic/U5743/Y (AND2X1_LVT)                          0.0933     5.5778 r
+  u_logic/U5752/Y (AND2X1_LVT)                          0.0883     5.6661 r
+  u_logic/U1890/Y (AO22X1_LVT)                          0.1110     5.7771 r
+  u_logic/U3523/Y (XOR2X2_LVT)                          0.1016     5.8788 f
+  u_logic/U1146/Y (OA22X1_LVT)                          0.0599     5.9387 f
+  u_logic/U5581/Y (OA221X1_LVT)                         0.0906     6.0292 f
+  u_logic/U5351/Y (XOR2X2_LVT)                          0.1083     6.1375 r
+  u_logic/U5811/Y (AOI22X1_LVT)                         0.1155     6.2530 f
+  u_logic/U5810/Y (OA222X1_LVT)                         0.0857     6.3387 f
+  u_logic/U7029/Y (OA221X1_LVT)                         0.0887     6.4274 f
+  u_logic/U5788/Y (NAND2X0_LVT)                         0.0360     6.4634 r
+  u_logic/U1106/Y (OA22X1_LVT)                          0.0669     6.5303 r
+  u_logic/Pdi2z4_reg/D (DFFASX1_LVT)                    0.0114     6.5417 r
+  data arrival time                                                6.5417
+
+  clock HCLK (rise edge)                                5.0000     5.0000
+  clock network delay (ideal)                           0.0000     5.0000
+  clock uncertainty                                    -0.0500     4.9500
+  u_logic/Pdi2z4_reg/CLK (DFFASX1_LVT)                  0.0000     4.9500 r
+  library setup time                                   -0.0457     4.9043
+  data required time                                               4.9043
+  --------------------------------------------------------------------------
+  data required time                                               4.9043
+  data arrival time                                               -6.5417
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                -1.6374
+
+
+1

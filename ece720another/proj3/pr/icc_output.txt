@@ -1,0 +1,58 @@
+###################################################
+#
+# run_timing.tcl
+#
+# 4/11/2011 W. Rhett Davis (rhett_davis@ncsu.edu)
+# updated 4/5/2012, 3/28/2014, 8/23/2016, 11/30/2016
+#
+#####################################################
+source setup.tcl
+set begintime [clock seconds]
+1481256320
+open_mw_lib ./work
+{work}
+open_mw_cel ${modname}_routed
+Information: Using CCS timing libraries. (TIM-024)
+Warning: Unit conflict found: Milkyway technology file resistance unit is kOhm; main library resistance unit is MOhm. (IFS-007)
+Information: Opened "cortex_soc_routed.CEL;1" from "/afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/work" library. (MWUI-068)
+{cortex_soc_routed}
+set si_enable_analysis TRUE
+TRUE
+set_propagated_clock [get_clocks $clkname]
+Loading db file '/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/db_ccs/saed32lvt_ss0p95v125c.db'
+Loading db file '/ncsu/synopsys2015/icc/libraries/syn/gtech.db'
+Information: linking reference library : /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m. (PSYN-878)
+Information: Loading local_link_library attribute {saed32lvt_ss0p95v125c.db}. (MWDC-290)
+
+  Linking design 'cortex_soc'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (7 designs)               cortex_soc_routed.CEL, etc
+  saed32lvt_ss0p95v125c (library) /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/db_ccs/saed32lvt_ss0p95v125c.db
+  dw_foundation.sldb (library) /ncsu/synopsys2015/icc/libraries/syn/dw_foundation.sldb
+
+Information: set_input_delay values are added to the propagated clock skew. (TIM-113)
+1
+set_clock_uncertainty 0 $clkname
+1
+#report_timing -delay_type max > timing_si.rpt
+#read_parasitics -keep_capacitive_coupling -format spef "${modname}_${type}.spef.max"
+#check_timing -include { no_driving_cell ideal_clocks partial_input_delay #                        unexpandable_clocks }
+report_timing -nosplit -input_pins -transition_time -crosstalk_delta       -delay_type max -path_type full_clock_expanded       > timing_si_max.rpt
+report_timing -nosplit -input_pins -transition_time -crosstalk_delta       -delay_type min -path_type full_clock_expanded       > timing_si_min.rpt
+report_clock_timing -type summary > timing_si_clock.rpt
+#report_si_bottleneck
+#report_delay_calculation -crosstalk -from inst1/pin1 -to inst2/pin2
+#set_noise_parameters -analysis_type all
+report_noise > noise.rpt
+#report_noise_calculation -below -high -from inst1/pin1 -to inst2/pin2
+set endtime [clock seconds]
+1481256342
+set timestr [timef [expr $endtime-$begintime]]
+0h 0m 22s
+puts "run_timing.tcl completed successfully (elapsed time: $timestr actual)"
+run_timing.tcl completed successfully (elapsed time: 0h 0m 22s actual)
+exit
+
+Thank you...
+

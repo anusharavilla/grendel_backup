@@ -1,0 +1,47 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+Design : statistic
+Version: I-2013.12-SP1
+Date   : Wed Sep 30 20:12:11 2015
+****************************************
+
+Operating Conditions: nom_pvt   Library: gtech
+Wire Load Model Mode: top
+
+  Startpoint: EvenParity_reg[0]
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: EvenParity_reg[0]
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clock (rise edge)                               0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  EvenParity_reg[0]/clocked_on (**SEQGEN**)             0.0000     0.0000 r
+  EvenParity_reg[0]/Q (**SEQGEN**)                      0.0000     0.0000 r
+  add_1_root_add_46_2/U1_0/S (GTECH_ADD_ABC)            0.0000     0.0000 r
+  U4/U1/Z_0 (*GEN*5)                                    0.0000     0.0000 r
+  EvenParity_reg[0]/next_state (**SEQGEN**)             0.0000     0.0000 r
+  data arrival time                                                0.0000
+
+  clock clock (rise edge)                               0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  clock uncertainty                                     0.0500     0.0500
+  EvenParity_reg[0]/clocked_on (**SEQGEN**)             0.0000     0.0500 r
+  library hold time                                     0.0000     0.0500
+  data required time                                               0.0500
+  --------------------------------------------------------------------------
+  data required time                                               0.0500
+  data arrival time                                                0.0000
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                -0.0500
+
+
+1

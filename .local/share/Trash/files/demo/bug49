@@ -1,0 +1,45 @@
+ 
+bug49
+1870bug in decode E_control 0111001010000011,001000,000100
+#                 2030bug in decode E_control 0111110100000010,001000,000100
+#                 5670bug in decode E_control 0111101010010011,001000,000100
+#                 5990bug in decode E_control 0111100000001101,001000,000100
+#                 7750bug in decode E_control 0111010011011110,001000,000100
+#                 8650bug in decode E_control 0111010001000100,001000,000100
+#                 9570bug in decode E_control 0111100110101111,001000,000100
+#                10250bug in decode E_control 0111000001100010,001000,000100
+#                11390bug in decode E_control 0111010100110010,001000,000100
+#                12070bug in decode E_control 0111000111111000,001000,000100
+#                13170bug in decode E_control 0111111110001110,001000,000100
+#                14250bug in decode E_control 0111010011011001,001000,000100
+#                17430bug in decode E_control 0111000110111110,001000,000100
+#                18410bug in decode E_control 0111100001101100,001000,000100
+#                22010bug in decode E_control 0111011011011110,001000,000100
+#                22170bug in decode E_control 0111100111010100,001000,000100
+#                23030bug in decode E_control 0111101111111000,001000,000100
+#                26550bug in decode E_control 0111111000101000,001000,000100
+#                27250bug in decode E_control 0111010111000101,001000,000100
+#                28730bug in decode E_control 0111101000000100,001000,000100
+#                29750bug in decode E_control 0111100101001100,001000,000100
+bug32
+ 1870bug in decode E_control 0111001010000011,001000,000100
+#                 2030bug in decode E_control 0111110100000010,001000,000100
+#                 5670bug in decode E_control 0111101010010011,001000,000100
+#                 5990bug in decode E_control 0111100000001101,001000,000100
+#                 7750bug in decode E_control 0111010011011110,001000,000100
+#                 8650bug in decode E_control 0111010001000100,001000,000100
+#                 9570bug in decode E_control 0111100110101111,001000,000100
+#                10250bug in decode E_control 0111000001100010,001000,000100
+#                11390bug in decode E_control 0111010100110010,001000,000100
+#                12070bug in decode E_control 0111000111111000,001000,000100
+#                13170bug in decode E_control 0111111110001110,001000,000100
+#                14250bug in decode E_control 0111010011011001,001000,000100
+#                17430bug in decode E_control 0111000110111110,001000,000100
+#                18410bug in decode E_control 0111100001101100,001000,000100
+#                22010bug in decode E_control 0111011011011110,001000,000100
+#                22170bug in decode E_control 0111100111010100,001000,000100
+#                23030bug in decode E_control 0111101111111000,001000,000100
+#                26550bug in decode E_control 0111111000101000,001000,000100
+#                27250bug in decode E_control 0111010111000101,001000,000100
+#                28730bug in decode E_control 0111101000000100,001000,000100
+#                29750bug in decode E_control 0111100101001100,001000,000100

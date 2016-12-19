@@ -1,0 +1,2 @@
+Warning: In the design AHB_Lite_2s, net 'hready_resp_s1' is connecting multiple ports. (UCN-1)
+1

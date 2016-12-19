@@ -1,0 +1,25 @@
+
+std::vector< std::vector<double> > readIn2dData(const char* input.txt)
+{
+    std::vector< std::vector<double> > table; 
+    std::fstream fin;
+    fin.open(filename);
+
+    while (true)
+    {
+        std::string line;
+        double buf;
+        getline(fin, line)
+        std::stringstream ss(line, std::ios_base::out|std::ios_base::in|std::ios_base::binary);
+        if (!fin)
+            break;
+        if (line[0] == '#' || line.empty())
+            continue;
+        std::vector<double> row;
+        while (ss >> buf)
+            row.push_back(buf);
+        table.push_back(row);
+    }
+    fin.close();
+    return table;
+}

@@ -1,0 +1,6 @@
+set_user_match   -inverted   $svf_ref/CORTEXM0DS/u_logic/hwdata_o[7]   $svf_impl/CORTEXM0DS/u_logic/hwdata_o[7]
+set_user_match   -inverted   $svf_ref/CORTEXM0DS/u_logic/hwdata_o[6]   $svf_impl/CORTEXM0DS/u_logic/hwdata_o[6]
+set_user_match   -inverted   $svf_ref/CORTEXM0DS/u_logic/hwdata_o[14]   $svf_impl/CORTEXM0DS/u_logic/hwdata_o[14]
+
+#-------------------------------------------------------------------
+

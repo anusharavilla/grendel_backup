@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/hw5(2).pdf" added="2016-11-22T20:17:34Z" modified="2016-11-22T20:17:34Z" visited="2016-11-22T20:17:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-11-22T20:17:34Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/CNhw05.pdf" added="2016-11-22T20:17:57Z" modified="2016-11-22T20:18:45Z" visited="2016-11-22T20:17:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2016-11-22T20:17:57Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-11-22T20:18:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/hw08.pdf" added="2016-11-22T20:42:21Z" modified="2016-11-22T20:42:21Z" visited="2016-11-22T20:42:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-11-22T20:42:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/pr/constraints.tcl" added="2016-11-22T22:44:26Z" modified="2016-11-22T22:52:01Z" visited="2016-11-22T22:44:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2016-11-22T22:52:00Z" count="2"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-22T22:52:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/pr/setup.tcl" added="2016-11-22T22:53:00Z" modified="2016-11-23T00:57:17Z" visited="2016-11-22T22:53:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-11-22T22:53:00Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-23T00:57:17Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/v/synth/run_pt.tcl" added="2016-11-22T22:53:56Z" modified="2016-11-23T01:02:29Z" visited="2016-11-22T22:53:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-23T01:02:29Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/v/synth/run_ptpx.tcl" added="2016-11-22T22:54:00Z" modified="2016-11-22T23:52:58Z" visited="2016-11-22T22:54:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-22T23:52:58Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/v/synth/run_ptsi.tcl" added="2016-11-22T22:54:05Z" modified="2016-11-23T01:02:36Z" visited="2016-11-22T22:54:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-23T01:02:36Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/v/synth/setup.tcl" added="2016-11-22T22:54:33Z" modified="2016-11-23T01:02:41Z" visited="2016-11-22T22:54:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-23T01:02:41Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/v/synth/Constraints.tcl" added="2016-11-22T22:54:39Z" modified="2016-11-22T22:54:39Z" visited="2016-11-22T22:54:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-22T22:54:39Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_aravill0/script.sh" added="2016-11-22T23:01:09Z" modified="2016-11-22T23:01:55Z" visited="2016-11-22T23:01:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-11-22T23:01:09Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-11-22T23:01:55Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/v/synth/script.sh" added="2016-11-22T23:06:04Z" modified="2016-11-22T23:06:04Z" visited="2016-11-22T23:06:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-11-22T23:06:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/v/synth/timing_pt_ss0p95v125c_clock_minRC.rpt" added="2016-11-22T23:26:40Z" modified="2016-11-22T23:26:40Z" visited="2016-11-22T23:26:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-22T23:26:40Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/v/synth/timing_pt_ss0p95v125c_routed_min.rpt" added="2016-11-22T23:26:40Z" modified="2016-11-23T01:35:07Z" visited="2016-11-22T23:26:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-23T01:35:07Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/v/synth/timing_pt_ss0p95v125c_routed_max.rpt" added="2016-11-22T23:26:40Z" modified="2016-11-23T01:35:23Z" visited="2016-11-22T23:26:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-23T01:35:23Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/v/synth/timing_pt_ss0p95v125c_clock_maxRC.rpt" added="2016-11-22T23:26:55Z" modified="2016-11-23T01:34:24Z" visited="2016-11-22T23:26:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-23T01:34:24Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_aravill0/iteration_record.docx" added="2016-11-22T23:27:55Z" modified="2016-11-23T01:44:53Z" visited="2016-11-22T23:27:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-11-22T23:27:55Z" count="1"/>
+          <bookmark:application name="LibreOffice 5.0" exec="&apos;soffice %u&apos;" modified="2016-11-23T01:44:53Z" count="18"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/pr/run_route.tcl" added="2016-11-22T23:35:17Z" modified="2016-11-22T23:35:17Z" visited="2016-11-22T23:35:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-11-22T23:35:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/pr/run_route.log" added="2016-11-22T23:35:37Z" modified="2016-11-23T01:33:32Z" visited="2016-11-22T23:35:37Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-log"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-23T01:33:32Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/pr/run_cts.log" added="2016-11-22T23:39:45Z" modified="2016-11-23T03:38:27Z" visited="2016-11-22T23:39:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-23T03:38:27Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/pr/run_cts.tcl" added="2016-11-22T23:39:57Z" modified="2016-11-23T01:26:24Z" visited="2016-11-22T23:39:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-11-22T23:39:57Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-23T01:26:24Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_aravill0/CORTEXM0DS_routed.tar.gz" added="2016-11-23T01:50:21Z" modified="2016-11-23T01:50:33Z" visited="2016-11-23T01:50:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-11-23T01:50:21Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;file-roller %U&apos;" modified="2016-11-23T01:50:33Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p1/pr/CORTEXM0DS_routed.tar.gz" added="2016-11-23T01:50:53Z" modified="2016-11-23T01:50:53Z" visited="2016-11-23T01:50:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-11-23T01:50:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_aravill0/CORTEXM0DS_routed.tar-1.gz" added="2016-11-23T01:51:59Z" modified="2016-11-23T01:51:59Z" visited="2016-11-23T01:51:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/gzip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-11-23T01:51:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p2/pr/CORTEXM0DS_routed.tar.gz" added="2016-11-23T01:52:28Z" modified="2016-11-23T01:52:28Z" visited="2016-11-23T01:52:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2016-11-23T01:52:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p2/v/synth/run_ptsi.tcl" added="2016-11-23T01:57:06Z" modified="2016-11-23T02:04:48Z" visited="2016-11-23T01:57:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-11-23T01:57:06Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-23T02:04:48Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/p2/v/synth/run_ptsi.log" added="2016-11-23T02:00:20Z" modified="2016-11-23T02:05:13Z" visited="2016-11-23T02:00:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-log"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-11-23T02:05:13Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/hw08(1).pdf" added="2016-11-23T03:32:52Z" modified="2016-11-23T03:36:56Z" visited="2016-11-23T03:32:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-11-23T03:32:52Z" count="1"/>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2016-11-23T03:36:56Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/Untitleddocument(1).pdf" added="2016-11-23T03:36:49Z" modified="2016-11-23T03:37:12Z" visited="2016-11-23T03:36:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-11-23T03:36:49Z" count="1"/>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2016-11-23T03:37:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw08/solution%20document.pdf" added="2016-11-23T03:37:50Z" modified="2016-11-23T03:37:50Z" visited="2016-11-23T03:37:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2016-11-23T03:37:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/ece720-proj3-req-blank.pdf" added="2016-12-07T22:59:05Z" modified="2016-12-07T22:59:24Z" visited="2016-12-07T22:59:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-07T22:59:05Z" count="1"/>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2016-12-07T22:59:24Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/design_stats.xlsx" added="2016-12-07T23:00:07Z" modified="2016-12-09T05:30:20Z" visited="2016-12-07T23:00:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-09T05:30:20Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/Makefile" added="2016-12-07T23:00:14Z" modified="2016-12-07T23:00:14Z" visited="2016-12-07T23:00:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-07T23:00:14Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/feedback/hw01_feedback.txt" added="2016-12-07T23:03:06Z" modified="2016-12-08T00:01:37Z" visited="2016-12-07T23:03:06Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-08T00:01:37Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/feedback/hw02_feedback.txt" added="2016-12-07T23:03:15Z" modified="2016-12-07T23:12:46Z" visited="2016-12-07T23:03:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-07T23:12:46Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/feedback/hw03_feedback.txt" added="2016-12-07T23:03:21Z" modified="2016-12-07T23:13:00Z" visited="2016-12-07T23:03:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-07T23:13:00Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/feedback/hw04_feedback.txt" added="2016-12-07T23:03:24Z" modified="2016-12-07T23:13:03Z" visited="2016-12-07T23:03:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-07T23:13:03Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/feedback/hw05_feedback.txt" added="2016-12-07T23:03:29Z" modified="2016-12-07T23:13:05Z" visited="2016-12-07T23:03:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-07T23:13:05Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/feedback/hw06_feedback.txt" added="2016-12-07T23:03:52Z" modified="2016-12-07T23:13:09Z" visited="2016-12-07T23:03:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-07T23:13:09Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/feedback/hw07_feedback.txt" added="2016-12-07T23:03:56Z" modified="2016-12-07T23:13:12Z" visited="2016-12-07T23:03:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-07T23:13:12Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/feedback/hw08_feedback.txt" added="2016-12-07T23:04:01Z" modified="2016-12-07T23:13:15Z" visited="2016-12-07T23:04:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-07T23:13:15Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/feedback/hw08_soln.pdf" added="2016-12-07T23:04:45Z" modified="2016-12-07T23:10:13Z" visited="2016-12-07T23:04:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2016-12-07T23:10:13Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/run_timing.tcl" added="2016-12-07T23:34:41Z" modified="2016-12-09T05:06:11Z" visited="2016-12-07T23:34:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-08T23:16:41Z" count="6"/>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-09T05:06:05Z" count="4"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T05:06:11Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/Makefile" added="2016-12-07T23:35:19Z" modified="2016-12-08T22:59:32Z" visited="2016-12-07T23:35:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-08T22:59:06Z" count="6"/>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T22:59:19Z" count="3"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-08T22:59:32Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/v/synth/Makefile" added="2016-12-07T23:38:24Z" modified="2016-12-08T22:58:03Z" visited="2016-12-07T23:38:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T22:57:50Z" count="2"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-08T22:58:03Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/noise.rpt" added="2016-12-07T23:42:40Z" modified="2016-12-09T05:07:37Z" visited="2016-12-07T23:42:41Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T05:07:37Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/v/synth/read.tcl" added="2016-12-07T23:43:17Z" modified="2016-12-08T23:26:52Z" visited="2016-12-07T23:43:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T23:26:10Z" count="5"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-08T23:26:52Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/hw01/p5/tree.txt" added="2016-12-08T00:17:07Z" modified="2016-12-08T01:03:35Z" visited="2016-12-08T00:17:08Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-08T01:02:46Z" count="6"/>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2016-12-08T00:20:20Z" count="1"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-08T01:03:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_aravill0/tree.txt" added="2016-12-08T01:03:41Z" modified="2016-12-08T01:03:41Z" visited="2016-12-08T01:03:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-08T01:03:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/run_init.log" added="2016-12-08T21:28:48Z" modified="2016-12-09T03:23:13Z" visited="2016-12-08T21:28:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2016-12-08T21:28:48Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T03:23:13Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/run_init.tcl" added="2016-12-08T21:28:52Z" modified="2016-12-09T03:23:13Z" visited="2016-12-08T21:28:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gnuclient %f&apos;" modified="2016-12-09T02:51:41Z" count="4"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T03:23:13Z" count="8"/>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-08T22:58:46Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/cortex_soc.def" added="2016-12-08T21:33:34Z" modified="2016-12-09T03:29:05Z" visited="2016-12-08T21:33:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T03:29:05Z" count="7"/>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2016-12-09T03:29:01Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/run_cts.log" added="2016-12-08T21:33:34Z" modified="2016-12-09T03:23:13Z" visited="2016-12-08T21:33:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T03:23:13Z" count="11"/>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2016-12-09T02:51:09Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/timing_si_clock.rpt" added="2016-12-08T21:33:34Z" modified="2016-12-09T06:03:31Z" visited="2016-12-08T21:33:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T06:03:31Z" count="16"/>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2016-12-08T23:03:01Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/run_route.tcl" added="2016-12-08T21:33:34Z" modified="2016-12-09T05:32:51Z" visited="2016-12-08T21:33:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T03:23:13Z" count="22"/>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-09T05:32:51Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/run_route.log" added="2016-12-08T21:33:34Z" modified="2016-12-09T05:32:56Z" visited="2016-12-08T21:33:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T05:32:56Z" count="14"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/run_cts.tcl" added="2016-12-08T21:33:34Z" modified="2016-12-09T03:23:13Z" visited="2016-12-08T21:33:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T03:23:13Z" count="24"/>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-09T02:51:25Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/timing_si_max.rpt" added="2016-12-08T21:33:34Z" modified="2016-12-09T03:23:13Z" visited="2016-12-08T21:33:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T03:23:13Z" count="11"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/timing_si_min.rpt" added="2016-12-08T21:33:34Z" modified="2016-12-09T03:23:13Z" visited="2016-12-08T21:33:34Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T03:23:13Z" count="10"/>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2016-12-08T22:56:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/run.sh" added="2016-12-08T21:58:07Z" modified="2016-12-08T22:47:35Z" visited="2016-12-08T21:58:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-08T22:47:35Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/run.sh" added="2016-12-08T22:47:50Z" modified="2016-12-08T22:47:50Z" visited="2016-12-08T22:47:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T22:47:50Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/v/synth/run.sh" added="2016-12-08T22:48:31Z" modified="2016-12-08T22:48:31Z" visited="2016-12-08T22:48:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T22:48:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/v/synth/timing_min_fast_holdcheck_tut2.rpt" added="2016-12-08T22:55:32Z" modified="2016-12-08T22:55:51Z" visited="2016-12-08T22:55:32Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-08T22:55:51Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/v/synth/timing_max_typ_holdfixed_tut2.rpt" added="2016-12-08T22:55:39Z" modified="2016-12-08T22:55:51Z" visited="2016-12-08T22:55:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-08T22:55:51Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/v/synth/timing_max_slow_holdfixed_tut2.rpt" added="2016-12-08T22:55:45Z" modified="2016-12-08T22:55:51Z" visited="2016-12-08T22:55:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-08T22:55:51Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/v/synth/timing_max_slow.rpt" added="2016-12-08T22:55:51Z" modified="2016-12-08T22:55:51Z" visited="2016-12-08T22:55:51Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-08T22:55:51Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/hw6/read.tcl" added="2016-12-08T23:23:53Z" modified="2016-12-08T23:23:53Z" visited="2016-12-08T23:23:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T23:23:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/hw5new/read.tcl" added="2016-12-08T23:23:57Z" modified="2016-12-08T23:23:57Z" visited="2016-12-08T23:23:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T23:23:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/hw5/read.tcl" added="2016-12-08T23:24:00Z" modified="2016-12-08T23:24:00Z" visited="2016-12-08T23:24:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T23:24:00Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/read.tcl" added="2016-12-08T23:24:03Z" modified="2016-12-08T23:24:03Z" visited="2016-12-08T23:24:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T23:24:03Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/saibaba/read.tcl" added="2016-12-08T23:24:07Z" modified="2016-12-08T23:24:07Z" visited="2016-12-08T23:24:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T23:24:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/statistic/read.tcl" added="2016-12-08T23:24:10Z" modified="2016-12-08T23:24:10Z" visited="2016-12-08T23:24:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T23:24:10Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/project/synth/read.tcl" added="2016-12-08T23:24:13Z" modified="2016-12-08T23:24:13Z" visited="2016-12-08T23:24:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T23:24:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Desktop/proj2/v/synth/read.tcl" added="2016-12-08T23:24:16Z" modified="2016-12-08T23:24:16Z" visited="2016-12-08T23:24:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T23:24:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/read(1).tcl" added="2016-12-08T23:25:25Z" modified="2016-12-08T23:25:36Z" visited="2016-12-08T23:25:26Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-08T23:25:25Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-08T23:25:31Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-08T23:25:36Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_aravill0/arangan2.zip" added="2016-12-08T23:42:35Z" modified="2016-12-08T23:42:35Z" visited="2016-12-08T23:42:35Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-08T23:42:35Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/v" added="2016-12-08T23:43:07Z" modified="2016-12-08T23:43:07Z" visited="2016-12-08T23:43:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Archive Manager" exec="&apos;file-roller %u&apos;" modified="2016-12-08T23:43:07Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///tmp/mozilla_aravill0/proj3.zip" added="2016-12-08T23:51:55Z" modified="2016-12-08T23:51:55Z" visited="2016-12-08T23:51:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-08T23:51:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo" added="2016-12-08T23:52:09Z" modified="2016-12-08T23:52:09Z" visited="2016-12-08T23:52:10Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Archive Manager" exec="&apos;file-roller %u&apos;" modified="2016-12-08T23:52:09Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/setup.tcl" added="2016-12-09T00:46:30Z" modified="2016-12-09T03:31:56Z" visited="2016-12-09T00:46:30Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-09T02:54:09Z" count="3"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T03:31:56Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/v/synth/setup.tcl" added="2016-12-09T00:46:47Z" modified="2016-12-09T02:54:50Z" visited="2016-12-09T00:46:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-09T02:12:22Z" count="2"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T02:54:50Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/run_cts.tcl" added="2016-12-09T01:26:17Z" modified="2016-12-09T04:06:36Z" visited="2016-12-09T01:26:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-09T02:07:06Z" count="4"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:06:36Z" count="13"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/constraints.tcl" added="2016-12-09T01:50:03Z" modified="2016-12-09T01:50:03Z" visited="2016-12-09T01:50:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T01:50:03Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/run_timing.log" added="2016-12-09T01:50:03Z" modified="2016-12-09T05:19:11Z" visited="2016-12-09T01:50:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T05:19:11Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/cortex_soc.def" added="2016-12-09T01:57:04Z" modified="2016-12-09T04:10:35Z" visited="2016-12-09T01:57:04Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2016-12-09T04:10:31Z" count="4"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:10:35Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/run_timing.log" added="2016-12-09T01:58:07Z" modified="2016-12-09T04:06:36Z" visited="2016-12-09T01:58:07Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:06:36Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/run_timing.tcl" added="2016-12-09T01:58:15Z" modified="2016-12-09T04:06:36Z" visited="2016-12-09T01:58:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-09T01:58:15Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:06:36Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/run_cts.log" added="2016-12-09T01:58:31Z" modified="2016-12-09T04:06:36Z" visited="2016-12-09T01:58:31Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2016-12-09T01:58:31Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:06:36Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/run_init.tcl" added="2016-12-09T01:58:40Z" modified="2016-12-09T04:22:51Z" visited="2016-12-09T01:58:40Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-09T02:06:46Z" count="3"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:22:51Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/setup.tcl" added="2016-12-09T01:58:54Z" modified="2016-12-09T04:06:36Z" visited="2016-12-09T01:58:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:06:36Z" count="8"/>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-09T02:56:10Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/timing_si_clock.rpt" added="2016-12-09T01:58:54Z" modified="2016-12-09T04:11:46Z" visited="2016-12-09T01:58:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:11:46Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/timing_si_max.rpt" added="2016-12-09T01:58:54Z" modified="2016-12-09T04:11:46Z" visited="2016-12-09T01:58:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:11:46Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/timing_si_min.rpt" added="2016-12-09T02:00:54Z" modified="2016-12-09T04:11:46Z" visited="2016-12-09T02:00:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:11:46Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/run_route.log" added="2016-12-09T02:01:24Z" modified="2016-12-09T04:06:36Z" visited="2016-12-09T02:01:24Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:06:36Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/run_place.tcl" added="2016-12-09T02:06:55Z" modified="2016-12-09T04:06:36Z" visited="2016-12-09T02:06:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-09T02:06:55Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:06:36Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/run_route.tcl" added="2016-12-09T02:07:00Z" modified="2016-12-09T04:06:36Z" visited="2016-12-09T02:07:00Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-09T02:07:00Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:06:36Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/run_place.tcl" added="2016-12-09T02:51:59Z" modified="2016-12-09T02:51:59Z" visited="2016-12-09T02:51:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T02:51:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/run_init.log" added="2016-12-09T02:57:20Z" modified="2016-12-09T04:06:36Z" visited="2016-12-09T02:57:20Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:06:36Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/v/synth/setup.tcl" added="2016-12-09T03:07:13Z" modified="2016-12-09T03:41:47Z" visited="2016-12-09T03:07:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-tcl"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;xemacs %f&apos;" modified="2016-12-09T03:07:13Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T03:41:47Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/pr/run_place.log" added="2016-12-09T03:33:24Z" modified="2016-12-09T04:06:36Z" visited="2016-12-09T03:33:25Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T04:06:36Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720another/proj3/v/synth/read.tcl" added="2016-12-09T03:41:37Z" modified="2016-12-09T03:41:37Z" visited="2016-12-09T03:41:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2016-12-09T03:41:37Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/design_stats(1).xlsx" added="2016-12-09T04:54:22Z" modified="2016-12-09T04:54:30Z" visited="2016-12-09T04:54:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-09T04:54:22Z" count="1"/>
+          <bookmark:application name="LibreOffice 5.0" exec="&apos;soffice %u&apos;" modified="2016-12-09T04:54:30Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/design_stats(2).xlsx" added="2016-12-09T05:26:03Z" modified="2016-12-09T05:26:20Z" visited="2016-12-09T05:26:03Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-09T05:26:03Z" count="1"/>
+          <bookmark:application name="LibreOffice 5.0" exec="&apos;soffice %u&apos;" modified="2016-12-09T05:26:20Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/720_last_last.xlsx" added="2016-12-09T05:39:13Z" modified="2016-12-09T05:39:13Z" visited="2016-12-09T05:39:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-09T05:39:13Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/design_stats.xlsx.xlsx" added="2016-12-09T05:39:19Z" modified="2016-12-09T05:39:19Z" visited="2016-12-09T05:39:19Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-09T05:39:19Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/720_p3xl.xlsx" added="2016-12-09T05:39:55Z" modified="2016-12-09T05:39:55Z" visited="2016-12-09T05:39:55Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-09T05:39:55Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/720_p3xl.xlsx" added="2016-12-09T05:40:14Z" modified="2016-12-09T06:30:54Z" visited="2016-12-09T05:40:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --calc %U&apos;" modified="2016-12-09T06:30:54Z" count="7"/>
+          <bookmark:application name="LibreOffice 5.0" exec="&apos;soffice %u&apos;" modified="2016-12-09T06:30:54Z" count="14"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/design_stats.xlsx(1).xlsx" added="2016-12-09T05:40:47Z" modified="2016-12-09T05:40:47Z" visited="2016-12-09T05:40:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-09T05:40:47Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/design_stats.xlsx" added="2016-12-09T05:41:29Z" modified="2016-12-09T06:00:41Z" visited="2016-12-09T05:41:29Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;libreoffice --calc %U&apos;" modified="2016-12-09T06:00:41Z" count="2"/>
+          <bookmark:application name="LibreOffice 5.0" exec="&apos;soffice %u&apos;" modified="2016-12-09T06:00:41Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/ece720-proj3-req-blank(1).pdf" added="2016-12-09T05:46:54Z" modified="2016-12-09T05:46:57Z" visited="2016-12-09T05:46:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-09T05:46:54Z" count="1"/>
+          <bookmark:application name="Document Viewer" exec="&apos;evince %u&apos;" modified="2016-12-09T05:46:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/lib_bck" added="2016-12-09T07:09:53Z" modified="2016-12-09T07:09:53Z" visited="2016-12-09T07:09:53Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-09T07:09:53Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///afs/unity.ncsu.edu/users/a/aravill/Downloads/lib_bck(1)" added="2016-12-09T07:10:23Z" modified="2016-12-09T07:10:23Z" visited="2016-12-09T07:10:23.407785Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2016-12-09T07:10:23Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

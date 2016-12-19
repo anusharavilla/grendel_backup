@@ -1,0 +1,105 @@
+#@ # 
+#@ # Running icc_shell Version K-2015.06-SP1 for linux64 -- Jul 15, 2015
+#@ # Date:   Thu Dec  8 17:32:29 2016
+#@ # Run by: aravill@chaosknight.ece.ncsu.edu
+#@ 
+
+#@ # -- Starting source .synopsys_dc.setup
+
+#@ # rename as .synopsys_dc.setup 
+#@ 
+#@ set SAED32_ROOT /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK
+#@ 
+#@ # Search Path variables  
+#@ set path1 "${SAED32_ROOT}/lib/stdcell_lvt/db_ccs"
+#@ set search_path "$path1 $search_path";
+#@ 
+#@ set search_path [concat  $search_path [list [format "%s%s"  $synopsys_root "/libraries/syn"]]]
+#@ set search_path [concat  $search_path [list "." [format "%s%s"  $synopsys_root "/dw/sim_ver"]]]
+#@ 
+#@ # Library Variables 
+#@ set synthetic_library [list dw_foundation.sldb]
+#@ set target_library saed32lvt_ss0p95v125c.db
+#@ set link_library   [concat  $target_library $synthetic_library]
+#@ 
+#@ set verilogout_no_tri "true"
+#@ 
+#@ set tlupmax	"${SAED32_ROOT}/tech/star_rcxt/saed32nm_1p9m_Cmax.tluplus"
+#@ set tlupmin	"${SAED32_ROOT}/tech/star_rcxt/saed32nm_1p9m_Cmin.tluplus"
+#@ set tech2itf	"${SAED32_ROOT}/tech/star_rcxt/saed32nm_tf_itf_tluplus.map"
+#@ 
+#@ set_tlu_plus_files -max_tluplus $tlupmax 	-min_tluplus $tlupmin 	-tech2itf_map $tech2itf
+#@ 
+#@ # -- End source .synopsys_dc.setup
+
+source -echo -verbose /afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/run_timing.tcl
+#@ # -- Starting source /afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/run_timing.tcl
+
+#@ ###################################################
+#@ #
+#@ # run_timing.tcl
+#@ #
+#@ # 4/11/2011 W. Rhett Davis (rhett_davis@ncsu.edu)
+#@ # updated 4/5/2012, 3/28/2014, 8/23/2016, 11/30/2016
+#@ #
+#@ #####################################################
+#@ 
+#@ source setup.tcl
+#@ # -- Starting source setup.tcl
+
+#@ # setup name of the clock in your design.
+#@ set clkname HCLK
+#@ 
+#@ # set variable "modname" to the name of topmost module in design
+#@ set modname cortex_soc
+#@ 
+#@ # set variable "RTL_DIR" to the HDL directory w.r.t synthesis directory
+#@ set RTL_DIR    ../v/src/rtl
+#@ 
+#@ # set variable "GATE_DIR" to the output directory w.r.t synthesis directory
+#@ set GATE_DIR    ../v/src/gate
+#@ 
+#@ #set the number of digits to be used for delay results
+#@ set report_default_significant_digits 4
+#@ 
+#@ set CLK_PER 5
+#@ 
+#@ # Define a helpful function for printing out time strings
+#@ proc timef {sec} {
+#@   set hrs [expr $sec/3600]
+#@   set sec [expr $sec-($hrs*3600)]
+#@   set min [expr $sec/60]
+#@   set sec [expr $sec-($min*60)]
+#@   return "${hrs}h ${min}m ${sec}s"
+#@ }
+#@ # -- End source setup.tcl
+
+#@ set begintime [clock seconds]
+#@ open_mw_lib ./work
+#@ open_mw_cel ${modname}_routed
+#@ 
+#@ 
+#@ set si_enable_analysis TRUE
+#@ 
+#@ set_propagated_clock [get_clocks $clkname]
+#@ set_clock_uncertainty 0 $clkname
+#@ 
+#@ #report_timing -delay_type max > timing_si.rpt
+#@ 
+#@ #read_parasitics -keep_capacitive_coupling -format spef "${modname}_${type}.spef.max"
+#@ #check_timing -include { no_driving_cell ideal_clocks partial_input_delay #                        unexpandable_clocks }
+#@ 
+#@ report_timing -nosplit -input_pins -transition_time -crosstalk_delta       -delay_type max -path_type full_clock_expanded       > timing_si_max.rpt
+#@ report_timing -nosplit -input_pins -transition_time -crosstalk_delta       -delay_type min -path_type full_clock_expanded       > timing_si_min.rpt
+#@ report_clock_timing -type summary > timing_si_clock.rpt
+#@ #report_si_bottleneck
+#@ #report_delay_calculation -crosstalk -from inst1/pin1 -to inst2/pin2
+#@ #set_noise_parameters -analysis_type all
+#@ report_noise > noise.rpt
+#@ #report_noise_calculation -below -high -from inst1/pin1 -to inst2/pin2
+#@ 
+#@ 
+#@ set endtime [clock seconds]
+#@ set timestr [timef [expr $endtime-$begintime]]
+#@ puts "run_timing.tcl completed successfully (elapsed time: $timestr actual)"
+#@ exit

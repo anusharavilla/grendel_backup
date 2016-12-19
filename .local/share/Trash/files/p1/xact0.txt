@@ -1,0 +1,6 @@
+# time command bytes address
+0 ns  READ  0x10   0x00000000
+0 ns  READ  0x10   0x00000010
+0 ns  READ  0x10   0x000E0010
+0 ns  READ  0x10   0x000A4010
+

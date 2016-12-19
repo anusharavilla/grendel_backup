@@ -1,0 +1,125 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : cortex_soc
+Version: K-2015.06-SP1
+Date   : Thu Dec  8 22:47:55 2016
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ss0p95v125c   Library: saed32lvt_ss0p95v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: u_cortexm0ds/u_logic/Aok2z4_reg
+              (rising edge-triggered flip-flop clocked by HCLK)
+  Endpoint: u_cortexm0ds/u_logic/Gto2z4_reg
+            (rising edge-triggered flip-flop clocked by HCLK)
+  Path Group: HCLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  cortex_soc         70000                 saed32lvt_ss0p95v125c
+  cortexm0ds_logic   35000                 saed32lvt_ss0p95v125c
+  AHB_Lite_2s        8000                  saed32lvt_ss0p95v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock HCLK (rise edge)                                0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_cortexm0ds/u_logic/Aok2z4_reg/CLK (DFFARX1_LVT)     0.0000 #   0.0000 r
+  u_cortexm0ds/u_logic/Aok2z4_reg/Q (DFFARX1_LVT)       0.1355     0.1355 r
+  u_cortexm0ds/u_logic/U3176/Y (INVX0_LVT)              0.0774     0.2129 f
+  u_cortexm0ds/u_logic/U2125/Y (INVX0_LVT)              0.0795     0.2924 r
+  u_cortexm0ds/u_logic/U572/Y (NOR2X1_LVT)              0.1205     0.4129 f
+  u_cortexm0ds/u_logic/U2569/Y (NAND2X0_LVT)            0.1569     0.5698 r
+  u_cortexm0ds/u_logic/U327/Y (OR2X2_LVT)               0.1003     0.6701 r
+  u_cortexm0ds/u_logic/U3008/Y (OA22X1_LVT)             0.1014     0.7716 r
+  u_cortexm0ds/u_logic/U7133/Y (NAND4X0_LVT)            0.0919     0.8634 f
+  u_cortexm0ds/u_logic/U629/Y (OR2X1_LVT)               0.0639     0.9273 f
+  u_cortexm0ds/u_logic/U4196/Y (INVX0_LVT)              0.0783     1.0056 r
+  u_cortexm0ds/u_logic/U2494/Y (AND2X1_LVT)             0.0961     1.1017 r
+  u_cortexm0ds/u_logic/U4580/Y (NBUFFX2_LVT)            0.0909     1.1926 r
+  u_cortexm0ds/u_logic/U4739/Y (NBUFFX2_LVT)            0.0899     1.2825 r
+  u_cortexm0ds/u_logic/U2079/Y (NBUFFX2_LVT)            0.0895     1.3720 r
+  u_cortexm0ds/u_logic/U2620/Y (AND2X1_LVT)             0.0963     1.4683 r
+  u_cortexm0ds/u_logic/U2107/Y (INVX0_LVT)              0.0753     1.5436 f
+  u_cortexm0ds/u_logic/U901/Y (INVX0_LVT)               0.0757     1.6193 r
+  u_cortexm0ds/u_logic/U1842/Y (NBUFFX2_LVT)            0.0918     1.7111 r
+  u_cortexm0ds/u_logic/U2735/Y (AOI222X1_LVT)           0.1373     1.8484 f
+  u_cortexm0ds/u_logic/U1826/Y (AND2X1_LVT)             0.0899     1.9383 f
+  u_cortexm0ds/u_logic/U2555/Y (NAND3X0_LVT)            0.0743     2.0126 r
+  u_cortexm0ds/u_logic/U4006/Y (NAND2X0_LVT)            0.0462     2.0588 f
+  u_cortexm0ds/u_logic/U7475/Y (AO21X1_LVT)             0.0724     2.1312 f
+  u_cortexm0ds/u_logic/U5218/Y (INVX0_LVT)              0.0718     2.2030 r
+  u_cortexm0ds/u_logic/U3380/Y (NAND3X0_LVT)            0.0964     2.2994 f
+  u_cortexm0ds/u_logic/U2843/Y (NAND4X0_LVT)            0.0890     2.3885 r
+  u_cortexm0ds/u_logic/U2248/Y (AND3X1_LVT)             0.0632     2.4516 r
+  u_cortexm0ds/u_logic/U3409/Y (OA221X1_LVT)            0.1089     2.5606 r
+  u_cortexm0ds/u_logic/U618/Y (OAI221X1_LVT)            0.0880     2.6486 f
+  u_cortexm0ds/u_logic/U7511/Y (NAND3X0_LVT)            0.0411     2.6897 r
+  u_cortexm0ds/u_logic/U2340/Y (NAND3X0_LVT)            0.0849     2.7746 f
+  u_cortexm0ds/u_logic/U7570/Y (AO221X1_LVT)            0.0871     2.8617 f
+  u_cortexm0ds/u_logic/U2489/Y (NAND3X0_LVT)            0.0843     2.9460 r
+  u_cortexm0ds/u_logic/U7616/Y (NAND2X0_LVT)            0.0523     2.9983 f
+  u_cortexm0ds/u_logic/U719/Y (AND2X1_LVT)              0.1034     3.1017 f
+  u_cortexm0ds/u_logic/U675/Y (OR2X2_LVT)               0.0932     3.1948 f
+  u_cortexm0ds/u_logic/U3530/Y (AND3X1_LVT)             0.0993     3.2942 f
+  u_cortexm0ds/u_logic/U2387/Y (OAI22X1_LVT)            0.1162     3.4103 r
+  u_cortexm0ds/u_logic/U3554/Y (AO22X1_LVT)             0.1019     3.5123 r
+  u_cortexm0ds/u_logic/U7686/Y (AO22X1_LVT)             0.1162     3.6285 r
+  u_cortexm0ds/u_logic/U3511/Y (INVX0_LVT)              0.0729     3.7014 f
+  u_cortexm0ds/u_logic/U5517/Y (XOR2X1_LVT)             0.1565     3.8579 r
+  u_cortexm0ds/u_logic/U83/Y (MUX21X1_LVT)              0.0802     3.9381 r
+  u_cortexm0ds/u_logic/U4071/Y (INVX0_LVT)              0.0706     4.0087 f
+  u_cortexm0ds/u_logic/U3508/Y (NAND3X0_LVT)            0.0904     4.0991 r
+  u_cortexm0ds/u_logic/U1886/Y (NAND3X0_LVT)            0.0852     4.1843 f
+  u_cortexm0ds/u_logic/U7704/Y (AO21X1_LVT)             0.0558     4.2401 f
+  u_cortexm0ds/u_logic/haddr_o[31] (cortexm0ds_logic)   0.0000     4.2401 f
+  u_cortexm0ds/HADDR[31] (CORTEXM0DS)                   0.0000     4.2401 f
+  ahb/HADDR[31] (AHB_Lite_2s)                           0.0000     4.2401 f
+  ahb/U109/Y (NBUFFX2_LVT)                              0.4517     4.6918 f
+  ahb/U100/Y (INVX0_LVT)                                0.0765     4.7683 r
+  ahb/U95/Y (NBUFFX2_LVT)                               0.0869     4.8552 r
+  ahb/U85/Y (NAND3X0_LVT)                               0.0908     4.9460 f
+  ahb/U194/Y (NAND2X0_LVT)                              0.0370     4.9830 r
+  ahb/HRDATA[15] (AHB_Lite_2s)                          0.0000     4.9830 r
+  u_cortexm0ds/HRDATA[15] (CORTEXM0DS)                  0.0000     4.9830 r
+  u_cortexm0ds/u_logic/hrdata_i[15] (cortexm0ds_logic)
+                                                        0.0000     4.9830 r
+  u_cortexm0ds/u_logic/U4059/Y (NBUFFX2_LVT)            0.2901     5.2731 r
+  u_cortexm0ds/u_logic/U3042/Y (NBUFFX2_LVT)            0.0904     5.3635 r
+  u_cortexm0ds/u_logic/U2868/Y (NAND2X0_LVT)            0.0803     5.4439 f
+  u_cortexm0ds/u_logic/U2867/Y (OA221X1_LVT)            0.0911     5.5350 f
+  u_cortexm0ds/u_logic/U4113/Y (NAND4X0_LVT)            0.0976     5.6326 r
+  u_cortexm0ds/u_logic/U3341/Y (NAND2X0_LVT)            0.0956     5.7281 f
+  u_cortexm0ds/u_logic/U3340/Y (AO21X1_LVT)             0.0977     5.8258 f
+  u_cortexm0ds/u_logic/U2912/Y (INVX0_LVT)              0.0785     5.9043 r
+  u_cortexm0ds/u_logic/U3942/Y (NBUFFX2_LVT)            0.0932     5.9975 r
+  u_cortexm0ds/u_logic/U77/Y (AO221X1_LVT)              0.1948     6.1924 r
+  u_cortexm0ds/u_logic/U82/Y (NOR3X0_LVT)               0.1263     6.3187 f
+  u_cortexm0ds/u_logic/U5472/Y (AND4X1_LVT)             0.1094     6.4281 f
+  u_cortexm0ds/u_logic/U2917/Y (INVX0_LVT)              0.0834     6.5115 r
+  u_cortexm0ds/u_logic/U3852/Y (NBUFFX2_LVT)            0.0893     6.6008 r
+  u_cortexm0ds/u_logic/U6219/Y (MUX21X1_LVT)            0.1769     6.7777 r
+  u_cortexm0ds/u_logic/Gto2z4_reg/D (DFFASX1_LVT)       0.0114     6.7891 r
+  data arrival time                                                6.7891
+
+  clock HCLK (rise edge)                                3.0000     3.0000
+  clock network delay (ideal)                           0.0000     3.0000
+  clock uncertainty                                    -0.0500     2.9500
+  u_cortexm0ds/u_logic/Gto2z4_reg/CLK (DFFASX1_LVT)     0.0000     2.9500 r
+  library setup time                                   -0.0487     2.9013
+  data required time                                               2.9013
+  --------------------------------------------------------------------------
+  data required time                                               2.9013
+  data arrival time                                               -6.7891
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                -3.8878
+
+
+1

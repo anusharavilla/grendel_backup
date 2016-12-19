@@ -1,0 +1,267 @@
+Loading verilog file '/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/top_without_mem.v'
+Detecting input file type automatically (-rtl or -netlist).
+Warning: Overwriting design file '/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/top_without_mem'. (DDB-24)
+Running DC verilog reader
+Performing 'read' command.
+Compiling source file /afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/top_without_mem.v
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/top_without_mem.v:95: the undeclared symbol 'negedge_cycle' assumed to have the default net type, which is 'wire'. (VER-936)
+Reading with netlist reader (equivalent to -netlist option).
+Verilog netlist reader completed successfully.
+Current design is now '/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/top_without_mem.db:top_without_mem'
+Loaded 1 design.
+Current design is 'top_without_mem'.
+Loading verilog file '/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/bellman_ford_controller.v'
+Detecting input file type automatically (-rtl or -netlist).
+Warning: Overwriting design file '/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/controlpath'. (DDB-24)
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/bellman_ford_controller.v
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/bellman_ford_controller.v:695: The value 101 is too large for the numeric data type being used (VER-1)
+
+Statistics for case statements in always block at line 139 in file
+	'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/bellman_ford_controller.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           176            |     no/auto      |
+===============================================
+
+Inferred memory devices in process
+	in routine controlpath line 110 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/bellman_ford_controller.v'.
+==============================================================================================
+|           Register Name            |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+==============================================================================================
+|            flag_reg_reg            | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|        PC_REG_input_reg_reg        | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|         current_state_reg          | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|           temp3_reg_reg            | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|             b_reg_reg              | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       bellman_count_reg_reg        | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|           graph1_reg_reg           | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+|             a_reg_reg              | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|          d_count_reg_reg           | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|          control_reg_reg           | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|     control_write_mux_reg_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|          run_loop_reg_reg          | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|           w_mux_reg_reg            | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+|           d_mux_reg_reg            | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|           graph2_reg_reg           | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+| controller_writing_address_reg_reg | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|           finish_reg_reg           | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|           temp1_reg_reg            | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|           value_reg_reg            | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|           count_reg_reg            | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+==============================================================================================
+Presto compilation completed successfully.
+Current design is now '/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/controlpath.db:controlpath'
+Loaded 1 design.
+Current design is 'controlpath'.
+Loading verilog file '/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'
+Detecting input file type automatically (-rtl or -netlist).
+Warning: Overwriting design file '/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/datapath'. (DDB-24)
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Compiling source file /afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v:337: The value 7FFFF is too large for the numeric data type being used (VER-1)
+
+Statistics for case statements in always block at line 127 in file
+	'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           129            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 200 in file
+	'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           202            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 250 in file
+	'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           252            |    auto/auto     |
+|           258            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 295 in file
+	'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           297            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 312 in file
+	'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           314            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 329 in file
+	'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           331            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 341 in file
+	'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           343            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine datapath line 114 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     n_exist_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine datapath line 127 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  InputAddress_reg   | Flip-flop |  10   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine datapath line 148 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     source_reg      | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine datapath line 155 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    dest_node_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine datapath line 162 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| status_of_input_reg | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine datapath line 170 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+================================================================================
+|    Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+================================================================================
+|       AL1_reg        | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|       GDR1_reg       | Flip-flop |  128  |  Y  | N  | N  | N  | N  | N  | N  |
+| source_node_dest_reg | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|   num_vertice_reg    | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|       AL8_reg        | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|       AL7_reg        | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|       AL6_reg        | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|       AL5_reg        | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|       AL4_reg        | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|       AL3_reg        | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+|       AL2_reg        | Flip-flop |  16   |  Y  | N  | N  | N  | N  | N  | N  |
+================================================================================
+
+Inferred memory devices in process
+	in routine datapath line 200 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+=================================================================================
+|     Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+=================================================================================
+| current_node_dest_reg | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|     dist_reg_reg      | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+=================================================================================
+
+Inferred memory devices in process
+	in routine datapath line 250 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|  register2_pc_reg   | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|  register1_pc_reg   | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine datapath line 269 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+================================================================================
+|    Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+================================================================================
+| daugther_counter_reg | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+================================================================================
+
+Inferred memory devices in process
+	in routine datapath line 295 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       wa_reg        | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine datapath line 322 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    prev_node_reg    | Flip-flop |  128  |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine datapath line 341 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+=====================================================================================
+|       Register Name       |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+=====================================================================================
+| output_memory_address_reg | Flip-flop |  14   |  Y  | N  | N  | N  | N  | N  | N  |
+=====================================================================================
+
+Inferred memory devices in process
+	in routine datapath line 390 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+================================================================================
+|    Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+================================================================================
+|    out_reg_64_reg    | Flip-flop |  64   |  Y  | N  | N  | N  | N  | N  | N  |
+| ouput_comparator_reg | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+================================================================================
+
+Inferred memory devices in process
+	in routine datapath line 413 in file
+		'/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/complete_DataPath.v'.
+===================================================================================
+|      Register Name      |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===================================================================================
+| number_of_lines_reg_reg | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+===================================================================================
+Presto compilation completed successfully.
+Current design is now '/afs/unity.ncsu.edu/users/a/aravill/520demo/ECE520_demo/ECE520_demo/v/datapath.db:datapath'
+Loaded 1 design.
+Current design is 'datapath'.
+datapath

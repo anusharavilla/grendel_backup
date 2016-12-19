@@ -1,0 +1,340 @@
+                                        
+                                IC Compiler (TM)
+                              IC Compiler-PC (TM)
+                              IC Compiler-XP (TM)
+                              IC Compiler-DP (TM)
+                              IC Compiler-AG (TM)
+                                        
+               Version K-2015.06-SP1 for linux64 - Jul 15, 2015 
+                                        
+                    Copyright (c) 1988 - 2015 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+source setup.tcl
+set begintime [clock seconds]
+1481236323
+open_mw_lib ./work
+{work}
+open_mw_cel ${modname}_init
+Information: Using CCS timing libraries. (TIM-024)
+Warning: Unit conflict found: Milkyway technology file resistance unit is kOhm; main library resistance unit is MOhm. (IFS-007)
+Information: Opened "cortex_soc_init.CEL;1" from "/afs/unity.ncsu.edu/users/a/aravill/ece720/gitrepo/proj3/pr/work" library. (MWUI-068)
+{cortex_soc_init}
+place_opt -effort high -optimize_dft -congestion -continue_on_missing_scandef
+Loading db file '/afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/db_ccs/saed32lvt_ss0p95v125c.db'
+Loading db file '/ncsu/synopsys2015/icc/libraries/syn/gtech.db'
+Information: linking reference library : /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/milkyway/saed32nm_lvt_1p9m. (PSYN-878)
+Warning: Could not find a valid driver for the hierarchical Power net 'VDD'. (MWDC-285)
+Warning: Could not find a valid driver for the hierarchical Ground net 'VSS'. (MWDC-285)
+
+  Linking design 'cortex_soc'
+  Using the following designs and libraries:
+  --------------------------------------------------------------------------
+  * (7 designs)               cortex_soc_init.CEL, etc
+  saed32lvt_ss0p95v125c (library) /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/db_ccs/saed32lvt_ss0p95v125c.db
+  dw_foundation.sldb (library) /ncsu/synopsys2015/icc/libraries/syn/dw_foundation.sldb
+
+
+The options for place_opt:
+--------------------------
+POPT:  place_opt effort level               : high
+POPT:  Congestion removal                   : Yes
+POPT:  Layer Optimization                   : Yes
+POPT:  Area recovery                        : No
+POPT:  Optimize dft                         : Yes
+POPT:  Clock Tree Synthesis                 : No
+POPT:  Optimize power                       : No
+---------------------------------------------------
+
+Settings of some common used Tcl variables for place_opt:
+---------------------------------------------------------
+---------------------------------------------------------
+
+  Loading design 'cortex_soc'
+Warning: The core area for block is not defined. (PSYN-006)
+Error: No floorplan is defined for the current design for incremental physical synthesis. (PSYN-080)
+Error: psynopt has abnormally terminated.  (OPT-100)
+0
+legalize_placement -effort high -incremental 
+
+  Loading design 'cortex_soc'
+Warning: The core area for block is not defined. (PSYN-006)
+Error: No floorplan is defined for the current design for incremental physical synthesis. (PSYN-080)
+Error: legalize_placement has abnormally terminated.  (OPT-100)
+0
+set_fix_multiple_port_nets -all -buffer_constants
+1
+place_opt -effort high -optimize_dft -congestion -continue_on_missing_scandef
+
+The options for place_opt:
+--------------------------
+POPT:  place_opt effort level               : high
+POPT:  Congestion removal                   : Yes
+POPT:  Layer Optimization                   : Yes
+POPT:  Area recovery                        : No
+POPT:  Optimize dft                         : Yes
+POPT:  Clock Tree Synthesis                 : No
+POPT:  Optimize power                       : No
+---------------------------------------------------
+
+Settings of some common used Tcl variables for place_opt:
+---------------------------------------------------------
+---------------------------------------------------------
+
+  Loading design 'cortex_soc'
+Warning: The core area for block is not defined. (PSYN-006)
+Error: No floorplan is defined for the current design for incremental physical synthesis. (PSYN-080)
+Error: psynopt has abnormally terminated.  (OPT-100)
+0
+legalize_placement -effort high -incremental 
+
+  Loading design 'cortex_soc'
+Warning: The core area for block is not defined. (PSYN-006)
+Error: No floorplan is defined for the current design for incremental physical synthesis. (PSYN-080)
+Error: legalize_placement has abnormally terminated.  (OPT-100)
+0
+preroute_standard_cells -nets VSS -connect horizontal
+Using [5 x 5] Fat Wire Table for M1
+Using [2 x 2] Fat Wire Table for VIA1
+Using [5 x 5] Fat Wire Table for M2
+Using [2 x 2] Fat Wire Table for VIA2
+Using [5 x 5] Fat Wire Table for M3
+Using [2 x 2] Fat Wire Table for VIA3
+Using [5 x 5] Fat Wire Table for M4
+Using [2 x 2] Fat Wire Table for VIA4
+Using [5 x 5] Fat Wire Table for M5
+Using [2 x 2] Fat Wire Table for VIA5
+Using [5 x 5] Fat Wire Table for M6
+Using [2 x 2] Fat Wire Table for VIA6
+Using [5 x 5] Fat Wire Table for M7
+Using [2 x 2] Fat Wire Table for VIA7
+Using [5 x 5] Fat Wire Table for M8
+Using [3 x 3] Fat Wire Table for M9
+**** WARNING:no default via for layer (CO)
+
+**** WARNING: No Image Cell !! 
+
+**** WARNING:no default via for layer (CO)
+
+Substitute FatContact (VIA12LG_C) with (VIA12LG)
+Substitute FatContact (VIA12LG) with (VIA12LG_C)
+Substitute FatContact (VIA23LG_C) with (VIA23LG)
+Substitute FatContact (VIA23LG) with (VIA23LG_C)
+Substitute FatContact (VIA34LG_C) with (VIA34LG)
+Substitute FatContact (VIA34LG) with (VIA34LG_C)
+Substitute FatContact (VIA45LG_C) with (VIA45LG)
+Substitute FatContact (VIA45LG) with (VIA45LG_C)
+Substitute FatContact (VIA56LG_C) with (VIA56LG)
+Substitute FatContact (VIA56LG) with (VIA56LG_C)
+Substitute FatContact (VIA67LG_C) with (VIA67LG)
+Substitute FatContact (VIA67LG) with (VIA67LG_C)
+Substitute FatContact (VIA78LG_C) with (VIA78LG)
+Substitute FatContact (VIA78LG) with (VIA78LG_C)
+Prerouting standard cells horizontally: 
+ [done] 
+
+[Prerouter] CPU = 00:00:00, Elapsed = 00:00:00
+	Peak Memory =      202M Data =        0M
+1
+preroute_standard_cells -nets VDD -connect horizontal
+Prerouting standard cells horizontally: 
+ [done] 
+
+[Prerouter] CPU = 00:00:00, Elapsed = 00:00:00
+	Peak Memory =      202M Data =        0M
+1
+verify_pg_nets  -pad_pin_connection all
+Create error cell cortex_soc_init.err ...
+Using [5 x 5] Fat Wire Table for M1
+Using [2 x 2] Fat Wire Table for VIA1
+Using [5 x 5] Fat Wire Table for M2
+Using [2 x 2] Fat Wire Table for VIA2
+Using [5 x 5] Fat Wire Table for M3
+Using [2 x 2] Fat Wire Table for VIA3
+Using [5 x 5] Fat Wire Table for M4
+Using [2 x 2] Fat Wire Table for VIA4
+Using [5 x 5] Fat Wire Table for M5
+Using [2 x 2] Fat Wire Table for VIA5
+Using [5 x 5] Fat Wire Table for M6
+Using [2 x 2] Fat Wire Table for VIA6
+Using [5 x 5] Fat Wire Table for M7
+Using [2 x 2] Fat Wire Table for VIA7
+Using [5 x 5] Fat Wire Table for M8
+Using [3 x 3] Fat Wire Table for M9
+**** WARNING:no default via for layer (CO)
+
+**** WARNING: No Image Cell !! 
+
+**** WARNING:no default via for layer (CO)
+
+Substitute FatContact (VIA12LG_C) with (VIA12LG)
+Substitute FatContact (VIA12LG) with (VIA12LG_C)
+Substitute FatContact (VIA23LG_C) with (VIA23LG)
+Substitute FatContact (VIA23LG) with (VIA23LG_C)
+Substitute FatContact (VIA34LG_C) with (VIA34LG)
+Substitute FatContact (VIA34LG) with (VIA34LG_C)
+Substitute FatContact (VIA45LG_C) with (VIA45LG)
+Substitute FatContact (VIA45LG) with (VIA45LG_C)
+Substitute FatContact (VIA56LG_C) with (VIA56LG)
+Substitute FatContact (VIA56LG) with (VIA56LG_C)
+Substitute FatContact (VIA67LG_C) with (VIA67LG)
+Substitute FatContact (VIA67LG) with (VIA67LG_C)
+Substitute FatContact (VIA78LG_C) with (VIA78LG)
+Substitute FatContact (VIA78LG) with (VIA78LG_C)
+Checking [VSS]:
+	There are no floating shapes
+	ERROR: There are 15507 floating pins
+Checking [VDD]:
+	There are no floating shapes
+	ERROR: There are 15507 floating pins
+Checked 2 nets, 2 have Errors
+Update error cell ...
+1
+report_timing
+Information: Updating graph... (UID-83)
+Warning: Design 'cortex_soc' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Information: Updating design information... (UID-85)
+Warning: Design 'cortex_soc' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : cortex_soc
+Version: K-2015.06-SP1
+Date   : Thu Dec  8 17:32:07 2016
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: ss0p95v125c   Library: saed32lvt_ss0p95v125c
+
+  Startpoint: u_cortexm0ds/u_logic/Ffj2z4_reg
+              (rising edge-triggered flip-flop clocked by HCLK)
+  Endpoint: u_cortexm0ds/u_logic/J0v2z4_reg
+            (rising edge-triggered flip-flop clocked by HCLK)
+  Path Group: HCLK
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock HCLK (rise edge)                                0.0000     0.0000
+  clock network delay (ideal)                           0.0000     0.0000
+  u_cortexm0ds/u_logic/Ffj2z4_reg/CLK (DFFARX1_LVT)     0.0000 #   0.0000 r
+  u_cortexm0ds/u_logic/Ffj2z4_reg/QN (DFFARX1_LVT)      0.1009     0.1009 r
+  u_cortexm0ds/u_logic/U6118/Y (INVX0_LVT)              0.0806     0.1815 f
+  u_cortexm0ds/u_logic/U2542/Y (IBUFFX2_LVT)            0.0680     0.2495 r
+  u_cortexm0ds/u_logic/U2575/Y (OR2X2_LVT)              0.3023     0.5517 r
+  u_cortexm0ds/u_logic/U5345/Y (INVX0_LVT)              0.1407     0.6925 f
+  u_cortexm0ds/u_logic/U4246/Y (AND3X1_LVT)             0.1059     0.7984 f
+  u_cortexm0ds/u_logic/U5239/Y (NAND2X0_LVT)            0.0865     0.8849 r
+  u_cortexm0ds/u_logic/U6019/Y (OR2X2_LVT)              0.0962     0.9811 r
+  u_cortexm0ds/u_logic/U204/Y (NAND2X0_LVT)             0.1057     1.0868 f
+  u_cortexm0ds/u_logic/U1587/Y (OR2X1_LVT)              0.1984     1.2853 f
+  u_cortexm0ds/u_logic/U3042/Y (NOR3X0_LVT)             0.1241     1.4094 r
+  u_cortexm0ds/u_logic/U4687/Y (NBUFFX2_LVT)            0.0916     1.5010 r
+  u_cortexm0ds/u_logic/U621/Y (NBUFFX2_LVT)             0.0846     1.5857 r
+  u_cortexm0ds/u_logic/U3304/Y (AND2X1_LVT)             0.0909     1.6765 r
+  u_cortexm0ds/u_logic/U2677/Y (INVX0_LVT)              0.0739     1.7504 f
+  u_cortexm0ds/u_logic/U2502/Y (OA222X1_LVT)            0.1263     1.8767 f
+  u_cortexm0ds/u_logic/U2448/Y (AND2X1_LVT)             0.0930     1.9696 f
+  u_cortexm0ds/u_logic/U2794/Y (NAND3X0_LVT)            0.0365     2.0061 r
+  u_cortexm0ds/u_logic/U1324/Y (AND2X1_LVT)             0.0575     2.0637 r
+  u_cortexm0ds/u_logic/add_2082_U1_2/CO (FADDX1_LVT)    0.1043     2.1680 r
+  u_cortexm0ds/u_logic/add_2082_U1_3/CO (FADDX1_LVT)    0.1079     2.2759 r
+  u_cortexm0ds/u_logic/add_2082_U1_4/CO (FADDX1_LVT)    0.1078     2.3837 r
+  u_cortexm0ds/u_logic/add_2082_U1_5/CO (FADDX1_LVT)    0.1078     2.4915 r
+  u_cortexm0ds/u_logic/add_2082_U1_6/CO (FADDX1_LVT)    0.1078     2.5994 r
+  u_cortexm0ds/u_logic/add_2082_U1_7/CO (FADDX1_LVT)    0.1078     2.7072 r
+  u_cortexm0ds/u_logic/add_2082_U1_8/CO (FADDX1_LVT)    0.1078     2.8150 r
+  u_cortexm0ds/u_logic/add_2082_U1_9/CO (FADDX1_LVT)    0.1079     2.9229 r
+  u_cortexm0ds/u_logic/add_2082_U1_10/CO (FADDX1_LVT)   0.1078     3.0308 r
+  u_cortexm0ds/u_logic/add_2082_U1_11/CO (FADDX1_LVT)   0.1078     3.1386 r
+  u_cortexm0ds/u_logic/add_2082_U1_12/CO (FADDX1_LVT)   0.1078     3.2464 r
+  u_cortexm0ds/u_logic/add_2082_U1_13/CO (FADDX1_LVT)   0.1078     3.3542 r
+  u_cortexm0ds/u_logic/add_2082_U1_14/CO (FADDX1_LVT)   0.1078     3.4620 r
+  u_cortexm0ds/u_logic/add_2082_U1_15/CO (FADDX1_LVT)   0.1078     3.5699 r
+  u_cortexm0ds/u_logic/add_2082_U1_16/CO (FADDX1_LVT)   0.1078     3.6777 r
+  u_cortexm0ds/u_logic/add_2082_U1_17/CO (FADDX1_LVT)   0.1078     3.7855 r
+  u_cortexm0ds/u_logic/add_2082_U1_18/CO (FADDX1_LVT)   0.1078     3.8933 r
+  u_cortexm0ds/u_logic/add_2082_U1_19/CO (FADDX1_LVT)   0.1078     4.0012 r
+  u_cortexm0ds/u_logic/add_2082_U1_20/CO (FADDX1_LVT)   0.1078     4.1090 r
+  u_cortexm0ds/u_logic/add_2082_U1_21/CO (FADDX1_LVT)   0.1078     4.2168 r
+  u_cortexm0ds/u_logic/add_2082_U1_22/CO (FADDX1_LVT)   0.1078     4.3246 r
+  u_cortexm0ds/u_logic/add_2082_U1_23/CO (FADDX1_LVT)   0.1078     4.4324 r
+  u_cortexm0ds/u_logic/add_2082_U1_24/CO (FADDX1_LVT)   0.1078     4.5403 r
+  u_cortexm0ds/u_logic/add_2082_U1_25/CO (FADDX1_LVT)   0.1078     4.6481 r
+  u_cortexm0ds/u_logic/add_2082_U1_26/CO (FADDX1_LVT)   0.1078     4.7559 r
+  u_cortexm0ds/u_logic/add_2082_U1_27/CO (FADDX1_LVT)   0.1078     4.8637 r
+  u_cortexm0ds/u_logic/add_2082_U1_28/CO (FADDX1_LVT)   0.1078     4.9715 r
+  u_cortexm0ds/u_logic/add_2082_U1_29/CO (FADDX1_LVT)   0.1078     5.0794 r
+  u_cortexm0ds/u_logic/add_2082_U1_30/CO (FADDX1_LVT)   0.1078     5.1872 r
+  u_cortexm0ds/u_logic/add_2082_U1_31/CO (FADDX1_LVT)   0.1078     5.2950 r
+  u_cortexm0ds/u_logic/add_2082_U1_32/S (FADDX1_LVT)    0.1519     5.4469 f
+  u_cortexm0ds/u_logic/U545/Y (XOR2X2_LVT)              0.1541     5.6010 f
+  u_cortexm0ds/u_logic/U6251/Y (AO22X1_LVT)             0.1019     5.7028 f
+  u_cortexm0ds/u_logic/U5040/Y (AO21X1_LVT)             0.0865     5.7893 f
+  u_cortexm0ds/u_logic/haddr_o[31] (cortexm0ds_logic)   0.0000     5.7893 f
+  u_cortexm0ds/U31/Y (NBUFFX2_LVT)                      0.0813     5.8707 f
+  u_cortexm0ds/HADDR[31] (CORTEXM0DS)                   0.0000     5.8707 f
+  ahb/HADDR[31] (AHB_Lite_2s)                           0.0000     5.8707 f
+  ahb/U111/Y (NBUFFX2_LVT)                              0.4485     6.3192 f
+  ahb/U103/Y (INVX0_LVT)                                0.0705     6.3897 r
+  ahb/U50/Y (NAND2X2_LVT)                               0.1153     6.5049 f
+  ahb/U52/Y (INVX0_LVT)                                 0.0915     6.5964 r
+  ahb/U10/Y (AO22X1_LVT)                                0.4997     7.0961 r
+  ahb/HRDATA[31] (AHB_Lite_2s)                          0.0000     7.0961 r
+  u_cortexm0ds/HRDATA[31] (CORTEXM0DS)                  0.0000     7.0961 r
+  u_cortexm0ds/u_logic/hrdata_i[31] (cortexm0ds_logic)
+                                                        0.0000     7.0961 r
+  u_cortexm0ds/u_logic/U6211/Y (NBUFFX2_LVT)            0.2890     7.3851 r
+  u_cortexm0ds/u_logic/U2487/Y (AO222X1_LVT)            0.1143     7.4994 r
+  u_cortexm0ds/u_logic/U4035/Y (AO22X1_LVT)             0.1152     7.6145 r
+  u_cortexm0ds/u_logic/U3690/Y (AOI22X1_LVT)            0.1226     7.7371 f
+  u_cortexm0ds/u_logic/U1234/Y (OA222X1_LVT)            0.1144     7.8516 f
+  u_cortexm0ds/u_logic/U3885/Y (NAND2X0_LVT)            0.0398     7.8913 r
+  u_cortexm0ds/u_logic/U4027/Y (AND2X1_LVT)             0.0907     7.9820 r
+  u_cortexm0ds/u_logic/U2681/Y (OAI21X2_LVT)            0.1304     8.1124 f
+  u_cortexm0ds/u_logic/U4001/Y (INVX0_LVT)              0.0801     8.1925 r
+  u_cortexm0ds/u_logic/U2255/Y (NBUFFX2_LVT)            0.0933     8.2859 r
+  u_cortexm0ds/u_logic/U4539/Y (AOI221X1_LVT)           0.1978     8.4836 f
+  u_cortexm0ds/u_logic/U4526/Y (OA221X1_LVT)            0.0644     8.5481 f
+  u_cortexm0ds/u_logic/U7355/Y (AND4X1_LVT)             0.1133     8.6614 f
+  u_cortexm0ds/u_logic/U998/Y (NBUFFX2_LVT)             0.0958     8.7571 f
+  u_cortexm0ds/u_logic/U2042/Y (INVX0_LVT)              0.0770     8.8341 r
+  u_cortexm0ds/u_logic/U4551/Y (NBUFFX2_LVT)            0.0929     8.9270 r
+  u_cortexm0ds/u_logic/U2093/Y (AO22X1_LVT)             0.1838     9.1108 r
+  u_cortexm0ds/u_logic/J0v2z4_reg/D (DFFASX1_LVT)       0.0114     9.1223 r
+  data arrival time                                                9.1223
+
+  clock HCLK (rise edge)                                5.0000     5.0000
+  clock network delay (ideal)                           0.0000     5.0000
+  clock uncertainty                                    -0.0500     4.9500
+  u_cortexm0ds/u_logic/J0v2z4_reg/CLK (DFFASX1_LVT)     0.0000     4.9500 r
+  library setup time                                   -0.0462     4.9038
+  data required time                                               4.9038
+  --------------------------------------------------------------------------
+  data required time                                               4.9038
+  data arrival time                                               -9.1223
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                -4.2184
+
+
+1
+save_mw_cel -as ${modname}_placed
+Information: Saved design named cortex_soc_placed. (UIG-5)
+1
+set endtime [clock seconds]
+1481236328
+set timestr [timef [expr $endtime-$begintime]]
+0h 0m 5s
+puts "run_place.tcl completed successfully (elapsed time: $timestr actual)"
+run_place.tcl completed successfully (elapsed time: 0h 0m 5s actual)
+exit
+
+Thank you...
+Exit IC Compiler!

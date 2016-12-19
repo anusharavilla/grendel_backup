@@ -1,0 +1,25 @@
+module test_fixture;
+	reg		clock100 = 0 ;
+	reg 	        R1=0;
+	reg		R2=0;
+	
+	initial	//following block executed only once
+	  begin
+		//$dumpfile("hw5.vcd"); // waveforms in this file.. 
+  		//$dumpvars; // saves all waveforms
+		R0 = 0; R1 = 0;
+                #4 R0 = 0, R1 = 1;		// wait 5 ns
+		#5 R0 = 1, R1 =0;		// wait 5 ns
+		#5 R0 = 1, R1 =1;		// wait 5 ns
+                #5 R0 = 0, R1 =0;
+		
+                #10 $finish;		//finished with simulation
+  	end
+	always #5 clock100 = ~clock100;	// 10ns clock
+
+	// instantiate modules -- call this counter u1
+	req_arb ra1( .reset(reset), .clock(clock100), .R0(R0), .R1(R1), .G0(G0), .G1(G1));
+
+endmodule  /*test_fixture*/
+
+

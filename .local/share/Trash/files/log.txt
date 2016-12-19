@@ -1,0 +1,1866 @@
+vlib work
+** Warning: (vlib-34) Library already exists at "work".
+vlog /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v ../src/rtl/AHB_Lite_2s.v ../src/rtl/arbiter.v ../src/rtl/cortexm0ds_logic.v ../src/rtl/CORTEXM0DS.v ../src/rtl/DMA_controller.v ../src/rtl/DMA_datapath.v ../src/rtl/DMA_slave.v ../src/rtl/dma_unit.v ../src/rtl/DW_memctl.v ../src/rtl/integrated_cpu_dma.v ../src/rtl/integrated_stub_dma.v ./AHBLiteStub.sv AHBLiteStub.sv tb.v
+Start time: 20:51:30 on Oct 25,2016
+vlog /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v ../src/rtl/AHB_Lite_2s.v ../src/rtl/arbiter.v ../src/rtl/cortexm0ds_logic.v ../src/rtl/CORTEXM0DS.v ../src/rtl/DMA_controller.v ../src/rtl/DMA_datapath.v ../src/rtl/DMA_slave.v ../src/rtl/dma_unit.v ../src/rtl/DW_memctl.v ../src/rtl/integrated_cpu_dma.v ../src/rtl/integrated_stub_dma.v ./AHBLiteStub.sv AHBLiteStub.sv tb.v 
+QuestaSim-64 vlog 10.4c_3 Compiler 2015.10 Oct 21 2015
+-- Compiling module AND2X1_LVT
+-- Compiling module AND2X2_LVT
+-- Compiling module AND2X4_LVT
+-- Compiling module AND3X1_LVT
+-- Compiling module AND3X2_LVT
+-- Compiling module AND3X4_LVT
+-- Compiling module AND4X1_LVT
+-- Compiling module AND4X2_LVT
+-- Compiling module AND4X4_LVT
+-- Compiling module ANTENNA_LVT
+-- Compiling module AO21X1_LVT
+-- Compiling module AO21X2_LVT
+-- Compiling module AO221X1_LVT
+-- Compiling module AO221X2_LVT
+-- Compiling module AO222X1_LVT
+-- Compiling module AO222X2_LVT
+-- Compiling module AO22X1_LVT
+-- Compiling module AO22X2_LVT
+-- Compiling module AOBUFX1_LVT
+-- Compiling module AOBUFX2_LVT
+-- Compiling module AOBUFX4_LVT
+-- Compiling module AODFFARX1_LVT
+-- Compiling UDP s_aodffarx1_Q__LVT
+-- Compiling module AODFFARX2_LVT
+-- Compiling UDP s_aodffarx2_Q__LVT
+-- Compiling module AODFFNARX1_LVT
+-- Compiling UDP s_aodffnarx1_Q__LVT
+-- Compiling module AODFFNARX2_LVT
+-- Compiling UDP s_aodffnarx2_Q__LVT
+-- Compiling module AOI21X1_LVT
+-- Compiling module AOI21X2_LVT
+-- Compiling module AOI221X1_LVT
+-- Compiling module AOI221X2_LVT
+-- Compiling module AOI222X1_LVT
+-- Compiling module AOI222X2_LVT
+-- Compiling module AOI22X1_LVT
+-- Compiling module AOI22X2_LVT
+-- Compiling module AOINVX1_LVT
+-- Compiling module AOINVX2_LVT
+-- Compiling module AOINVX4_LVT
+-- Compiling module BSLEX1_LVT
+-- Compiling module BSLEX2_LVT
+-- Compiling module BSLEX4_LVT
+-- Compiling module BUSKP_LVT
+-- Compiling module CGLNPRX2_LVT
+-- Compiling module CGLNPRX8_LVT
+-- Compiling module CGLNPSX16_LVT
+-- Compiling module CGLNPSX2_LVT
+-- Compiling module CGLNPSX4_LVT
+-- Compiling module CGLNPSX8_LVT
+-- Compiling module CGLPPRX2_LVT
+-- Compiling module CGLPPRX8_LVT
+-- Compiling module CGLPPSX16_LVT
+-- Compiling module CGLPPSX2_LVT
+-- Compiling module CGLPPSX4_LVT
+-- Compiling module CGLPPSX8_LVT
+-- Compiling module CLOAD1_LVT
+-- Compiling module DCAP_LVT
+-- Compiling module DEC24X1_LVT
+-- Compiling UDP s_dec24x1_Q3__LVT
+-- Compiling UDP s_dec24x1_Q2__LVT
+-- Compiling UDP s_dec24x1_Q1__LVT
+-- Compiling UDP s_dec24x1_Q0__LVT
+-- Compiling module DEC24X2_LVT
+-- Compiling UDP s_dec24x2_Q3__LVT
+-- Compiling UDP s_dec24x2_Q2__LVT
+-- Compiling UDP s_dec24x2_Q1__LVT
+-- Compiling UDP s_dec24x2_Q0__LVT
+-- Compiling module DELLN1X2_LVT
+-- Compiling module DELLN2X2_LVT
+-- Compiling module DELLN3X2_LVT
+-- Compiling module DFFARX1_LVT
+-- Compiling module DFFARX2_LVT
+-- Compiling module DFFASRX1_LVT
+-- Compiling module DFFASRX2_LVT
+-- Compiling module DFFASX1_LVT
+-- Compiling module DFFASX2_LVT
+-- Compiling module DFFNARX1_LVT
+-- Compiling module DFFNARX2_LVT
+-- Compiling module DFFNASRNX1_LVT
+-- Compiling module DFFNASRNX2_LVT
+-- Compiling module DFFNASRQX1_LVT
+-- Compiling module DFFNASRQX2_LVT
+-- Compiling module DFFNASRX1_LVT
+-- Compiling module DFFNASRX2_LVT
+-- Compiling module DFFNASX1_LVT
+-- Compiling module DFFNASX2_LVT
+-- Compiling module DFFNX1_LVT
+-- Compiling module DFFNX2_LVT
+-- Compiling module DFFSSRX1_LVT
+-- Compiling module DFFSSRX2_LVT
+-- Compiling module DFFX1_LVT
+-- Compiling module DFFX2_LVT
+-- Compiling module DHFILLHL2_LVT
+-- Compiling module DHFILLHLHLS11_LVT
+-- Compiling module DHFILLH2_LVT
+-- Compiling module FADDX1_LVT
+-- Compiling UDP s_faddx1_S__LVT
+-- Compiling UDP s_faddx1_CO__LVT
+-- Compiling module FADDX2_LVT
+-- Compiling UDP s_faddx2_S__LVT
+-- Compiling UDP s_faddx2_CO__LVT
+-- Compiling module HADDX1_LVT
+-- Compiling module HADDX2_LVT
+-- Compiling module FOOT2X16_LVT
+-- Compiling module FOOT2X2_LVT
+-- Compiling module FOOT2X32_LVT
+-- Compiling module FOOT2X4_LVT
+-- Compiling module FOOT2X8_LVT
+-- Compiling module FOOTX16_LVT
+-- Compiling module FOOTX2_LVT
+-- Compiling module FOOTX32_LVT
+-- Compiling module FOOTX4_LVT
+-- Compiling module FOOTX8_LVT
+-- Compiling module HEAD2X16_LVT
+-- Compiling module HEAD2X2_LVT
+-- Compiling module HEAD2X32_LVT
+-- Compiling module HEAD2X4_LVT
+-- Compiling module HEAD2X8_LVT
+-- Compiling module HEADX16_LVT
+-- Compiling module HEADX2_LVT
+-- Compiling module HEADX32_LVT
+-- Compiling module HEADX4_LVT
+-- Compiling module HEADX8_LVT
+-- Compiling module IBUFFX16_LVT
+-- Compiling module IBUFFX2_LVT
+-- Compiling module IBUFFX32_LVT
+-- Compiling module IBUFFX4_LVT
+-- Compiling module IBUFFX8_LVT
+-- Compiling module INVX0_LVT
+-- Compiling module INVX16_LVT
+-- Compiling module INVX1_LVT
+-- Compiling module INVX2_LVT
+-- Compiling module INVX32_LVT
+-- Compiling module INVX4_LVT
+-- Compiling module INVX8_LVT
+-- Compiling module ISOLANDX1_LVT
+-- Compiling module ISOLANDX2_LVT
+-- Compiling module ISOLANDX4_LVT
+-- Compiling module ISOLANDX8_LVT
+-- Compiling module ISOLORX1_LVT
+-- Compiling module ISOLORX2_LVT
+-- Compiling module ISOLORX4_LVT
+-- Compiling module ISOLORX8_LVT
+-- Compiling module ISOLANDAOX1_LVT
+-- Compiling module ISOLANDAOX2_LVT
+-- Compiling module ISOLANDAOX4_LVT
+-- Compiling module ISOLANDAOX8_LVT
+-- Compiling module ISOLORAOX1_LVT
+-- Compiling module ISOLORAOX2_LVT
+-- Compiling module ISOLORAOX4_LVT
+-- Compiling module ISOLORAOX8_LVT
+-- Compiling module LARX1_LVT
+-- Compiling module LARX2_LVT
+-- Compiling module LASRNX1_LVT
+-- Compiling module LASRNX2_LVT
+-- Compiling module LASRQX1_LVT
+-- Compiling module LASRQX2_LVT
+-- Compiling module LASRX1_LVT
+-- Compiling module LASRX2_LVT
+-- Compiling module LASX1_LVT
+-- Compiling module LASX2_LVT
+-- Compiling module LATCHX1_LVT
+-- Compiling module LATCHX2_LVT
+-- Compiling module LNANDX1_LVT
+-- Compiling module LNANDX2_LVT
+-- Compiling module LSDNENX1_LVT
+-- Compiling module LSDNENX2_LVT
+-- Compiling module LSDNENX4_LVT
+-- Compiling module LSDNENX8_LVT
+-- Compiling module LSDNENCLX1_LVT
+-- Compiling module LSDNENCLX2_LVT
+-- Compiling module LSDNENCLX4_LVT
+-- Compiling module LSDNENCLX8_LVT
+-- Compiling module LSDNENCLSSX1_LVT
+-- Compiling module LSDNENCLSSX2_LVT
+-- Compiling module LSDNENCLSSX4_LVT
+-- Compiling module LSDNENCLSSX8_LVT
+-- Compiling module LSDNENSSX1_LVT
+-- Compiling module LSDNENSSX2_LVT
+-- Compiling module LSDNENSSX4_LVT
+-- Compiling module LSDNENSSX8_LVT
+-- Compiling module LSDNSSX1_LVT
+-- Compiling module LSDNSSX2_LVT
+-- Compiling module LSDNSSX4_LVT
+-- Compiling module LSDNSSX8_LVT
+-- Compiling module LSDNX1_LVT
+-- Compiling module LSDNX2_LVT
+-- Compiling module LSDNX4_LVT
+-- Compiling module LSDNX8_LVT
+-- Compiling module LSUPENX1_LVT
+-- Compiling module LSUPENX2_LVT
+-- Compiling module LSUPENX4_LVT
+-- Compiling module LSUPENX8_LVT
+-- Compiling module LSUPENCLX1_LVT
+-- Compiling module LSUPENCLX2_LVT
+-- Compiling module LSUPENCLX4_LVT
+-- Compiling module LSUPENCLX8_LVT
+-- Compiling module LSUPX1_LVT
+-- Compiling module LSUPX2_LVT
+-- Compiling module LSUPX4_LVT
+-- Compiling module LSUPX8_LVT
+-- Compiling module MUX21X1_LVT
+-- Compiling UDP s_mux21x1__LVT
+-- Compiling module MUX21X2_LVT
+-- Compiling UDP s_mux21x2__LVT
+-- Compiling module MUX41X1_LVT
+-- Compiling UDP s_mux41x1__LVT
+-- Compiling module MUX41X2_LVT
+-- Compiling UDP s_mux41x2__LVT
+-- Compiling module NAND2X0_LVT
+-- Compiling module NAND2X1_LVT
+-- Compiling module NAND2X2_LVT
+-- Compiling module NAND2X4_LVT
+-- Compiling module NAND3X0_LVT
+-- Compiling module NAND3X1_LVT
+-- Compiling module NAND3X2_LVT
+-- Compiling module NAND3X4_LVT
+-- Compiling module NAND4X0_LVT
+-- Compiling module NAND4X1_LVT
+-- Compiling module NBUFFX16_LVT
+-- Compiling module NBUFFX2_LVT
+-- Compiling module NBUFFX32_LVT
+-- Compiling module NBUFFX4_LVT
+-- Compiling module NBUFFX8_LVT
+-- Compiling module NMT1_LVT
+-- Compiling module NMT2_LVT
+-- Compiling module NMT3_LVT
+-- Compiling module NOR2X0_LVT
+-- Compiling module NOR2X1_LVT
+-- Compiling module NOR2X2_LVT
+-- Compiling module NOR2X4_LVT
+-- Compiling module NOR3X0_LVT
+-- Compiling module NOR3X1_LVT
+-- Compiling module NOR3X2_LVT
+-- Compiling module NOR3X4_LVT
+-- Compiling module NOR4X0_LVT
+-- Compiling module NOR4X1_LVT
+-- Compiling module OA21X1_LVT
+-- Compiling module OA21X2_LVT
+-- Compiling module OA221X1_LVT
+-- Compiling module OA221X2_LVT
+-- Compiling module OA222X1_LVT
+-- Compiling module OA222X2_LVT
+-- Compiling module OA22X1_LVT
+-- Compiling module OA22X2_LVT
+-- Compiling module OAI21X1_LVT
+-- Compiling module OAI21X2_LVT
+-- Compiling module OAI221X1_LVT
+-- Compiling module OAI221X2_LVT
+-- Compiling module OAI222X1_LVT
+-- Compiling module OAI222X2_LVT
+-- Compiling module OAI22X1_LVT
+-- Compiling module OAI22X2_LVT
+-- Compiling module OR2X1_LVT
+-- Compiling module OR2X2_LVT
+-- Compiling module OR2X4_LVT
+-- Compiling module OR3X1_LVT
+-- Compiling module OR3X2_LVT
+-- Compiling module OR3X4_LVT
+-- Compiling module OR4X1_LVT
+-- Compiling module OR4X2_LVT
+-- Compiling module OR4X4_LVT
+-- Compiling module PGX1_LVT
+-- Compiling module PGX2_LVT
+-- Compiling module PGX4_LVT
+-- Compiling module PMT1_LVT
+-- Compiling module PMT2_LVT
+-- Compiling module PMT3_LVT
+-- Compiling module RDFFARX1_LVT
+-- Compiling module RDFFARX2_LVT
+-- Compiling module RDFFNARX1_LVT
+-- Compiling module RDFFNARX2_LVT
+-- Compiling module RSDFFARX1_LVT
+-- Compiling module RSDFFARX2_LVT
+-- Compiling module RSDFFNARX1_LVT
+-- Compiling module RSDFFNARX2_LVT
+-- Compiling module RDFFNX1_LVT
+-- Compiling module RDFFNX2_LVT
+-- Compiling module RDFFX1_LVT
+-- Compiling module RDFFX2_LVT
+-- Compiling module RSDFFNX1_LVT
+-- Compiling module RSDFFNX2_LVT
+-- Compiling module RSDFFX1_LVT
+-- Compiling module RSDFFX2_LVT
+-- Compiling module SDFFARX1_LVT
+-- Compiling module SDFFARX2_LVT
+-- Compiling module SDFFASRSX1_LVT
+-- Compiling module SDFFASRSX2_LVT
+-- Compiling module SDFFASRX1_LVT
+-- Compiling module SDFFASRX2_LVT
+-- Compiling module SDFFASX1_LVT
+-- Compiling module SDFFASX2_LVT
+-- Compiling module SDFFNARX1_LVT
+-- Compiling module SDFFNARX2_LVT
+-- Compiling module SDFFNASRX1_LVT
+-- Compiling module SDFFNASRX2_LVT
+-- Compiling module SDFFNASX1_LVT
+-- Compiling module SDFFNASX2_LVT
+-- Compiling module SDFFNX1_LVT
+-- Compiling module SDFFNX2_LVT
+-- Compiling module SDFFSSRX1_LVT
+-- Compiling module SDFFSSRX2_LVT
+-- Compiling module SDFFX1_LVT
+-- Compiling module SDFFX2_LVT
+-- Compiling module SHFILL2_LVT
+-- Compiling module SHFILL3_LVT
+-- Compiling module SHFILL1_LVT
+-- Compiling module SHFILL64_LVT
+-- Compiling module SHFILL128_LVT
+-- Compiling module TIEH_LVT
+-- Compiling module TIEL_LVT
+-- Compiling module TNBUFFX16_LVT
+-- Compiling module TNBUFFX1_LVT
+-- Compiling module TNBUFFX2_LVT
+-- Compiling module TNBUFFX32_LVT
+-- Compiling module TNBUFFX4_LVT
+-- Compiling module TNBUFFX8_LVT
+-- Compiling module XNOR2X1_LVT
+-- Compiling module XNOR2X2_LVT
+-- Compiling module XNOR3X1_LVT
+-- Compiling module XNOR3X2_LVT
+-- Compiling module XOR2X1_LVT
+-- Compiling module XOR2X2_LVT
+-- Compiling module XOR3X1_LVT
+-- Compiling module XOR3X2_LVT
+-- Compiling module RDFFNSRASX1_LVT
+-- Compiling module RDFFNSRASX2_LVT
+-- Compiling module RDFFSRARX1_LVT
+-- Compiling module RDFFSRARX2_LVT
+-- Compiling module RDFFSRASRX1_LVT
+-- Compiling module RDFFSRASRX2_LVT
+-- Compiling module RDFFSRASX1_LVT
+-- Compiling module RDFFSRASX2_LVT
+-- Compiling module RSDFFNSRARX1_LVT
+-- Compiling module RSDFFNSRARX2_LVT
+-- Compiling module RSDFFNSRASRX1_LVT
+-- Compiling module RSDFFNSRASRX2_LVT
+-- Compiling module RSDFFNSRASRNX1_LVT
+-- Compiling module RSDFFNSRASRNX2_LVT
+-- Compiling module RSDFFNSRASRQX1_LVT
+-- Compiling module RSDFFNSRASRQX2_LVT
+-- Compiling module RSDFFSRARX1_LVT
+-- Compiling module RSDFFSRARX2_LVT
+-- Compiling module RSDFFSRASRX1_LVT
+-- Compiling module RSDFFSRASRX2_LVT
+-- Compiling module RDFFNSRARX1_LVT
+-- Compiling module RDFFNSRARX2_LVT
+-- Compiling module RDFFNSRASRQX1_LVT
+-- Compiling module RDFFNSRASRQX2_LVT
+-- Compiling module RDFFNSRASRNX1_LVT
+-- Compiling module RDFFNSRASRNX2_LVT
+-- Compiling module RDFFNSRASRX1_LVT
+-- Compiling module RDFFNSRASRX2_LVT
+-- Compiling module RDFFNSRX1_LVT
+-- Compiling module RDFFNSRX2_LVT
+-- Compiling module RDFFSRSSRX1_LVT
+-- Compiling module RDFFSRSSRX2_LVT
+-- Compiling module RDFFSRX1_LVT
+-- Compiling module RDFFSRX2_LVT
+-- Compiling module RSDFFNSRASX1_LVT
+-- Compiling module RSDFFNSRASX2_LVT
+-- Compiling module RSDFFNSRX1_LVT
+-- Compiling module RSDFFNSRX2_LVT
+-- Compiling module RSDFFSRASX1_LVT
+-- Compiling module RSDFFSRASX2_LVT
+-- Compiling module RSDFFSRSSRX1_LVT
+-- Compiling module RSDFFSRSSRX2_LVT
+-- Compiling module RSDFFSRX1_LVT
+-- Compiling module RSDFFSRX2_LVT
+-- Compiling UDP saed32_xbuf_LVT
+-- Compiling UDP saed32_mux_LVT
+-- Compiling UDP saed32_dff_pos_LVT
+-- Compiling UDP saed32_dff_neg_LVT
+-- Compiling UDP saed32_dla_high_LVT
+-- Compiling UDP saed32_dla_low_LVT
+-- Compiling module AHB_Lite_2s
+-- Compiling module arbiter
+-- Compiling module cortexm0ds_logic
+-- Compiling module CORTEXM0DS
+-- Compiling module DMA_controller
+-- Compiling module DMA_datapath
+-- Compiling module DMA_slave
+-- Compiling module dma_unit
+-- Compiling module DW_memctl_hiu
+-- Compiling module DW_memctl_miu
+-- Compiling module DW_memctl
+-- Compiling module integrated_cpu_dma
+-- Compiling module integrated_stub_dma
+-- Compiling module AHBLiteStub
+** Warning: AHBLiteStub.sv(37): (vlog-2275) 'AHBLiteStub' already exists and will be overwritten.
+-- Compiling module AHBLiteStub
+-- Compiling module tb
+
+Top level modules:
+	AND2X2_LVT
+	AND2X4_LVT
+	AND3X2_LVT
+	AND3X4_LVT
+	AND4X2_LVT
+	AND4X4_LVT
+	ANTENNA_LVT
+	AO21X2_LVT
+	AO221X1_LVT
+	AO221X2_LVT
+	AO222X1_LVT
+	AO222X2_LVT
+	AO22X2_LVT
+	AOBUFX1_LVT
+	AOBUFX2_LVT
+	AOBUFX4_LVT
+	AODFFARX1_LVT
+	AODFFARX2_LVT
+	AODFFNARX1_LVT
+	AODFFNARX2_LVT
+	AOI21X2_LVT
+	AOI222X2_LVT
+	AOI22X2_LVT
+	AOINVX1_LVT
+	AOINVX2_LVT
+	AOINVX4_LVT
+	BSLEX1_LVT
+	BSLEX2_LVT
+	BSLEX4_LVT
+	BUSKP_LVT
+	CGLNPRX2_LVT
+	CGLNPRX8_LVT
+	CGLNPSX16_LVT
+	CGLNPSX2_LVT
+	CGLNPSX4_LVT
+	CGLNPSX8_LVT
+	CGLPPRX2_LVT
+	CGLPPRX8_LVT
+	CGLPPSX16_LVT
+	CGLPPSX2_LVT
+	CGLPPSX4_LVT
+	CGLPPSX8_LVT
+	CLOAD1_LVT
+	DCAP_LVT
+	DEC24X1_LVT
+	DEC24X2_LVT
+	DELLN1X2_LVT
+	DELLN2X2_LVT
+	DELLN3X2_LVT
+	DFFARX2_LVT
+	DFFASRX1_LVT
+	DFFASRX2_LVT
+	DFFASX2_LVT
+	DFFNARX1_LVT
+	DFFNARX2_LVT
+	DFFNASRNX1_LVT
+	DFFNASRNX2_LVT
+	DFFNASRQX1_LVT
+	DFFNASRQX2_LVT
+	DFFNASRX1_LVT
+	DFFNASRX2_LVT
+	DFFNASX1_LVT
+	DFFNASX2_LVT
+	DFFNX1_LVT
+	DFFNX2_LVT
+	DFFSSRX1_LVT
+	DFFSSRX2_LVT
+	DFFX1_LVT
+	DFFX2_LVT
+	DHFILLHL2_LVT
+	DHFILLHLHLS11_LVT
+	DHFILLH2_LVT
+	FADDX1_LVT
+	FADDX2_LVT
+	HADDX1_LVT
+	HADDX2_LVT
+	FOOT2X16_LVT
+	FOOT2X2_LVT
+	FOOT2X32_LVT
+	FOOT2X4_LVT
+	FOOT2X8_LVT
+	FOOTX16_LVT
+	FOOTX2_LVT
+	FOOTX32_LVT
+	FOOTX4_LVT
+	FOOTX8_LVT
+	HEAD2X16_LVT
+	HEAD2X2_LVT
+	HEAD2X32_LVT
+	HEAD2X4_LVT
+	HEAD2X8_LVT
+	HEADX16_LVT
+	HEADX2_LVT
+	HEADX32_LVT
+	HEADX4_LVT
+	HEADX8_LVT
+	IBUFFX16_LVT
+	IBUFFX2_LVT
+	IBUFFX32_LVT
+	IBUFFX4_LVT
+	IBUFFX8_LVT
+	INVX16_LVT
+	INVX1_LVT
+	INVX32_LVT
+	INVX4_LVT
+	INVX8_LVT
+	ISOLANDX1_LVT
+	ISOLANDX2_LVT
+	ISOLANDX4_LVT
+	ISOLANDX8_LVT
+	ISOLORX1_LVT
+	ISOLORX2_LVT
+	ISOLORX4_LVT
+	ISOLORX8_LVT
+	ISOLANDAOX1_LVT
+	ISOLANDAOX2_LVT
+	ISOLANDAOX4_LVT
+	ISOLANDAOX8_LVT
+	ISOLORAOX1_LVT
+	ISOLORAOX2_LVT
+	ISOLORAOX4_LVT
+	ISOLORAOX8_LVT
+	LARX1_LVT
+	LARX2_LVT
+	LASRNX1_LVT
+	LASRNX2_LVT
+	LASRQX1_LVT
+	LASRQX2_LVT
+	LASRX1_LVT
+	LASRX2_LVT
+	LASX1_LVT
+	LASX2_LVT
+	LATCHX1_LVT
+	LATCHX2_LVT
+	LNANDX1_LVT
+	LNANDX2_LVT
+	LSDNENX1_LVT
+	LSDNENX2_LVT
+	LSDNENX4_LVT
+	LSDNENX8_LVT
+	LSDNENCLX1_LVT
+	LSDNENCLX2_LVT
+	LSDNENCLX4_LVT
+	LSDNENCLX8_LVT
+	LSDNENCLSSX1_LVT
+	LSDNENCLSSX2_LVT
+	LSDNENCLSSX4_LVT
+	LSDNENCLSSX8_LVT
+	LSDNENSSX1_LVT
+	LSDNENSSX2_LVT
+	LSDNENSSX4_LVT
+	LSDNENSSX8_LVT
+	LSDNSSX1_LVT
+	LSDNSSX2_LVT
+	LSDNSSX4_LVT
+	LSDNSSX8_LVT
+	LSDNX1_LVT
+	LSDNX2_LVT
+	LSDNX4_LVT
+	LSDNX8_LVT
+	LSUPENX1_LVT
+	LSUPENX2_LVT
+	LSUPENX4_LVT
+	LSUPENX8_LVT
+	LSUPENCLX1_LVT
+	LSUPENCLX2_LVT
+	LSUPENCLX4_LVT
+	LSUPENCLX8_LVT
+	LSUPX1_LVT
+	LSUPX2_LVT
+	LSUPX4_LVT
+	LSUPX8_LVT
+	MUX21X1_LVT
+	MUX41X1_LVT
+	MUX41X2_LVT
+	NAND2X1_LVT
+	NAND2X2_LVT
+	NAND2X4_LVT
+	NAND3X1_LVT
+	NAND3X2_LVT
+	NAND3X4_LVT
+	NAND4X1_LVT
+	NBUFFX16_LVT
+	NBUFFX32_LVT
+	NBUFFX4_LVT
+	NBUFFX8_LVT
+	NMT1_LVT
+	NMT2_LVT
+	NMT3_LVT
+	NOR2X1_LVT
+	NOR2X2_LVT
+	NOR2X4_LVT
+	NOR3X1_LVT
+	NOR3X2_LVT
+	NOR3X4_LVT
+	OA21X2_LVT
+	OA221X2_LVT
+	OA222X1_LVT
+	OA222X2_LVT
+	OA22X1_LVT
+	OA22X2_LVT
+	OAI222X2_LVT
+	OAI22X2_LVT
+	OR2X2_LVT
+	OR2X4_LVT
+	OR3X2_LVT
+	OR3X4_LVT
+	OR4X1_LVT
+	OR4X4_LVT
+	PGX1_LVT
+	PGX2_LVT
+	PGX4_LVT
+	PMT1_LVT
+	PMT2_LVT
+	PMT3_LVT
+	RDFFARX1_LVT
+	RDFFARX2_LVT
+	RDFFNARX1_LVT
+	RDFFNARX2_LVT
+	RSDFFARX1_LVT
+	RSDFFARX2_LVT
+	RSDFFNARX1_LVT
+	RSDFFNARX2_LVT
+	RDFFNX1_LVT
+	RDFFNX2_LVT
+	RDFFX1_LVT
+	RDFFX2_LVT
+	RSDFFNX1_LVT
+	RSDFFNX2_LVT
+	RSDFFX1_LVT
+	RSDFFX2_LVT
+	SDFFARX1_LVT
+	SDFFARX2_LVT
+	SDFFASRSX1_LVT
+	SDFFASRSX2_LVT
+	SDFFASRX1_LVT
+	SDFFASRX2_LVT
+	SDFFASX1_LVT
+	SDFFASX2_LVT
+	SDFFNARX1_LVT
+	SDFFNARX2_LVT
+	SDFFNASRX1_LVT
+	SDFFNASRX2_LVT
+	SDFFNASX1_LVT
+	SDFFNASX2_LVT
+	SDFFNX1_LVT
+	SDFFNX2_LVT
+	SDFFSSRX1_LVT
+	SDFFSSRX2_LVT
+	SDFFX1_LVT
+	SDFFX2_LVT
+	SHFILL2_LVT
+	SHFILL3_LVT
+	SHFILL1_LVT
+	SHFILL64_LVT
+	SHFILL128_LVT
+	TIEH_LVT
+	TIEL_LVT
+	TNBUFFX16_LVT
+	TNBUFFX1_LVT
+	TNBUFFX2_LVT
+	TNBUFFX32_LVT
+	TNBUFFX4_LVT
+	TNBUFFX8_LVT
+	XNOR2X1_LVT
+	XNOR3X1_LVT
+	XNOR3X2_LVT
+	XOR2X1_LVT
+	XOR3X1_LVT
+	XOR3X2_LVT
+	RDFFNSRASX1_LVT
+	RDFFNSRASX2_LVT
+	RDFFSRARX1_LVT
+	RDFFSRARX2_LVT
+	RDFFSRASRX1_LVT
+	RDFFSRASRX2_LVT
+	RDFFSRASX1_LVT
+	RDFFSRASX2_LVT
+	RSDFFNSRARX1_LVT
+	RSDFFNSRARX2_LVT
+	RSDFFNSRASRX1_LVT
+	RSDFFNSRASRX2_LVT
+	RSDFFNSRASRNX1_LVT
+	RSDFFNSRASRNX2_LVT
+	RSDFFNSRASRQX1_LVT
+	RSDFFNSRASRQX2_LVT
+	RSDFFSRARX1_LVT
+	RSDFFSRARX2_LVT
+	RSDFFSRASRX1_LVT
+	RSDFFSRASRX2_LVT
+	RDFFNSRARX1_LVT
+	RDFFNSRARX2_LVT
+	RDFFNSRASRQX1_LVT
+	RDFFNSRASRQX2_LVT
+	RDFFNSRASRNX1_LVT
+	RDFFNSRASRNX2_LVT
+	RDFFNSRASRX1_LVT
+	RDFFNSRASRX2_LVT
+	RDFFNSRX1_LVT
+	RDFFNSRX2_LVT
+	RDFFSRSSRX1_LVT
+	RDFFSRSSRX2_LVT
+	RDFFSRX1_LVT
+	RDFFSRX2_LVT
+	RSDFFNSRASX1_LVT
+	RSDFFNSRASX2_LVT
+	RSDFFNSRX1_LVT
+	RSDFFNSRX2_LVT
+	RSDFFSRASX1_LVT
+	RSDFFSRASX2_LVT
+	RSDFFSRSSRX1_LVT
+	RSDFFSRSSRX2_LVT
+	RSDFFSRX1_LVT
+	RSDFFSRX2_LVT
+	integrated_stub_dma
+	tb
+End time: 20:51:40 on Oct 25,2016, Elapsed time: 0:00:10
+Errors: 0, Warnings: 1
+vopt tb -o tb_opt
+QuestaSim-64 vopt 10.4c_3 Compiler 2015.10 Oct 21 2015
+Start time: 20:51:40 on Oct 25,2016
+vopt tb -o tb_opt 
+
+Top level modules:
+	tb
+
+Analyzing design...
+-- Loading module tb
+-- Loading module integrated_cpu_dma
+-- Loading module AHB_Lite_2s
+-- Loading module dma_unit
+-- Loading module arbiter
+-- Loading module DMA_slave
+-- Loading module DMA_datapath
+-- Loading module DMA_controller
+-- Loading module CORTEXM0DS
+-- Loading module cortexm0ds_logic
+-- Loading module DW_memctl
+-- Loading module DW_memctl_hiu
+-- Loading module DFFARX1_LVT
+-- Loading UDP saed32_dff_pos_LVT
+-- Loading UDP saed32_xbuf_LVT
+-- Loading module DFFASX1_LVT
+-- Loading module OR2X1_LVT
+-- Loading module AND2X1_LVT
+-- Loading module INVX2_LVT
+-- Loading module NOR2X0_LVT
+-- Loading module OAI21X2_LVT
+-- Loading module NAND3X0_LVT
+-- Loading module OAI22X1_LVT
+-- Loading module NAND2X0_LVT
+-- Loading module NOR3X0_LVT
+-- Loading module NOR4X1_LVT
+-- Loading module AOI22X1_LVT
+-- Loading module AOI21X1_LVT
+-- Loading module OAI221X2_LVT
+-- Loading module MUX21X2_LVT
+-- Loading UDP s_mux21x2__LVT
+-- Loading module XNOR2X2_LVT
+-- Loading module XOR2X2_LVT
+-- Loading module NBUFFX2_LVT
+-- Loading module OR3X1_LVT
+-- Loading module OAI222X1_LVT
+-- Loading module NAND4X0_LVT
+-- Loading module AOI222X1_LVT
+-- Loading module AOI221X2_LVT
+-- Loading module OR4X2_LVT
+-- Loading module AND4X1_LVT
+-- Loading module AND3X1_LVT
+-- Loading module INVX0_LVT
+-- Loading module DW_memctl_miu
+-- Loading module NOR4X0_LVT
+-- Loading module AO22X1_LVT
+-- Loading module OAI221X1_LVT
+-- Loading module AOI221X1_LVT
+-- Loading module AO21X1_LVT
+-- Loading module OAI21X1_LVT
+-- Loading module OA21X1_LVT
+-- Loading module OA221X1_LVT
+Incremental compilation check found no design-units have changed.
+Optimized design name is tb_opt
+End time: 20:51:45 on Oct 25,2016, Elapsed time: 0:00:05
+Errors: 0, Warnings: 0
+vsim tb_opt -c -do "run -all" 
+Reading pref.tcl
+
+# 10.4c_3
+
+# vsim tb_opt -c -do "run -all" 
+# Start time: 20:51:46 on Oct 25,2016
+# //  Questa Sim-64
+# //  Version 10.4c_3 linux_x86_64 Oct 21 2015
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading work.tb(fast)
+# Loading work.DFFARX1_LVT(fast)
+# Loading work.DFFASX1_LVT(fast)
+# Loading work.OR2X1_LVT(fast)
+# Loading work.AND2X1_LVT(fast)
+# Loading work.INVX2_LVT(fast)
+# Loading work.NOR2X0_LVT(fast)
+# Loading work.OAI21X2_LVT(fast)
+# Loading work.NAND3X0_LVT(fast)
+# Loading work.OAI22X1_LVT(fast)
+# Loading work.NAND2X0_LVT(fast)
+# Loading work.NOR3X0_LVT(fast)
+# Loading work.NOR4X1_LVT(fast)
+# Loading work.AOI22X1_LVT(fast)
+# Loading work.AOI21X1_LVT(fast)
+# Loading work.OAI221X2_LVT(fast)
+# Loading work.MUX21X2_LVT(fast)
+# Loading work.XNOR2X2_LVT(fast)
+# Loading work.XOR2X2_LVT(fast)
+# Loading work.NBUFFX2_LVT(fast)
+# Loading work.OR3X1_LVT(fast)
+# Loading work.OAI222X1_LVT(fast)
+# Loading work.NAND4X0_LVT(fast)
+# Loading work.AOI222X1_LVT(fast)
+# Loading work.AOI221X2_LVT(fast)
+# Loading work.OR4X2_LVT(fast)
+# Loading work.AND4X1_LVT(fast)
+# Loading work.AND3X1_LVT(fast)
+# Loading work.INVX0_LVT(fast)
+# Loading work.NOR4X0_LVT(fast)
+# Loading work.AO22X1_LVT(fast)
+# Loading work.OAI221X1_LVT(fast)
+# Loading work.AOI221X1_LVT(fast)
+# Loading work.AO21X1_LVT(fast)
+# Loading work.OAI21X1_LVT(fast)
+# Loading work.OA21X1_LVT(fast)
+# Loading work.OA221X1_LVT(fast)
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1042): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_core_ready_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1044): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1046): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1048): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1050): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1060): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_18_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1062): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_19_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1064): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_20_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1066): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_21_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1068): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_22_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1070): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_23_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1072): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_24_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1074): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_25_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1076): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_26_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1078): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_27_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1080): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_28_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1082): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_29_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1084): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_30_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1086): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_31_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1088): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_32_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1090): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_33_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1092): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_34_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1094): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_35_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1096): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_36_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1098): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_37_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1100): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_38_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1102): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_39_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1104): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_40_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1106): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_41_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1108): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_42_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1110): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_43_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1112): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_f_data2_reg_44_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1116): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1118): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1120): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1122): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1124): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1126): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1128): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1130): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1132): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1134): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1136): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_10_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1138): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1140): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1142): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_13_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1144): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1146): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_rbuf_f_top_data_reg_15_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1192): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_fd_miu_col_width_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1236): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_fd_miu_col_width_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1238): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_fr_prv_1wrap_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1240): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_f_col_width_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1242): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_fd_miu_data_width_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1244): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_fd_haddr_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1246): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_f_burst_done2_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1257): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_f_bh_state_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1259): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_fr_prv_1wrap_tm_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1265): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_fr_wr_bcnt_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1267): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_fr_wr_bcnt_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1269): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_fr_wr_bcnt_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1271): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_fr_wr_bcnt_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1273): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_fr_wr_bcnt_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1275): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_f_burst_done_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1277): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_fd_rd_ready_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1283): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_f_data_width_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1285): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_f_col_width_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1287): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_f_col_width_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1289): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_ctl_f_col_width_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1434): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_41_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1436): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_40_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1441): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_39_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1443): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_38_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1445): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_37_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1447): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_36_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1449): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_35_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1451): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_34_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1453): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_33_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1455): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_32_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1457): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_31_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1459): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_30_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1461): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1463): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_29_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1465): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_28_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1467): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_27_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1469): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_26_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1471): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_25_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1473): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_24_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1475): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_23_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1477): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_22_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1479): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_21_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1481): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_20_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1483): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_19_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1485): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_f_obuf_reg_18_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1529): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_18_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1531): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_25_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1533): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1535): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1537): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1539): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1541): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1543): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1545): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1547): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1549): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_24_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1551): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_23_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1553): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_22_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1555): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_21_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1557): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_20_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1559): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_19_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1561): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_10_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1563): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1565): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1567): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_13_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1569): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1571): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_15_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1573): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_16_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1575): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_17_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1577): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_26_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1579): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_27_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1581): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_28_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1583): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_29_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1585): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_30_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1587): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_31_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1589): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_32_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1591): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_33_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1593): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1595): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_data_out_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1692): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_dfifo_U_dcore_f_empty_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1715): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_U_sub_fifo_out_ptr_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(1718): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_hiu/U_afifo_U_acore_U_sub_fifo_out_ptr_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9077): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/cr_push_reg_n_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9079): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_31_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9081): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_30_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9083): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_29_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9085): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_28_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9087): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_27_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9089): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_26_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9091): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_25_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9093): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_24_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9095): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_23_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9097): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_22_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9099): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_21_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9101): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_20_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9103): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_19_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9105): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_18_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9107): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_17_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9109): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_16_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9111): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_15_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9113): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9115): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_13_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9117): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9119): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9121): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_10_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9123): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9125): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9127): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9129): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9131): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9133): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9135): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9137): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9139): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9141): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/miu_rd_data_reg_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9201): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_cas_latency_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9219): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_wrapped_pop_flag_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9224): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_rd_end_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9226): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_num_init_ref_cnt_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9257): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_ref_ack_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9259): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_rd_pop_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9260): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_data_cnt_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9262): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_data_cnt_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9266): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_data_cnt_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9268): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_term_cnt_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9272): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_term_cnt_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9276): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_ras_n_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9278): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_we_n_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9280): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_cas_n_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9282): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_miu_pop_n_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9284): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_i_dqs_d_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9285): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_i_dqs_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9289): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_dout_valid_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9291): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_dout_valid_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9299): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_dqs_mask_end_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9340): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_10_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9344): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_i_col_addr_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9346): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_i_col_addr_reg_11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9348): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_i_col_addr_reg_12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9350): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_i_col_addr_reg_14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9354): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_pre_dqm_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9356): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_pre_dqm_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9358): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_pre_dqm_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9360): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_pre_dqm_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9362): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9364): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9366): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9368): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9372): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_cas_latency_cnt_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9374): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_cas_latency_cnt_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9376): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_cas_latency_cnt_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9380): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9382): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9384): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_i_col_addr_reg_6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9386): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9388): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_i_col_addr_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9390): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9392): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_i_col_addr_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9394): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9396): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9398): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9400): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9402): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_bank_addr_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9404): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_bank_addr_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9406): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_13_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9408): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9410): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_addr_reg_15_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9412): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_i_col_addr_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9414): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_i_col_addr_reg_7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9416): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_i_col_addr_reg_8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9418): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_i_col_addr_reg_9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9420): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_0__12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9422): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9424): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9426): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9430): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9432): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9434): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9436): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_0__10_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9438): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__10_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9440): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__10_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9442): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__10_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9444): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_0__9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9446): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9448): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9450): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9452): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_0__8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9454): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9456): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9458): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9460): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_0__7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9462): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9464): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9466): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9468): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9470): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_10_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9472): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9474): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9476): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_13_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9478): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9480): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9482): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9484): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9486): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9488): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9490): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9492): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9494): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9496): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_col_addr_reg_9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9500): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_ras_cnt_max_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9502): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_ras_cnt_max_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9504): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_ras_cnt_max_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9508): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_rcd_cnt_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9512): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_0__14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9514): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_0__13_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9516): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_0__6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9518): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_0__5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9520): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_0__4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9522): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_0__3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9524): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_0__2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9528): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_0__0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9530): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_rc_cnt_reg_0__2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9538): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_ras_cnt_reg_0__2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9548): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__15_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9550): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9552): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__13_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9554): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9556): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9560): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9562): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9564): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9566): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_1__0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9568): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_rc_cnt_reg_1__2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9576): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_ras_cnt_reg_1__2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9586): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__15_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9588): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9590): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__13_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9592): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9594): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9596): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9598): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9600): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9602): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9604): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_2__0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9606): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_rc_cnt_reg_2__2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9614): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_ras_cnt_reg_2__2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9622): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_bm_open_bank_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9624): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__15_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9626): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9628): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__13_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9630): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9632): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9634): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9636): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9638): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9640): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9642): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_row_addr_reg_3__0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9644): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_rc_cnt_reg_3__2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9652): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_bm_ras_cnt_reg_3__2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9662): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_rcar_cnt2_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9663): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_rcar_cnt2_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9664): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_rcar_cnt2_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9665): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_wtr_cnt_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9677): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_bank_addr_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9679): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_bank_addr_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9681): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_row_addr_reg_10_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9683): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_row_addr_reg_12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9685): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_row_addr_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9687): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_row_addr_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9689): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_row_addr_reg_6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9691): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_row_addr_reg_8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9693): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_cas_cnt_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9695): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_cas_cnt_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9697): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_cas_cnt_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9699): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_cas_cnt_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9701): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_cas_cnt_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9703): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_burst_size_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9705): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_burst_size_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9710): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_bm_close_bank_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9712): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_bm_close_bank_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9714): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_bm_close_bank_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9716): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_close_bank_addr_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9720): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_s_cke_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9722): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_init_cnt_reg_15_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9724): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_init_cnt_reg_14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9734): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_init_cnt_reg_9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9738): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_init_cnt_reg_7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9742): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_init_cnt_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9746): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_init_cnt_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9750): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_init_cnt_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9752): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_init_cnt_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9758): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_row_cnt_reg_11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9770): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_row_cnt_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9774): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_row_cnt_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9778): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_row_cnt_reg_7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9782): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_row_cnt_reg_9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9784): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_rcar_cnt1_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9785): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_rcar_cnt1_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9786): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_rcar_cnt1_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9787): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_rcar_cnt1_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9788): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_xsr_cnt_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9790): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_xsr_cnt_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9794): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_xsr_cnt_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9798): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_xsr_cnt_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9802): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_xsr_cnt_reg_8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9808): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_num_init_ref_cnt_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9820): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_wr_cnt_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9828): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_rp_cnt2_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9846): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_bm_close_bank_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9848): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_cas_latency_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9850): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dsdc_r_cas_latency_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9854): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9856): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9858): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9860): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_27_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9862): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_28_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9864): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_29_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9866): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_30_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9868): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_31_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9870): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_26_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9872): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_24_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9874): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_25_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9876): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_17_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9878): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_18_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9880): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_19_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9882): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_20_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9884): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_21_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9886): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_22_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9888): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_16_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9890): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_23_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9892): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_pre_dqm_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9894): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_pre_dqm_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9896): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_pre_dqm_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9898): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_pre_dqm_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9900): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_dqm_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9902): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_dqm_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9904): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9906): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9908): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9910): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9912): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9914): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9916): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9918): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9920): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9922): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9924): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_10_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9926): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9928): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9930): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_13_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9932): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9934): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_wr_data_reg_15_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9936): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9938): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9940): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9942): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9944): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9946): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9948): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9950): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_7_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9952): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9954): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9956): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_10_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9958): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9960): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9962): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_13_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9964): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9966): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_wr_data_reg_15_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9968): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_dqm_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9970): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_ddr_dqm_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9972): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9974): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9976): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9978): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9980): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_6_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9982): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_8_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9984): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_9_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9986): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_10_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9988): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9990): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9992): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_13_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9994): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_14_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9996): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_wr_data_reg_15_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(9998): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_dqs_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10000): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_dqs_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10002): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_i2_dqs_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10004): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_i2_dqs_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10006): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_r_dqs_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10010): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_s_rd_dqs_mask_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10012): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_rd_dqs_mask_d_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10014): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_rd_dqs_mask_d_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10016): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_rd_dqs_mask_d_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10018): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_rd_dqs_mask_d_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10020): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_rd_dqs_mask_d_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10022): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_ddrwr_rd_dqs_mask_d_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10033): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_open_banks_o_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10035): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_sctlr_reg_11_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10041): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_open_banks_o_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10043): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_s_sda_d1_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10069): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_sctlr_reg_18_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10071): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_sctlr_reg_17_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10073): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_sctlr_reg_16_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10075): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_sctlr_reg_19_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10091): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_stmg0r_reg_25_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10093): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_stmg0r_reg_26_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10095): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_stmg0r_reg_27_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10097): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_stmg0r_reg_28_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10099): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_stmg0r_reg_29_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10101): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_stmg0r_reg_30_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10103): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_stmg0r_reg_31_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10141): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_exn_mode_reg_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10145): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_exn_mode_reg_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10157): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_smskr0_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10159): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_smskr0_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10161): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_smskr0_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10173): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_srefr_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10185): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_sctlr_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10201): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_stmg1r_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10203): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_stmg1r_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10205): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_stmg1r_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10245): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_syflash_opcode_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10247): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_syflash_opcode_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10249): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_syflash_opcode_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10349): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_s_sda_d_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10351): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_srefr_reg_24_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10353): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_srefr_reg_25_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10355): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_srefr_reg_26_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10357): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_srefr_reg_27_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10359): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_srefr_reg_28_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10361): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_srefr_reg_29_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10363): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_srefr_reg_30_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10365): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_srefr_reg_31_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10367): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_open_banks_o_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10369): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_cr_open_banks_o_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10385): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_addrdec_sram_select_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10387): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_addrdec_rom_select_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10389): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_addrdec_flash_select_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10391): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_addrdec_row_addr_mask_hi_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10393): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_addrdec_row_addr_mask_hi_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10395): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_addrdec_row_addr_mask_hi_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10398): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_addrdec_row_addr_mask_hi_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10400): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_addrdec_bank_addr_mask_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10408): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_refctl_count_reg_12_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10438): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_refctl_current_state_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10448): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dmc_miu_pop_n_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10450): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dmc_miu_push_n_reg File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10452): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dmc_data_cnt_reg_5_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10454): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dmc_data_cnt_reg_4_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10456): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dmc_data_cnt_reg_3_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10458): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dmc_data_cnt_reg_2_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10460): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dmc_data_cnt_reg_1_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# ** Warning: (vsim-3017) ../src/rtl/DW_memctl.v(10462): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/soc/memctl_v4/U_miu/U_dmc_data_cnt_reg_0_ File: /afs/eos.ncsu.edu/lockers/research/ece/wdavis/tech/synopsys/SAED32/SAED32_EDK/lib/stdcell_lvt/verilog/saed32nm_lvt.v
+# run -all
+#                    0: ----------------------------------------------
+#                    0: ARM(r) Cortex(tm)-M0 DesignStart(tm) Testbench
+#                    0: (c) Copyright 2010 ARM Limited
+#                    0: All Rights Reserved
+#                    0: ----------------------------------------------
+# 
+#                    0: Loading initial memory content...
+#                    0: ...complete
+# 
+#              1005000: Memory Controller leaving startup...
+#              1005000: Simulation leaving reset
+# dma_sr is 40000010 
+# dma_dr is 404 
+# dma_len is 404 
+#            178495000: Simulation stop requested by CPU 2 
+# 
+# ** Note: Data structure takes 27063256 bytes of memory
+#          Process time 1.76 seconds
+#          $finish    : tb.v(572)
+#    Time: 178495 ns  Iteration: 1  Instance: /tb
+# End time: 20:51:48 on Oct 25,2016, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 500

@@ -1,0 +1,33 @@
+# //  ModelSim SE 10.3b May 29 2014 Linux 2.6.32-504.23.4.el6.x86_64
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -novopt test_fixture 
+# Start time: 19:36:46 on Sep 09,2015
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.test_fixture
+# Loading work.counter
+# ** Warning: (vsim-3015) test.v(23): [PCDPC] - Port size (8) does not match connection size (4) for port 'in'. The port definition is at: counter.v(18).
+#         Region: /test_fixture/u1
+add wave -position insertpoint  \
+sim:/test_fixture/clock100
+add wave -position insertpoint  \
+sim:/test_fixture/dec
+add wave -position insertpoint  \
+sim:/test_fixture/divide_by_two
+add wave -position insertpoint  \
+sim:/test_fixture/in
+add wave -position insertpoint  \
+sim:/test_fixture/latch
+add wave -position insertpoint  \
+sim:/test_fixture/zero
+run 200ns
+# ** Note: $finish    : test.v(18)
+#    Time: 156 ns  Iteration: 0  Instance: /test_fixture
+# 1
+# Break in Module test_fixture at test.v line 18

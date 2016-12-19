@@ -1,0 +1,31 @@
+# //  ModelSim SE 10.3b May 29 2014 Linux 2.6.32-573.22.1.el6.x86_64
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project 745demo
+# Compile of cfg.sv failed with 1 errors.
+# Compile of control_golden_reference.sv failed with 1 errors.
+# Compile of Controller_Pipeline.vp failed with 1 errors.
+# Compile of Coverage.sv failed with 1 errors.
+# Compile of data_defs.vp failed with 1 errors.
+# Compile of decode_golden_reference.sv failed with 1 errors.
+# Compile of Decode_Pipelined.vp failed with 1 errors.
+# Compile of environment.sv failed with 1 errors.
+# Compile of Execute.vp failed with 1 errors.
+# Compile of execute_golden_reference.sv failed with 1 errors.
+# Compile of Fetch.vp failed with 1 errors.
+# Compile of fetch_golden.sv failed with 1 errors.
+# Compile of Mem_Access.vp failed with 1 errors.
+# Compile of mem_golden_reference.sv failed with 1 errors.
+# Compile of project.if.sv failed with 1 errors.
+# Compile of project.test_top.sv failed with 1 errors.
+# Compile of testbench.sv failed with 1 errors.
+# Compile of TopLevelLC3.v failed with 1 errors.
+# Compile of WriteBack.vp failed with 1 errors.
+# Compile of writeback_golden_reference.sv failed with 1 errors.
+# 20 compiles, 20 failed with 20 errors.
