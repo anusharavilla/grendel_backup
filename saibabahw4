@@ -1,0 +1,284 @@
+
+Errors generated after read:
+
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:1: Syntax error at or near token '<'. (VER-294)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:32: Syntax error at or near token '"': Illegal character. (VER-294)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:45: Syntax error at or near token '"': Illegal character. (VER-294)
+*** Presto compilation terminated with 3 errors. ***
+Error: Can't read 'verilog' file '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'. (UID-59)
+
+After corrected erg to reg:
+
+Statistics for case statements in always block at line 37 in file
+        '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            39            |    auto/auto     |
+===============================================
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[8] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[7] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[6] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[5] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[4] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[3] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[2] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[1] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+Warning:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net outcell[0] or a directly connected net may be driven by more than one process or block. (ELAB-405)
+
+Inferred memory devices in process
+        in routine fsm line 37 in file
+                '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    inc_flag_reg     | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|    location_reg     | Latch |   9   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[8]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[7]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[6]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[5]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[4]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[3]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[2]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[1]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+Error:  /afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v:74: Net 'outcell[0]' or a directly connected net is driven by more than one source, and not all drivers are three-state. (ELAB-366)
+*** Presto compilation terminated with 9 errors. ***
+Error: Can't read 'verilog' file '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'. (UID-59)
+
+
+After deleting one always@(posedge clock) block:
+
+
+Inferred memory devices in process
+        in routine fsm line 37 in file
+                '/afs/unity.ncsu.edu/users/a/aravill/saibaba/badFSM.v'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    inc_flag_reg     | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+|    location_reg     | Latch |   9   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+
+Latch is implied -- latch has to be removed and code has to be made complaint with the FSM given. 
+
+
+
+
+// Verilog file for the fsm for the pattern matching engine
+
+module fsm (clock, reset, start, done_flag, match_address, inc_flag, location,
+outcell);  
+
+input clock;		// 100 Mhz clock
+input reset;		// resets the fsm
+input start;		// starts the search
+input [8:0] match_address;	// address for the pattern match
+
+input done_flag;	// signal from compare module saying it has finished
+			// its search
+
+output  inc_flag;	// used to increment the address location
+output [8:0] location;	// location output for pattern match
+output [8:0] outcell;   // A hash on location
+
+reg  [8:0] location, outcell;
+reg current_state, next_state;
+reg inc_flag;
+reg signal; //reg instead of erg
+
+parameter
+   s0 = 0,
+   s1 = 1;
+
+always @(posedge clock or negedge reset)
+   begin
+   if (!reset)
+      current_state = s0;
+   else
+      begin
+      current_state = next_state;
+      end
+   end
+
+always @(current_state or start or done_flag)
+   begin
+   case (current_state)
+   s0:
+      begin
+      inc_flag = 0;
+      location = 9'd0;
+      if (start)
+         begin
+         next_state = s1;
+	 end
+      else
+         begin
+	 next_state = s0;
+	 end
+      end
+
+   s1:
+      begin 
+       location = match_address;
+       inc_flag = 1;
+      if (done_flag) 
+         begin
+	 next_state = s0;
+	 end
+      else
+         begin
+         next_state = s1;
+	 end
+      end
+
+   endcase
+   end
+
+// deleted a block outcell 
+
+always@(posedge clock)
+  outcell = location ^ (location >> 1);
+
+always@(done_flag)
+  signal = done_flag & (^location[4:2]);
+
+endmodule
+
+
+power consumed in your hardware
+
+Power pre annotation ?>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   8.0685 uW   (76%)
+  Net Switching Power  =   2.5530 uW   (24%)
+                         ---------
+Total Dynamic Power    =  10.6215 uW  (100%)
+
+Cell Leakage Power     =   1.0052 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  1.0454e-03        1.4133e-03        4.9542e+04        2.5082e-03  (  21.57%)
+register       5.6926e-03        2.5373e-04        8.6437e+04        6.0328e-03  (  51.89%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  1.3304e-03        8.8602e-04        8.6922e+05        3.0856e-03  (  26.54%)
+--------------------------------------------------------------------------------------------------
+Total          8.0685e-03 mW     2.5530e-03 mW     1.0052e+06 pW     1.1627e-02 mW
+
+Power post annotation ?>>>>>>>>>>>>>>>>>>>>>>>>>..
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   8.2208 uW   (62%)
+  Net Switching Power  =   5.0090 uW   (38%)
+                         ---------
+Total Dynamic Power    =  13.2299 uW  (100%)
+
+Cell Leakage Power     =   1.0052 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  1.0717e-03        2.9636e-03        4.9542e+04        4.0848e-03  (  28.70%)
+register       5.6925e-03        4.2234e-04        8.6437e+04        6.2013e-03  (  43.56%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  1.4566e-03        1.6231e-03        8.6922e+05        3.9489e-03  (  27.74%)
+--------------------------------------------------------------------------------------------------
+Total          8.2208e-03 mW     5.0090e-03 mW     1.0052e+06 pW     1.4235e-02 mW
+
+
+available timing slack in the critical path
+
+Counter timing pre annotation>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ Startpoint: latch (input port clocked by clock)
+  Endpoint: value_reg_0_
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clock (rise edge)                0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  input external delay                   0.6580     0.6580 f
+  latch (in)                             0.0560     0.7140 f
+  U37/ZN (NOR3_X1)                       0.3121     1.0260 r
+  U19/ZN (NOR3_X2)                       0.0440     1.0700 f
+  U38/ZN (AOI22_X2)                      0.1138     1.1838 r
+  U17/ZN (OAI221_X2)                     0.0624     1.2462 f
+  value_reg_0_/D (DFF_X1)                0.0000     1.2462 f
+  data arrival time                                 1.2462
+
+  clock clock (rise edge)               10.0000    10.0000
+  clock network delay (ideal)            0.0000    10.0000
+  clock uncertainty                     -0.0500     9.9500
+  value_reg_0_/CK (DFF_X1)               0.0000     9.9500 r
+  library setup time                    -0.0695     9.8805
+  data required time                                9.8805
+  -----------------------------------------------------------
+  data required time                                9.8805
+  data arrival time                                -1.2462
+  -----------------------------------------------------------
+  slack (MET)                                       8.6343
+
+Counter timing post annotation >>>>>>>>>>>>>>>>>>>.
+Startpoint: dec (input port clocked by clock)
+  Endpoint: value_reg_0_
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clock (rise edge)                0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  input external delay                   0.6580     0.6580 r
+  dec (in)                               0.1536     0.8116 r
+  U34/ZN (INV_X4)                        0.0176     0.8292 f
+  U37/ZN (NOR3_X1)                       0.5176     1.3468 r
+  U19/ZN (NOR3_X2)                       0.0535     1.4003 f
+  U38/ZN (AOI22_X2)                      0.1416     1.5419 r
+  U17/ZN (OAI221_X2)                     0.0688     1.6107 f
+  value_reg_0_/D (DFF_X1)                0.0000     1.6107 f
+  data arrival time                                 1.6107
+
+  clock clock (rise edge)               10.0000    10.0000
+  clock network delay (ideal)            0.0000    10.0000
+  clock uncertainty                     -0.0500     9.9500
+  value_reg_0_/CK (DFF_X1)               0.0000     9.9500 r
+  library setup time                    -0.0748     9.8752
+  data required time                                9.8752
+  -----------------------------------------------------------
+  data required time                                9.8752
+  data arrival time                                -1.6107
+  -----------------------------------------------------------
+  slack (MET)                                       8.2645
+
+
+

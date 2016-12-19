@@ -1,0 +1,205 @@
+module dma_unit(
+input wire hclk,
+input wire hreset_n,input wire hready_2,input wire hready_1,
+input wire [31:0]                     haddr_cpu,
+input wire [2:0]                      hburst_cpu,
+input wire [3:0]                      hprot_cpu,
+input wire [2:0]                      hsize_cpu,
+input wire [1:0]                      htrans_cpu,
+input wire [31:0]                     hwdata_cpu,
+input wire                            hmastlock_cpu,
+input wire                            hwrite_cpu,
+input wire hsel_s1,
+input wire [31:0] hrdata_i,
+input wire  hresp_i,
+output wire [31:0] haddr_o,
+output wire	 [2:0]  hburst_o,
+output wire	 [3:0]  hprot_o,
+output wire	 [2:0]  hsize_o,
+output wire	 [1:0]  htrans_o,
+output wire	 [31:0] hwdata_o,
+output wire	hmastlock_o,
+output wire	hwrite_o,
+output wire       hready_resp_s1,
+output wire  [1:0]     hresp_s1,
+output wire [31:0] hrdata_cpu_o);
+
+wire [31:0]                     haddr_cpu_o;
+wire [2:0]                      hburst_cpu_o;
+wire [3:0]                      hprot_cpu_o;
+wire [2:0]                      hsize_cpu_o;
+wire [1:0]                      htrans_cpu_o;
+wire [31:0]                     hwdata_cpu_o;
+wire                            hmastlock_cpu_o;
+wire                            hwrite_cpu_o;
+wire [31:0]                     haddr_dma_o;
+wire [2:0]                      hburst_dma_o;
+wire [3:0]                      hprot_dma_o;
+wire [2:0]                      hsize_dma_o;
+wire [1:0]                      htrans_dma_o;
+wire [31:0]                     hwdata_dma_o;
+wire                            hmastlock_dma_o;
+wire                            hwrite_dma_o;
+
+wire [31:0]	 APhase_haddr;
+wire  APhase_hwrite;
+wire [1:0] APhase_htrans;
+wire [2:0] APhase_hsize;
+wire [3:0] APhase_hprot;
+wire APhase_hmastlock;
+wire [2:0] APhase_hburst;
+wire  hready_pulldown;	
+wire dma_start;
+wire dram_control;
+wire haddr_pulldown;
+wire done;
+
+
+wire  [31:0] src_addr_reg;
+wire  [31:0] dest_addr_reg;
+wire [3:0] transfer_length_reg;
+
+wire    start;
+wire    sel_control;
+wire    addr_control;
+wire    buf_control;
+wire    write_control;
+wire    length1_control;
+wire 	trans_control;
+
+
+wire [31:0] other_read_reg;
+wire [31:0]	 other_write_reg;
+
+
+
+arbiter arb(
+hclk,
+hreset_n,hready_2,
+haddr_cpu,
+hburst_cpu,
+hprot_cpu,
+hsize_cpu,
+htrans_cpu,
+hwdata_cpu,
+hmastlock_cpu,
+hwrite_cpu,
+hsel_s1,
+haddr_cpu_o,
+hburst_cpu_o,
+hprot_cpu_o,
+hsize_cpu_o,
+htrans_cpu_o,
+hwdata_cpu_o,
+hmastlock_cpu_o,
+hwrite_cpu_o,
+haddr_dma_o,
+hburst_dma_o,
+hprot_dma_o,
+hsize_dma_o,
+htrans_dma_o,
+hwdata_dma_o,
+hmastlock_dma_o,
+hwrite_dma_o,
+hrdata_i,
+hrdata_cpu_o
+);
+
+DMA_slave dmaslave (
+ 	 hclk,
+	 hreset_n,
+	 hready_resp_s1,	//outputs
+	 hresp_s1, 					
+	// hrdata_s1,
+	 src_addr_reg,
+	 dest_addr_reg,
+	 transfer_length_reg,
+	 
+
+	 hready_2,
+	 hsel_s1,	//inputs
+	 haddr_dma_o,
+	 hburst_dma_o,
+	 hprot_dma_o,
+	 hsize_dma_o,
+	 htrans_dma_o,
+	 hwdata_dma_o,
+	 hmastlock_dma_o,
+	 hwrite_dma_o,
+	 hready_1,
+	 APhase_haddr,
+	 APhase_hwrite,
+	 APhase_htrans,
+ APhase_hsize,
+ APhase_hprot,
+APhase_hmastlock,
+APhase_hburst,
+	 hready_pulldown,
+	 dma_start,haddr_pulldown,done
+	
+);
+
+DMA_datapath datapath(
+	// inputs
+	hclk,
+	hreset_n,
+	hready_2,
+	hresp_i,
+	hrdata_i,
+	// outputs
+	haddr_o,
+	hburst_o,
+	hprot_o,
+	hsize_o,
+	htrans_o,
+	hwdata_o,
+	hmastlock_o,
+	hwrite_o,
+	//inputs
+	src_addr_reg,
+	dest_addr_reg,
+	transfer_length_reg,
+	start,
+	sel_control,
+	addr_control,
+	buf_control,
+	write_control,
+	length1_control,trans_control,
+	other_read_reg,		//changes for DRAM signals
+	 other_write_reg,
+	 APhase_haddr,
+	 APhase_hwrite,
+	APhase_htrans,
+ APhase_hsize,
+ APhase_hprot,
+APhase_hmastlock,
+APhase_hburst,
+	 hready_pulldown,dma_start,haddr_pulldown,
+	 haddr_cpu_o,
+            hburst_cpu_o,
+        hprot_cpu_o,
+           hsize_cpu_o,
+           htrans_cpu_o,
+         hwdata_cpu_o,
+             hmastlock_cpu_o,
+                hwrite_cpu_o,done,done_dma
+
+);
+
+DMA_controller controller (
+	//inputs
+hclk,
+	hreset_n,
+	hready_2,
+	//outputs
+    start,
+    sel_control,
+    addr_control,
+    buf_control,
+    write_control,
+    length1_control,trans_control,
+	dma_start, done, hready_pulldown//,dram_control
+ 
+);
+
+endmodule
